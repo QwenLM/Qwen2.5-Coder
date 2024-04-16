@@ -1,0 +1,8 @@
+pebble
+datasets
+vllm
+google-generativeai
+anthropic
+openai
+mistralai
+pyext

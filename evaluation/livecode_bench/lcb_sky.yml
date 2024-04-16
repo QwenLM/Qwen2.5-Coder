@@ -1,0 +1,12 @@
+name: lcb
+workdir: ./
+
+resources:
+  cloud: gcp
+  accelerators: L4:8
+
+  disk_size: 1000
+
+setup: 
+  pip install google-generativeai pebble anthropic openai mistralai
+  pip install vllm 
