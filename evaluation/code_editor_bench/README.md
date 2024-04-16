@@ -41,7 +41,7 @@ solution_folder
 The model was evaluated under the Zero Shot setting across both the CodeEditorBench Plus and Primary datasets, with the evaluation metric being the `Win Rate`.
 <table style="text-align:center">
     <tr>
-        <th>Model</th>
+        <th style="text-align: left">Model</th>
         <th>Plus Dataset</th>
         <th>Primary Dataset</th>
     </tr>
