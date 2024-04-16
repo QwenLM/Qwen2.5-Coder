@@ -1,6 +1,6 @@
 # Evaluation on MultiPL-E 
 
-## Base Model (Python, Java, CPP, Javascript, Typescript, and other languages)
+## Base Model 
 
 
 ```bash
@@ -15,7 +15,7 @@ python collect.py
 Your must specify the path of the `${DATA_PATH}`, `${MODEL_DIR}`, and `${LANGUAGE}` in evaluate_humaneval.sh
 ```bash
 cd chat
-bash evaluate_humaneval.sh python
+bash evaluate_humaneval.sh python #(Python, Java, CPP, Javascript, Typescript, and other languages)
 ```
 
 
