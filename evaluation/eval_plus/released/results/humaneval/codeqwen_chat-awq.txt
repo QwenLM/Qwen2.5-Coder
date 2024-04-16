@@ -1,0 +1,6 @@
+Load from ground-truth from /root/.cache/evalplus/84f4b93a1270b492e4c54d5212da7a5b.pkl
+Reading samples...
+humaneval (base tests)
+pass@1:	0.835
+humaneval+ (base + extra tests)
+pass@1:	0.780
