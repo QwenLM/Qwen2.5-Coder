@@ -398,6 +398,55 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
 > </b>
 > </div>
 
+You can install the required packages with the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+device = "cuda" # the device to load the model onto
+
+# Now you do not need to add "trust_remote_code=True"
+tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
+model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
+
+# tokenize the input into tokens
+
+# Instead of using model.chat(), we directly use model.generate()
+# But you need to use tokenizer.apply_chat_template() to format your inputs as shown below
+prompt = "write a quick sort algorithm."
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(device)
+
+# Directly use generate() and tokenizer.decode() to get the output.
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = model.generate(
+    model_inputs.input_ids,
+    max_new_tokens=2048
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+```
+
+The `apply_chat_template()` function is used to convert the messages into a format that the model can understand. 
+The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
+The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
