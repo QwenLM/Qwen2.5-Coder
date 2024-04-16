@@ -13,7 +13,10 @@ python collect.py
 
 ## Chat Model
 
-
+```bash
+cd chat
+bash evaluate_humaneval.sh
+```
 
 
 
@@ -136,14 +139,14 @@ The `CodeQwen-7B` and `CodeQwen-7B-Chat` results on MultiPL-E are shown in the f
         <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
         <td style="text-align: left">7B</td>
         <td>83.2</td>
-        <td>71.4</td>
-        <td>70.2</td>
-        <td>73.9</td>
-        <td>76.1</td>
-        <td>77.8</td>
-        <td>41.7</td>
+        <td>71.2</td>
+        <td>70.1</td>
+        <td>73.5</td>
+        <td>75.4</td>
+        <td>75.9</td>
+        <td>41.1</td>
         <td>78.2</td>
-        <td>71.6</td>
+        <td>71.1</td>
     </tr>
 </table>
 
