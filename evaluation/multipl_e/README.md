@@ -15,7 +15,7 @@ python collect.py
 
 ```bash
 cd chat
-bash evaluate_humaneval.sh
+bash evaluate_humaneval.sh python
 ```
 
 
