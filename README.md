@@ -29,7 +29,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
 
 ## Performance
 
-### EvalPlus 
+### EvalPlus (HumanEval, MBPP)
 
 <table style="text-align:center;">
     <tr style="font-weight:bold">
