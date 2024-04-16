@@ -4,7 +4,7 @@
 [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) provides holistic and contamination-free evaluation of coding capabilities of LLMs. Particularly, LiveCodeBench continuously collects new problems over time from contests across three competition platforms -- LeetCode, AtCoder, and CodeForces. 
 
 ### How to reproduce
-We are basing our evaluation of CodeQwen1.5 on the branch of Livecodebench's commit [e82c2488](https://github.com/LiveCodeBench/LiveCodeBench/tree/e82c2488e6a9632ed6f482c3c5cf85f042694df5). Subsequently, we will integrate CodeQwen1.5 into the official code to facilitate the evaluation process.
+Our evaluation of CodeQwen1.5 is grounded on the version found in LiveCodeBench at commit [e82c2488](https://github.com/LiveCodeBench/LiveCodeBench/tree/e82c2488e6a9632ed6f482c3c5cf85f042694df5). Subsequently, we will integrate CodeQwen1.5 into the official code to facilitate the evaluation process.
 > **Installation**
 ```bash
 # Make sure the CUDA version > 12.0.
