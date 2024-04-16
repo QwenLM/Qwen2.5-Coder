@@ -1,4 +1,4 @@
-# Evaluation on MultiPL-E
+# Evaluation on MultiPL-E (Python, Java, CPP, Javascript, Typescript, and other lanugages)
 
 ## Base Model
 
