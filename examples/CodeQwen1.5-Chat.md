@@ -33,7 +33,7 @@ model_inputs = tokenizer([text], return_tensors="pt").to(device)
 # Use `max_new_tokens` to control the maximum output length.
 generated_ids = model.generate(
     model_inputs.input_ids,
-    max_new_tokens=512
+    max_new_tokens=2048
 )
 generated_ids = [
     output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
@@ -42,16 +42,6 @@ generated_ids = [
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
 
-If you would like to apply Flash Attention 2, you can load the model as shown below:
-
-```python
-model = AutoModelForCausalLM.from_pretrained(
-"Qwen/CodeQwen1.5-7B-Chat",
-torch_dtype="auto",
-device_map="auto",
-attn_implementation="flash_attention_2",
-)
-```
 The `apply_chat_template()` function is used to convert the messages into a format that the model can understand. 
 The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
 The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
@@ -70,14 +60,13 @@ streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
 # This will print the output in the streaming mode.
 generated_ids = model.generate(
-    model_inputs,
-    max_new_tokens=1024,
+    model_inputs.input_ids,
+    max_new_tokens=2048,
     streamer=streamer,
 )
 ```
 
 Besides using `TextStreamer`, we can also use `TextIteratorStreamer` which stores print-ready text in a queue, to be used by a downstream application as an iterator:
-
 
 ```python
 # Repeat the code above before model.generate()
@@ -86,14 +75,12 @@ from transformers import TextIteratorStreamer
 streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
 from threading import Thread
-generation_kwargs = dict(model_inputs, streamer=streamer, max_new_tokens=512)
+generation_kwargs = dict(inputs=model_inputs.input_ids, streamer=streamer, max_new_tokens=2048)
 thread = Thread(target=model.generate, kwargs=generation_kwargs)
 
 thread.start()
 generated_text = ""
 for new_text in streamer:
     generated_text += new_text
-print(generated_text)
+    print(new_text, end="")
 ```
-
-
