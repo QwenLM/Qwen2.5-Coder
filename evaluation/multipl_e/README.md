@@ -12,7 +12,7 @@ python collect.py
 
 
 ## Chat Model
-
+Your must specify the path of the data_path, model_path, language in evaluate_humaneval.sh
 ```bash
 cd chat
 bash evaluate_humaneval.sh python
