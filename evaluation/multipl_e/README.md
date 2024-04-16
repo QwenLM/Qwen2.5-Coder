@@ -1,6 +1,6 @@
-# Evaluation on MultiPL-E (Python, Java, CPP, Javascript, Typescript, and other lanugages)
+# Evaluation on MultiPL-E 
 
-## Base Model
+## Base Model (Python, Java, CPP, Javascript, Typescript, and other languages)
 
 
 ```bash
