@@ -29,15 +29,6 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
 
 ## Evaluation
 
-<style>
-.cell-aux {
-    font-size: 0.9rem;
-    font-weight: normal;
-    font-style: italic;
-    color: #888;
-}
-</style>
-
 ### EvalPlus 
 
 <table style="text-align:center;">
