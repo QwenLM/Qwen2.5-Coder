@@ -220,7 +220,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td>TS</td>
         <td>C#</td>
         <td>Bash</td>
-        <td>JavaScript</td>
+        <td>JS</td>
         <td>Average</td>
     </tr>
     <tr>
