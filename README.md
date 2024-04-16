@@ -221,7 +221,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td>C#</td>
         <td>Bash</td>
         <td>JS</td>
-        <td>Average</td>
+        <td>Avg</td>
     </tr>
     <tr>
         <td colspan=11><b>Base Model</b></td>
