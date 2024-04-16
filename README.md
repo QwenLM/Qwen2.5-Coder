@@ -57,7 +57,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         </td>
     </tr>
     <tr>
-        <td colspan=7><b>Base Model</b></td>
+        <td colspan=7><center><b>Base Model</b></center></td>
     </tr>
     <tr>
         <td style="text-align: left">CodeLlama-Base</td>
@@ -96,7 +96,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td>61.8</td>
     </tr>
     <tr>
-        <td colspan=7><b>Chat Model</b></td>
+        <td colspan=7><center><b>Chat Model</b></center></td>
     </tr>
     <tr>
         <td style="text-align: left">GPT-3.5-Turbo</td>
@@ -158,7 +158,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         </td>
     </tr>
     <tr>
-        <td colspan=4><b>Base Model</b></td>
+        <td colspan=4><center><b>Base Model</b></center></td>
     </tr>
     <tr>
         <td style="text-align: left">CodeLlama-Base</td>
@@ -185,7 +185,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td><b>19.3</b></td>
     </tr>
     <tr>
-        <td colspan=4><b>Chat Model</b></td>
+        <td colspan=4><center><b>Chat Model</b></center></td>
     </tr>
     <tr>
         <td style="text-align: left">CodeLlama-Instruct</td>
