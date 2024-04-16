@@ -29,9 +29,192 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
 
 ## Evaluation
 
+<style>
+.cell-aux {
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #888;
+}
+</style>
+
 ### EvalPlus 
 
-### CodeLiveBench
+<table style="text-align:center;">
+    <tr style="font-weight:bold">
+        <td style="text-align: left">Model</td>
+        <td style="text-align: left">Size</td>
+        <td>
+            <div>HumanEval</div>
+            <div class="cell-aux">0-shot</div>
+        </td>
+        <td>
+            <div>HumanEval+</div>
+            <div class="cell-aux">0-shot</div>
+        </td>
+        <td>
+            <div>MBPP</div>
+            <div class="cell-aux">0-shot</div>
+        </td>
+        <td>
+            <div>MBPP+</div>
+            <div class="cell-aux">0-shot</div>
+        </td>
+        <td>
+            <div>MBPP</div>
+            <div class="cell-aux">3-shot</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=7><b>Base Model</b></td>
+    </tr>
+    <tr>
+        <td style="text-align: left">CodeLlama-Base</td>
+        <td style="text-align: left">7B</td>
+        <td>33.5</td>
+        <td>25.6</td>
+        <td>52.1</td>
+        <td>41.6</td>
+        <td>38.6</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">StarCoder2</td>
+        <td style="text-align: left">7B</td>
+        <td>35.4</td>
+        <td>29.9</td>
+        <td>54.4</td>
+        <td>45.6</td>
+        <td>51.0</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">DeepSeek-Coder-Base</td>
+        <td style="text-align: left">6.7B</td>
+        <td>47.6</td>
+        <td>39.6</td>
+        <td>70.2</td>
+        <td>56.6</td>
+        <td>60.6</td>
+    </tr>
+    <tr>
+        <td style="text-align: left"><b>CodeQwen1.5</b></td>
+        <td style="text-align: left">7B</td>
+        <td>51.8</td>
+        <td>45.7</td>
+        <td>72.2</td>
+        <td>60.2</td>
+        <td>61.8</td>
+    </tr>
+    <tr>
+        <td colspan=7><b>Chat Model</b></td>
+    </tr>
+    <tr>
+        <td style="text-align: left">GPT-3.5-Turbo</td>
+        <td style="text-align: left">-</td>
+        <td>76.8</td>
+        <td>70.7</td>
+        <td>82.5</td>
+        <td>69.7</td>
+        <td>70.8</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">GPT-4-Turbo (Nov 2023)</td>
+        <td style="text-align: left">-</td>
+        <td>85.4</td>
+        <td>81.7</td>
+        <td>83.5</td>
+        <td>70.7</td>
+        <td>80.0</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
+        <td style="text-align: left">6.7B</td>
+        <td>73.8</td>
+        <td>70.1</td>
+        <td>73.2</td>
+        <td>63.4</td>
+        <td>65.4</td>
+    </tr>
+    <tr>
+        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
+        <td style="text-align: left">7B</td>
+        <td>83.5</td>
+        <td>78.7</td>
+        <td>77.7</td>
+        <td>67.2</td>
+        <td>70.6</td>
+    </tr>
+</table>
+
+### LiveCodeBench
+
+<table style="text-align:center">
+    <tr style="font-weight:bold">
+        <td style="text-align: left">Model</td>
+        <td style="text-align: left">Size</td>
+        <td>
+            <div>Code Generation</div>
+            <div class="cell-aux">
+                <div>All Time</div>
+                <div>Pass@1</div>
+            </div>
+        </td>
+        <td>
+            <div>Code Generation</div>
+            <div class="cell-aux">
+                <div>2023/9/1 ~ 2024/4/1</div>
+                <div>Pass@1</div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=4><b>Base Model</b></td>
+    </tr>
+    <tr>
+        <td style="text-align: left">CodeLlama-Base</td>
+        <td style="text-align: left">7B</td>
+        <td>6.5</td>
+        <td>7.6</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">StarCoder2</td>
+        <td style="text-align: left">7B</td>
+        <td>11.3</td>
+        <td>12.7</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">DeepSeek-Coder-Base</td>
+        <td style="text-align: left">6.7B</td>
+        <td>19.1</td>
+        <td>13.7</td>
+    </tr>
+    <tr>
+        <td style="text-align: left"><b>CodeQwen1.5</b></td>
+        <td style="text-align: left">7B</td>
+        <td><b>21.8</b></td>
+        <td><b>19.3</b></td>
+    </tr>
+    <tr>
+        <td colspan=4><b>Chat Model</b></td>
+    </tr>
+    <tr>
+        <td style="text-align: left">CodeLlama-Instruct</td>
+        <td style="text-align: left">7B</td>
+        <td>10.6</td>
+        <td>12.4</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
+        <td style="text-align: left">6.7B</td>
+        <td>21.6</td>
+        <td>19.2</td>
+    </tr>
+    <tr>
+        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
+        <td style="text-align: left">7B</td>
+        <td><b>24.8</b></td>
+        <td><b>23.5</b></td>
+    </tr>
+</table>
 
 ## Requirements
 * `transformers>=4.37.0` for Qwen1.5 dense models.
