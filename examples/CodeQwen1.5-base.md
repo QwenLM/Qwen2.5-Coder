@@ -8,38 +8,43 @@ The model continues writing the content directly based on the input prompts, wit
 Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code generation. Below is an example of how to chat with CodeQwen1.5-base:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
+
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
 TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-MODEL = AutoModelForCausalLM.from_pretrained(checkpoint, device_map="auto").eval()
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
-input_text = "#write a quick sort algorithm\ndef "
-prompt_ids = TOKENIZER.encode(input_text)
-prompt_ids = torch.tensor([prompt_ids], dtype=torch.long).cuda()
-prompt_ids = TOKENIZER([input_prompt_text], return_tensors="pt").to(device)
+input_text = "#write a quick sort algorithm"
+model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
-generated_ids = MODEL.generate(prompt_ids, max_new_tokens=512, do_sample=False)[0]
+generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
 # The generated_ids include prompt_ids, we only need to decode the tokens after prompt_ids.
-output_text = TOKENIZER.decode(generated_ids[len(prompt_ids[0]):], skip_special_tokens=True)
+output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
 print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 ```
 
-这里还没写，尽快补上
 ## Code Insertion (Fill in the middle)
+The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
+For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
+The prompt should be structured as follows:
+```python
+prompt = '<fim_prefix>' + prefix_code + '<fim_suffix>' + suffix_code + '<fim_middle>'
+```
+Following the approach mentioned, an example would be structured in this manner:
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
 # load model
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-MODEL = AutoModelForCausalLM.from_pretrained(checkpoint, device_map="auto").eval()
+device = "cuda" # the device to load the model onto
 
-input_prompt_text = """<fim_prefix>def quicksort(arr):
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+
+input_text = """<fim_prefix>def quicksort(arr):
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
@@ -48,10 +53,14 @@ input_prompt_text = """<fim_prefix>def quicksort(arr):
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)<fim_middle>"""
 
-prompt_ids = TOKENIZER.encode(input_prompt_text)
-prompt_ids = torch.tensor([prompt_ids], dtype=torch.long)
-generated_ids = MODEL.generate(prompt_ids, max_new_tokens=512, do_sample=False)[0]
-output_text = TOKENIZER.decode(generated_ids[len(prompt_ids[0]):], skip_special_tokens=True)
+model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
 
-print(output_text)
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
+# The generated_ids include prompt_ids, we only need to decode the tokens after prompt_ids.
+output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
+
+print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 ```
+
+## Repository Level Code Completion
