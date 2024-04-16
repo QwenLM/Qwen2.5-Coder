@@ -21,11 +21,13 @@ model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
 generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
-# The generated_ids include prompt_ids, we only need to decode the tokens after prompt_ids.
+# The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
 print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 ```
+The `max_new_tokens` argument is used to set the maximum length of the response.
+The `input_text` could be any text that you would like model to continue with.
 
 ## Code Insertion (Fill in the middle)
 The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
