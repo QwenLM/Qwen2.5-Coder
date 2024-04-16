@@ -1,4 +1,4 @@
-# CodeQwen1.5
+
 
 <p align="center">
     <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/codeqwen_logo_final.png" width="400"/>
