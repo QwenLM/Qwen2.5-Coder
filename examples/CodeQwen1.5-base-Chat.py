@@ -26,7 +26,7 @@ model_inputs = tokenizer([text], return_tensors="pt").to(device)
 # Use `max_new_tokens` to control the maximum output length.
 generated_ids = model.generate(
     model_inputs.input_ids,
-    max_new_tokens=2048
+    max_new_tokens=2048 # can increase the output length
 )
 generated_ids = [
     output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
