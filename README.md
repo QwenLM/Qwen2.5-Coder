@@ -217,7 +217,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td>C++</td>
         <td>Java</td>
         <td>PHP</td>
-        <td>TypeScript</td>
+        <td>TS</td>
         <td>C#</td>
         <td>Bash</td>
         <td>JavaScript</td>
