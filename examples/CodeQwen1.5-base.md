@@ -1,11 +1,11 @@
 # Use CodeQwen1.5-base By transformers
-The most significant but also the simplest usage of CodeQwen1.5-base is using the `transformers` library. In this document, we show how to use CodeQwen1.5-base in three common scenarios of code generation, respectively.
+One of the simple but fundamental ways to try CodeQwen1.5-base is to use the `transformers` library. In this document, we show how to use CodeQwen1.5-base in three common scenarios of code generation, respectively.
 
 
 ## Basic Usage
-The model continues writing the content directly based on the input prompts, without any additional formatting or concatenation, which is called code completion in code generation tasks.
+The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
 
-Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code generation. Below is an example of how to chat with CodeQwen1.5-base:
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
