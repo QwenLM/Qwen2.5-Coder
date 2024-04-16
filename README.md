@@ -202,8 +202,8 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
     <tr>
         <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
         <td style="text-align: left">7B</td>
-        <td><b>24.8</b></td>
-        <td><b>23.5</b></td>
+        <td><b>25.0</b></td>
+        <td><b>23.2</b></td>
     </tr>
 </table>
 
