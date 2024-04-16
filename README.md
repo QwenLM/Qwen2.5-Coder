@@ -27,7 +27,7 @@ CodeQwen1.5 is the Code-Specific version of Qwen1.5. It is a transformer-based d
 
 Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/codeqwen1.5"> 📑 blog</a>.
 
-## Evaluation
+## Performance
 
 ### EvalPlus 
 
@@ -204,6 +204,59 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
         <td style="text-align: left">7B</td>
         <td><b>25.0</b></td>
         <td><b>23.2</b></td>
+    </tr>
+</table>
+
+### Text-to-SQL
+
+<table style="text-align:center">
+    <tr style="font-weight:bold">
+        <td style="text-align: left">Model</td>
+        <td style="text-align: left">Size</td>
+        <td>
+            <div>Spider</div>
+            <div class="cell-aux">
+                <div>Execution Accuracy</div>
+                <div>Dev Set</div>
+            </div>
+        </td>
+        <td>
+            <div>Bird</div>
+            <div class="cell-aux">
+                <div>Execution Accuracy</div>
+                <div>Dev Set</div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: left">GPT-3.5-Turbo</td>
+        <td style="text-align: left">-</td>
+        <td>70.1</td>
+        <td>37.2</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">GPT-4</td>
+        <td style="text-align: left">-</td>
+        <td>85.3</td>
+        <td>50.7</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">CodeLlama-Instruct</td>
+        <td style="text-align: left">7B</td>
+        <td>59.5</td>
+        <td>22.4</td>
+    </tr>
+    <tr>
+        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
+        <td style="text-align: left">6.7B</td>
+        <td>70.1</td>
+        <td>39.4</td>
+    </tr>
+    <tr>
+        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
+        <td style="text-align: left">7B</td>
+        <td><b>77.9</b></td>
+        <td><b>42.0</b></td>
     </tr>
 </table>
 
