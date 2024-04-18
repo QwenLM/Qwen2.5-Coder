@@ -1,5 +1,5 @@
 torch
-transformers
+transformers>=4.37.0
 accelerate
 safetensors
 vllm
