@@ -5,7 +5,7 @@
 <p>
 
 <p align="center">
-    <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/main.png" width="800"/>
+    <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/intro.png" width="800"/>
 <p>
 
 

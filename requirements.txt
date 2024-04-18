@@ -2,3 +2,4 @@ torch
 transformers
 accelerate
 safetensors
+vllm
