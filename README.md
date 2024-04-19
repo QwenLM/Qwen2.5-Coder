@@ -394,6 +394,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
 </table>
 
 ## Requirements
+* `python>=3.9`
 * `transformers>=4.37.0` for Qwen1.5 dense models.
 
 > [!Warning]
