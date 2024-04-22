@@ -291,6 +291,11 @@ main()
 
 ### EvalPlus (HumanEval, MBPP)
 
+我们推荐使用 EvalPlus 来评估 HumaneEval 和 MBPP 的效果，这里是我们的评估脚本： 
+https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/eval_plus
+
+We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP. [Here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/eval_plus) is our evaluation script.
+
 <table style="text-align:center;">
     <tr style="font-weight:bold">
         <td style="text-align: left">Model</td>
@@ -395,6 +400,25 @@ main()
         <td>70.6</td>
     </tr>
 </table>
+
+Additionally, the `bigcode-evaluation-harness` currently supports evaluating CodeQwen1.5. You can pull the [latest code](https://github.com/bigcode-project/bigcode-evaluation-harness) and use the following command to evaluate the score of HumaneEval:
+```bash
+accelerate launch main.py \
+    --model Qwen/CodeQwen1.5-7B-Chat \
+    --tasks humanevalsynthesize-python \
+    --max_length_generation 2048 \
+    --prompt codeqwen \
+    --temperature 0.0 \
+    --trust_remote_code \
+    --top_k 1 \
+    --top_p 0 \
+    --do_sample False \
+    --n_samples 1 \
+    --batch_size 1 \
+    --precision bf16 \
+    --allow_code_execution \
+    --save_generations \
+```
 
 ### LiveCodeBench
 
