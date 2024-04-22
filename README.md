@@ -474,6 +474,9 @@ We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP
 
 ### MultiPL-E
 
+MultiPL-E is a popular benchmark for evaluating multiple programming languages. 
+You can find our reproduce process [here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/multipl_e).
+
 <table style="text-align:center">
     <tr style="font-weight:bold">
         <td style="text-align: left">Model</td>
