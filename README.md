@@ -98,7 +98,7 @@ The `max_new_tokens` argument is used to set the maximum length of the response.
 
 ### 👉🏻 Code with CodeQwen1.5-7B-Base
 
-#### Basic Usage
+#### 1. Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
 
 Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
@@ -125,7 +125,7 @@ print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 The `max_new_tokens` argument is used to set the maximum length of the response.
 The `input_text` could be any text that you would like model to continue with.
 
-#### File-Level Code Completion (Fill in the middle)
+#### 2. File-Level Code Completion (Fill in the middle)
 The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
 For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
 The prompt should be structured as follows:
@@ -161,7 +161,7 @@ output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], s
 print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 ```
 
-#### Repository-Level Code Completion
+#### 3. Repository-Level Code Completion
 The repository level code completion task involves feeding the model the content of multiple files from the same repository. This enables the model to understand the interrelationships between different calls within these files, thereby facilitating the completion of code content.
 We recommend using the two special tokens `<reponame>` and `<file_sep>` to indicate the repository structure.
 For example, assuming the repository name is stored in `repo_name`, and it contains files with their respective paths and contents listed as [(`file_path1`, `file_content1`), (`file_path2`, `file_content2`)], the format of the final input prompt would be as follows:
@@ -604,7 +604,7 @@ You can find our reproduce process [here](https://github.com/QwenLM/CodeQwen1.5/
 </table>
 
 ### Text-to-SQL
-We evaluated CodeQwen1.5-7B-Chat on popular text-to-SQL benchmarks Spider and BIRD. Here you can find the [prompts](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/text_to_sql) we used, sourced from [Chang et al.](https://arxiv.org/abs/2305.11853) and [Li et al.](https://arxiv.org/abs/2305.03111).
+We evaluated CodeQwen1.5-7B-Chat on popular text-to-SQL benchmarks Spider and BIRD. Here you can find the [prompts](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/text_to_sql) we used, sourced from [Chang et al](https://arxiv.org/abs/2305.11853) and [Li et al](https://arxiv.org/abs/2305.03111).
 
 <table style="text-align:center">
     <tr style="font-weight:bold">
