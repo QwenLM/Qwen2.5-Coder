@@ -604,6 +604,7 @@ You can find our reproduce process [here](https://github.com/QwenLM/CodeQwen1.5/
 </table>
 
 ### Text-to-SQL
+We evaluated CodeQwen1.5-7B-Chat on popular text-to-SQL benchmarks Spider and BIRD. Here you can find the [prompts](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/text_to_sql) we used, sourced from [Chang et al.](https://arxiv.org/abs/2305.11853) and [Li et al.](https://arxiv.org/abs/2305.03111).
 
 <table style="text-align:center">
     <tr style="font-weight:bold">
