@@ -1,4 +1,4 @@
-
+<a name="readme-top"></a>
 
 <p align="center">
     <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/codeqwen_logo_final.png" width="400"/>
@@ -18,19 +18,269 @@
 
 Visit our Hugging Face or ModelScope organization (click links above), search checkpoints with names starting with `CodeQwen1.5-`, and you will find all you need! Enjoy!
 
+
 ## Introduction
 
 CodeQwen1.5 is the Code-Specific version of Qwen1.5. It is a transformer-based decoder-only language model pretrained on a large amount of data of codes.
 
-1. Strong code generation capabilities and competitve performance across a series of benchmarks;
-2. Supporting long context understanding and generation with the context length of 64K tokens;
-3. Supporting 92 coding languages;
+1. ✨ Strong code generation capabilities and competitve performance across a series of benchmarks;
+2. ✨ Supporting long context understanding and generation with the context length of 64K tokens;
+3. ✨ Supporting 92 coding languages;
 ```
 ['ada', 'agda', 'alloy', 'antlr', 'applescript', 'assembly', 'augeas', 'awk', 'batchfile', 'bluespec', 'c', 'c#', 'c++', 'clojure', 'cmake', 'coffeescript', 'common-lisp', 'css', 'cuda', 'dart', 'dockerfile', 'elixir', 'elm', 'emacs-lisp', 'erlang', 'f#', 'fortran', 'glsl', 'go', 'groovy', 'haskell', 'html', 'idris', 'isabelle', 'java', 'java-server-pages', 'javascript', 'json', 'julia', 'jupyter-notebook', 'kotlin', 'lean', 'literate-agda', 'literate-coffeescript', 'literate-haskell', 'lua', 'makefile', 'maple', 'markdown', 'mathematica', 'matlab', 'objectc++', 'ocaml', 'pascal', 'perl', 'php', 'powershell', 'prolog', 'protocol-buffer', 'python', 'r', 'racket', 'restructuredtext', 'rmarkdown', 'ruby', 'rust', 'sas', 'scala', 'scheme', 'shell', 'smalltalk', 'solidity', 'sparql', 'sql', 'stan', 'standard-ml', 'stata', 'swift', 'systemverilog', 'tcl', 'tcsh', 'tex', 'thrift', 'typescript', 'verilog', 'vhdl', 'visual-basic', 'vue', 'xslt', 'yacc', 'yaml', 'zig']
 ```
-4. Excellent performance in text-to-SQL, bug fix, etc.
+4. ✨ Excellent performance in text-to-SQL, bug fix, etc.
 
 Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/codeqwen1.5"> 📑 blog</a>.
+
+## Requirements
+* `python>=3.9`
+* `transformers>=4.37.0` for Qwen1.5 dense models.
+
+> [!Warning]
+> <div align="center">
+> <b>
+> 🚨 This is a must because `transformers` integrated Qwen2 codes since `4.37.0`.
+> </b>
+> </div>
+
+You can install the required packages with the following command:
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+
+### Chat with CodeQwen1.5-7B-Chat
+You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+device = "cuda" # the device to load the model onto
+
+# Now you do not need to add "trust_remote_code=True"
+tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
+model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
+
+# tokenize the input into tokens
+
+# Instead of using model.chat(), we directly use model.generate()
+# But you need to use tokenizer.apply_chat_template() to format your inputs as shown below
+prompt = "write a quick sort algorithm."
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(device)
+
+# Directly use generate() and tokenizer.decode() to get the output.
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = model.generate(
+    model_inputs.input_ids,
+    max_new_tokens=2048
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+```
+
+The `apply_chat_template()` function is used to convert the messages into a format that the model can understand. 
+The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
+The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
+
+### Code with CodeQwen1.5-7B-Base
+
+#### Basic Usage
+The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
+
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+device = "cuda" # the device to load the model onto
+
+# Now you do not need to add "trust_remote_code=True"
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+
+# tokenize the input into tokens
+input_text = "#write a quick sort algorithm"
+model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
+
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
+# The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
+output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
+
+print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
+```
+The `max_new_tokens` argument is used to set the maximum length of the response.
+The `input_text` could be any text that you would like model to continue with.
+
+#### File-Level Code Completion (Fill in the middle)
+The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
+For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
+The prompt should be structured as follows:
+```python
+prompt = '<fim_prefix>' + prefix_code + '<fim_suffix>' + suffix_code + '<fim_middle>'
+```
+Following the approach mentioned, an example would be structured in this manner:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+# load model
+device = "cuda" # the device to load the model onto
+
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+
+input_text = """<fim_prefix>def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    <fim_suffix>
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)<fim_middle>"""
+
+model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
+
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
+# The generated_ids include prompt_ids, we only need to decode the tokens after prompt_ids.
+output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
+
+print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
+```
+
+#### Repository-Level Code Completion
+The repository level code completion task involves feeding the model the content of multiple files from the same repository. This enables the model to understand the interrelationships between different calls within these files, thereby facilitating the completion of code content.
+We recommend using the two special tokens `<reponame>` and `<file_sep>` to indicate the repository structure.
+For example, assuming the repository name is stored in `repo_name`, and it contains files with their respective paths and contents listed as [(`file_path1`, `file_content1`), (`file_path2`, `file_content2`)], the format of the final input prompt would be as follows:
+```python
+input_text = f'''<reponame>{repo_name}
+<file_sep>{file_path1} 
+{file_content1}
+<file_sep>{file_path2} 
+{file_content2}'''
+```
+Below is a complete example of a repository level code completion task:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+device = "cuda" # the device to load the model onto
+
+# Now you do not need to add "trust_remote_code=True"
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+
+# tokenize the input into tokens
+input_text = """<reponame>library-system
+<file_sep>library.py
+class Book:
+    def __init__(self, title, author, isbn, copies):
+        self.title = title
+        self.author = author
+        self.isbn = isbn
+        self.copies = copies
+
+    def __str__(self):
+        return f"Title: {self.title}, Author: {self.author}, ISBN: {self.isbn}, Copies: {self.copies}"
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, title, author, isbn, copies):
+        book = Book(title, author, isbn, copies)
+        self.books.append(book)
+
+    def find_book(self, isbn):
+        for book in self.books:
+            if book.isbn == isbn:
+                return book
+        return None
+
+    def list_books(self):
+        return self.books
+
+<file_sep>student.py
+class Student:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+        self.borrowed_books = []
+
+    def borrow_book(self, book, library):
+        if book and book.copies > 0:
+            self.borrowed_books.append(book)
+            book.copies -= 1
+            return True
+        return False
+
+    def return_book(self, book, library):
+        if book in self.borrowed_books:
+            self.borrowed_books.remove(book)
+            book.copies += 1
+            return True
+        return False
+
+<file_sep>main.py
+from library import Library
+from student import Student
+
+def main():
+    # Set up the library with some books
+    library = Library()
+    library.add_book("The Great Gatsby", "F. Scott Fitzgerald", "1234567890", 3)
+    library.add_book("To Kill a Mockingbird", "Harper Lee", "1234567891", 2)
+    
+    # Set up a student
+    student = Student("Alice", "S1")
+    
+    # Student borrows a book
+"""
+model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
+
+# Use `max_new_tokens` to control the maximum output length.
+generated_ids = MODEL.generate(model_inputs.input_ids, max_new_tokens=1024, do_sample=False)[0]
+# The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
+output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
+
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text}")
+
+```
+The expected output as following:
+```
+Generated text:
+    book = library.find_book("1234567890")
+    if student.borrow_book(book, library):
+    print(f"{student.name} borrowed {book.title}")
+    else:
+    print(f"{student.name} could not borrow {book.title}")
+    
+        # Student returns a book
+        if student.return_book(book, library):
+            print(f"{student.name} returned {book.title}")
+        else:
+            print(f"{student.name} could not return {book.title}")
+        
+        # List all books in the library
+        print("All books in the library:")
+        for book in library.list_books():
+            print(book)
+
+if __name__ == "__main__":
+main()
+```
 
 ## Performance
 
@@ -393,66 +643,7 @@ Detailed performance and introduction are shown in this <a href="https://qwenlm.
     </tr>
 </table>
 
-## Requirements
-* `python>=3.9`
-* `transformers>=4.37.0` for Qwen1.5 dense models.
 
-> [!Warning]
-> <div align="center">
-> <b>
-> 🚨 This is a must because `transformers` integrated Qwen2 codes since `4.37.0`.
-> </b>
-> </div>
-
-You can install the required packages with the following command:
-```bash
-pip install -r requirements.txt
-```
-
-## Quick Start
-You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
-
-```python
-from transformers import AutoTokenizer, AutoModelForCausalLM
-
-device = "cuda" # the device to load the model onto
-
-# Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
-
-# tokenize the input into tokens
-
-# Instead of using model.chat(), we directly use model.generate()
-# But you need to use tokenizer.apply_chat_template() to format your inputs as shown below
-prompt = "write a quick sort algorithm."
-messages = [
-    {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": prompt}
-]
-text = tokenizer.apply_chat_template(
-    messages,
-    tokenize=False,
-    add_generation_prompt=True
-)
-model_inputs = tokenizer([text], return_tensors="pt").to(device)
-
-# Directly use generate() and tokenizer.decode() to get the output.
-# Use `max_new_tokens` to control the maximum output length.
-generated_ids = model.generate(
-    model_inputs.input_ids,
-    max_new_tokens=2048
-)
-generated_ids = [
-    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
-]
-
-response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
-```
-
-The `apply_chat_template()` function is used to convert the messages into a format that the model can understand. 
-The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
-The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
@@ -468,3 +659,9 @@ If you find our work helpful, feel free to give us a cite.
 
 ## Contact Us
 If you are interested to leave a message to either our research team or product team, join our [Discord](https://discord.gg/z3GAxXZ9Ce) or [WeChat groups](https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png)!
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-top" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Top ↑
+    </a>
+</p>
