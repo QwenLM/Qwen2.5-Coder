@@ -398,24 +398,7 @@ We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP
     </tr>
 </table>
 
-Additionally, the `bigcode-evaluation-harness` currently supports evaluating CodeQwen1.5. You can pull the [latest code](https://github.com/bigcode-project/bigcode-evaluation-harness) and use the following command to evaluate the score of HumaneEval:
-```bash
-accelerate launch main.py \
-    --model Qwen/CodeQwen1.5-7B-Chat \
-    --tasks humanevalsynthesize-python \
-    --max_length_generation 2048 \
-    --prompt codeqwen \
-    --temperature 0.0 \
-    --trust_remote_code \
-    --top_k 1 \
-    --top_p 0 \
-    --do_sample False \
-    --n_samples 1 \
-    --batch_size 1 \
-    --precision bf16 \
-    --allow_code_execution \
-    --save_generations \
-```
+
 
 ### LiveCodeBench
 
