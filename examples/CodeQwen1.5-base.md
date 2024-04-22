@@ -183,7 +183,7 @@ Generated text:
             print(book)
 
 if __name__ == "__main__":
-main()
+    main()
 ```
 
 # Use CodeQwen1.5-base By vllm
