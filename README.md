@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### Chat with CodeQwen1.5-7B-Chat
+### 👉🏻 Chat with CodeQwen1.5-7B-Chat
 You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
 
 ```python
@@ -96,7 +96,7 @@ The `apply_chat_template()` function is used to convert the messages into a form
 The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
 The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
 
-### Code with CodeQwen1.5-7B-Base
+### 👉🏻 Code with CodeQwen1.5-7B-Base
 
 #### Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
