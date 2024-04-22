@@ -291,9 +291,6 @@ main()
 
 ### EvalPlus (HumanEval, MBPP)
 
-我们推荐使用 EvalPlus 来评估 HumaneEval 和 MBPP 的效果，这里是我们的评估脚本： 
-https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/eval_plus
-
 We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP. [Here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/eval_plus) is our evaluation script.
 
 <table style="text-align:center;">
