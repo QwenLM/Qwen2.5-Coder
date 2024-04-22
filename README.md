@@ -398,9 +398,10 @@ We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP
     </tr>
 </table>
 
-
-
 ### LiveCodeBench
+
+[LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) provides holistic and contamination-free evaluation of coding capabilities of LLMs. Particularly, LiveCodeBench continuously collects new problems over time from contests across three competition platforms -- LeetCode, AtCoder, and CodeForces. 
+[Here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/livecode_bench) is our evaluation script.
 
 <table style="text-align:center">
     <tr style="font-weight:bold">
