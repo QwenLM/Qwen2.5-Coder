@@ -172,7 +172,9 @@ input_text = f'''<reponame>{repo_name}
 <file_sep>{file_path2} 
 {file_content2}'''
 ```
-Below is a complete example of a repository level code completion task:
+
+<details><summary>👇🏻 Below is a complete example of a repository level code completion task: <i>:: click to expand ::</i></summary>
+<div>
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -281,6 +283,9 @@ Generated text:
 if __name__ == "__main__":
 main()
 ```
+
+</div>
+</details>
 
 ## Performance
 
