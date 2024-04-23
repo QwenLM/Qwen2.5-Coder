@@ -287,6 +287,45 @@ main()
 </div>
 </details>
 
+### 👉🏻 Deploying CodeQwen with vLLM
+As a family member of Qwen1.5, CodeQwen1.5 are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
+Here, we give you an simple example of offline batched inference in vLLM.
+
+#### Offline Batched Inference
+```python
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
+# Initialize the tokenizer
+tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+
+# Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
+# max_tokens is for the maximum length for generation.
+sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024)
+
+# Input the model name or path. Can be GPTQ or AWQ models.
+llm = LLM(model="Qwen/CodeQwen1.5-7B")
+
+# Prepare your prompts
+prompt = "#write a quick sort algorithm.\ndef quick_sort("
+
+# generate outputs
+outputs = llm.generate([prompt], sampling_params)
+
+# Print the outputs.
+for output in outputs:
+    prompt = output.prompt
+    generated_text = output.outputs[0].text
+    print(f"Prompt: {prompt!r}, Generated text: {generated_text!r}")
+```
+
+#### Multi-GPU Distributred Serving
+To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
+When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run CodeQwen1.5-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
+```python
+llm = LLM(model="Qwen/CodeQwen1.5-7B", tensor_parallel_size=4)
+```
+
+
 ## Performance
 
 ### EvalPlus (HumanEval, MBPP)
