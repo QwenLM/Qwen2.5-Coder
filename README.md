@@ -53,7 +53,8 @@ pip install -r requirements.txt
 
 > [!Important]
 >
-> **CodeQwen1.5-7B-Chat** is a model instruction tuned for chatting;
+> **CodeQwen1.5-7B-Chat** is a instruction model for chatting;
+>
 > **CodeQwen1.5-7B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
 > 
 
