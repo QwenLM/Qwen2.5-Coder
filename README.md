@@ -51,6 +51,12 @@ pip install -r requirements.txt
 
 ## Quick Start
 
+> [!Important]
+>
+> **CodeQwen1.5-7B-Chat** is a model instruction tuned for chatting;
+> **CodeQwen1.5-7B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
+> 
+
 ### 👉🏻 Chat with CodeQwen1.5-7B-Chat
 You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
 
