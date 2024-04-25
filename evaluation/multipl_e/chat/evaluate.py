@@ -16,6 +16,7 @@ import tempfile
 from multiprocessing import cpu_count
 import numpy as np
 from pathlib import Path
+import vllm
 
 IMPORT_HELPER = {
     "python": [
@@ -352,7 +353,7 @@ def parse_args():
     parser.add_argument("--chat-format", default="chatml", type=str, help="chat format")
     parser.add_argument("--model", default="", type=str, help="model path")
     parser.add_argument("--data_path", default="", type=str, help="config path")
-    parser.add_argument("--benchmark", default="mbpp", type=str, help="benchmark name")
+    parser.add_argument("--benchmark", default="humaneval", type=str, help="benchmark name")
     parser.add_argument("--language", default="python", type=str, choices = ["python", "py", "sh", "java", "js", "cpp", "php", "cs", "ts"], help="langauge")
     parser.add_argument("--temperature", default=1.0, type=str)
     parser.add_argument("--batch_size", type=int, default=1, help="batch size")
@@ -363,6 +364,7 @@ def parse_args():
     parser.add_argument("--generation_path", default="", type=str, help="config path")
     parser.add_argument("--generation_only", action = "store_true")
     parser.add_argument("--evaluation_only", action = "store_true")
+    parser.add_argument("--use_vllm", action = "store_true")
     args = parser.parse_args()
     return args
 
@@ -528,17 +530,30 @@ def main():
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model)
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
     test_data = load_evaluation_dataset(data_path = args.data_path, name = args.benchmark, tokenizer = tokenizer, max_len = args.model_max_length, language = args.language)
-    model = transformers.AutoModelForCausalLM.from_pretrained(
-        args.model,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    )
-    model.eval()
+    if args.use_vllm:
+        sampling_params = vllm.SamplingParams(temperature=0.0, top_p=0.95, max_tokens=4096)
+        model = vllm.LLM(
+            model = args.model, tensor_parallel_size=1, worker_use_ray=True
+        )
+    else:
+        model = transformers.AutoModelForCausalLM.from_pretrained(
+            args.model,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+        )
     generated_objs = []
     if not args.evaluation_only:
-        for obj in tqdm.tqdm(test_data, desc='Generating Samples'):
-            gen_example = generate_one(args, obj, model, tokenizer)
-            generated_objs.append(gen_example)
+        if args.use_vllm:
+            prompts = [obj["input"] for obj in test_data]
+            outputs = model.generate(prompts, sampling_params)
+            for obj, o in zip(test_data, outputs):
+                obj["generation"] = o.outputs[0].text
+                generated_objs.append(obj)
+        else:
+            model.eval()
+            for obj in tqdm.tqdm(test_data, desc='Generating Samples'):
+                gen_example = generate_one(args, obj, model, tokenizer)
+                generated_objs.append(gen_example)
         write_jsonl_file(generated_objs, args.generation_path)
     else:
         generated_objs = read_jsonl_file(args.generation_path)
