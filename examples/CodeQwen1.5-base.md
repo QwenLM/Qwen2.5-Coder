@@ -346,3 +346,41 @@ When using ultra-long sequences for inference, it might cause insufficient GPU m
 ```python
 llm = LLM(model="Qwen/CodeQwen1.5-7B", tensor_parallel_size=4)
 ```
+
+## Streaming Mode
+
+With the help of `TextStreamer`, you can modify generation with CodeQwen to streaming mode. Below we show you an example of how to use it:
+
+
+```python
+# Repeat the code above before model.generate()
+# Starting here, we add streamer for text generation.
+from transformers import TextStreamer
+streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+
+# This will print the output in the streaming mode.
+generated_ids = model.generate(
+    model_inputs.input_ids,
+    max_new_tokens=2048,
+    streamer=streamer,
+)
+```
+
+Besides using `TextStreamer`, we can also use `TextIteratorStreamer` which stores print-ready text in a queue, to be used by a downstream application as an iterator:
+
+```python
+# Repeat the code above before model.generate()
+# Starting here, we add streamer for text generation.
+from transformers import TextIteratorStreamer
+streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+
+from threading import Thread
+generation_kwargs = dict(inputs=model_inputs.input_ids, streamer=streamer, max_new_tokens=2048)
+thread = Thread(target=model.generate, kwargs=generation_kwargs)
+
+thread.start()
+generated_text = ""
+for new_text in streamer:
+    generated_text += new_text
+    print(new_text, end="")
+```
