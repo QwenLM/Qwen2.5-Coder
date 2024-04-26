@@ -18,6 +18,9 @@ def main():
     args = get_args()
 
     model = LanguageModelStore[args.model]
+    if args.model_path is not None and args.output_name is not None:
+        model.model_name = args.model_path
+        model.model_repr = args.output_name
     benchmark, format_prompt = build_prompt_benchmark(args.scenario)
 
     output_path = get_output_path(model, args)
