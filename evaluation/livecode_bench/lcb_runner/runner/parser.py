@@ -14,6 +14,18 @@ def get_args():
         help="Name of the model to use matching `lm_styles.py`",
     )
     parser.add_argument(
+        "--model_path",
+        type=str,
+        default=None,
+        help="Name of the model to use matching `lm_styles.py`",
+    )
+    parser.add_argument(
+        "--output_name",
+        type=str,
+        default=None,
+        help="Name of the model to use matching `lm_styles.py`",
+    )
+    parser.add_argument(
         "--scenario",
         type=Scenario,
         default=Scenario.codegeneration,
