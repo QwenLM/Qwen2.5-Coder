@@ -350,12 +350,13 @@ def extract_func(text, job, language):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Parameters')
-    parser.add_argument("--chat-format", default="chatml", type=str, help="chat format")
+    parser.add_argument("--chat_format", default="chatml", type=str, help="chat format")
     parser.add_argument("--model", default="", type=str, help="model path")
     parser.add_argument("--data_path", default="", type=str, help="config path")
     parser.add_argument("--benchmark", default="humaneval", type=str, help="benchmark name")
     parser.add_argument("--language", default="python", type=str, choices = ["python", "py", "sh", "java", "js", "cpp", "php", "cs", "ts"], help="langauge")
-    parser.add_argument("--temperature", default=1.0, type=str)
+    parser.add_argument("--temperature", default=1.0, type=float)
+    parser.add_argument("--tensor_parallel_size", default=1, type=int)
     parser.add_argument("--batch_size", type=int, default=1, help="batch size")
     parser.add_argument("--do_sample", default=False, type=bool, help="config path")
     parser.add_argument("--model_max_length", type=int, default=2048, help="model max length")
@@ -448,12 +449,17 @@ Here is my problem:
 '''.strip().format('\n\n'.join(few_shot_prompt), prompt)
     return prompt_with_shots
 
-def load_evaluation_dataset(data_path, name, tokenizer, max_len, language):
+def load_evaluation_dataset(chat_format, data_path, name, tokenizer, max_len, language):
     if name == "humaneval":
         test_data = read_jsonl_file(f"{data_path}/humaneval/humaneval-{language}.jsonl")
         for obj in test_data:
-            obj["codeqwen_prompt"] = get_humaneval_prompt(obj, language)
-            obj["input"], obj["input_ids"] = chatml_query_preprocess([{'role': 'user', 'content': obj["codeqwen_prompt"]}], tokenizer, max_len = max_len)
+            if chat_format == "chatml":
+                obj["input_prompt"] = get_humaneval_prompt(obj, language)
+                obj["input"], obj["input_ids"] = chatml_query_preprocess([{'role': 'user', 'content': obj["input_prompt"]}], tokenizer, max_len = max_len)
+            elif chat_format == "chat_template":
+                obj["input_prompt"] = get_humaneval_prompt(obj, language)
+                obj["input"] = tokenizer.apply_chat_template([{'role': 'user', 'content': obj["input_prompt"]}], add_generation_prompt=True, tokenize=False)
+                obj["input_ids"] = tokenizer(obj["input"]).input_ids
     return test_data
 
 def get_output(generation):
@@ -527,13 +533,17 @@ def process_results(args, objs, language):
 
 def main():
     args = parse_args()
+    print(args)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model)
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
-    test_data = load_evaluation_dataset(data_path = args.data_path, name = args.benchmark, tokenizer = tokenizer, max_len = args.model_max_length, language = args.language)
+    test_data = load_evaluation_dataset(args.chat_format, data_path = args.data_path, name = args.benchmark, tokenizer = tokenizer, max_len = args.model_max_length, language = args.language)
     if args.use_vllm:
-        sampling_params = vllm.SamplingParams(temperature=0.0, top_p=0.95, max_tokens=4096)
+        if "llama-3" in args.model.lower():
+            sampling_params = vllm.SamplingParams(temperature=0.0, top_p=0.95, max_tokens=4096, stop_token_ids=[128009])
+        else:
+            sampling_params = vllm.SamplingParams(temperature=0.0, top_p=0.95, max_tokens=4096)
         model = vllm.LLM(
-            model = args.model, tensor_parallel_size=1, worker_use_ray=True
+            model = args.model, tensor_parallel_size = args.tensor_parallel_size, worker_use_ray=True
         )
     else:
         model = transformers.AutoModelForCausalLM.from_pretrained(
