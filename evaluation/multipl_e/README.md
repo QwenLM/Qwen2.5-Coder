@@ -17,7 +17,18 @@ Your must specify the path of the `${DATA_PATH}`, `${MODEL_DIR}`, and `${LANGUAG
 cd chat
 bash evaluate_humaneval.sh python #(Python, Java, CPP, Javascript, Typescript, and other languages)
 ```
-
+You can test all languages: ("python" "cs" "cpp" "java" "php" "ts" "sh" "js")
+```bash
+export PATH=/conda/bin:$PATH
+lgs=("python" "cs" "cpp" "java" "php" "ts" "sh" "js")
+npm install -g typescript # must install it
+MODEL_DIR="Qwen/CodeQwen1.5-7B-Chat-Local-Path"
+for lg in ${lgs[@]}; do
+    GENERATION_PATH="/codeqwen/generations_${lg}.jsonl",
+    METRIC_OUTPUT_PATH="/codeqwen/results_${lg}.jsonl",
+    bash evaluate_humaneval.sh ${MODEL_DIR} ${lg} ${GENERATION_PATH} ${METRIC_OUTPUT_PATH} "chatml"
+done
+```
 
 
 ## Results
