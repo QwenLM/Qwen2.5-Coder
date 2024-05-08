@@ -142,11 +142,7 @@ def extract_func(text, job, language):
             code = job["prompt"] + "\n" + code
         elif "class Problem" not in code:
             code = "class Problem {\n" + code
-        func_lines = [line for line in code.split("\n") if line.strip()]
-        if code.count("{") - code.count("}") == 0:
-            code = remove_nth_from_last_brace(code, n = 2, ch="}")
-        elif code.count("{") - code.count("}") == 1:
-            code = remove_nth_from_last_brace(code, n = 1, ch="}")
+        #func_lines = [line for line in code.split("\n") if line.strip()]
         def remove_main(code):
             code_lines = code.split("\n")
             stack = []
@@ -167,9 +163,13 @@ def extract_func(text, job, language):
             return code
         if "public static void main" in code:
             code = remove_main(code)
+        if code.count("{") - code.count("}") == 0:
+            code = remove_nth_from_last_brace(code, n = 2, ch="}")
+        elif code.count("{") - code.count("}") == 1:
+            code = remove_nth_from_last_brace(code, n = 1, ch="}")
+        
         code = "\n".join(IMPORT_HELPER["java"]) + "\n" + code
     elif language == "cpp":
-
         def extract_func(code, key_line=""):
             stack = []
             found = False
@@ -192,7 +192,6 @@ def extract_func(text, job, language):
                                 return func_code
                     func_code += line + "\n"
             return None
-
         def extract_cpp_code(text, job) -> str:
             func_signature = re.search(r"(\S+?\s+?\w+?\s*?)\(.*?\)\s*?\{\n", job["prompt"], flags=re.MULTILINE)
             if func_signature is not None:
@@ -201,7 +200,10 @@ def extract_func(text, job, language):
                 print(job["prompt"])
             code = extract_func(text, key_line=func_signature)
             if code is None:
-                code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
+                if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
+                    code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
+                else:
+                    code = text
 
             if re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL) is not None:
                 func_name = re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL).group(1)
@@ -210,11 +212,11 @@ def extract_func(text, job, language):
             return code
 
         code = extract_cpp_code(text, job)
-        if code is None:
-            if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
-                code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
-            else:
-                code = text
+        # if code is None:
+        #     if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
+        #         code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
+        #     else:
+        #         code = text
         test_set_up = ""
         for s in IMPORT_HELPER["cpp"]:
             if s not in code:
@@ -241,7 +243,6 @@ def extract_func(text, job, language):
                 return code_block.group(1)
             else:
                 return text
-
         code = extract_javascript_code(text)
         if "function " not in code:
             code = job["prompt"] + code
@@ -572,6 +573,7 @@ def main():
     if not args.generation_only:
         results, logs = process_results(args, generated_objs, language = args.language)
         dumped = json.dumps(results, indent=2)
+        #print("")
         print(dumped)
         with open(args.metric_output_path, "w") as f:
             f.write(dumped)
