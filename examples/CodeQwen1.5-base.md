@@ -67,10 +67,10 @@ print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 
 ## Repository Level Code Completion
 The repository level code completion task involves feeding the model the content of multiple files from the same repository. This enables the model to understand the interrelationships between different calls within these files, thereby facilitating the completion of code content.
-We recommend using the two special tokens `<reponame>` and `<file_sep>` to indicate the repository structure.
+We recommend using the two special tokens `<repo_name>` and `<file_sep>` to indicate the repository structure.
 For example, assuming the repository name is stored in `repo_name`, and it contains files with their respective paths and contents listed as [(`file_path1`, `file_content1`), (`file_path2`, `file_content2`)], the format of the final input prompt would be as follows:
 ```python
-input_text = f'''<reponame>{repo_name}
+input_text = f'''<repo_name>{repo_name}
 <file_sep>{file_path1} 
 {file_content1}
 <file_sep>{file_path2} 
@@ -87,7 +87,7 @@ tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
 model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
-input_text = """<reponame>library-system
+input_text = """<repo_name>library-system
 <file_sep>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
@@ -159,7 +159,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
 
 ```
 The expected output as following:
@@ -189,7 +189,7 @@ if __name__ == "__main__":
 ## Repository Level Code Infilling
 Repo level code infilling is essentially about concatenating the repo level format with the FIM format, as shown below,
 ```python
-input_text = f'''<reponame>{repo_name}
+input_text = f'''<repo_name>{repo_name}
 <file_sep>{file_path1} 
 {file_content1}
 <file_sep>{file_path2} 
@@ -209,7 +209,7 @@ model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
-input_text = """<reponame>library-system
+input_text = """<repo_name>library-system
 <file_sep>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
@@ -299,7 +299,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
 
 # the expected output as following:
 """
