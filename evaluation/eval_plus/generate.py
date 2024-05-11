@@ -93,6 +93,10 @@ def code_generate(args, workdir: PathLike, model: DecoderBase, id_range=None):
                 )
                 assert outputs, "No outputs from model!"
                 for impl in outputs:
+                    if "```" in impl:
+                        impl = impl.split("```")[0]
+                        print("``` exist in generation. Please check the generation results.")
+
                     try:
                         with open(
                             os.path.join(workdir, p_name, f"{sidx}.py"),
@@ -111,6 +115,7 @@ def code_generate(args, workdir: PathLike, model: DecoderBase, id_range=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_type", required=True, type=str, choices=MODEL_MAPPING.keys())
+    parser.add_argument("--model_path", type=str, default=None)
     parser.add_argument("--model_size", required=True, type=str)
     parser.add_argument("--bs", default=1, type=int)
     parser.add_argument("--temperature", default=0.0, type=float)
@@ -132,6 +137,9 @@ def main():
     assert args.model_size in MODEL_MAPPING[args.model_type]
 
     model_path = MODEL_MAPPING[args.model_type][args.model_size]
+    if args.model_path is not None:
+        model_path = args.model_path
+    print(f"Loading model from {model_path}")
 
     print(f"Running model={args.model_type}, size={args.model_size}")
     print(f"\tLoad from `{model_path}`")
