@@ -7,7 +7,7 @@ model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
-input_text = """<reponame>library-system
+input_text = """<repo_name>library-system
 <file_sep>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
@@ -97,7 +97,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
 
 # the expected output as following:
 """
