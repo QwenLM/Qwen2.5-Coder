@@ -1,11 +1,11 @@
-# Use CodeQwen1.5-base By transformers
-One of the simple but fundamental ways to try CodeQwen1.5-base is to use the `transformers` library. In this document, we show how to use CodeQwen1.5-base in three common scenarios of code generation, respectively.
+# Use Qwen2.5-Coder-7B By transformers
+One of the simple but fundamental ways to try Qwen2.5-Coder-7B is to use the `transformers` library. In this document, we show how to use Qwen2.5-Coder-7B in three common scenarios of code generation, respectively.
 
 
 ## Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
  
-Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-7B:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
@@ -53,7 +53,7 @@ input_text = """<|fim_prefix|>def quicksort(arr):
     <|fim_suffix|>
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-    return quicksort(left) + middle + quicksort(right)<fim_middle>"""
+    return quicksort(left) + middle + quicksort(right)<|fim_middle|>"""
 
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
@@ -88,7 +88,7 @@ model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map
 
 # tokenize the input into tokens
 input_text = """<repo_name>library-system
-<file_sep>library.py
+<|file_sep|>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
         self.title = title
@@ -116,7 +116,7 @@ class Library:
     def list_books(self):
         return self.books
 
-<file_sep>student.py
+<|file_sep|>student.py
 class Student:
     def __init__(self, name, id):
         self.name = name
@@ -137,7 +137,7 @@ class Student:
             return True
         return False
 
-<file_sep>main.py
+<|file_sep|>main.py
 from library import Library
 from student import Student
 
@@ -159,7 +159,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<|file_sep|>')[0]}")
 
 ```
 The expected output as following:
@@ -209,8 +209,8 @@ model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
-input_text = """<repo_name>library-system
-<file_sep>library.py
+input_text = """<|repo_name|>library-system
+<|file_sep|>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
         self.title = title
@@ -238,7 +238,7 @@ class Library:
     def list_books(self):
         return self.books
 
-<file_sep>student.py
+<|file_sep|>student.py
 class Student:
     def __init__(self, name, id):
         self.name = name
@@ -290,7 +290,7 @@ def main():
         print(book)
 
 if __name__ == "__main__":
-    main()<fim_middle>
+    main()<|fim_middle|>
 """
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
@@ -299,7 +299,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<|file_sep|>')[0]}")
 
 # the expected output as following:
 """
@@ -308,8 +308,8 @@ Generated text:
 """
 ```
 
-# Use CodeQwen1.5-base By vllm
-As a family member of Qwen1.5, CodeQwen1.5 are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
+# Use Qwen2.5-Coder-7B By vllm
+As a family member of Qwen2.5, Qwen2.5-Coder-7B are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
 Here, we only give you an simple example of offline batched inference in vLLM.
 
 ## Offline Batched Inference
@@ -349,7 +349,7 @@ llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
 
 ## Streaming Mode
 
-With the help of `TextStreamer`, you can modify generation with CodeQwen to streaming mode. Below we show you an example of how to use it:
+With the help of `TextStreamer`, you can modify generation with Qwen2.5-Coder to streaming mode. Below we show you an example of how to use it:
 
 
 ```python

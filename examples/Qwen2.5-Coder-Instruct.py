@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct", device_map="auto").eval()
 
 # tokenize the input into tokens
 

@@ -44,7 +44,16 @@ This update focuses on two main improvements: scaling up the code training data 
 > We updates both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
 
 ```json
-{'<|fim_prefix|>': 151659, '<|fim_middle|>': 151660, '<|fim_suffix|>': 151661, '<|fim_pad|>': 151662, '<|repo_name|>': 151663, '<|file_sep|>': 151664, '<|im_start|>': 151644, '<|im_end|>': 151645}
+{
+  "<|fim_prefix|>": 151659, 
+  "<|fim_middle|>": 151660, 
+  "<|fim_suffix|>": 151661, 
+  "<|fim_pad|>": 151662, 
+  "<|repo_name|>": 151663, 
+  "<|file_sep|>": 151664, 
+  "<|im_start|>": 151644, 
+  "<|im_end|>": 151645
+}
 ```
 
 | model name                  | type     | length | Download                                                                                                                                            |
@@ -76,9 +85,9 @@ pip install -r requirements.txt
 ## Quick Start
 
 > [!Important]
-> **Qwen2.5-Coder-xB-Chat** are instruction models for chatting;
+> **Qwen2.5-Coder-\[1.5-7\]B-Instrcut** are instruction models for chatting;
 >
-> **Qwen2.5-Coder-xB** is a base model typically used for completion, serving as a better starting point for fine-tuning.
+> **Qwen2.5-Coder-\[1.5-7\]B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
 > 
 ### 👉🏻 Chat with Qwen2.5-Coder-7B-Instruct
 You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-7B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-7B-Instruct:
@@ -152,7 +161,7 @@ The `max_new_tokens` argument is used to set the maximum length of the response.
 The `input_text` could be any text that you would like model to continue with.
 
 
-#### 2.Processing Long Texts
+#### 2. Processing Long Texts
 
 The current `config.json` is set for context length up to 32,768 tokens.
 To handle extensive inputs exceeding 32,768 tokens, we utilize [YaRN](https://arxiv.org/abs/2309.00071), a technique for enhancing model length extrapolation, ensuring optimal performance on lengthy texts.
@@ -371,18 +380,26 @@ llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
 
 
 ## Performance
-see blog <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
+see blog first <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
+
 
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@article{qwen,
-  title={Qwen Technical Report},
-  author={Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and Benfeng Xu and Jin Xu and An Yang and Hao Yang and Jian Yang and Shusheng Yang and Yang Yao and Bowen Yu and Hongyi Yuan and Zheng Yuan and Jianwei Zhang and Xingxuan Zhang and Yichang Zhang and Zhenru Zhang and Chang Zhou and Jingren Zhou and Xiaohuan Zhou and Tianhang Zhu},
-  journal={arXiv preprint arXiv:2309.16609},
-  year={2023}
+@misc{qwen2.5,
+title = {Qwen2.5: A Party of Foundation Models},
+url = {https://qwenlm.github.io/blog/qwen2.5/},
+author = {Qwen Team},
+month = {September},
+year = {2024}
+}
+@article{qwen2,
+title={Qwen2 Technical Report},
+author={An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan},
+journal={arXiv preprint arXiv:2407.10671},
+year={2024}
 }
 ```
 

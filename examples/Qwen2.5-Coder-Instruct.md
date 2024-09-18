@@ -1,8 +1,8 @@
-# Use CodeQwen1.5-base-chat By transformers
-The most significant but also the simplest usage of CodeQwen1.5-base-chat is using the `transformers` library. In this document, we show how to chat with CodeQwen1.5-base-chat in either streaming mode or not.
+# Use Qwen2.5-Coder-7B-Instruct By transformers
+The most significant but also the simplest usage of Qwen2.5-Coder-7B-Instruct is using the `transformers` library. In this document, we show how to chat with Qwen2.5-Coder-7B-Instruct in either streaming mode or not.
 
 ## Basic Usage
-You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
+You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-7B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-7B-Instruct:
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -10,8 +10,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct", device_map="auto").eval()
 
 # tokenize the input into tokens
 

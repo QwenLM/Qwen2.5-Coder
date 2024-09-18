@@ -2,17 +2,17 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # load model
 device = "cuda" # the device to load the model onto
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
-input_text = """<fim_prefix>def quicksort(arr):
+input_text = """<|fim_prefix|>def quicksort(arr):
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
-    <fim_suffix>
+    <|fim_suffix|>
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-    return quicksort(left) + middle + quicksort(right)<fim_middle>"""
+    return quicksort(left) + middle + quicksort(right)<|fim_middle|>"""
 
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 

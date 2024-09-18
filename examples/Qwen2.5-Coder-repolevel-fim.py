@@ -2,13 +2,13 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
-input_text = """<repo_name>library-system
-<file_sep>library.py
+input_text = """<|repo_name|>library-system
+<|file_sep|>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
         self.title = title
@@ -36,7 +36,7 @@ class Library:
     def list_books(self):
         return self.books
 
-<file_sep>student.py
+<|file_sep|>student.py
 class Student:
     def __init__(self, name, id):
         self.name = name
@@ -57,8 +57,8 @@ class Student:
             return True
         return False
 
-<file_sep>main.py
-<fim_prefix>from library import Library
+<|file_sep|>main.py
+<|fim_prefix|>from library import Library
 from student import Student
 
 def main():
@@ -70,7 +70,7 @@ def main():
     # Set up a student
     student = Student("Alice", "S1")
     
-    # Student borrows a book<fim_suffix>
+    # Student borrows a book<|fim_suffix|>
     if student.borrow_book(book, library):
         print(f"{student.name} borrowed {book.title}")
     else:
@@ -88,7 +88,7 @@ def main():
         print(book)
 
 if __name__ == "__main__":
-    main()<fim_middle>
+    main()<|fim_middle|>
 """
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
@@ -97,7 +97,7 @@ generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_s
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
-print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<file_sep>')[0]}")
+print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text.split('<|file_sep|>')[0]}")
 
 # the expected output as following:
 """
