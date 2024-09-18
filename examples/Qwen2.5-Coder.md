@@ -12,8 +12,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = "#write a quick sort algorithm"
@@ -31,10 +31,10 @@ The `input_text` could be any text that you would like model to continue with.
 
 ## Code Insertion (Fill in the middle)
 The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
-For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
+For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<|fim_prefix|>`, `<|fim_suffix|>`, and `<|fim_middle|>` to denote the respective segments of the code structure. 
 The prompt should be structured as follows:
 ```python
-prompt = '<fim_prefix>' + prefix_code + '<fim_suffix>' + suffix_code + '<fim_middle>'
+prompt = '<|fim_prefix|>' + prefix_code + '<|fim_suffix|>' + suffix_code + '<|fim_middle|>'
 ```
 Following the approach mentioned, an example would be structured in this manner:
 
@@ -43,14 +43,14 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # load model
 device = "cuda" # the device to load the model onto
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
-input_text = """<fim_prefix>def quicksort(arr):
+input_text = """<|fim_prefix|>def quicksort(arr):
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
-    <fim_suffix>
+    <|fim_suffix|>
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quicksort(left) + middle + quicksort(right)<fim_middle>"""
@@ -67,13 +67,13 @@ print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 
 ## Repository Level Code Completion
 The repository level code completion task involves feeding the model the content of multiple files from the same repository. This enables the model to understand the interrelationships between different calls within these files, thereby facilitating the completion of code content.
-We recommend using the two special tokens `<repo_name>` and `<file_sep>` to indicate the repository structure.
+We recommend using the two special tokens `<|repo_name|>` and `<|file_sep|>` to indicate the repository structure.
 For example, assuming the repository name is stored in `repo_name`, and it contains files with their respective paths and contents listed as [(`file_path1`, `file_content1`), (`file_path2`, `file_content2`)], the format of the final input prompt would be as follows:
 ```python
-input_text = f'''<repo_name>{repo_name}
-<file_sep>{file_path1} 
+input_text = f'''<|repo_name|>{repo_name}
+<|file_sep|>{file_path1} 
 {file_content1}
-<file_sep>{file_path2} 
+<|file_sep|>{file_path2} 
 {file_content2}'''
 ```
 Below is a complete example of a repository level code completion task:
@@ -83,8 +83,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = """<repo_name>library-system
@@ -189,13 +189,13 @@ if __name__ == "__main__":
 ## Repository Level Code Infilling
 Repo level code infilling is essentially about concatenating the repo level format with the FIM format, as shown below,
 ```python
-input_text = f'''<repo_name>{repo_name}
-<file_sep>{file_path1} 
+input_text = f'''<|repo_name|>{repo_name}
+<|file_sep|>{file_path1} 
 {file_content1}
-<file_sep>{file_path2} 
+<|file_sep|>{file_path2} 
 {file_content2}
-<file_sep>{file_path2} 
-<fim_prefix>{prefix_code}<fim_suffix>{suffix_code}<fim_middle>'''
+<|file_sep|>{file_path2} 
+<|fim_prefix|>{prefix_code}<|fim_suffix|>{suffix_code}<|fim_middle|>'''
 ```
 Below is an example of a repository level code infilling task:
 
@@ -204,8 +204,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
@@ -259,8 +259,8 @@ class Student:
             return True
         return False
 
-<file_sep>main.py
-<fim_prefix>from library import Library
+<|file_sep|>main.py
+<|fim_prefix|>from library import Library
 from student import Student
 
 def main():
@@ -272,7 +272,7 @@ def main():
     # Set up a student
     student = Student("Alice", "S1")
     
-    # Student borrows a book<fim_suffix>
+    # Student borrows a book<|fim_suffix|>
     if student.borrow_book(book, library):
         print(f"{student.name} borrowed {book.title}")
     else:
@@ -318,14 +318,14 @@ Here, we only give you an simple example of offline batched inference in vLLM.
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
 
 # Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
 # max_tokens is for the maximum length for generation.
 sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024)
 
 # Input the model name or path. Can be GPTQ or AWQ models.
-llm = LLM(model="Qwen/CodeQwen1.5-7B")
+llm = LLM(model="Qwen/Qwen2.5-Coder-7B")
 
 # Prepare your prompts
 prompt = "#write a quick sort algorithm.\ndef quick_sort("
@@ -342,9 +342,9 @@ for output in outputs:
 
 ## Multi-GPU Distributred Serving
 To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
-When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run CodeQwen1.5-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`
+When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`
 ```python
-llm = LLM(model="Qwen/CodeQwen1.5-7B", tensor_parallel_size=4)
+llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
 ```
 
 ## Streaming Mode

@@ -1,41 +1,65 @@
 <a name="readme-top"></a>
 
 <p align="center">
-    <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/codeqwen_logo_final.png" width="400"/>
+    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-Coder/qwen2.5-coder-logo" width="400"/>
 <p>
 
 <p align="center">
-    <img src="https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/assets/blog/codeqwen1.5/intro.png" width="800"/>
+    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-Coder/coder-main.png" width="400"/>
 <p>
 
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+        🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
 <br>
-🖥️ <a href="https://huggingface.co/spaces/Qwen/CodeQwen1.5-7b-Chat-demo">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
+🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-7B-Instruct">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
 </p>
 
 
-Visit our Hugging Face or ModelScope organization (click links above), search checkpoints with names starting with `CodeQwen1.5-`, and you will find all you need! Enjoy!
+Visit our Hugging Face or ModelScope organization (click links above), search checkpoints with names starting with `Qwen2.5-Coder-`, and you will find all you need! Enjoy!
 
+# Qwen2.5-Coder: Code More, Learn More
 
 ## Introduction
 
-CodeQwen1.5 is the Code-Specific version of Qwen1.5. It is a transformer-based decoder-only language model pretrained on a large amount of data of codes.
+In early April, we introduced CodeQwen1.5, which garnered significant attention from the community. Since then, we have been working to enhance the coding model. Today, we are excited to announce the release of the next generation of open-source coding models, **Qwen2.5-Coder**, and officially rename CodeQwen to Qwen-Coder. We think "Coder" is more human-like and agile, reflecting our vision of it becoming a true coding partner in the future. Qwen2.5-Coder is part of the Qwen2.5 series, available in three model sizes: 1.5B, 7B, and a 32B version (coming soon).
 
-1. ✨ Strong code generation capabilities and competitve performance across a series of benchmarks;
-2. ✨ Supporting long context understanding and generation with the context length of 64K tokens;
-3. ✨ Supporting 92 coding languages;
+This update focuses on two main improvements: scaling up the code training data and enhancing coding capabilities while maintaining strong performance in other core areas like math and general tasks.
+
+💻 Code More: Qwen2.5-Coder builds on the strong Qwen2.5 and continues training on a larger scale of code data, including source code, text-code grounding data, and synthetic data, totaling 5.5 trillion tokens. This leads to significant improvements in code-related tasks.
+
+📚 Learn More: While enhancing coding abilities, we aimed to retain strengths in math and general capabilities from base model. Therefore, Qwen2.5-Coder incorporates additional data on mathematics and general abilities, providing a comprehensive foundation for real-world applications like Code Agent.
+    
+
+## basic information
+
+1. ✨ Supporting long context understanding and generation with the context length of 128K tokens;
+2. ✨ Supporting 92 coding languages;
 ```
 ['ada', 'agda', 'alloy', 'antlr', 'applescript', 'assembly', 'augeas', 'awk', 'batchfile', 'bluespec', 'c', 'c#', 'c++', 'clojure', 'cmake', 'coffeescript', 'common-lisp', 'css', 'cuda', 'dart', 'dockerfile', 'elixir', 'elm', 'emacs-lisp', 'erlang', 'f#', 'fortran', 'glsl', 'go', 'groovy', 'haskell', 'html', 'idris', 'isabelle', 'java', 'java-server-pages', 'javascript', 'json', 'julia', 'jupyter-notebook', 'kotlin', 'lean', 'literate-agda', 'literate-coffeescript', 'literate-haskell', 'lua', 'makefile', 'maple', 'markdown', 'mathematica', 'matlab', 'objectc++', 'ocaml', 'pascal', 'perl', 'php', 'powershell', 'prolog', 'protocol-buffer', 'python', 'r', 'racket', 'restructuredtext', 'rmarkdown', 'ruby', 'rust', 'sas', 'scala', 'scheme', 'shell', 'smalltalk', 'solidity', 'sparql', 'sql', 'stan', 'standard-ml', 'stata', 'swift', 'systemverilog', 'tcl', 'tcsh', 'tex', 'thrift', 'typescript', 'verilog', 'vhdl', 'visual-basic', 'vue', 'xslt', 'yacc', 'yaml', 'zig']
 ```
-4. ✨ Excellent performance in text-to-SQL, bug fix, etc.
+3. ✨ Retain strengths in math and general capabilities from base model
 
-Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/codeqwen1.5"> 📑 blog</a>.
+> [!Important]
+> We updates both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
+
+```json
+{'<|fim_prefix|>': 151659, '<|fim_middle|>': 151660, '<|fim_suffix|>': 151661, '<|fim_pad|>': 151662, '<|repo_name|>': 151663, '<|file_sep|>': 151664, '<|im_start|>': 151644, '<|im_end|>': 151645}
+```
+
+| model name                  | type     | length | Download                                                                                                                                            |
+|-----------------------------|----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Qwen2.5-Coder-1.5B          | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-1.5B)           |
+| Qwen2.5-Coder-7B            | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-7B)  |
+| Qwen2.5-Coder-1.5B-instruct | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-1.5B-Instruct)  |
+| Qwen2.5-Coder-7B-instruct   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-7B-Instruct)      |
+
+
+Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
 
 ## Requirements
 * `python>=3.9`
-* `transformers>=4.37.0` for Qwen1.5 dense models.
+* `transformers>4.37.0` for Qwen2.5 dense models.
 
 > [!Warning]
 > <div align="center">
@@ -52,31 +76,28 @@ pip install -r requirements.txt
 ## Quick Start
 
 > [!Important]
+> **Qwen2.5-Coder-xB-Chat** are instruction models for chatting;
 >
-> **CodeQwen1.5-7B-Chat** is a instruction model for chatting;
->
-> **CodeQwen1.5-7B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
+> **Qwen2.5-Coder-xB** is a base model typically used for completion, serving as a better starting point for fine-tuning.
 > 
-
-### 👉🏻 Chat with CodeQwen1.5-7B-Chat
-You can just write several lines of code with `transformers` to chat with CodeQwen1.5-7B-Chat. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with CodeQwen1.5-7B-Chat:
+### 👉🏻 Chat with Qwen2.5-Coder-7B-Instruct
+You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-7B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-7B-Instruct:
 
 ```python
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-device = "cuda" # the device to load the model onto
+model_name = "Qwen/Qwen2.5-Coder-7B-Instruct"
 
-# Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B-Chat")
-model = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B-Chat", device_map="auto").eval()
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# tokenize the input into tokens
-
-# Instead of using model.chat(), we directly use model.generate()
-# But you need to use tokenizer.apply_chat_template() to format your inputs as shown below
 prompt = "write a quick sort algorithm."
 messages = [
-    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "system", "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."},
     {"role": "user", "content": prompt}
 ]
 text = tokenizer.apply_chat_template(
@@ -84,13 +105,11 @@ text = tokenizer.apply_chat_template(
     tokenize=False,
     add_generation_prompt=True
 )
-model_inputs = tokenizer([text], return_tensors="pt").to(device)
+model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
-# Directly use generate() and tokenizer.decode() to get the output.
-# Use `max_new_tokens` to control the maximum output length.
 generated_ids = model.generate(
-    model_inputs.input_ids,
-    max_new_tokens=2048
+    **model_inputs,
+    max_new_tokens=512
 )
 generated_ids = [
     output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
@@ -103,20 +122,20 @@ The `apply_chat_template()` function is used to convert the messages into a form
 The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
 The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
 
-### 👉🏻 Code with CodeQwen1.5-7B-Base
+### 👉🏻 Code with Qwen2.5-Coder
 
 #### 1. Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
 
-Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-7B:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = "#write a quick sort algorithm"
@@ -132,12 +151,30 @@ print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 The `max_new_tokens` argument is used to set the maximum length of the response.
 The `input_text` could be any text that you would like model to continue with.
 
-#### 2. File-Level Code Completion (Fill in the middle)
+
+#### 2.Processing Long Texts
+
+The current `config.json` is set for context length up to 32,768 tokens.
+To handle extensive inputs exceeding 32,768 tokens, we utilize [YaRN](https://arxiv.org/abs/2309.00071), a technique for enhancing model length extrapolation, ensuring optimal performance on lengthy texts.
+
+For supported frameworks, you could add the following to `config.json` to enable YaRN:
+```json
+{
+  ...,
+  "rope_scaling": {
+    "factor": 4.0,
+    "original_max_position_embeddings": 32768,
+    "type": "yarn"
+  }
+}
+```
+
+#### 3. File-Level Code Completion (Fill in the middle)
 The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
 For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
 The prompt should be structured as follows:
 ```python
-prompt = '<fim_prefix>' + prefix_code + '<fim_suffix>' + suffix_code + '<fim_middle>'
+prompt = '<|fim_prefix|>' + prefix_code + '<|fim_suffix|>' + suffix_code + '<|fim_middle|>'
 ```
 Following the approach mentioned, an example would be structured in this manner:
 
@@ -146,17 +183,17 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # load model
 device = "cuda" # the device to load the model onto
 
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
-input_text = """<fim_prefix>def quicksort(arr):
+input_text = """<|fim_prefix|>def quicksort(arr):
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
-    <fim_suffix>
+    <|fim_suffix|>
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-    return quicksort(left) + middle + quicksort(right)<fim_middle>"""
+    return quicksort(left) + middle + quicksort(right)<|fim_middle|>"""
 
 model_inputs = TOKENIZER([input_text], return_tensors="pt").to(device)
 
@@ -168,15 +205,15 @@ output_text = TOKENIZER.decode(generated_ids[len(model_inputs.input_ids[0]):], s
 print(f"Prompt: {input_text}\n\nGenerated text: {output_text}")
 ```
 
-#### 3. Repository-Level Code Completion
+#### 4. Repository-Level Code Completion
 The repository level code completion task involves feeding the model the content of multiple files from the same repository. This enables the model to understand the interrelationships between different calls within these files, thereby facilitating the completion of code content.
-We recommend using the two special tokens `<reponame>` and `<file_sep>` to indicate the repository structure.
+We recommend using the two special tokens `<|repo_name|>` and `<|file_sep|>` to indicate the repository structure.
 For example, assuming the repository name is stored in `repo_name`, and it contains files with their respective paths and contents listed as [(`file_path1`, `file_content1`), (`file_path2`, `file_content2`)], the format of the final input prompt would be as follows:
 ```python
-input_text = f'''<reponame>{repo_name}
-<file_sep>{file_path1} 
+input_text = f'''<|repo_name|>{repo_name}
+<|file_sep|>{file_path1} 
 {file_content1}
-<file_sep>{file_path2} 
+<|file_sep|>{file_path2} 
 {file_content2}'''
 ```
 
@@ -188,12 +225,12 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/CodeQwen1.5-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
 
 # tokenize the input into tokens
-input_text = """<reponame>library-system
-<file_sep>library.py
+input_text = """<|repo_name|>library-system
+<|file_sep|>library.py
 class Book:
     def __init__(self, title, author, isbn, copies):
         self.title = title
@@ -221,7 +258,7 @@ class Library:
     def list_books(self):
         return self.books
 
-<file_sep>student.py
+<|file_sep|>student.py
 class Student:
     def __init__(self, name, id):
         self.name = name
@@ -242,7 +279,7 @@ class Student:
             return True
         return False
 
-<file_sep>main.py
+<|file_sep|>main.py
 from library import Library
 from student import Student
 
@@ -294,8 +331,8 @@ main()
 </div>
 </details>
 
-### 👉🏻 Deploying CodeQwen with vLLM
-As a family member of Qwen1.5, CodeQwen1.5 are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
+### 👉🏻 Deploying Qwen2.5-Coder with vLLM
+As a family member of Qwen2.5, Qwen2.5-Coder are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
 Here, we give you an simple example of offline batched inference in vLLM.
 
 #### Offline Batched Inference
@@ -303,14 +340,14 @@ Here, we give you an simple example of offline batched inference in vLLM.
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Qwen/CodeQwen1.5-7B")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
 
 # Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
 # max_tokens is for the maximum length for generation.
 sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024)
 
 # Input the model name or path. Can be GPTQ or AWQ models.
-llm = LLM(model="Qwen/CodeQwen1.5-7B")
+llm = LLM(model="Qwen/Qwen2.5-Coder-7B")
 
 # Prepare your prompts
 prompt = "#write a quick sort algorithm.\ndef quick_sort("
@@ -327,382 +364,14 @@ for output in outputs:
 
 #### Multi-GPU Distributred Serving
 To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
-When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run CodeQwen1.5-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
+When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
 ```python
-llm = LLM(model="Qwen/CodeQwen1.5-7B", tensor_parallel_size=4)
+llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
 ```
 
 
 ## Performance
-
-### EvalPlus (HumanEval, MBPP)
-
-We recommend using EvalPlus to evaluate the effectiveness of HumaneEval and MBPP. [Here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/eval_plus) is our evaluation script.
-
-<table style="text-align:center;">
-    <tr style="font-weight:bold">
-        <td style="text-align: left">Model</td>
-        <td style="text-align: left">Size</td>
-        <td>
-            <div>HumanEval</div>
-            <div class="cell-aux">0-shot</div>
-        </td>
-        <td>
-            <div>HumanEval+</div>
-            <div class="cell-aux">0-shot</div>
-        </td>
-        <td>
-            <div>MBPP</div>
-            <div class="cell-aux">0-shot</div>
-        </td>
-        <td>
-            <div>MBPP+</div>
-            <div class="cell-aux">0-shot</div>
-        </td>
-        <td>
-            <div>MBPP</div>
-            <div class="cell-aux">3-shot</div>
-        </td>
-    </tr>
-    <tr>
-        <td colspan=7><center><b>Base Model</b></center></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">CodeLlama-Base</td>
-        <td style="text-align: left">7B</td>
-        <td>33.5</td>
-        <td>25.6</td>
-        <td>52.1</td>
-        <td>41.6</td>
-        <td>38.6</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">StarCoder2</td>
-        <td style="text-align: left">7B</td>
-        <td>35.4</td>
-        <td>29.9</td>
-        <td>54.4</td>
-        <td>45.6</td>
-        <td>51.0</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Base</td>
-        <td style="text-align: left">6.7B</td>
-        <td>47.6</td>
-        <td>39.6</td>
-        <td>70.2</td>
-        <td>56.6</td>
-        <td>60.6</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5</b></td>
-        <td style="text-align: left">7B</td>
-        <td>51.8</td>
-        <td>45.7</td>
-        <td>72.2</td>
-        <td>60.2</td>
-        <td>61.8</td>
-    </tr>
-    <tr>
-        <td colspan=7><center><b>Chat Model</b></center></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-3.5-Turbo</td>
-        <td style="text-align: left">-</td>
-        <td>76.8</td>
-        <td>70.7</td>
-        <td>82.5</td>
-        <td>69.7</td>
-        <td>70.8</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-4-Turbo (Nov 2023)</td>
-        <td style="text-align: left">-</td>
-        <td>85.4</td>
-        <td>81.7</td>
-        <td>83.5</td>
-        <td>70.7</td>
-        <td>80.0</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
-        <td style="text-align: left">6.7B</td>
-        <td>73.8</td>
-        <td>70.1</td>
-        <td>73.2</td>
-        <td>63.4</td>
-        <td>65.4</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
-        <td style="text-align: left">7B</td>
-        <td>83.5</td>
-        <td>78.7</td>
-        <td>77.7</td>
-        <td>67.2</td>
-        <td>70.6</td>
-    </tr>
-</table>
-
-### LiveCodeBench
-
-[LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) provides holistic and contamination-free evaluation of coding capabilities of LLMs. Particularly, LiveCodeBench continuously collects new problems over time from contests across three competition platforms -- LeetCode, AtCoder, and CodeForces. 
-[Here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/livecode_bench) is our evaluation script.
-
-<table style="text-align:center">
-    <tr style="font-weight:bold">
-        <td style="text-align: left">Model</td>
-        <td style="text-align: left">Size</td>
-        <td>
-            <div>Code Generation</div>
-            <div class="cell-aux">
-                <div>All Time</div>
-                <div>Pass@1</div>
-            </div>
-        </td>
-        <td>
-            <div>Code Generation</div>
-            <div class="cell-aux">
-                <div>2023/9/1 ~ 2024/4/1</div>
-                <div>Pass@1</div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td colspan=4><center><b>Base Model</b></center></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">CodeLlama-Base</td>
-        <td style="text-align: left">7B</td>
-        <td>6.5</td>
-        <td>7.6</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">StarCoder2</td>
-        <td style="text-align: left">7B</td>
-        <td>11.3</td>
-        <td>12.7</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Base</td>
-        <td style="text-align: left">6.7B</td>
-        <td>19.1</td>
-        <td>13.7</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5</b></td>
-        <td style="text-align: left">7B</td>
-        <td><b>21.8</b></td>
-        <td><b>19.3</b></td>
-    </tr>
-    <tr>
-        <td colspan=4><center><b>Chat Model</b></center></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">CodeLlama-Instruct</td>
-        <td style="text-align: left">7B</td>
-        <td>10.6</td>
-        <td>12.4</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
-        <td style="text-align: left">6.7B</td>
-        <td>21.6</td>
-        <td>19.2</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
-        <td style="text-align: left">7B</td>
-        <td><b>25.0</b></td>
-        <td><b>23.2</b></td>
-    </tr>
-</table>
-
-### MultiPL-E
-
-MultiPL-E is a popular benchmark for evaluating multiple programming languages. 
-You can find our reproduce process [here](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/multipl_e).
-
-<table style="text-align:center">
-    <tr style="font-weight:bold">
-        <td style="text-align: left">Model</td>
-        <td style="text-align: left">Size</td>
-        <td>Python</td>
-        <td>C++</td>
-        <td>Java</td>
-        <td>PHP</td>
-        <td>TS</td>
-        <td>C#</td>
-        <td>Bash</td>
-        <td>JS</td>
-        <td>Avg</td>
-    </tr>
-    <tr>
-        <td colspan=11><b>Base Model</b></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">CodeLlama-Base</td>
-        <td style="text-align: left">7B</td>
-        <td>31.7</td>
-        <td>29.8</td>
-        <td>34.2</td>
-        <td>23.6</td>
-        <td>36.5</td>
-        <td>36.7</td>
-        <td>12.0</td>
-        <td>29.2</td>
-        <td>29.2</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">StarCoder2-Base</td>
-        <td style="text-align: left">7B</td>
-        <td>35.3</td>
-        <td>40.9</td>
-        <td>37.3</td>
-        <td>29.2</td>
-        <td>37.7</td>
-        <td>40.5</td>
-        <td>9.4</td>
-        <td>36.0</td>
-        <td>33.3</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Base</td>
-        <td style="text-align: left">6.7B</td>
-        <td>49.4</td>
-        <td>50.3</td>
-        <td>43.0</td>
-        <td>38.5</td>
-        <td>49.7</td>
-        <td>50.0</td>
-        <td>28.5</td>
-        <td>48.4</td>
-        <td>44.7</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5<b></td>
-        <td style="text-align: left">7B</td>
-        <td>52.4</td>
-        <td>52.2</td>
-        <td>42.4</td>
-        <td>46.6</td>
-        <td>52.2</td>
-        <td>55.7</td>
-        <td>36.7</td>
-        <td>49.7</td>
-        <td>48.5</td>
-    </tr>
-    <tr>
-        <td colspan=11><b>Chat Model</b></td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-3.5-Turbo</td>
-        <td style="text-align: left">-</td>
-        <td>76.2</td>
-        <td>63.4</td>
-        <td>69.2</td>
-        <td>60.9</td>
-        <td>69.1</td>
-        <td>70.8</td>
-        <td>42.4</td>
-        <td>67.1</td>
-        <td>64.9</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-4</td>
-        <td style="text-align: left">-</td>
-        <td>84.1</td>
-        <td>76.4</td>
-        <td>81.6</td>
-        <td>77.2</td>
-        <td>77.4</td>
-        <td>79.1</td>
-        <td>58.2</td>
-        <td>78.0</td>
-        <td>76.5</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
-        <td style="text-align: left">6.7B</td>
-        <td>78.6</td>
-        <td>63.4</td>
-        <td>68.4</td>
-        <td>68.9</td>
-        <td>67.2</td>
-        <td>72.8</td>
-        <td>36.7</td>
-        <td>72.7</td>
-        <td>66.1</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
-        <td style="text-align: left">7B</td>
-        <td>83.2</td>
-        <td>71.2</td>
-        <td>70.1</td>
-        <td>73.5</td>
-        <td>75.4</td>
-        <td>75.9</td>
-        <td>41.1</td>
-        <td>78.2</td>
-        <td>71.1</td>
-    </tr>
-</table>
-
-### Text-to-SQL
-We evaluated CodeQwen1.5-7B-Chat on popular text-to-SQL benchmarks Spider and BIRD. Here you can find the [prompts](https://github.com/QwenLM/CodeQwen1.5/tree/main/evaluation/text_to_sql) we used, sourced from [Chang et al](https://arxiv.org/abs/2305.11853) and [Li et al](https://arxiv.org/abs/2305.03111).
-
-<table style="text-align:center">
-    <tr style="font-weight:bold">
-        <td style="text-align: left">Model</td>
-        <td style="text-align: left">Size</td>
-        <td>
-            <div>Spider</div>
-            <div class="cell-aux">
-                <div>Execution Accuracy</div>
-                <div>Dev Set</div>
-            </div>
-        </td>
-        <td>
-            <div>Bird</div>
-            <div class="cell-aux">
-                <div>Execution Accuracy</div>
-                <div>Dev Set</div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-3.5-Turbo</td>
-        <td style="text-align: left">-</td>
-        <td>70.1</td>
-        <td>37.2</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">GPT-4</td>
-        <td style="text-align: left">-</td>
-        <td>85.3</td>
-        <td>50.7</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">CodeLlama-Instruct</td>
-        <td style="text-align: left">7B</td>
-        <td>59.5</td>
-        <td>22.4</td>
-    </tr>
-    <tr>
-        <td style="text-align: left">DeepSeek-Coder-Instruct</td>
-        <td style="text-align: left">6.7B</td>
-        <td>70.1</td>
-        <td>39.4</td>
-    </tr>
-    <tr>
-        <td style="text-align: left"><b>CodeQwen1.5-Chat</b></td>
-        <td style="text-align: left">7B</td>
-        <td><b>77.9</b></td>
-        <td><b>42.0</b></td>
-    </tr>
-</table>
-
+see blog <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
 
 
 ## Citation
