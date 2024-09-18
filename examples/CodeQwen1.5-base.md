@@ -4,7 +4,7 @@ One of the simple but fundamental ways to try CodeQwen1.5-base is to use the `tr
 
 ## Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
-
+ 
 Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with CodeQwen1.5-base:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
