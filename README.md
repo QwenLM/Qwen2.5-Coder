@@ -388,12 +388,11 @@ see blog first <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog<
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@misc{qwen2.5,
-title = {Qwen2.5: A Party of Foundation Models},
-url = {https://qwenlm.github.io/blog/qwen2.5/},
-author = {Qwen Team},
-month = {September},
-year = {2024}
+@article{qwen25_coder,
+title={Qwen2.5-Coder Technical Report},
+author={Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jiajun Zhang, Bowen Yu, Kai Dang, An Yang, Rui Men, Fei Huang, Xingzhang Ren, Xuancheng Ren, Jingren Zhou and Junyang Lin},
+journal={arXiv preprint arXiv:2409.12186},
+year={2024}
 }
 @article{qwen2,
 title={Qwen2 Technical Report},
