@@ -56,12 +56,20 @@ This update focuses on two main improvements: scaling up the code training data 
 }
 ```
 
-| model name                  | type     | length | Download                                                                                                                                            |
-|-----------------------------|----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Qwen2.5-Coder-1.5B          | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-1.5B)           |
-| Qwen2.5-Coder-7B            | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-7B)  |
-| Qwen2.5-Coder-1.5B-instruct | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-1.5B-Instruct)  |
-| Qwen2.5-Coder-7B-instruct   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/qwen/Qwen2.5-Coder-7B-Instruct)      |
+| model name                          | type     | length | Download                                                                                                                                                                    |
+|-------------------------------------|----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Qwen2.5-Coder-1.5B                  | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B)                                   |
+| Qwen2.5-Coder-7B                    | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B)                                       |
+| Qwen2.5-Coder-1.5B-instruct         | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct)                 |
+| Qwen2.5-Coder-7B-instruct           | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct)                     |
+| Qwen2.5-Coder-1.5B-Instruct-GGUF      | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)           |
+| Qwen2.5-Coder-1.5B-Instruct-AWQ       | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ)             |
+| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) |
+| Qwen2.5-Coder-7B-Instruct-GGUF      | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)           |
+| Qwen2.5-Coder-7B-Instruct-AWQ       | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ)             |
+| Qwen2.5-Coder-7B-Instruct-GPTQ-Int4 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-7B-Instruct-GPTQ-Int8 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) |
 
 
 Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
@@ -388,17 +396,17 @@ see blog first <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog<
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@article{qwen25_coder,
-title={Qwen2.5-Coder Technical Report},
-author={Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jiajun Zhang, Bowen Yu, Kai Dang, An Yang, Rui Men, Fei Huang, Xingzhang Ren, Xuancheng Ren, Jingren Zhou and Junyang Lin},
-journal={arXiv preprint arXiv:2409.12186},
-year={2024}
+@article{hui2024qwen2,
+  title={Qwen2. 5-Coder Technical Report},
+  author={Hui, Binyuan and Yang, Jian and Cui, Zeyu and Yang, Jiaxi and Liu, Dayiheng and Zhang, Lei and Liu, Tianyu and Zhang, Jiajun and Yu, Bowen and Dang, Kai and others},
+  journal={arXiv preprint arXiv:2409.12186},
+  year={2024}
 }
 @article{qwen2,
-title={Qwen2 Technical Report},
-author={An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan},
-journal={arXiv preprint arXiv:2407.10671},
-year={2024}
+    title={Qwen2 Technical Report},
+    author={An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan},
+    journal={arXiv preprint arXiv:2407.10671},
+    year={2024}
 }
 ```
 
