@@ -1,0 +1,4808 @@
+{
+    "raw_generations": {
+        "sample_0": [
+            "[[3, 1], [2, 3], [1, 1]]"
+        ],
+        "sample_1": [
+            "{1: None, 2: None}"
+        ],
+        "sample_2": [
+            "'hbtofdeiequ'"
+        ],
+        "sample_3": [
+            "'bcsruqt'"
+        ],
+        "sample_4": [
+            "'  1 1 1 1 '"
+        ],
+        "sample_5": [
+            "(2, 'DSUWeqExTQdCMGpqur')"
+        ],
+        "sample_6": [
+            "[('11', 52), ('65', 34), ('a', 12), ('4', 52)]"
+        ],
+        "sample_7": [
+            "[]"
+        ],
+        "sample_8": [
+            "'UppEr'"
+        ],
+        "sample_9": [
+            "False"
+        ],
+        "sample_10": [
+            "''"
+        ],
+        "sample_11": [
+            "{'foo': ['bar']}"
+        ],
+        "sample_12": [
+            "'If you want to live a happy life! '"
+        ],
+        "sample_13": [
+            "3"
+        ],
+        "sample_14": [
+            "'POO'"
+        ],
+        "sample_15": [
+            "\"ZN KGD JW LNT\""
+        ],
+        "sample_16": [
+            "'zejroh'"
+        ],
+        "sample_17": [
+            "10"
+        ],
+        "sample_18": [
+            "[5, 4, 3, 3, 2, 1, 0]"
+        ],
+        "sample_19": [
+            "\"\""
+        ],
+        "sample_20": [
+            "'was,'"
+        ],
+        "sample_21": [
+            "[1, 1, 2, 2, 2, 2]"
+        ],
+        "sample_22": [
+            "0"
+        ],
+        "sample_23": [
+            "'new-medium-performing-application XQuery 2.2'"
+        ],
+        "sample_24": [
+            "[45, 3, 61, 39, 27, 47]"
+        ],
+        "sample_25": [
+            "{\"l\": 1, \"t\": 2}"
+        ],
+        "sample_26": [
+            "4"
+        ],
+        "sample_27": [
+            "False"
+        ],
+        "sample_28": [
+            "True"
+        ],
+        "sample_29": [
+            "\"-123314\""
+        ],
+        "sample_30": [
+            "[\"a\", \"b\", \"c\"]"
+        ],
+        "sample_31": [
+            "2"
+        ],
+        "sample_32": [
+            "\"ume;l;o:v\""
+        ],
+        "sample_33": [
+            "\"[{'5': [5, 2, 7, 2, 3, 5]}, {'2': [2, 7, 2, 3, 5]}, {'7': [7, 2, 3, 5]}, {'2': [2, 3, 5]}, {'3': [3, 5]}, {'5': [5]}]\""
+        ],
+        "sample_34": [
+            "[1, 2, 7, 7, 6, 8, 4, 2, 5, 1, 3, 21, 1, 3]"
+        ],
+        "sample_35": [
+            "[1, 3, 4]"
+        ],
+        "sample_36": [
+            "'ha'"
+        ],
+        "sample_37": [
+            "[['123'], ['23'], ['3']]"
+        ],
+        "sample_38": [
+            "'1oE-err bzz-bmm'"
+        ],
+        "sample_39": [
+            "0"
+        ],
+        "sample_40": [
+            "\"the cow goes moo#####\""
+        ],
+        "sample_41": [
+            "[21, 92, 58]"
+        ],
+        "sample_42": [
+            "[8, 6, 4, 2, 4, -2, 8, 4]"
+        ],
+        "sample_43": [
+            "-1"
+        ],
+        "sample_44": [
+            "\"n+*z+*o+*h\""
+        ],
+        "sample_45": [
+            "2"
+        ],
+        "sample_46": [
+            "\"manylettersasvszhelloman\""
+        ],
+        "sample_47": [
+            "True"
+        ],
+        "sample_48": [
+            "\"\""
+        ],
+        "sample_49": [
+            "\"\""
+        ],
+        "sample_50": [
+            "[1, 1, 1]"
+        ],
+        "sample_51": [
+            "20"
+        ],
+        "sample_52": [
+            "\"seiqd27\""
+        ],
+        "sample_53": [
+            "['b', 'c', 'd', 'e', 'f']"
+        ],
+        "sample_54": [
+            "2"
+        ],
+        "sample_55": [
+            "[89, 43, 17, 8, 4]"
+        ],
+        "sample_56": [
+            "True"
+        ],
+        "sample_57": [
+            "0"
+        ],
+        "sample_58": [
+            "[-1, 0, 0, 1, 1, 0, 0, 1, 1]"
+        ],
+        "sample_59": [
+            "\"hi\""
+        ],
+        "sample_60": [
+            "'R'"
+        ],
+        "sample_61": [
+            "\"nada\""
+        ],
+        "sample_62": [
+            "(\"eating\", \"books\", \"piano\", \"excitement\")"
+        ],
+        "sample_63": [
+            "'dbtdabdahesyehu'"
+        ],
+        "sample_64": [
+            "\"7 7\""
+        ],
+        "sample_65": [
+            "17"
+        ],
+        "sample_66": [
+            "'ppy'"
+        ],
+        "sample_67": [
+            "\"6,8,8\""
+        ],
+        "sample_68": [
+            "'unhwpvr.dq'"
+        ],
+        "sample_69": [
+            "'Name unknown'"
+        ],
+        "sample_70": [
+            "20"
+        ],
+        "sample_71": [
+            "{2: 1, 4: 3, 6: 5, 8: 7, 10: 9}"
+        ],
+        "sample_72": [
+            "True"
+        ],
+        "sample_73": [
+            "(4, 3)"
+        ],
+        "sample_74": [
+            "[44, 34, 23, 82, 15, 24, 11, 63, 99]"
+        ],
+        "sample_75": [
+            "1"
+        ],
+        "sample_76": [
+            "[6, 2, 2, 3, 10, 0, 0, 0, 0, 0]"
+        ],
+        "sample_77": [
+            "'u'"
+        ],
+        "sample_78": [
+            "'mtywlmwblrvoqnefo.lsykzorke.ko[{n'"
+        ],
+        "sample_79": [
+            "'1,2,3,4'"
+        ],
+        "sample_80": [
+            "'ab        '"
+        ],
+        "sample_81": [
+            "[(\"Bulls\", \"bulls\"), (\"White Sox\", 45)]"
+        ],
+        "sample_82": [
+            "'CJU'"
+        ],
+        "sample_83": [
+            "'3:2'"
+        ],
+        "sample_84": [
+            "\"nwvy mefy ofme bdryly\""
+        ],
+        "sample_85": [
+            "{3: 6, 4.5: 6}"
+        ],
+        "sample_86": [
+            "'2e'"
+        ],
+        "sample_87": [
+            "\"1-239-1\""
+        ],
+        "sample_88": [
+            "\"hello\""
+        ],
+        "sample_89": [
+            "None"
+        ],
+        "sample_90": [
+            "[[1, 2, 3], [], [1, 2, 3]]"
+        ],
+        "sample_91": [
+            "[\"1\", \"2\", \"a\", \"b\", \"2\", \"3\", \"x\"]"
+        ],
+        "sample_92": [
+            "True"
+        ],
+        "sample_93": [
+            "\"iq!!\""
+        ],
+        "sample_94": [
+            "{'w': 3, 'wi': 10}"
+        ],
+        "sample_95": [
+            "{'fr': 'AAA'}"
+        ],
+        "sample_96": [
+            "True"
+        ],
+        "sample_97": [
+            "True"
+        ],
+        "sample_98": [
+            "3"
+        ],
+        "sample_99": [
+            "'aa___bb'"
+        ],
+        "sample_100": [
+            "{'1': 'a', '1': 'b'}"
+        ],
+        "sample_101": [
+            "[ -4, 4, 1, 0]"
+        ],
+        "sample_102": [
+            "[5, 4, 3, 2, 1, 0]"
+        ],
+        "sample_103": [
+            "'abcdeghij'"
+        ],
+        "sample_104": [
+            "{\"a\": 1}"
+        ],
+        "sample_105": [
+            "\"PermissioN is GRANTed\""
+        ],
+        "sample_106": [
+            "[2, 16, -4, 18, 6, 6, 3, 6]"
+        ],
+        "sample_107": [
+            "\"UA6HJQA\""
+        ],
+        "sample_108": [
+            "0"
+        ],
+        "sample_109": [
+            "[9, 1, 0, 1, 1]"
+        ],
+        "sample_110": [
+            "1"
+        ],
+        "sample_111": [
+            "(83, 4)"
+        ],
+        "sample_112": [
+            "'XYZ LittleRedRidingHood LiTTleBIGGeXEiT fault'"
+        ],
+        "sample_113": [
+            "\"987YHnSsAhShd 93275YRGsGbgSsHfBsFb\""
+        ],
+        "sample_114": [
+            "[\"a\", \"b\"]"
+        ],
+        "sample_115": [
+            "b'os||agx5; '"
+        ],
+        "sample_116": [
+            "{}"
+        ],
+        "sample_117": [
+            "1"
+        ],
+        "sample_118": [
+            "'zbuqiuqnmf'"
+        ],
+        "sample_119": [
+            "\"VsnLygTAW\""
+        ],
+        "sample_120": [
+            "{}"
+        ],
+        "sample_121": [
+            "'1'"
+        ],
+        "sample_122": [
+            "'no'"
+        ],
+        "sample_123": [
+            "[1, 2, 3, 5, 6, 8]"
+        ],
+        "sample_124": [
+            "'i like you'"
+        ],
+        "sample_125": [
+            "\"123ap and the net will appear\""
+        ],
+        "sample_126": [
+            "\"kxxfck\""
+        ],
+        "sample_127": [
+            "4"
+        ],
+        "sample_128": [
+            "'Mammoth'"
+        ],
+        "sample_129": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: text and search_string.\n2. The function is called with the arguments 'ONBPICJOHRHDJOSNCPNJ9ONTHBQCJ' and 'J', so within the function, text is initially 'ONBPICJOHRHDJOSNCPNJ9ONTHBQCJ' and search_string is 'J'.\n3. The function enters a while loop that continues as long as search_string is found in text.\n4. Inside the loop, the function uses the rindex method to find the last occurrence of search_string in text, and appends the index to the indexes list.\n5. The function then updates text by slicing it from the beginning to the index found in step 4, effectively removing the found substring from text.\n6. The while loop continues until search_string is no longer found in text.\n7. The function returns the indexes list.\n8. The return value of the function is therefore [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 1"
+        ],
+        "sample_130": [
+            "\"o=9h=6l=4\""
+        ],
+        "sample_131": [
+            "3"
+        ],
+        "sample_132": [
+            "'abcdabc'"
+        ],
+        "sample_133": [
+            "[2, 6, 0, 7, 1, 9]"
+        ],
+        "sample_134": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument n.\n2. The function is called with the argument 372359, so within the function, n is initially 372359.\n3. The function converts n to a list of its digits, which is [3, 7, 2, 3, 5, 9].\n4. The function then iterates over the digits, counting the number of 0s until it encounters a non-zero digit.\n5. The function then appends a string of the form \"100\" repeated t times, where t is the number of 0s encountered.\n6. The function then appends the original value of n to the end of the string.\n7. The return value of the function is therefore \"100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100"
+        ],
+        "sample_135": [
+            "['Russia', 'Kazakhstan']"
+        ],
+        "sample_136": [
+            "\"a   \\nbc  \\n\\nd   \\nef  \""
+        ],
+        "sample_137": [
+            "[3, 2, 0, 2]"
+        ],
+        "sample_138": [
+            "'tflb omn rtt'"
+        ],
+        "sample_139": [
+            "'no'"
+        ],
+        "sample_140": [
+            "'Hey'"
+        ],
+        "sample_141": [
+            "[1, 2, 1, 3, 1, 1, 1, 1, 1, 1, 1]"
+        ],
+        "sample_142": [
+            "'phpfdkuy'"
+        ],
+        "sample_143": [
+            "True"
+        ],
+        "sample_144": [
+            "[]"
+        ],
+        "sample_145": [
+            "8.50"
+        ],
+        "sample_146": [
+            "[1, 2, 3, 4, 6, 7, 8, 9, 10]"
+        ],
+        "sample_147": [
+            "[1, 1, 1, 1]"
+        ],
+        "sample_148": [
+            "'2imo 12 tfiqr.-'"
+        ],
+        "sample_149": [
+            "\"32332,23543,132323,33300\""
+        ],
+        "sample_150": [
+            "[-2, 4, -4]"
+        ],
+        "sample_151": [
+            "'697 this is the ultimate 0 address to attack'"
+        ],
+        "sample_152": [
+            "20"
+        ],
+        "sample_153": [
+            "True"
+        ],
+        "sample_154": [
+            "'*  There  Hello'"
+        ],
+        "sample_155": [
+            "\"dskjs\\nhjcdj\\nnxhj\\nicnn\""
+        ],
+        "sample_156": [
+            "'tqzym'"
+        ],
+        "sample_157": [
+            "2"
+        ],
+        "sample_158": [
+            "[6, 4, -2, 5]"
+        ],
+        "sample_159": [
+            "'GMiTrT'"
+        ],
+        "sample_160": [
+            "{}"
+        ],
+        "sample_161": [
+            "'rinpxdifkj'"
+        ],
+        "sample_162": [
+            "'\u0421 BISHOP.SWIFT'"
+        ],
+        "sample_163": [
+            "'w)))))'"
+        ],
+        "sample_164": [
+            "[0, 1, 3]"
+        ],
+        "sample_165": [
+            "True"
+        ],
+        "sample_166": [
+            "{}"
+        ],
+        "sample_167": [
+            "'aaQWbbQWccQWde'"
+        ],
+        "sample_168": [
+            "'spain'"
+        ],
+        "sample_169": [
+            "\"    +++taole+++\""
+        ],
+        "sample_170": [
+            "2"
+        ],
+        "sample_171": [
+            "[4, 1, 2, 3]"
+        ],
+        "sample_172": [
+            "[]"
+        ],
+        "sample_173": [
+            "[4, 8, 6, 8, 5]"
+        ],
+        "sample_174": [
+            "[1, 3, 2]"
+        ],
+        "sample_175": [
+            "'\\n\\n'"
+        ],
+        "sample_176": [
+            "'some text'"
+        ],
+        "sample_177": [
+            "'hEy dUdE tHiS $ND^ &*&tHiS@#'"
+        ],
+        "sample_178": [
+            "[2, 2, 2, 2]"
+        ],
+        "sample_179": [
+            "[0, 2, 6, 2, 1, 7]"
+        ],
+        "sample_180": [
+            "[-1, 5, 3, -6, 8, 8]"
+        ],
+        "sample_181": [
+            "[\"329kn12a23\", 6]"
+        ],
+        "sample_182": [
+            "[('a', 2), ('b', 1)]"
+        ],
+        "sample_183": [
+            "[\"echo hello !!!\", \"nice!\"]"
+        ],
+        "sample_184": [
+            "[1,2]"
+        ],
+        "sample_185": [
+            "[11, 9, 12, 7, 14, 16]"
+        ],
+        "sample_186": [
+            "'pvtso'"
+        ],
+        "sample_187": [
+            "39"
+        ],
+        "sample_188": [
+            "[\"a\", \"p\"]"
+        ],
+        "sample_189": [
+            "\"{{{{}}}}\""
+        ],
+        "sample_190": [
+            "'980jio80jic kld094398IIl '"
+        ],
+        "sample_191": [
+            "False"
+        ],
+        "sample_192": [
+            "'klcd!ma:ri'"
+        ],
+        "sample_193": [
+            "'11'"
+        ],
+        "sample_194": [
+            "[[[], 5, 6, 2, 3], [1, 9, 5, 6]]"
+        ],
+        "sample_195": [
+            "'ilfdoirwirmtoibsac'"
+        ],
+        "sample_196": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument \"398 Is A Poor Year To Sow\", so within the function, text is initially \"398 Is A Poor Year To Sow\".\n3. The function then replaces all occurrences of ' x' with ' x.', so text becomes \"398 Is A Poor Year To Sow.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x"
+        ],
+        "sample_197": [
+            "['0 oC', '1 0']"
+        ],
+        "sample_198": [
+            "'mfs'"
+        ],
+        "sample_199": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: str and char.\n2. The function is called with the arguments 'mnmnj krupa...##!@#!@#$$@##' and '@', so within the function, str is initially 'mnmnj krupa...##!@#!@#$$@##' and char is '@'.\n3. The function first calculates the base string by repeating the character char (which is '@') the number of times equal to the length of str plus one. In this case, the length of str is 26, so the base string is '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+        ],
+        "sample_200": [
+            "'housej'"
+        ],
+        "sample_201": [
+            "'42141254ywr'"
+        ],
+        "sample_202": [
+            "[15]"
+        ],
+        "sample_203": [
+            "{}"
+        ],
+        "sample_204": [
+            "[\"m\", \"a\"]"
+        ],
+        "sample_205": [
+            "\"fiu##nk#he###wumun##\""
+        ],
+        "sample_206": [
+            "'h e l l o   w o r l d!'"
+        ],
+        "sample_207": [
+            "{\"brown\": 2, \"blue\": 5, \"bright\": 4}"
+        ],
+        "sample_208": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument items.\n2. The function is called with the argument ['123', 'cat', 'd dee'], so within the function, items is initially ['123', 'cat', 'd dee'].\n3. The function iterates over each item in items.\n4. For the first item '123', the function iterates over each character in '123'.\n5. The function checks if the character is a digit using the not d.isdigit() condition. Since '1' is a digit, the condition is False, and the character '1' is not appended to the result list.\n6. The function continues to the next character '2', which is also a digit, so the condition is False, and the character '2' is not appended to the result list.\n7. The function continues to the next character '3', which is also a digit, so the condition is False, and the character '3' is not appended to the result list.\n8. The function moves on to the next item 'cat'.\n9. The function iterates over each character in 'cat'.\n10. The function checks if the character is a digit using the not d.isdigit() condition. Since 'c' is not a digit, the condition is True, and the character 'c' is appended to the result list.\n11. The function continues to the next character 'a', which is not a digit, so the condition is False, and the character 'a' is not appended to the result list.\n12. The function moves on to the next item 'd dee'.\n13. The function iterates over each character in 'd dee'.\n14. The function checks if the character is a digit using the not d.isdigit() condition. Since 'd' is not a digit, the condition is True, and the character 'd' is appended to the result list.\n15. The function continues to the next character ' ', which is not a digit, so the condition is False, and the character ' ' is not appended to the result list.\n16. The function continues to the next character 'e', which is not a digit, so the condition is False, and the character 'e' is not appended to the result list.\n17. The function moves on to the next item 'd dee'.\n18. The function iterates over each character in 'd dee'.\n19. The function checks if the character is a digit using the not d.isdigit() condition. Since 'd' is not a digit, the condition is True, and the character 'd' is appended to the result list.\n20. The function continues to the next character ' ', which is not a digit, so the condition is False, and the character ' ' is not appended to the result list.\n21. The function continues to the next character 'e', which is not a digit, so the condition is False, and the character 'e' is not appended to the result list.\n22. The function moves on to the next item 'd dee'.\n23. The function iterates over each character in 'd dee'.\n24. The function checks if the character is a digit using the not d.isdigit() condition. Since 'd' is not a digit, the condition is True, and the character 'd' is appended to the result list.\n25. The function continues to the next character ' ', which is not a digit, so the condition is False, and the character ' ' is not appended to the result list.\n26. The function continues to the next character 'e', which is not a digit, so the condition is False, and the character 'e' is not appended to the result list.\n27. The function moves on to the next item 'd dee'.\n28. The function iterates over each character in 'd dee'.\n29. The function checks if the character is a digit using the not d.isdigit() condition. Since 'd' is not a digit, the condition is True, and the character 'd' is appended to the result list.\n30. The function continues to the next character ' ', which is not a digit, so the condition is False, and the character ' ' is not appended to the result list.\n31. The function continues to the next character 'e', which is not a digit, so the condition is False, and the character 'e' is not appended to the result list.\n32. The function moves on to the next item 'd dee'.\n33. The function iterates over each character in 'd dee'.\n34. The function checks if the character is a digit using the not d.isdigit() condition. Since 'd' is not a digit, the condition is True, and the character 'd' is appended to the result list"
+        ],
+        "sample_209": [
+            "'ifulhxhzpnyihyf'"
+        ],
+        "sample_210": [
+            "48"
+        ],
+        "sample_211": [
+            "2"
+        ],
+        "sample_212": [
+            "[-3, 6, 2, 7, -9, 1, 3]"
+        ],
+        "sample_213": [
+            "\"[ac]\""
+        ],
+        "sample_214": [
+            "13"
+        ],
+        "sample_215": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument ')', so within the function, text is initially ')'.\n3. Inside the function, a new variable new_text is initialized with the value of text.\n4. A while loop is executed, which continues as long as the length of text is greater than 1 and the first and last characters of text are equal.\n5. Inside the loop, text is updated to be the substring of text starting from the second character and ending at the second-to-last character.\n6. The loop continues until the length of text is no longer greater than 1 or the first and last characters of text are no longer equal.\n7. The function returns the value of new_text.\n8. The return value of the function is therefore ''."
+        ],
+        "sample_216": [
+            "2"
+        ],
+        "sample_217": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument string.\n2. The function is called with the argument 'Str zahrnuje anglo-ameri\u00e6ske vasi piscina and kuca!', so within the function, string is initially 'Str zahrnuje anglo-ameri\u00e6ske vasi piscina and kuca!'.\n3. The function checks if the string is alphanumeric using the isalnum() method. Since the string contains non-alphanumeric characters (e.g., 'z', 'a', 'r', 'n', 'u', 'j', 'e', ' ', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!', '!',"
+        ],
+        "sample_218": [
+            "'baabba'"
+        ],
+        "sample_219": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments s1 and s2.\n2. The function is called with the arguments \"Hello\" and \")\", so within the function, s1 is initially \"Hello\" and s2 is initially \")\".\n3. The function iterates over the range of 0 to the length of s2 plus the length of s1.\n4. In each iteration, s1 is concatenated with the first character of s1, so s1 becomes \"HelloHello\".\n5. The function then checks if s1 contains s2 using the find method. Since s1 does not contain s2, the find method returns -1.\n6. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHello\".\n7. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n8. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHello\".\n9. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n10. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHello\".\n11. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n12. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHello\".\n13. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n14. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHello\".\n15. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n16. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHello\".\n17. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n18. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHello\".\n19. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n20. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHelloHello\".\n21. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n22. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello\".\n23. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n24. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello\".\n25. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n26. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello\".\n27. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n28. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again, so s1 becomes \"HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello\".\n29. The function then checks if s1 contains s2 again. Since s1 still does not contain s2, the find method returns -1.\n30. The function continues to the next iteration, and s1 is concatenated with the first character of s1 again,"
+        ],
+        "sample_220": [
+            "\"cdefgabc\""
+        ],
+        "sample_221": [
+            "'bpxa24fc5'"
+        ],
+        "sample_222": [
+            "'0b'"
+        ],
+        "sample_223": [
+            "2"
+        ],
+        "sample_224": [
+            "{}"
+        ],
+        "sample_225": [
+            "False"
+        ],
+        "sample_226": [
+            "[1, 3, 3]"
+        ],
+        "sample_227": [
+            "'Manolo'"
+        ],
+        "sample_228": [
+            "'llthh#saflapkphsptwp'"
+        ],
+        "sample_229": [
+            "['mA', '10K', '9m', 'Lk']"
+        ],
+        "sample_230": [
+            "'ozx0201'"
+        ],
+        "sample_231": [
+            "1"
+        ],
+        "sample_232": [
+            "'yesssnvd'"
+        ],
+        "sample_233": [
+            "[3, 1, 2]"
+        ],
+        "sample_234": [
+            "0"
+        ],
+        "sample_235": [
+            "[]"
+        ],
+        "sample_236": [
+            "'ac8qk69wg'"
+        ],
+        "sample_237": [
+            "'zlaqiajuzlwaqiaj'"
+        ],
+        "sample_238": [
+            "[1, 9, 4]"
+        ],
+        "sample_239": [
+            "'t 1cos '"
+        ],
+        "sample_240": [
+            "\"3.12100\""
+        ],
+        "sample_241": [
+            "'20 CW'"
+        ],
+        "sample_242": [
+            "\"udhv zcvi nhtnfyd :erwuyawa pun\""
+        ],
+        "sample_243": [
+            "False"
+        ],
+        "sample_244": [
+            "'BC1tyBC1tyBC1tyBC1tyBC1tyBC1ty'"
+        ],
+        "sample_245": [
+            "['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'all_uppercased']"
+        ],
+        "sample_246": [
+            "0"
+        ],
+        "sample_247": [
+            "\"yes\""
+        ],
+        "sample_248": [
+            "[666, 666]"
+        ],
+        "sample_249": [
+            "{'f': 1, 's': 1, 'a': 1}"
+        ],
+        "sample_250": [
+            "'wlace Awlace A wlace A wlace A wlace A wlace A wlace A'"
+        ],
+        "sample_251": [
+            "\". Marie+Nelson+Oscar+353\""
+        ],
+        "sample_252": [
+            "\"\""
+        ],
+        "sample_253": [
+            "'umwwfv'"
+        ],
+        "sample_254": [
+            "'lower case'"
+        ],
+        "sample_255": [
+            "'noj'"
+        ],
+        "sample_256": [
+            "10"
+        ],
+        "sample_257": [
+            "[['Hello World'], ['I am String']]"
+        ],
+        "sample_258": [
+            "thigh_o_one"
+        ],
+        "sample_259": [
+            "'S-tring-matching-is-a-big-part-of-RexEx-library.'"
+        ],
+        "sample_260": [
+            "[1, 2, 3, 5, 4, 6]"
+        ],
+        "sample_261": [
+            "([], [12, 5, 2, 3, 214, 51])"
+        ],
+        "sample_262": [
+            "\"BC\""
+        ],
+        "sample_263": [
+            "[\"gloss\", \"banana\", \"barn\", \"lawn\"]"
+        ],
+        "sample_264": [
+            "\"pAPAra\""
+        ],
+        "sample_265": [
+            "{1: 2, 2: 4}"
+        ],
+        "sample_266": [
+            "[2, 3, 4, 6, -2, 3]"
+        ],
+        "sample_267": [
+            "'sowpf'"
+        ],
+        "sample_268": [
+            "'h/g/r/a/t/u/f/l/i/k'"
+        ],
+        "sample_269": [
+            "['0', '000', '000']"
+        ],
+        "sample_270": [
+            "{}"
+        ],
+        "sample_271": [
+            "'uufh'"
+        ],
+        "sample_272": [
+            "[9, 7, 5, 3, 1, 9, 7, 5, 3, 1]"
+        ],
+        "sample_273": [
+            "\"TEN\""
+        ],
+        "sample_274": [
+            "2"
+        ],
+        "sample_275": [
+            "{ \"a\": -1, \"b\": 0, \"c\": 1 }"
+        ],
+        "sample_276": [
+            "[0]"
+        ],
+        "sample_277": [
+            "[4, 3, 2, 1]"
+        ],
+        "sample_278": [
+            "{0: [991, 997], 132: [991, 997]}"
+        ],
+        "sample_279": [
+            "\"\""
+        ],
+        "sample_280": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument '00000000 00000000 01101100 01100101 01101110', so within the function, text is initially '00000000 00000000 01101100 01100101 01101110'.\n3. The function then updates the global variable field by replacing all spaces with an empty string.\n4. The function updates the global variable g by replacing all zeros with spaces.\n5. The function replaces all ones with 'i'.\n6. The function returns the modified text.\n7. The return value of the function is therefore '000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "sample_281": [
+            "{1: 2, 3: 4, 5: 6}"
+        ],
+        "sample_282": [
+            "3"
+        ],
+        "sample_283": [
+            "'Iron Man'"
+        ],
+        "sample_284": [
+            "'estest'"
+        ],
+        "sample_285": [
+            "1"
+        ],
+        "sample_286": [
+            "[1,2,3,11,5,6,7,8,9,10]"
+        ],
+        "sample_287": [
+            "'pinneaple'"
+        ],
+        "sample_288": [
+            "{1: 3, 4: 555, 55: 4, 71: 7, 99: 21, 12: 6, 499: 4}"
+        ],
+        "sample_289": [
+            "'148: 148'"
+        ],
+        "sample_290": [
+            "'bixaaaily'"
+        ],
+        "sample_291": [
+            "{}"
+        ],
+        "sample_292": [
+            "'*f*8**3*u*2*3*s*a*a'"
+        ],
+        "sample_293": [
+            "'no'"
+        ],
+        "sample_294": [
+            "\"2$z&5H3*1a@#a*1hris\""
+        ],
+        "sample_295": [
+            "['apple', 'pear', 'banana']"
+        ],
+        "sample_296": [
+            "\"www.ekapusta.com/image/url\""
+        ],
+        "sample_297": [
+            "'Half Life'"
+        ],
+        "sample_298": [
+            "'DST VAVF N DVM DFM GAMCU DGCVB.'"
+        ],
+        "sample_299": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments text and char.\n2. The function is called with the arguments 'staovk' and 'k', so within the function, text is initially 'staovk' and char is 'k'.\n3. The function checks if the text does not end with the char. Since 'staovk' does not end with 'k', the function calls itself with the new arguments 'kstaovk' and 'k'.\n4. The function is called again with the arguments 'kstaovk' and 'k', so within the function, text is now 'kstaovk' and char is still 'k'.\n5. The function checks if the text does not end with the char. Since 'kstaovk' does not end with 'k', the function calls itself with the new arguments 'kkstaovk' and 'k'.\n6. The function is called again with the arguments 'kkstaovk' and 'k', so within the function, text is now 'kkstaovk' and char is still 'k'.\n7. The function checks if the text does not end with the char. Since 'kkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkstaovk' and 'k'.\n8. The function is called again with the arguments 'kkkstaovk' and 'k', so within the function, text is now 'kkkstaovk' and char is still 'k'.\n9. The function checks if the text does not end with the char. Since 'kkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkstaovk' and 'k'.\n10. The function is called again with the arguments 'kkkkstaovk' and 'k', so within the function, text is now 'kkkkstaovk' and char is still 'k'.\n11. The function checks if the text does not end with the char. Since 'kkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkstaovk' and 'k'.\n12. The function is called again with the arguments 'kkkkkstaovk' and 'k', so within the function, text is now 'kkkkkstaovk' and char is still 'k'.\n13. The function checks if the text does not end with the char. Since 'kkkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkkstaovk' and 'k'.\n14. The function is called again with the arguments 'kkkkkkstaovk' and 'k', so within the function, text is now 'kkkkkkstaovk' and char is still 'k'.\n15. The function checks if the text does not end with the char. Since 'kkkkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkkkstaovk' and 'k'.\n16. The function is called again with the arguments 'kkkkkkkstaovk' and 'k', so within the function, text is now 'kkkkkkkstaovk' and char is still 'k'.\n17. The function checks if the text does not end with the char. Since 'kkkkkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkkkkstaovk' and 'k'.\n18. The function is called again with the arguments 'kkkkkkkkstaovk' and 'k', so within the function, text is now 'kkkkkkkkstaovk' and char is still 'k'.\n19. The function checks if the text does not end with the char. Since 'kkkkkkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkkkkkstaovk' and 'k'.\n20. The function is called again with the arguments 'kkkkkkkkkstaovk' and 'k', so within the function, text is now 'kkkkkkkkkstaovk' and char is still 'k'.\n21. The function checks if the text does not end with the char. Since 'kkkkkkkkkstaovk' does not end with 'k', the function calls itself with the new arguments 'kkkkkkkkkkstaovk' and 'k'.\n22. The function is called again with the arguments 'kkkkkkkkkkstaovk' and 'k', so within the function, text is now 'kkkkkkkkkkstaovk' and"
+        ],
+        "sample_300": [
+            "[1, 2, 3]"
+        ],
+        "sample_301": [
+            "[0, 6, 2, -1, -2, 0, 6, 2, -1, -2]"
+        ],
+        "sample_302": [
+            "'wdeejjjzsjsjjsxjjneddaddddddefsfdhaystacks'"
+        ],
+        "sample_303": [
+            "'mJkLb'"
+        ],
+        "sample_304": [
+            "{17: 3, 16: 6}"
+        ],
+        "sample_305": [
+            "'o hseto'"
+        ],
+        "sample_306": [
+            "[0, 6, 1, 2, 0]"
+        ],
+        "sample_307": [
+            "\"p|x|c|z|n|y|f|\""
+        ],
+        "sample_308": [
+            "{\"La\": 3, \"Q\": 1, \"9\": 1}"
+        ],
+        "sample_309": [
+            "'faqo osax'"
+        ],
+        "sample_310": [
+            "'10r0a_j66'"
+        ],
+        "sample_311": [
+            "'no'"
+        ],
+        "sample_312": [
+            "\"True\""
+        ],
+        "sample_313": [
+            "'urecord'"
+        ],
+        "sample_314": [
+            "'105 244, -90'"
+        ],
+        "sample_315": [
+            "'czyw,z'"
+        ],
+        "sample_316": [
+            "\"| i am your father |\""
+        ],
+        "sample_317": [
+            "' vup a zwwo oihee amuwuuw! '"
+        ],
+        "sample_318": [
+            "3"
+        ],
+        "sample_319": [
+            "1"
+        ],
+        "sample_320": [
+            "'USaR'"
+        ],
+        "sample_321": [
+            "{'desciduous': 2}"
+        ],
+        "sample_322": [
+            "['s', 't', 't']"
+        ],
+        "sample_323": [
+            "1"
+        ],
+        "sample_324": [
+            "[1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 3]"
+        ],
+        "sample_325": [
+            "True"
+        ],
+        "sample_326": [
+            "3"
+        ],
+        "sample_327": [
+            "[-1, 7, 1, -3]"
+        ],
+        "sample_328": [
+            "[1, 2, 3]"
+        ],
+        "sample_329": [
+            "True"
+        ],
+        "sample_330": [
+            "'m n 2o'"
+        ],
+        "sample_331": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: strand and zmnc.\n2. The function is called with the arguments '', 'abc', so within the function, strand is initially an empty string and zmnc is 'abc'.\n3. The function then calls the find method on strand, which searches for the first occurrence of zmnc in strand. Since strand is an empty string, find returns -1.\n4. The while loop is entered because poz is not equal to -1.\n5. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n6. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n7. The while loop is entered again because poz is not equal to -1.\n8. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n9. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n10. The while loop is entered again because poz is not equal to -1.\n11. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n12. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n13. The while loop is entered again because poz is not equal to -1.\n14. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n15. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n16. The while loop is entered again because poz is not equal to -1.\n17. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n18. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n19. The while loop is entered again because poz is not equal to -1.\n20. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n21. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n22. The while loop is entered again because poz is not equal to -1.\n23. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n24. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n25. The while loop is entered again because poz is not equal to -1.\n26. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n27. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n28. The while loop is entered again because poz is not equal to -1.\n29. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n30. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n31. The while loop is entered again because poz is not equal to -1.\n32. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n33. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present in 'abc', find returns -1.\n34. The while loop is entered again because poz is not equal to -1.\n35. The function then updates strand by slicing it from the index after the found occurrence of zmnc, so strand becomes 'abc'.\n36. The function then calls find again on strand, which searches for the first occurrence of zmnc in 'abc'. Since zmnc is not present"
+        ],
+        "sample_332": [
+            "[-3, 0, 1]"
+        ],
+        "sample_333": [
+            "2"
+        ],
+        "sample_334": [
+            "'00nU 9 rCSAzw lpA5BO sizL i7rlVr'"
+        ],
+        "sample_335": [
+            "'sjbr?fqmw'"
+        ],
+        "sample_336": [
+            "\"234dsfssdfs333324314\""
+        ],
+        "sample_337": [
+            "\"5LL6\""
+        ],
+        "sample_338": [
+            "{1: 'a', 2: 'b', 3: 'c'}"
+        ],
+        "sample_339": [
+            "2"
+        ],
+        "sample_340": [
+            "'E jIkx HtDpV'"
+        ],
+        "sample_341": [
+            "{}"
+        ],
+        "sample_342": [
+            "True"
+        ],
+        "sample_343": [
+            "[[1, 2, 3], [1, 2], 1, [1, 2, 3], 3, [2, 1]]"
+        ],
+        "sample_344": [
+            "[15, 8, 6, 4, 2]"
+        ],
+        "sample_345": [
+            "('mv', 'ml')"
+        ],
+        "sample_346": [
+            "True"
+        ],
+        "sample_347": [
+            "\"hwchczwcw  hwchczwcw\""
+        ],
+        "sample_348": [
+            "{563: 555, 133: None}"
+        ],
+        "sample_349": [
+            "{'noeohqhk': 623, 1049: 55}"
+        ],
+        "sample_350": [
+            "[1, 2, 3]"
+        ],
+        "sample_351": [
+            "'a_A_b_B3 '"
+        ],
+        "sample_352": [
+            "-5"
+        ],
+        "sample_353": [
+            "3"
+        ],
+        "sample_354": [
+            "\"R, R!!!\""
+        ],
+        "sample_355": [
+            "'123x John '"
+        ],
+        "sample_356": [
+            "[2, 1, 2, 1]"
+        ],
+        "sample_357": [
+            "\"reuc\""
+        ],
+        "sample_358": [
+            "'burger'"
+        ],
+        "sample_359": [
+            "['dZwbSR', 'wijHeq', 'qluVok', 'dxjxbF']"
+        ],
+        "sample_360": [
+            "'g'"
+        ],
+        "sample_361": [
+            "1"
+        ],
+        "sample_362": [
+            "'z'"
+        ],
+        "sample_363": [
+            "[1, 1]"
+        ],
+        "sample_364": [
+            "[[3, True], [1, True]]"
+        ],
+        "sample_365": [
+            "'mRcwVqXsRDRb'"
+        ],
+        "sample_366": [
+            "'[ hello ]+ hello, world!!_ hi'"
+        ],
+        "sample_367": [
+            "[6, 2, 1, 4]"
+        ],
+        "sample_368": [
+            "'004327 0008 0009 0002 0007 0001'"
+        ],
+        "sample_369": [
+            "\"tuple\""
+        ],
+        "sample_370": [
+            "False"
+        ],
+        "sample_371": [
+            "21"
+        ],
+        "sample_372": [
+            "['v,']"
+        ],
+        "sample_373": [
+            "[1, 2, 100]"
+        ],
+        "sample_374": [
+            "[ 'zzzz', 'zzzz' ]"
+        ],
+        "sample_375": [
+            "'sierizamiz'"
+        ],
+        "sample_376": [
+            "\"two programmers\""
+        ],
+        "sample_377": [
+            "\"BYE, NO, WAY\""
+        ],
+        "sample_378": [
+            "0"
+        ],
+        "sample_379": [
+            "False"
+        ],
+        "sample_380": [
+            "'xxjarczx'"
+        ],
+        "sample_381": [
+            "'0019'"
+        ],
+        "sample_382": [
+            "\"12:Rwrepny 15:Qltuf\""
+        ],
+        "sample_383": [
+            "'ellod!p.nkyp.exa.bi.y.hain'"
+        ],
+        "sample_384": [
+            "'asfdelo'"
+        ],
+        "sample_385": [
+            "[0, 2, 1]"
+        ],
+        "sample_386": [
+            "\"Done!\""
+        ],
+        "sample_387": [
+            "[3, 1, 0, 2]"
+        ],
+        "sample_388": [
+            "\"28in\""
+        ],
+        "sample_389": [
+            "[1, 2, 3, 'n', 'a', 'm', 'm', 'o']"
+        ],
+        "sample_390": [
+            "0"
+        ],
+        "sample_391": [
+            "['9', 'r', '+', '+']"
+        ],
+        "sample_392": [
+            "'ALL UPPERCASE'"
+        ],
+        "sample_393": [
+            "\"---c---l---a---s\""
+        ],
+        "sample_394": [
+            "1"
+        ],
+        "sample_395": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument s.\n2. The function is called with the argument \"11\", so within the function, s is initially \"11\".\n3. The function iterates over each character in s using a for loop.\n4. The first character is '1', which is not a decimal digit, so the function continues to the next character.\n5. The second character is '1', which is also not a decimal digit, so the function continues to the next character.\n6. The third character is '1', which is not a decimal digit, so the function continues to the next character.\n7. The fourth character is '1', which is not a decimal digit, so the function continues to the next character.\n8. The fifth character is '1', which is not a decimal digit, so the function continues to the next character.\n9. The sixth character is '1', which is not a decimal digit, so the function continues to the next character.\n10. The seventh character is '1', which is not a decimal digit, so the function continues to the next character.\n11. The eighth character is '1', which is not a decimal digit, so the function continues to the next character.\n12. The ninth character is '1', which is not a decimal digit, so the function continues to the next character.\n13. The tenth character is '1', which is not a decimal digit, so the function continues to the next character.\n14. The eleventh character is '1', which is not a decimal digit, so the function continues to the next character.\n15. The twelfth character is '1', which is not a decimal digit, so the function continues to the next character.\n16. The thirteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n17. The fourteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n18. The fifteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n19. The sixteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n20. The seventeenth character is '1', which is not a decimal digit, so the function continues to the next character.\n21. The eighteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n22. The nineteenth character is '1', which is not a decimal digit, so the function continues to the next character.\n23. The twentieth character is '1', which is not a decimal digit, so the function continues to the next character.\n24. The twenty-first character is '1', which is not a decimal digit, so the function continues to the next character.\n25. The twenty-second character is '1', which is not a decimal digit, so the function continues to the next character.\n26. The twenty-third character is '1', which is not a decimal digit, so the function continues to the next character.\n27. The twenty-fourth character is '1', which is not a decimal digit, so the function continues to the next character.\n28. The twenty-fifth character is '1', which is not a decimal digit, so the function continues to the next character.\n29. The twenty-sixth character is '1', which is not a decimal digit, so the function continues to the next character.\n30. The twenty-seventh character is '1', which is not a decimal digit, so the function continues to the next character.\n31. The twenty-eighth character is '1', which is not a decimal digit, so the function continues to the next character.\n32. The twenty-ninth character is '1', which is not a decimal digit, so the function continues to the next character.\n33. The thirtieth character is '1', which is not a decimal digit, so the function continues to the next character.\n34. The thirtieth-first character is '1', which is not a decimal digit, so the function continues to the next character.\n35. The thirtieth-second character is '1', which is not a decimal digit, so the function continues to the next character.\n36. The thirtieth-third character is '1', which is not a decimal digit, so the function continues to the next character.\n37. The thirtieth-fourth character is '1', which is not a decimal digit, so the function continues to the next character.\n38. The thirtieth-fifth character is '1', which is not a decimal digit, so the function continues to the next character.\n39. The th"
+        ],
+        "sample_396": [
+            "{}"
+        ],
+        "sample_397": [
+            "{'x': 0, 'u': 0, 'w': 0, 'j': 0, 3: 0, 6: 0}"
+        ],
+        "sample_398": [
+            "{'2': ['2'], '0': ['0'], '1': ['1', '1']}"
+        ],
+        "sample_399": [
+            "'avacado'"
+        ],
+        "sample_400": [
+            "'I, am, hungry, eat, food'"
+        ],
+        "sample_401": [
+            "'mathematics'"
+        ],
+        "sample_402": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments n and l.\n2. The function is called with the arguments 0 and ['aaa', 'bbb'], so within the function, n is initially 0 and l is initially ['aaa', 'bbb'].\n3. Inside the function, an empty dictionary archive is created.\n4. The clear() method is called on archive, which removes all key-value pairs from the dictionary.\n5. The update() method is called on archive, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 0) and 10, and the value is the product of the current value of x (which is 0) and 10. Since x is 0, the key-value pair added is 10: 0.\n6. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n7. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 1) and 10, and the value is the product of the current value of x (which is 1) and 10. Since x is 1, the key-value pair added is 11: 10.\n8. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n9. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 2) and 10, and the value is the product of the current value of x (which is 2) and 10. Since x is 2, the key-value pair added is 12: 20.\n10. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n11. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 3) and 10, and the value is the product of the current value of x (which is 3) and 10. Since x is 3, the key-value pair added is 13: 30.\n12. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n13. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 4) and 10, and the value is the product of the current value of x (which is 4) and 10. Since x is 4, the key-value pair added is 14: 40.\n14. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n15. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 5) and 10, and the value is the product of the current value of x (which is 5) and 10. Since x is 5, the key-value pair added is 15: 50.\n16. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n17. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 6) and 10, and the value is the product of the current value of x (which is 6) and 10. Since x is 6, the key-value pair added is 16: 60.\n18. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n19. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 7) and 10, and the value is the product of the current value of x (which is 7) and 10. Since x is 7, the key-value pair added is 17: 70.\n20. The clear() method is called on archive again, which removes all key-value pairs from the dictionary.\n21. The update() method is called on archive again, which adds key-value pairs to the dictionary. The key is the sum of the current value of x (which is 8) and 10, and the value is the product of the current"
+        ],
+        "sample_403": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments full and part.\n2. The function is called with the arguments 'hrsiajiajieihruejfhbrisvlmmy' and 'hr', so within the function, full is initially 'hrsiajiajieihruejfhbrisvlmmy' and part is 'hr'.\n3. The function then calculates the length of part, which is 2.\n4. The function then finds the index of part in full, which is 10.\n5. The function then enters a while loop, which continues as long as the index is greater than or equal to 0.\n6. Inside the while loop, the function updates full to be the substring of full starting from the index after the length of part, so full becomes 'siajiajieihruejfhbrisvlmmy'.\n7. The function then updates index to be the index of part in the updated full, which is 10.\n8. The function then increments count by 1.\n9. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'iajieihruejfhbrisvlmmy'.\n10. The function then updates index to be the index of part in the updated full, which is 10.\n11. The function then increments count by 1.\n12. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'ieihruejfhbrisvlmmy'.\n13. The function then updates index to be the index of part in the updated full, which is 10.\n14. The function then increments count by 1.\n15. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'hruejfhbrisvlmmy'.\n16. The function then updates index to be the index of part in the updated full, which is 10.\n17. The function then increments count by 1.\n18. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'uejfhbrisvlmmy'.\n19. The function then updates index to be the index of part in the updated full, which is 10.\n20. The function then increments count by 1.\n21. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'ejfhbrisvlmmy'.\n22. The function then updates index to be the index of part in the updated full, which is 10.\n23. The function then increments count by 1.\n24. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'jfhbrisvlmmy'.\n25. The function then updates index to be the index of part in the updated full, which is 10.\n26. The function then increments count by 1.\n27. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'fhbrisvlmmy'.\n28. The function then updates index to be the index of part in the updated full, which is 10.\n29. The function then increments count by 1.\n30. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'hbrisvlmmy'.\n31. The function then updates index to be the index of part in the updated full, which is 10.\n32. The function then increments count by 1.\n33. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'brisvlmmy'.\n34. The function then updates index to be the index of part in the updated full, which is 10.\n35. The function then increments count by 1.\n36. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'risvlmmy'.\n37. The function then updates index to be the index of part in the updated full, which is 10.\n38. The function then increments count by 1.\n39. The function then updates full to be the substring of full starting from the index after the length of part, so full becomes 'isvlmmy'.\n40. The function then updates index to be the index of part in the updated full, which is 10.\n41. The function then increments count by 1.\n42. The"
+        ],
+        "sample_404": [
+            "6"
+        ],
+        "sample_405": [
+            "[2, 3, 5, 3]"
+        ],
+        "sample_406": [
+            "True"
+        ],
+        "sample_407": [
+            "4"
+        ],
+        "sample_408": [
+            "[2, -1, 4, -7, 0, 6, -4]"
+        ],
+        "sample_409": [
+            "'qerist'"
+        ],
+        "sample_410": [
+            "[1, 1, 3, -1, -2, 6, 1]"
+        ],
+        "sample_411": [
+            "True"
+        ],
+        "sample_412": [
+            "8"
+        ],
+        "sample_413": [
+            "\"cwcbuwc\""
+        ],
+        "sample_414": [
+            "{'X': ['X', 'Y']}"
+        ],
+        "sample_415": [
+            "{8: 5, 8: 2, 5: 3}"
+        ],
+        "sample_416": [
+            "'1ysrhfm ojwesf xgwwdyr dlrul ymba bpq'"
+        ],
+        "sample_417": [
+            "[8, 2]"
+        ],
+        "sample_418": [
+            "\"q#qqq#q\""
+        ],
+        "sample_419": [
+            "''"
+        ],
+        "sample_420": [
+            "True"
+        ],
+        "sample_421": [
+            "\"try.\""
+        ],
+        "sample_422": [
+            "[1, 4, 1]"
+        ],
+        "sample_423": [
+            "[4, 2, 5, 1, 3, 2]"
+        ],
+        "sample_424": [
+            "\"Makers of a Statement\""
+        ],
+        "sample_425": [
+            "['CL44', ':', '     ']"
+        ],
+        "sample_426": [
+            "[1, 2, 3, 8]"
+        ],
+        "sample_427": [
+            "'a a s a a s a a d s b a a'"
+        ],
+        "sample_428": [
+            "[0, 1]"
+        ],
+        "sample_429": [
+            "[('abc', 2), ('defghi', 2), (5, 1), (87.29, 3)]"
+        ],
+        "sample_430": [
+            "[5, 1, 3, 7, 8, '', 0, -1, []]"
+        ],
+        "sample_431": [
+            "[]"
+        ],
+        "sample_432": [
+            "False"
+        ],
+        "sample_433": [
+            "\"T,Sspp,G ,.tB,Vxk\""
+        ],
+        "sample_434": [
+            "10"
+        ],
+        "sample_435": [
+            "\"1\""
+        ],
+        "sample_436": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: s and characters.\n2. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n3. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n4. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n5. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n6. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n7. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n8. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n9. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n10. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n11. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n12. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n13. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n14. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n15. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n16. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n17. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n18. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n19. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n20. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n21. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n22. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n23. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n24. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n25. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n26. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n27. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n28. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1, 2].\n29. The function is called with the arguments 's7 6s 1ss' and [1, 3, 6, 1,"
+        ],
+        "sample_437": [
+            "{'john': None, 'doe': None, 'the': None}"
+        ],
+        "sample_438": [
+            "'1    3'"
+        ],
+        "sample_439": [
+            "'coscifysu'"
+        ],
+        "sample_440": [
+            "'no'"
+        ],
+        "sample_441": [
+            "{37: 'forty-five', '23': 'what?'}"
+        ],
+        "sample_442": [
+            "[1, 3]"
+        ],
+        "sample_443": [
+            "\"loremipsum\""
+        ],
+        "sample_444": [
+            "[-5, 3, -2, -3, -1, 3, 5, 3, -2, -3, -1, 3, 5]"
+        ],
+        "sample_445": [
+            "\"Carrot and Banana and Strawberry\""
+        ],
+        "sample_446": [
+            "[]"
+        ],
+        "sample_447": [
+            "\"  a\""
+        ],
+        "sample_448": [
+            "False"
+        ],
+        "sample_449": [
+            "True"
+        ],
+        "sample_450": [
+            "'KzB zBK'"
+        ],
+        "sample_451": [
+            "'n'"
+        ],
+        "sample_452": [
+            "3"
+        ],
+        "sample_453": [
+            "False"
+        ],
+        "sample_454": [
+            "{}"
+        ],
+        "sample_455": [
+            "\"?XyZ\""
+        ],
+        "sample_456": [
+            "\"Join us in Hungary\""
+        ],
+        "sample_457": [
+            "[]"
+        ],
+        "sample_458": [
+            "'m,34m,Im'"
+        ],
+        "sample_459": [
+            "{'vzjmc': 'b', 'f': 'vzjmc', 'ae': 'f', '0': 'ae'}"
+        ],
+        "sample_460": [
+            "'GENERAL NAGOOR'"
+        ],
+        "sample_461": [
+            "True"
+        ],
+        "sample_462": [
+            "'oooooo'"
+        ],
+        "sample_463": [
+            "{-1: -1, 3: 6, -4: -4}"
+        ],
+        "sample_464": [
+            "-150"
+        ],
+        "sample_465": [
+            "{'wise king': 'north', 'young king': 'north'}"
+        ],
+        "sample_466": [
+            "'-----'"
+        ],
+        "sample_467": [
+            "{}"
+        ],
+        "sample_468": [
+            "'unrndqafi'"
+        ],
+        "sample_469": [
+            "'sduya'"
+        ],
+        "sample_470": [
+            "['A', 'C', 'E']"
+        ],
+        "sample_471": [
+            "2"
+        ],
+        "sample_472": [
+            "[5, 3, 2, 1]"
+        ],
+        "sample_473": [
+            "'scedvtvotkwqfn'"
+        ],
+        "sample_474": [
+            "'#[)[]>[^e>\\n 8'"
+        ],
+        "sample_475": [
+            "1"
+        ],
+        "sample_476": [
+            "True"
+        ],
+        "sample_477": [
+            "('xduaisf', 'xduaisf')"
+        ],
+        "sample_478": [
+            "{'m': 2, 'e': 2, 'o': 2, 'w': 2}"
+        ],
+        "sample_479": [
+            "[1, 5, 3]"
+        ],
+        "sample_480": [
+            "'siast'"
+        ],
+        "sample_481": [
+            "[1, 1, 1]"
+        ],
+        "sample_482": [
+            "'Because it intrigues them'"
+        ],
+        "sample_483": [
+            "'a'"
+        ],
+        "sample_484": [
+            "['182', '32', '6r', '5r', 'rege', '', 'f', '1f1q', '-2']"
+        ],
+        "sample_485": [
+            "'avdropj    gsd'"
+        ],
+        "sample_486": [
+            "{1:1, 2:4, 3:9}"
+        ],
+        "sample_487": [
+            "[4]"
+        ],
+        "sample_488": [
+            "'tezmgvn 651h'"
+        ],
+        "sample_489": [
+            "'scifysu'"
+        ],
+        "sample_490": [
+            "'giyixjkvufrgjuo'"
+        ],
+        "sample_491": [
+            "[4, 8, 8, 5, 4, 8, 8, 5, 4, 8, 8, 5]"
+        ],
+        "sample_492": [
+            "'abbkemaniuwurzv'"
+        ],
+        "sample_493": [
+            "['-4 => 4', '1 => 2', '- => -3']"
+        ],
+        "sample_494": [
+            "\"01\""
+        ],
+        "sample_495": [
+            "('a12', '\u00e5r')"
+        ],
+        "sample_496": [
+            "2"
+        ],
+        "sample_497": [
+            "['4', '4', '+', '+']"
+        ],
+        "sample_498": [
+            "[2, 2, 3, 3, 3]"
+        ],
+        "sample_499": [
+            "'........magazine........'"
+        ],
+        "sample_500": [
+            "'qos w w'"
+        ],
+        "sample_501": [
+            "'qpfi jzm'"
+        ],
+        "sample_502": [
+            "\"Fred*Smith\""
+        ],
+        "sample_503": [
+            "[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None"
+        ],
+        "sample_504": [
+            "[1, 1, 1, 1]"
+        ],
+        "sample_505": [
+            "'--4/0-209'"
+        ],
+        "sample_506": [
+            "\"sn\""
+        ],
+        "sample_507": [
+            "0"
+        ],
+        "sample_508": [
+            "'bwiertub'"
+        ],
+        "sample_509": [
+            "\"5\""
+        ],
+        "sample_510": [
+            "'WyWy'"
+        ],
+        "sample_511": [
+            "{'ct': '', 'c': '', 'ca': 'cx'}"
+        ],
+        "sample_512": [
+            "True"
+        ],
+        "sample_513": [
+            "[2]"
+        ],
+        "sample_514": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument \"-stew---corn-and-beans-in soup-.-\", so within the function, text is initially \"-stew---corn-and-beans-in soup-.-\".\n3. The function iterates over each word in the text, replacing any occurrence of the word with a space.\n4. After the first iteration, text becomes \"- stew corn and beans in soup -.-\".\n5. After the second iteration, text becomes \"- stew corn beans in soup -.-\".\n6. After the third iteration, text becomes \"- stew corn beans in soup -.-\".\n7. After the fourth iteration, text becomes \"- stew corn beans in soup -.-\".\n8. After the fifth iteration, text becomes \"- stew corn beans in soup -.-\".\n9. After the sixth iteration, text becomes \"- stew corn beans in soup -.-\".\n10. After the seventh iteration, text becomes \"- stew corn beans in soup -.-\".\n11. After the eighth iteration, text becomes \"- stew corn beans in soup -.-\".\n12. After the ninth iteration, text becomes \"- stew corn beans in soup -.-\".\n13. After the tenth iteration, text becomes \"- stew corn beans in soup -.-\".\n14. After the eleventh iteration, text becomes \"- stew corn beans in soup -.-\".\n15. After the twelfth iteration, text becomes \"- stew corn beans in soup -.-\".\n16. After the thirteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n17. After the fourteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n18. After the fifteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n19. After the sixteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n20. After the seventeenth iteration, text becomes \"- stew corn beans in soup -.-\".\n21. After the eighteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n22. After the nineteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n23. After the twentieth iteration, text becomes \"- stew corn beans in soup -.-\".\n24. After the twenty-first iteration, text becomes \"- stew corn beans in soup -.-\".\n25. After the twenty-second iteration, text becomes \"- stew corn beans in soup -.-\".\n26. After the twenty-third iteration, text becomes \"- stew corn beans in soup -.-\".\n27. After the twenty-fourth iteration, text becomes \"- stew corn beans in soup -.-\".\n28. After the twenty-fifth iteration, text becomes \"- stew corn beans in soup -.-\".\n29. After the twenty-sixth iteration, text becomes \"- stew corn beans in soup -.-\".\n30. After the twenty-seventh iteration, text becomes \"- stew corn beans in soup -.-\".\n31. After the twenty-eighth iteration, text becomes \"- stew corn beans in soup -.-\".\n32. After the twenty-ninth iteration, text becomes \"- stew corn beans in soup -.-\".\n33. After the thirtieth iteration, text becomes \"- stew corn beans in soup -.-\".\n34. After the thirtieth-first iteration, text becomes \"- stew corn beans in soup -.-\".\n35. After the thirtieth-second iteration, text becomes \"- stew corn beans in soup -.-\".\n36. After the thirtieth-third iteration, text becomes \"- stew corn beans in soup -.-\".\n37. After the thirtieth-fourth iteration, text becomes \"- stew corn beans in soup -.-\".\n38. After the thirtieth-fifth iteration, text becomes \"- stew corn beans in soup -.-\".\n39. After the thirtieth-sixth iteration, text becomes \"- stew corn beans in soup -.-\".\n40. After the thirtieth-seventh iteration, text becomes \"- stew corn beans in soup -.-\".\n41. After the thirtieth-eighth iteration, text becomes \"- stew corn beans in soup -.-\".\n42. After the thirtieth-ninth iteration, text becomes \"- stew corn beans in soup -.-\".\n43. After the thirtieth-tenth iteration, text becomes \"- stew corn beans in soup -.-\".\n44. After the thirtieth-eleventh iteration, text becomes \"- stew corn beans in soup -.-\".\n45. After the thirtieth-twelfth iteration, text becomes \"- stew corn beans in soup -.-\".\n46. After the thirtieth-thirteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n47. After the thirtieth-fourteenth iteration, text becomes \"- stew corn beans in soup -.-\".\n48. After the thirt"
+        ],
+        "sample_515": [
+            "[10, 8, 6, 4, 2]"
+        ],
+        "sample_516": [
+            "['d', 'da', 'dis', 'disa']"
+        ],
+        "sample_517": [
+            "'SzHjifnz'"
+        ],
+        "sample_518": [
+            "True"
+        ],
+        "sample_519": [
+            "{1: False, 2: 0}"
+        ],
+        "sample_520": [
+            "6"
+        ],
+        "sample_521": [
+            "[9, 77, 5, 2, 0, 4, 77, 0, 43]"
+        ],
+        "sample_522": [
+            "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]"
+        ],
+        "sample_523": [
+            "'&nbsp;&nbsp;&nbsp;'"
+        ],
+        "sample_524": [
+            "{2: 0, 4: 1, 3: 2, 1: 3, 5: 4}"
+        ],
+        "sample_525": [
+            "(7, 3)"
+        ],
+        "sample_526": [
+            "'r'"
+        ],
+        "sample_527": [
+            "\"!??\""
+        ],
+        "sample_528": [
+            "1"
+        ],
+        "sample_529": [
+            "[1, 2, 3]"
+        ],
+        "sample_530": [
+            "\"ff!?\""
+        ],
+        "sample_531": [
+            "\"Ibaskdjgblw asdl \"\n[/ANSWER"
+        ],
+        "sample_532": [
+            "[[1, 2, 3], [1, 2, 3, 1, 2, 3], [1, 2, 3, 1, 2, 3, 1, 2, 3]]"
+        ],
+        "sample_533": [
+            "0"
+        ],
+        "sample_534": [
+            "'hso'"
+        ],
+        "sample_535": [
+            "True"
+        ],
+        "sample_536": [
+            "6"
+        ],
+        "sample_537": [
+            "'[3]'"
+        ],
+        "sample_538": [
+            "'0574zzzzzz'"
+        ],
+        "sample_539": [
+            "['_']"
+        ],
+        "sample_540": [
+            "[5, 5, 5, 5, 6, 4, 9]"
+        ],
+        "sample_541": [
+            "True"
+        ],
+        "sample_542": [
+            "['ab', 'cd']"
+        ],
+        "sample_543": [
+            "'\u0645\u0646\u0628\u062a'"
+        ],
+        "sample_544": [
+            "\"    tabulates\""
+        ],
+        "sample_545": [
+            "[8, -4, -9, 2, 8, -1, 8]"
+        ],
+        "sample_546": [
+            "'Do you know who the other was? [NEGMENDS]'"
+        ],
+        "sample_547": [
+            "\"....hello....world....\""
+        ],
+        "sample_548": [
+            "'spider'"
+        ],
+        "sample_549": [
+            "[[1, 1, 1, 1]]"
+        ],
+        "sample_550": [
+            "[1, 1, 4, 4, 16]"
+        ],
+        "sample_551": [
+            "['a', 'b', 'c', 'd']"
+        ],
+        "sample_552": [
+            "{2: 0.76, 3: 0.76, 6: 0.76, 9: 0.76, 12: 0.76}"
+        ],
+        "sample_553": [
+            "'sw076293hglm23944'"
+        ],
+        "sample_554": [
+            "[3, -5, 9999, 1, 0, 2]"
+        ],
+        "sample_555": [
+            "\"odes____code____well\""
+        ],
+        "sample_556": [
+            "'\\n\\n\\t\\tz\\td\\ng\\n\\t\\t\\te'"
+        ],
+        "sample_557": [
+            "'xxx arm mar xx'"
+        ],
+        "sample_558": [
+            "True"
+        ],
+        "sample_559": [
+            "\"f.irst_second_third\""
+        ],
+        "sample_560": [
+            "0"
+        ],
+        "sample_561": [
+            "21"
+        ],
+        "sample_562": [
+            "True"
+        ],
+        "sample_563": [
+            "2"
+        ],
+        "sample_564": [
+            "[[395, 666, 7, 4], [], [4223, 111]]"
+        ],
+        "sample_565": [
+            "10"
+        ],
+        "sample_566": [
+            "\"towaru\""
+        ],
+        "sample_567": [
+            "['one', 'two', 'three', 'four', 'five']"
+        ],
+        "sample_568": [
+            "'7hbwmm'"
+        ],
+        "sample_569": [
+            "3"
+        ],
+        "sample_570": [
+            "[0, 2, 1]"
+        ],
+        "sample_571": [
+            "'a    b'"
+        ],
+        "sample_572": [
+            "[{2: 10, 3: 1}, {1: 9}]"
+        ],
+        "sample_573": [
+            "\"pra\""
+        ],
+        "sample_574": [
+            "'Costanza'"
+        ],
+        "sample_575": [
+            "42"
+        ],
+        "sample_576": [
+            "['x', -2, -2, -2]"
+        ],
+        "sample_577": [
+            "[[(2, 'pos')], [(3, 'pos')]]"
+        ],
+        "sample_578": [
+            "{'R': 0, 'T': -3, 'F': 6, 'K': 0}"
+        ],
+        "sample_579": [
+            "\"\""
+        ],
+        "sample_580": [
+            "[0, 2]"
+        ],
+        "sample_581": [
+            "'akoonXo'"
+        ],
+        "sample_582": [
+            "[5, 5, 5, 5, 5, 5, 5]"
+        ],
+        "sample_583": [
+            "\"t\\nza\\na\""
+        ],
+        "sample_584": [
+            "\"00000000000000000000\""
+        ],
+        "sample_585": [
+            "';,,,?'"
+        ],
+        "sample_586": [
+            "4"
+        ],
+        "sample_587": [
+            "{0: 'a', 1: 'b', 1: 'c', 2: 'c'}"
+        ],
+        "sample_588": [
+            "3"
+        ],
+        "sample_589": [
+            "[-70, 20, 9, 1, 1]"
+        ],
+        "sample_590": [
+            "\"25000$\""
+        ],
+        "sample_591": [
+            "([1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 2, 3, 4, 5, 6, 7, 8, 9])"
+        ],
+        "sample_592": [
+            "[3, 11]"
+        ],
+        "sample_593": [
+            "[14]"
+        ],
+        "sample_594": [
+            "10"
+        ],
+        "sample_595": [
+            "'studentamxupuihbuztn'"
+        ],
+        "sample_596": [
+            "['2', '3', '4', '7', '8', '9']"
+        ],
+        "sample_597": [
+            "\"JAAFODSFASOJDOFJAOAFJIS  JAFASIDFSAS1\""
+        ],
+        "sample_598": [
+            "'c'"
+        ],
+        "sample_599": [
+            "[[\"a\", \"b\"], [\"c\"]]"
+        ],
+        "sample_600": [
+            "[]"
+        ],
+        "sample_601": [
+            "\"CSharpCSharpCSharpCSharpCSharpCSharp\""
+        ],
+        "sample_602": [
+            "4"
+        ],
+        "sample_603": [
+            "'not oscillating'"
+        ],
+        "sample_604": [
+            "True"
+        ],
+        "sample_605": [
+            "\"quack\""
+        ],
+        "sample_606": [
+            "\"rumNHIB\""
+        ],
+        "sample_607": [
+            "False"
+        ],
+        "sample_608": [
+            "{3: 3, 2: 2, 1: 1}"
+        ],
+        "sample_609": [
+            "{}"
+        ],
+        "sample_610": [
+            "{1: 3, 2: 3}"
+        ],
+        "sample_611": [
+            "[1, 0, -3, -2, -6]"
+        ],
+        "sample_612": [
+            "{'a': 42, 'b': 1337, 'c': -1, 'd': 5}"
+        ],
+        "sample_613": [
+            "'eat!'"
+        ],
+        "sample_614": [
+            "10"
+        ],
+        "sample_615": [
+            "1"
+        ],
+        "sample_616": [
+            "\"[y]\""
+        ],
+        "sample_617": [
+            "'non ascii'"
+        ],
+        "sample_618": [
+            "'89'"
+        ],
+        "sample_619": [
+            "'rock   paper   scissors  '"
+        ],
+        "sample_620": [
+            "\"3ihoxmdan lert\""
+        ],
+        "sample_621": [
+            "\"LookupError\""
+        ],
+        "sample_622": [
+            "\"galgu, galgu\""
+        ],
+        "sample_623": [
+            "'!~HI'"
+        ],
+        "sample_624": [
+            "'llxomnrpc'"
+        ],
+        "sample_625": [
+            "10"
+        ],
+        "sample_626": [
+            "'bbaa'"
+        ],
+        "sample_627": [
+            "[1, 7, -5]"
+        ],
+        "sample_628": [
+            "[4, 3, 6, 1]"
+        ],
+        "sample_629": [
+            "'catNG'"
+        ],
+        "sample_630": [
+            "{2: 1, 3: 0, -9: 1, -7: 0}"
+        ],
+        "sample_631": [
+            "'a**********a'"
+        ],
+        "sample_632": [
+            "[0, 0, 1, 4, 5, 63, 7, 9, 25, 87]"
+        ],
+        "sample_633": [
+            "3"
+        ],
+        "sample_634": [
+            "'bce'"
+        ],
+        "sample_635": [
+            "True"
+        ],
+        "sample_636": [
+            "{ 3: 'A3', 1: 'A1', 2: 'A2' }"
+        ],
+        "sample_637": [
+            "'no'"
+        ],
+        "sample_638": [
+            "'a'"
+        ],
+        "sample_639": [
+            "\"yes yes yes no no no \""
+        ],
+        "sample_640": [
+            "10"
+        ],
+        "sample_641": [
+            "False"
+        ],
+        "sample_642": [
+            "'space'"
+        ],
+        "sample_643": [
+            "'damdroDm'"
+        ],
+        "sample_644": [
+            "[1, 6]"
+        ],
+        "sample_645": [
+            "0"
+        ],
+        "sample_646": [
+            "'Yz, ,cBa'"
+        ],
+        "sample_647": [
+            "['/alcm@ an)t//eprw)/e!/d\\nujv']"
+        ],
+        "sample_648": [
+            "6"
+        ],
+        "sample_649": [
+            "\"\\tf9\\n\\tldf9\\n\\tadf9!\\n\\tf9?\""
+        ],
+        "sample_650": [
+            "''"
+        ],
+        "sample_651": [
+            "'E wrestled evil until upperfeat'"
+        ],
+        "sample_652": [
+            "'3'"
+        ],
+        "sample_653": [
+            "0"
+        ],
+        "sample_654": [
+            "'ap?d'"
+        ],
+        "sample_655": [
+            "\"\""
+        ],
+        "sample_656": [
+            "'yes'"
+        ],
+        "sample_657": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument \"djhasghasgdha\", so within the function, text is initially \"djhasghasgdha\".\n3. The function iterates over each punctuation mark in the string '!.?,:;'.\n4. The first punctuation mark it encounters is '!', so it checks if the count of '!' in text is greater than 1. Since it is, the function returns 'no'.\n5. The function then checks if text ends with '!', which it does, so it returns 'no'.\n6. If the function had not returned 'no' in step 4, it would continue to the next punctuation mark, which is '?'. It would check if the count of '?' in text is greater than 1, which it is not, so it would continue to the next punctuation mark, which is ',', and so on.\n7. If the function had not returned 'no' in step 4 or 5, it would continue to the next punctuation mark, which is ';', and so on.\n8. If the function had not returned 'no' in step 4, 5, or 6, it would continue to the next punctuation mark, which is '.', and so on.\n9. If the function had not returned 'no' in step 4, 5, 6, or 7, it would continue to the next punctuation mark, which is '!', and so on.\n10. If the function had not returned 'no' in step 4, 5, 6, 7, or 8, it would continue to the next punctuation mark, which is '?', and so on.\n11. If the function had not returned 'no' in step 4, 5, 6, 7, 8, or 9, it would continue to the next punctuation mark, which is ',', and so on.\n12. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, or 10, it would continue to the next punctuation mark, which is ';', and so on.\n13. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, or 11, it would continue to the next punctuation mark, which is '.', and so on.\n14. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, or 12, it would continue to the next punctuation mark, which is '!', and so on.\n15. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, or 13, it would continue to the next punctuation mark, which is '?', and so on.\n16. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, or 14, it would continue to the next punctuation mark, which is ',', and so on.\n17. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, or 15, it would continue to the next punctuation mark, which is ';', and so on.\n18. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, or 16, it would continue to the next punctuation mark, which is '.', and so on.\n19. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, or 17, it would continue to the next punctuation mark, which is '!', and so on.\n20. If the function had not returned 'no' in step 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, or"
+        ],
+        "sample_658": [
+            "[\"swims like a bull\", \"swims like a bull\", None, None, \"swims like a bull\"]"
+        ],
+        "sample_659": [
+            "4"
+        ],
+        "sample_660": [
+            "33"
+        ],
+        "sample_661": [
+            "\"ee,SS,elrts\""
+        ],
+        "sample_662": [
+            "['Angela', 'Dan', 'Dusty', 'Joe', 'Linda', 'Pete']"
+        ],
+        "sample_663": [
+            "[]"
+        ],
+        "sample_664": [
+            "\"3 4 \""
+        ],
+        "sample_665": [
+            "\"AcbCed\""
+        ],
+        "sample_666": [
+            "4"
+        ],
+        "sample_667": [
+            "['< C7 level=1 >', '< 7 level=2 >', '< C level=3 >']"
+        ],
+        "sample_668": [
+            "'rhellomyfriendae'"
+        ],
+        "sample_669": [
+            "\"fubarbaz\""
+        ],
+        "sample_670": [
+            "[2, 2]"
+        ],
+        "sample_671": [
+            "\"ewriyat emf rwto segya\""
+        ],
+        "sample_672": [
+            "\"1zmz\""
+        ],
+        "sample_673": [
+            "\"cA\""
+        ],
+        "sample_674": [
+            "'q'"
+        ],
+        "sample_675": [
+            "[1]"
+        ],
+        "sample_676": [
+            "\"    \""
+        ],
+        "sample_677": [
+            "'I got 1'"
+        ],
+        "sample_678": [
+            "{'h': 1, 'i': 1}"
+        ],
+        "sample_679": [
+            "True"
+        ],
+        "sample_680": [
+            "\"we32r71g72ug94823658*!@324\""
+        ],
+        "sample_681": [
+            "[1, 5, 7, 8, 2, 0, 3]"
+        ],
+        "sample_682": [
+            "'hypernimovichyp'"
+        ],
+        "sample_683": [
+            "{'disface': 9, 'cam': 7, 'mforce': 5}"
+        ],
+        "sample_684": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument text.\n2. The function is called with the argument \"Transform quotations\\nnot into numbers.\", so within the function, text is initially \"Transform quotations\\nnot into numbers.\".\n3. The function uses the str.maketrans method to create a translation table that maps the characters '\"\\'><' to the characters '9833'.\n4. The translate method is then called on the text string, using the translation table created in step 3.\n5. The translate method replaces each character in the text string with the corresponding character in the translation table, resulting in the string \"Transform 98339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339833983398339"
+        ],
+        "sample_685": [
+            "-2"
+        ],
+        "sample_686": [
+            "{\"lorem ipsum\" : 12}"
+        ],
+        "sample_687": [
+            "'R:j:u:g: z:u:f:E:rjug nzufE'"
+        ],
+        "sample_688": [
+            "[3, 1, 9, 0, 2, 8]"
+        ],
+        "sample_689": [
+            "[-3, -30, 10, 35]"
+        ],
+        "sample_690": [
+            "'802.5'"
+        ],
+        "sample_691": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: text and suffix.\n2. The function is called with the arguments 'rpyttc' and 'cyt', so within the function, text is initially 'rpyttc' and suffix is initially 'cyt'.\n3. The function checks if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n4. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n5. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n6. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n7. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n8. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n9. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n10. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n11. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n12. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n13. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n14. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n15. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n16. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n17. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n18. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n19. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n20. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n21. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n22. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n23. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n24. The function calls itself recursively with the updated text and suffix, where the text is now 'rpyttc' and the suffix is now 'cy'.\n25. The function checks again if the suffix is not empty and if the last character of the suffix is present in the text. In this case, the last character of the suffix is 't' and it is present in the text.\n26"
+        ],
+        "sample_692": [
+            "[]"
+        ],
+        "sample_693": [
+            "'x0x0x0'"
+        ],
+        "sample_694": [
+            "('c', {'e': 1, 'd': 2})"
+        ],
+        "sample_695": [
+            "{}"
+        ],
+        "sample_696": [
+            "3"
+        ],
+        "sample_697": [
+            "(\"not\", \"\", \"it\")"
+        ],
+        "sample_698": [
+            "'(((((((((((d))))))))).))'"
+        ],
+        "sample_699": [
+            "[\"1\", \"ome\"]"
+        ],
+        "sample_700": [
+            "26"
+        ],
+        "sample_701": [
+            "'let it!pass!'"
+        ],
+        "sample_702": [
+            "[0, -4, -5]"
+        ],
+        "sample_703": [
+            "'2sg'"
+        ],
+        "sample_704": [
+            "'.'"
+        ],
+        "sample_705": [
+            "['Somewhere Sydney', 'Somewhere Hong Kong', 'Somewhere Melbourne', 'Somewhere Sao Paolo', 'Somewhere Istanbul', 'Somewhere Boston']"
+        ],
+        "sample_706": [
+            "[\"xy\", \"ab\"]"
+        ],
+        "sample_707": [
+            "'ndbs l'"
+        ],
+        "sample_708": [
+            "'jcmfxv'"
+        ],
+        "sample_709": [
+            "\"loved a\""
+        ],
+        "sample_710": [
+            "{'aki': ['1', '5', '2']}"
+        ],
+        "sample_711": [
+            "'apples\\t\\tpears\\t\\tbananas'"
+        ],
+        "sample_712": [
+            "[['c', 'u', 'p', 'i', 'h'], ['A'], ['A']]"
+        ],
+        "sample_713": [
+            "False"
+        ],
+        "sample_714": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes a single argument array.\n2. The function is called with the argument [3, -2, 0], so within the function, array is initially [3, -2, 0].\n3. The array is reversed, so array becomes [-2, 3, 0].\n4. The array is cleared, so array becomes an empty list.\n5. The array is extended with 'x' repeated as many times as the length of the array, so array becomes ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x"
+        ],
+        "sample_715": [
+            "True"
+        ],
+        "sample_716": [
+            "[]"
+        ],
+        "sample_717": [
+            "\"timetable\""
+        ],
+        "sample_718": [
+            "'21ThisIsSoAtrocious'"
+        ],
+        "sample_719": [
+            "\"if (x) {y = 1;} else {z = 1;}\""
+        ],
+        "sample_720": [
+            "10"
+        ],
+        "sample_721": [
+            "[-8, -7, -6, -5, 2]"
+        ],
+        "sample_722": [
+            "'wPzPpPdDlL'"
+        ],
+        "sample_723": [
+            "['dga nqdk', 'rull qcha kl']"
+        ],
+        "sample_724": [
+            "[3, 3]"
+        ],
+        "sample_725": [
+            "5"
+        ],
+        "sample_726": [
+            "(10, 43)"
+        ],
+        "sample_727": [
+            "['ix', 'dxh', 'snegi', 'wiubvu']"
+        ],
+        "sample_728": [
+            "'u'"
+        ],
+        "sample_729": [
+            "[7, 11]"
+        ],
+        "sample_730": [
+            "4"
+        ],
+        "sample_731": [
+            "'Chris requires r ride to the irport on Friday.'"
+        ],
+        "sample_732": [
+            "{'u': 10, 'v': 2, 'b': 3, 'w': 1, 'x': 1}"
+        ],
+        "sample_733": [
+            "'n'"
+        ],
+        "sample_734": [
+            "[5, 3, 7]"
+        ],
+        "sample_735": [
+            "'AbB'"
+        ],
+        "sample_736": [
+            "'piwachiwachia'"
+        ],
+        "sample_737": [
+            "1"
+        ],
+        "sample_738": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments: text and characters.\n2. The function is called with the arguments \"r;r;r;r;r;r;r;r;r\" and \"x.r\", so within the function, text is initially \"r;r;r;r;r;r;r;r;r\" and characters is \"x.r\".\n3. The function iterates over each character in characters, starting from the first character.\n4. For each character, it removes all occurrences of that character from the end of text.\n5. After the first iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n6. After the second iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n7. After the third iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n8. After the fourth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n9. After the fifth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n10. After the sixth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n11. After the seventh iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n12. After the eighth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n13. After the ninth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n14. After the tenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n15. After the eleventh iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n16. After the twelfth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n17. After the thirteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n18. After the fourteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n19. After the fifteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n20. After the sixteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n21. After the seventeenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n22. After the eighteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n23. After the nineteenth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n24. After the twentieth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n25. After the twenty-first iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n26. After the twenty-second iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n27. After the twenty-third iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n28. After the twenty-fourth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n29. After the twenty-fifth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n30. After the twenty-sixth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n31. After the twenty-seventh iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n32. After the twenty-eighth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n33. After the twenty-ninth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n34. After the thirtieth iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n35. After the thirtieth-first iteration, text becomes \"r;r;r;r;r;r;r;r;r\" and characters becomes \"x.r\".\n36. After the thirtieth-second iteration, text becomes \"r"
+        ],
+        "sample_739": [
+            "False"
+        ],
+        "sample_740": [
+            "[1, 2, 3, 4]"
+        ],
+        "sample_741": [
+            "3"
+        ],
+        "sample_742": [
+            "False"
+        ],
+        "sample_743": [
+            "-9"
+        ],
+        "sample_744": [
+            "'jrowdlp'"
+        ],
+        "sample_745": [
+            "'minimc.io'"
+        ],
+        "sample_746": [
+            "{}"
+        ],
+        "sample_747": [
+            "True"
+        ],
+        "sample_748": [
+            "('a', 123), ('b', 456)"
+        ],
+        "sample_749": [
+            "'l\\nl'"
+        ],
+        "sample_750": [
+            "'hbd'"
+        ],
+        "sample_751": [
+            "\"wwwwhhhtttpp\""
+        ],
+        "sample_752": [
+            "'zzzzzabc'"
+        ],
+        "sample_753": [
+            "{0: 5, 1: 5, 2: 5, 3: 5, 4: 5}"
+        ],
+        "sample_754": [
+            "['1', '2', '2', '44', '0', '7', '20257']"
+        ],
+        "sample_755": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes three arguments: replace, text, and hide.\n2. The function is called with the arguments '###', \"ph>t#A#BiEcDefW#ON#iiNCU\", and '.'.\n3. The function enters a while loop, which continues as long as the string hide (which is '.') is found in the string text (which is \"ph>t#A#BiEcDefW#ON#iiNCU\").\n4. Inside the loop, the string replace is concatenated with 'ax', so replace becomes '###ax'.\n5. The string text is then replaced with the new value of replace (which is '###ax') and the value of hide (which is '.') in the text string, using the replace method with the 1 argument to replace only the first occurrence of hide in text.\n6. The loop continues until hide is no longer found in text.\n7. The function returns the final value of text.\n8. The assertion is then evaluated, and the output of the function is compared to the expected output.\n9. The expected output is \"ph>t#A#BiEcDefW#ON#iiNCUaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxax"
+        ],
+        "sample_756": [
+            "'integer'"
+        ],
+        "sample_757": [
+            "'an2an2'"
+        ],
+        "sample_758": [
+            "False"
+        ],
+        "sample_759": [
+            "[2, 5, 8]"
+        ],
+        "sample_760": [
+            "['k', 'j', 'h', 'f']"
+        ],
+        "sample_761": [
+            "[None]"
+        ],
+        "sample_762": [
+            "\"tHis and cpanel\""
+        ],
+        "sample_763": [
+            "'yCxpg2C2Pny2'"
+        ],
+        "sample_764": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes three arguments: text, old, and new.\n2. The function is called with the arguments \"some test string\", \"some\", and \"any\".\n3. Inside the function, the text is replaced with the new string wherever the old string appears, so the text becomes \"any test string\".\n4. The old string is reversed, so old2 becomes \"emos\".\n5. The function then checks if old2 is in the text2, which is \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n6. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n7. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n8. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n9. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n10. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n11. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n12. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n13. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n14. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n15. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n16. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n17. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n18. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n19. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n20. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n21. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again.\n22. The function then checks if old2 is in the text2 again, which is still \"any test string\". Since it is, the function replaces the first occurrence of old2 with new, so the text becomes \"any test string\" again."
+        ],
+        "sample_765": [
+            "3"
+        ],
+        "sample_766": [
+            "{'03': 117, '30': 351}"
+        ],
+        "sample_767": [
+            "\"d khqw whi fwi bbn 41\""
+        ],
+        "sample_768": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments s and o.\n2. The function is called with the arguments 'abba' and 'bab', so within the function, s is initially 'abba' and o is initially 'bab'.\n3. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n4. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n5. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n6. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n7. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n8. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n9. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n10. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n11. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n12. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n13. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n14. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n15. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n16. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n17. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n18. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n19. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n20. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n21. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n22. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n23. The function checks if s starts with o. Since 'abba' does not start with 'bab', the function calls itself recursively with the arguments 'bab' and 'abba' (the reversed version of 'bab').\n24. The function is called again with the arguments 'abba' and 'bab', so within the function, s is now 'abba' and o is now 'bab'.\n25. The function checks if s starts with o. Since 'abba' does not start with 'bab',"
+        ],
+        "sample_769": [
+            "'AKa?RiU'"
+        ],
+        "sample_770": [
+            "'$78'"
+        ],
+        "sample_771": [
+            "[2, 4, 6, 8]"
+        ],
+        "sample_772": [
+            "'serjgpoDFdbcA'"
+        ],
+        "sample_773": [
+            "0"
+        ],
+        "sample_774": [
+            "'quiz leader = Cornareti, count = 23'"
+        ],
+        "sample_775": [
+            "[1, 3, 1, 6, 2]"
+        ],
+        "sample_776": [
+            "{}"
+        ],
+        "sample_777": [
+            "[\"avc  a .d e\"]"
+        ],
+        "sample_778": [
+            "'mjqwmjsqjwisojqwiso'"
+        ],
+        "sample_779": [
+            "'pythony, rubyx, crr, javascriptp'"
+        ],
+        "sample_780": [
+            "\"2 5 89\""
+        ],
+        "sample_781": [
+            "Let's execute the code step by step:\n\n1. The function f is defined, which takes two arguments s and ch.\n2. The function is called with the arguments 'shivajimonto6' and '6', so within the function, s is initially 'shivajimonto6' and ch is '6'.\n3. Inside the function, the function checks if '6' is in s. Since it is, the function proceeds to partition s at the first occurrence of '6', resulting in a tuple ('shiva', 'jimonto6', '').\n4. The function then reverses the second part of the tuple (which is 'jimonto6'), resulting in '6tmonij'.\n5. The function then iterates over the reversed string, reversing it again each time, resulting in '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6tmonij' -> 'jimonto6' -> '6t"
+        ],
+        "sample_782": [
+            "True"
+        ],
+        "sample_783": [
+            "0"
+        ],
+        "sample_784": [
+            "('read', 'Is')"
+        ],
+        "sample_785": [
+            "\"11\""
+        ],
+        "sample_786": [
+            "'9kefp7'"
+        ],
+        "sample_787": [
+            "'Xzd'"
+        ],
+        "sample_788": [
+            "'helloello'"
+        ],
+        "sample_789": [
+            "'bR'"
+        ],
+        "sample_790": [
+            "(True, True)"
+        ],
+        "sample_791": [
+            "\"899900\""
+        ],
+        "sample_792": [
+            "{}"
+        ],
+        "sample_793": [
+            "2"
+        ],
+        "sample_794": [
+            "\"normalcharsqwet42\""
+        ],
+        "sample_795": [
+            "'Fu,io zfujijabji pfu,io'"
+        ],
+        "sample_796": [
+            "'uiyh'"
+        ],
+        "sample_797": [
+            "[('a', 1), ('b', 2), ('c', 3)]"
+        ],
+        "sample_798": [
+            "\"hu\""
+        ],
+        "sample_799": [
+            "\"eqe-;ew22nnnnnnnnn\""
+        ]
+    },
+    "raw_scored_generations": {
+        "sample_0": [
+            false
+        ],
+        "sample_1": [
+            true
+        ],
+        "sample_2": [
+            true
+        ],
+        "sample_3": [
+            false
+        ],
+        "sample_4": [
+            false
+        ],
+        "sample_5": [
+            false
+        ],
+        "sample_6": [
+            false
+        ],
+        "sample_7": [
+            true
+        ],
+        "sample_8": [
+            true
+        ],
+        "sample_9": [
+            true
+        ],
+        "sample_10": [
+            true
+        ],
+        "sample_11": [
+            true
+        ],
+        "sample_12": [
+            false
+        ],
+        "sample_13": [
+            false
+        ],
+        "sample_14": [
+            true
+        ],
+        "sample_15": [
+            true
+        ],
+        "sample_16": [
+            false
+        ],
+        "sample_17": [
+            false
+        ],
+        "sample_18": [
+            false
+        ],
+        "sample_19": [
+            true
+        ],
+        "sample_20": [
+            false
+        ],
+        "sample_21": [
+            false
+        ],
+        "sample_22": [
+            false
+        ],
+        "sample_23": [
+            false
+        ],
+        "sample_24": [
+            true
+        ],
+        "sample_25": [
+            true
+        ],
+        "sample_26": [
+            false
+        ],
+        "sample_27": [
+            true
+        ],
+        "sample_28": [
+            true
+        ],
+        "sample_29": [
+            false
+        ],
+        "sample_30": [
+            true
+        ],
+        "sample_31": [
+            false
+        ],
+        "sample_32": [
+            false
+        ],
+        "sample_33": [
+            false
+        ],
+        "sample_34": [
+            false
+        ],
+        "sample_35": [
+            false
+        ],
+        "sample_36": [
+            true
+        ],
+        "sample_37": [
+            false
+        ],
+        "sample_38": [
+            false
+        ],
+        "sample_39": [
+            true
+        ],
+        "sample_40": [
+            false
+        ],
+        "sample_41": [
+            false
+        ],
+        "sample_42": [
+            false
+        ],
+        "sample_43": [
+            true
+        ],
+        "sample_44": [
+            false
+        ],
+        "sample_45": [
+            true
+        ],
+        "sample_46": [
+            true
+        ],
+        "sample_47": [
+            false
+        ],
+        "sample_48": [
+            true
+        ],
+        "sample_49": [
+            false
+        ],
+        "sample_50": [
+            false
+        ],
+        "sample_51": [
+            true
+        ],
+        "sample_52": [
+            false
+        ],
+        "sample_53": [
+            false
+        ],
+        "sample_54": [
+            false
+        ],
+        "sample_55": [
+            false
+        ],
+        "sample_56": [
+            true
+        ],
+        "sample_57": [
+            false
+        ],
+        "sample_58": [
+            false
+        ],
+        "sample_59": [
+            true
+        ],
+        "sample_60": [
+            true
+        ],
+        "sample_61": [
+            true
+        ],
+        "sample_62": [
+            false
+        ],
+        "sample_63": [
+            true
+        ],
+        "sample_64": [
+            false
+        ],
+        "sample_65": [
+            false
+        ],
+        "sample_66": [
+            false
+        ],
+        "sample_67": [
+            true
+        ],
+        "sample_68": [
+            false
+        ],
+        "sample_69": [
+            true
+        ],
+        "sample_70": [
+            false
+        ],
+        "sample_71": [
+            false
+        ],
+        "sample_72": [
+            true
+        ],
+        "sample_73": [
+            false
+        ],
+        "sample_74": [
+            true
+        ],
+        "sample_75": [
+            false
+        ],
+        "sample_76": [
+            false
+        ],
+        "sample_77": [
+            false
+        ],
+        "sample_78": [
+            false
+        ],
+        "sample_79": [
+            true
+        ],
+        "sample_80": [
+            false
+        ],
+        "sample_81": [
+            true
+        ],
+        "sample_82": [
+            false
+        ],
+        "sample_83": [
+            false
+        ],
+        "sample_84": [
+            false
+        ],
+        "sample_85": [
+            false
+        ],
+        "sample_86": [
+            false
+        ],
+        "sample_87": [
+            false
+        ],
+        "sample_88": [
+            true
+        ],
+        "sample_89": [
+            false
+        ],
+        "sample_90": [
+            true
+        ],
+        "sample_91": [
+            false
+        ],
+        "sample_92": [
+            false
+        ],
+        "sample_93": [
+            false
+        ],
+        "sample_94": [
+            true
+        ],
+        "sample_95": [
+            true
+        ],
+        "sample_96": [
+            true
+        ],
+        "sample_97": [
+            true
+        ],
+        "sample_98": [
+            false
+        ],
+        "sample_99": [
+            false
+        ],
+        "sample_100": [
+            true
+        ],
+        "sample_101": [
+            true
+        ],
+        "sample_102": [
+            false
+        ],
+        "sample_103": [
+            false
+        ],
+        "sample_104": [
+            true
+        ],
+        "sample_105": [
+            false
+        ],
+        "sample_106": [
+            false
+        ],
+        "sample_107": [
+            false
+        ],
+        "sample_108": [
+            true
+        ],
+        "sample_109": [
+            true
+        ],
+        "sample_110": [
+            true
+        ],
+        "sample_111": [
+            false
+        ],
+        "sample_112": [
+            false
+        ],
+        "sample_113": [
+            false
+        ],
+        "sample_114": [
+            false
+        ],
+        "sample_115": [
+            false
+        ],
+        "sample_116": [
+            true
+        ],
+        "sample_117": [
+            false
+        ],
+        "sample_118": [
+            false
+        ],
+        "sample_119": [
+            false
+        ],
+        "sample_120": [
+            true
+        ],
+        "sample_121": [
+            false
+        ],
+        "sample_122": [
+            false
+        ],
+        "sample_123": [
+            true
+        ],
+        "sample_124": [
+            true
+        ],
+        "sample_125": [
+            false
+        ],
+        "sample_126": [
+            false
+        ],
+        "sample_127": [
+            false
+        ],
+        "sample_128": [
+            false
+        ],
+        "sample_129": [
+            false
+        ],
+        "sample_130": [
+            false
+        ],
+        "sample_131": [
+            false
+        ],
+        "sample_132": [
+            false
+        ],
+        "sample_133": [
+            false
+        ],
+        "sample_134": [
+            false
+        ],
+        "sample_135": [
+            true
+        ],
+        "sample_136": [
+            false
+        ],
+        "sample_137": [
+            false
+        ],
+        "sample_138": [
+            true
+        ],
+        "sample_139": [
+            true
+        ],
+        "sample_140": [
+            true
+        ],
+        "sample_141": [
+            false
+        ],
+        "sample_142": [
+            false
+        ],
+        "sample_143": [
+            true
+        ],
+        "sample_144": [
+            true
+        ],
+        "sample_145": [
+            true
+        ],
+        "sample_146": [
+            true
+        ],
+        "sample_147": [
+            false
+        ],
+        "sample_148": [
+            false
+        ],
+        "sample_149": [
+            false
+        ],
+        "sample_150": [
+            true
+        ],
+        "sample_151": [
+            false
+        ],
+        "sample_152": [
+            true
+        ],
+        "sample_153": [
+            false
+        ],
+        "sample_154": [
+            true
+        ],
+        "sample_155": [
+            false
+        ],
+        "sample_156": [
+            true
+        ],
+        "sample_157": [
+            false
+        ],
+        "sample_158": [
+            false
+        ],
+        "sample_159": [
+            false
+        ],
+        "sample_160": [
+            false
+        ],
+        "sample_161": [
+            false
+        ],
+        "sample_162": [
+            false
+        ],
+        "sample_163": [
+            false
+        ],
+        "sample_164": [
+            true
+        ],
+        "sample_165": [
+            true
+        ],
+        "sample_166": [
+            true
+        ],
+        "sample_167": [
+            false
+        ],
+        "sample_168": [
+            false
+        ],
+        "sample_169": [
+            false
+        ],
+        "sample_170": [
+            true
+        ],
+        "sample_171": [
+            false
+        ],
+        "sample_172": [
+            true
+        ],
+        "sample_173": [
+            true
+        ],
+        "sample_174": [
+            true
+        ],
+        "sample_175": [
+            false
+        ],
+        "sample_176": [
+            true
+        ],
+        "sample_177": [
+            false
+        ],
+        "sample_178": [
+            false
+        ],
+        "sample_179": [
+            false
+        ],
+        "sample_180": [
+            false
+        ],
+        "sample_181": [
+            false
+        ],
+        "sample_182": [
+            true
+        ],
+        "sample_183": [
+            false
+        ],
+        "sample_184": [
+            true
+        ],
+        "sample_185": [
+            false
+        ],
+        "sample_186": [
+            true
+        ],
+        "sample_187": [
+            true
+        ],
+        "sample_188": [
+            false
+        ],
+        "sample_189": [
+            true
+        ],
+        "sample_190": [
+            false
+        ],
+        "sample_191": [
+            true
+        ],
+        "sample_192": [
+            false
+        ],
+        "sample_193": [
+            false
+        ],
+        "sample_194": [
+            false
+        ],
+        "sample_195": [
+            false
+        ],
+        "sample_196": [
+            false
+        ],
+        "sample_197": [
+            false
+        ],
+        "sample_198": [
+            false
+        ],
+        "sample_199": [
+            false
+        ],
+        "sample_200": [
+            false
+        ],
+        "sample_201": [
+            false
+        ],
+        "sample_202": [
+            false
+        ],
+        "sample_203": [
+            true
+        ],
+        "sample_204": [
+            true
+        ],
+        "sample_205": [
+            false
+        ],
+        "sample_206": [
+            false
+        ],
+        "sample_207": [
+            true
+        ],
+        "sample_208": [
+            false
+        ],
+        "sample_209": [
+            false
+        ],
+        "sample_210": [
+            false
+        ],
+        "sample_211": [
+            false
+        ],
+        "sample_212": [
+            false
+        ],
+        "sample_213": [
+            true
+        ],
+        "sample_214": [
+            false
+        ],
+        "sample_215": [
+            false
+        ],
+        "sample_216": [
+            true
+        ],
+        "sample_217": [
+            false
+        ],
+        "sample_218": [
+            false
+        ],
+        "sample_219": [
+            false
+        ],
+        "sample_220": [
+            false
+        ],
+        "sample_221": [
+            false
+        ],
+        "sample_222": [
+            false
+        ],
+        "sample_223": [
+            false
+        ],
+        "sample_224": [
+            true
+        ],
+        "sample_225": [
+            true
+        ],
+        "sample_226": [
+            true
+        ],
+        "sample_227": [
+            true
+        ],
+        "sample_228": [
+            false
+        ],
+        "sample_229": [
+            false
+        ],
+        "sample_230": [
+            false
+        ],
+        "sample_231": [
+            false
+        ],
+        "sample_232": [
+            false
+        ],
+        "sample_233": [
+            false
+        ],
+        "sample_234": [
+            true
+        ],
+        "sample_235": [
+            true
+        ],
+        "sample_236": [
+            false
+        ],
+        "sample_237": [
+            false
+        ],
+        "sample_238": [
+            true
+        ],
+        "sample_239": [
+            false
+        ],
+        "sample_240": [
+            false
+        ],
+        "sample_241": [
+            false
+        ],
+        "sample_242": [
+            true
+        ],
+        "sample_243": [
+            false
+        ],
+        "sample_244": [
+            false
+        ],
+        "sample_245": [
+            false
+        ],
+        "sample_246": [
+            false
+        ],
+        "sample_247": [
+            true
+        ],
+        "sample_248": [
+            false
+        ],
+        "sample_249": [
+            true
+        ],
+        "sample_250": [
+            false
+        ],
+        "sample_251": [
+            false
+        ],
+        "sample_252": [
+            false
+        ],
+        "sample_253": [
+            true
+        ],
+        "sample_254": [
+            false
+        ],
+        "sample_255": [
+            false
+        ],
+        "sample_256": [
+            false
+        ],
+        "sample_257": [
+            false
+        ],
+        "sample_258": [
+            false
+        ],
+        "sample_259": [
+            false
+        ],
+        "sample_260": [
+            false
+        ],
+        "sample_261": [
+            false
+        ],
+        "sample_262": [
+            false
+        ],
+        "sample_263": [
+            true
+        ],
+        "sample_264": [
+            false
+        ],
+        "sample_265": [
+            true
+        ],
+        "sample_266": [
+            false
+        ],
+        "sample_267": [
+            true
+        ],
+        "sample_268": [
+            false
+        ],
+        "sample_269": [
+            false
+        ],
+        "sample_270": [
+            true
+        ],
+        "sample_271": [
+            true
+        ],
+        "sample_272": [
+            false
+        ],
+        "sample_273": [
+            false
+        ],
+        "sample_274": [
+            false
+        ],
+        "sample_275": [
+            true
+        ],
+        "sample_276": [
+            true
+        ],
+        "sample_277": [
+            true
+        ],
+        "sample_278": [
+            false
+        ],
+        "sample_279": [
+            true
+        ],
+        "sample_280": [
+            false
+        ],
+        "sample_281": [
+            false
+        ],
+        "sample_282": [
+            false
+        ],
+        "sample_283": [
+            true
+        ],
+        "sample_284": [
+            false
+        ],
+        "sample_285": [
+            false
+        ],
+        "sample_286": [
+            false
+        ],
+        "sample_287": [
+            true
+        ],
+        "sample_288": [
+            false
+        ],
+        "sample_289": [
+            false
+        ],
+        "sample_290": [
+            false
+        ],
+        "sample_291": [
+            false
+        ],
+        "sample_292": [
+            false
+        ],
+        "sample_293": [
+            true
+        ],
+        "sample_294": [
+            true
+        ],
+        "sample_295": [
+            false
+        ],
+        "sample_296": [
+            false
+        ],
+        "sample_297": [
+            false
+        ],
+        "sample_298": [
+            false
+        ],
+        "sample_299": [
+            false
+        ],
+        "sample_300": [
+            true
+        ],
+        "sample_301": [
+            false
+        ],
+        "sample_302": [
+            false
+        ],
+        "sample_303": [
+            false
+        ],
+        "sample_304": [
+            false
+        ],
+        "sample_305": [
+            false
+        ],
+        "sample_306": [
+            true
+        ],
+        "sample_307": [
+            false
+        ],
+        "sample_308": [
+            true
+        ],
+        "sample_309": [
+            false
+        ],
+        "sample_310": [
+            false
+        ],
+        "sample_311": [
+            true
+        ],
+        "sample_312": [
+            true
+        ],
+        "sample_313": [
+            true
+        ],
+        "sample_314": [
+            false
+        ],
+        "sample_315": [
+            false
+        ],
+        "sample_316": [
+            true
+        ],
+        "sample_317": [
+            false
+        ],
+        "sample_318": [
+            false
+        ],
+        "sample_319": [
+            false
+        ],
+        "sample_320": [
+            false
+        ],
+        "sample_321": [
+            true
+        ],
+        "sample_322": [
+            false
+        ],
+        "sample_323": [
+            true
+        ],
+        "sample_324": [
+            false
+        ],
+        "sample_325": [
+            true
+        ],
+        "sample_326": [
+            false
+        ],
+        "sample_327": [
+            false
+        ],
+        "sample_328": [
+            false
+        ],
+        "sample_329": [
+            true
+        ],
+        "sample_330": [
+            false
+        ],
+        "sample_331": [
+            false
+        ],
+        "sample_332": [
+            false
+        ],
+        "sample_333": [
+            false
+        ],
+        "sample_334": [
+            false
+        ],
+        "sample_335": [
+            false
+        ],
+        "sample_336": [
+            true
+        ],
+        "sample_337": [
+            false
+        ],
+        "sample_338": [
+            false
+        ],
+        "sample_339": [
+            true
+        ],
+        "sample_340": [
+            false
+        ],
+        "sample_341": [
+            true
+        ],
+        "sample_342": [
+            false
+        ],
+        "sample_343": [
+            true
+        ],
+        "sample_344": [
+            false
+        ],
+        "sample_345": [
+            true
+        ],
+        "sample_346": [
+            false
+        ],
+        "sample_347": [
+            false
+        ],
+        "sample_348": [
+            true
+        ],
+        "sample_349": [
+            true
+        ],
+        "sample_350": [
+            true
+        ],
+        "sample_351": [
+            true
+        ],
+        "sample_352": [
+            true
+        ],
+        "sample_353": [
+            false
+        ],
+        "sample_354": [
+            true
+        ],
+        "sample_355": [
+            false
+        ],
+        "sample_356": [
+            false
+        ],
+        "sample_357": [
+            false
+        ],
+        "sample_358": [
+            false
+        ],
+        "sample_359": [
+            true
+        ],
+        "sample_360": [
+            true
+        ],
+        "sample_361": [
+            true
+        ],
+        "sample_362": [
+            false
+        ],
+        "sample_363": [
+            false
+        ],
+        "sample_364": [
+            false
+        ],
+        "sample_365": [
+            true
+        ],
+        "sample_366": [
+            false
+        ],
+        "sample_367": [
+            false
+        ],
+        "sample_368": [
+            false
+        ],
+        "sample_369": [
+            true
+        ],
+        "sample_370": [
+            true
+        ],
+        "sample_371": [
+            false
+        ],
+        "sample_372": [
+            false
+        ],
+        "sample_373": [
+            false
+        ],
+        "sample_374": [
+            false
+        ],
+        "sample_375": [
+            false
+        ],
+        "sample_376": [
+            false
+        ],
+        "sample_377": [
+            true
+        ],
+        "sample_378": [
+            false
+        ],
+        "sample_379": [
+            true
+        ],
+        "sample_380": [
+            false
+        ],
+        "sample_381": [
+            false
+        ],
+        "sample_382": [
+            false
+        ],
+        "sample_383": [
+            true
+        ],
+        "sample_384": [
+            false
+        ],
+        "sample_385": [
+            false
+        ],
+        "sample_386": [
+            true
+        ],
+        "sample_387": [
+            true
+        ],
+        "sample_388": [
+            false
+        ],
+        "sample_389": [
+            true
+        ],
+        "sample_390": [
+            true
+        ],
+        "sample_391": [
+            false
+        ],
+        "sample_392": [
+            false
+        ],
+        "sample_393": [
+            false
+        ],
+        "sample_394": [
+            true
+        ],
+        "sample_395": [
+            false
+        ],
+        "sample_396": [
+            true
+        ],
+        "sample_397": [
+            true
+        ],
+        "sample_398": [
+            false
+        ],
+        "sample_399": [
+            false
+        ],
+        "sample_400": [
+            false
+        ],
+        "sample_401": [
+            true
+        ],
+        "sample_402": [
+            false
+        ],
+        "sample_403": [
+            false
+        ],
+        "sample_404": [
+            true
+        ],
+        "sample_405": [
+            false
+        ],
+        "sample_406": [
+            false
+        ],
+        "sample_407": [
+            false
+        ],
+        "sample_408": [
+            false
+        ],
+        "sample_409": [
+            false
+        ],
+        "sample_410": [
+            false
+        ],
+        "sample_411": [
+            false
+        ],
+        "sample_412": [
+            true
+        ],
+        "sample_413": [
+            false
+        ],
+        "sample_414": [
+            true
+        ],
+        "sample_415": [
+            true
+        ],
+        "sample_416": [
+            false
+        ],
+        "sample_417": [
+            false
+        ],
+        "sample_418": [
+            false
+        ],
+        "sample_419": [
+            false
+        ],
+        "sample_420": [
+            true
+        ],
+        "sample_421": [
+            true
+        ],
+        "sample_422": [
+            true
+        ],
+        "sample_423": [
+            true
+        ],
+        "sample_424": [
+            false
+        ],
+        "sample_425": [
+            false
+        ],
+        "sample_426": [
+            true
+        ],
+        "sample_427": [
+            false
+        ],
+        "sample_428": [
+            false
+        ],
+        "sample_429": [
+            false
+        ],
+        "sample_430": [
+            true
+        ],
+        "sample_431": [
+            true
+        ],
+        "sample_432": [
+            true
+        ],
+        "sample_433": [
+            false
+        ],
+        "sample_434": [
+            false
+        ],
+        "sample_435": [
+            false
+        ],
+        "sample_436": [
+            false
+        ],
+        "sample_437": [
+            false
+        ],
+        "sample_438": [
+            false
+        ],
+        "sample_439": [
+            true
+        ],
+        "sample_440": [
+            true
+        ],
+        "sample_441": [
+            true
+        ],
+        "sample_442": [
+            false
+        ],
+        "sample_443": [
+            false
+        ],
+        "sample_444": [
+            false
+        ],
+        "sample_445": [
+            false
+        ],
+        "sample_446": [
+            true
+        ],
+        "sample_447": [
+            false
+        ],
+        "sample_448": [
+            true
+        ],
+        "sample_449": [
+            true
+        ],
+        "sample_450": [
+            false
+        ],
+        "sample_451": [
+            true
+        ],
+        "sample_452": [
+            false
+        ],
+        "sample_453": [
+            true
+        ],
+        "sample_454": [
+            true
+        ],
+        "sample_455": [
+            true
+        ],
+        "sample_456": [
+            true
+        ],
+        "sample_457": [
+            true
+        ],
+        "sample_458": [
+            false
+        ],
+        "sample_459": [
+            false
+        ],
+        "sample_460": [
+            true
+        ],
+        "sample_461": [
+            true
+        ],
+        "sample_462": [
+            false
+        ],
+        "sample_463": [
+            false
+        ],
+        "sample_464": [
+            false
+        ],
+        "sample_465": [
+            true
+        ],
+        "sample_466": [
+            true
+        ],
+        "sample_467": [
+            true
+        ],
+        "sample_468": [
+            true
+        ],
+        "sample_469": [
+            false
+        ],
+        "sample_470": [
+            false
+        ],
+        "sample_471": [
+            false
+        ],
+        "sample_472": [
+            false
+        ],
+        "sample_473": [
+            false
+        ],
+        "sample_474": [
+            true
+        ],
+        "sample_475": [
+            true
+        ],
+        "sample_476": [
+            false
+        ],
+        "sample_477": [
+            false
+        ],
+        "sample_478": [
+            false
+        ],
+        "sample_479": [
+            false
+        ],
+        "sample_480": [
+            false
+        ],
+        "sample_481": [
+            false
+        ],
+        "sample_482": [
+            true
+        ],
+        "sample_483": [
+            false
+        ],
+        "sample_484": [
+            false
+        ],
+        "sample_485": [
+            false
+        ],
+        "sample_486": [
+            true
+        ],
+        "sample_487": [
+            true
+        ],
+        "sample_488": [
+            false
+        ],
+        "sample_489": [
+            false
+        ],
+        "sample_490": [
+            false
+        ],
+        "sample_491": [
+            false
+        ],
+        "sample_492": [
+            false
+        ],
+        "sample_493": [
+            true
+        ],
+        "sample_494": [
+            false
+        ],
+        "sample_495": [
+            false
+        ],
+        "sample_496": [
+            false
+        ],
+        "sample_497": [
+            false
+        ],
+        "sample_498": [
+            false
+        ],
+        "sample_499": [
+            false
+        ],
+        "sample_500": [
+            false
+        ],
+        "sample_501": [
+            false
+        ],
+        "sample_502": [
+            true
+        ],
+        "sample_503": [
+            false
+        ],
+        "sample_504": [
+            true
+        ],
+        "sample_505": [
+            false
+        ],
+        "sample_506": [
+            false
+        ],
+        "sample_507": [
+            true
+        ],
+        "sample_508": [
+            false
+        ],
+        "sample_509": [
+            true
+        ],
+        "sample_510": [
+            false
+        ],
+        "sample_511": [
+            true
+        ],
+        "sample_512": [
+            false
+        ],
+        "sample_513": [
+            false
+        ],
+        "sample_514": [
+            false
+        ],
+        "sample_515": [
+            true
+        ],
+        "sample_516": [
+            false
+        ],
+        "sample_517": [
+            false
+        ],
+        "sample_518": [
+            true
+        ],
+        "sample_519": [
+            true
+        ],
+        "sample_520": [
+            true
+        ],
+        "sample_521": [
+            false
+        ],
+        "sample_522": [
+            false
+        ],
+        "sample_523": [
+            true
+        ],
+        "sample_524": [
+            false
+        ],
+        "sample_525": [
+            false
+        ],
+        "sample_526": [
+            false
+        ],
+        "sample_527": [
+            false
+        ],
+        "sample_528": [
+            false
+        ],
+        "sample_529": [
+            true
+        ],
+        "sample_530": [
+            false
+        ],
+        "sample_531": [
+            false
+        ],
+        "sample_532": [
+            false
+        ],
+        "sample_533": [
+            true
+        ],
+        "sample_534": [
+            false
+        ],
+        "sample_535": [
+            false
+        ],
+        "sample_536": [
+            false
+        ],
+        "sample_537": [
+            false
+        ],
+        "sample_538": [
+            false
+        ],
+        "sample_539": [
+            false
+        ],
+        "sample_540": [
+            false
+        ],
+        "sample_541": [
+            true
+        ],
+        "sample_542": [
+            false
+        ],
+        "sample_543": [
+            false
+        ],
+        "sample_544": [
+            false
+        ],
+        "sample_545": [
+            false
+        ],
+        "sample_546": [
+            true
+        ],
+        "sample_547": [
+            false
+        ],
+        "sample_548": [
+            true
+        ],
+        "sample_549": [
+            true
+        ],
+        "sample_550": [
+            false
+        ],
+        "sample_551": [
+            false
+        ],
+        "sample_552": [
+            false
+        ],
+        "sample_553": [
+            false
+        ],
+        "sample_554": [
+            false
+        ],
+        "sample_555": [
+            false
+        ],
+        "sample_556": [
+            false
+        ],
+        "sample_557": [
+            false
+        ],
+        "sample_558": [
+            false
+        ],
+        "sample_559": [
+            true
+        ],
+        "sample_560": [
+            true
+        ],
+        "sample_561": [
+            false
+        ],
+        "sample_562": [
+            true
+        ],
+        "sample_563": [
+            true
+        ],
+        "sample_564": [
+            false
+        ],
+        "sample_565": [
+            false
+        ],
+        "sample_566": [
+            true
+        ],
+        "sample_567": [
+            false
+        ],
+        "sample_568": [
+            false
+        ],
+        "sample_569": [
+            false
+        ],
+        "sample_570": [
+            false
+        ],
+        "sample_571": [
+            false
+        ],
+        "sample_572": [
+            false
+        ],
+        "sample_573": [
+            false
+        ],
+        "sample_574": [
+            true
+        ],
+        "sample_575": [
+            true
+        ],
+        "sample_576": [
+            false
+        ],
+        "sample_577": [
+            false
+        ],
+        "sample_578": [
+            false
+        ],
+        "sample_579": [
+            true
+        ],
+        "sample_580": [
+            false
+        ],
+        "sample_581": [
+            false
+        ],
+        "sample_582": [
+            true
+        ],
+        "sample_583": [
+            false
+        ],
+        "sample_584": [
+            false
+        ],
+        "sample_585": [
+            false
+        ],
+        "sample_586": [
+            false
+        ],
+        "sample_587": [
+            false
+        ],
+        "sample_588": [
+            true
+        ],
+        "sample_589": [
+            true
+        ],
+        "sample_590": [
+            false
+        ],
+        "sample_591": [
+            false
+        ],
+        "sample_592": [
+            true
+        ],
+        "sample_593": [
+            false
+        ],
+        "sample_594": [
+            false
+        ],
+        "sample_595": [
+            false
+        ],
+        "sample_596": [
+            true
+        ],
+        "sample_597": [
+            false
+        ],
+        "sample_598": [
+            false
+        ],
+        "sample_599": [
+            false
+        ],
+        "sample_600": [
+            true
+        ],
+        "sample_601": [
+            false
+        ],
+        "sample_602": [
+            true
+        ],
+        "sample_603": [
+            true
+        ],
+        "sample_604": [
+            true
+        ],
+        "sample_605": [
+            true
+        ],
+        "sample_606": [
+            false
+        ],
+        "sample_607": [
+            false
+        ],
+        "sample_608": [
+            true
+        ],
+        "sample_609": [
+            true
+        ],
+        "sample_610": [
+            false
+        ],
+        "sample_611": [
+            false
+        ],
+        "sample_612": [
+            true
+        ],
+        "sample_613": [
+            false
+        ],
+        "sample_614": [
+            false
+        ],
+        "sample_615": [
+            true
+        ],
+        "sample_616": [
+            false
+        ],
+        "sample_617": [
+            false
+        ],
+        "sample_618": [
+            true
+        ],
+        "sample_619": [
+            false
+        ],
+        "sample_620": [
+            false
+        ],
+        "sample_621": [
+            false
+        ],
+        "sample_622": [
+            false
+        ],
+        "sample_623": [
+            false
+        ],
+        "sample_624": [
+            false
+        ],
+        "sample_625": [
+            false
+        ],
+        "sample_626": [
+            false
+        ],
+        "sample_627": [
+            false
+        ],
+        "sample_628": [
+            true
+        ],
+        "sample_629": [
+            false
+        ],
+        "sample_630": [
+            false
+        ],
+        "sample_631": [
+            false
+        ],
+        "sample_632": [
+            false
+        ],
+        "sample_633": [
+            false
+        ],
+        "sample_634": [
+            false
+        ],
+        "sample_635": [
+            false
+        ],
+        "sample_636": [
+            true
+        ],
+        "sample_637": [
+            true
+        ],
+        "sample_638": [
+            false
+        ],
+        "sample_639": [
+            false
+        ],
+        "sample_640": [
+            false
+        ],
+        "sample_641": [
+            true
+        ],
+        "sample_642": [
+            true
+        ],
+        "sample_643": [
+            false
+        ],
+        "sample_644": [
+            false
+        ],
+        "sample_645": [
+            false
+        ],
+        "sample_646": [
+            false
+        ],
+        "sample_647": [
+            false
+        ],
+        "sample_648": [
+            true
+        ],
+        "sample_649": [
+            false
+        ],
+        "sample_650": [
+            true
+        ],
+        "sample_651": [
+            true
+        ],
+        "sample_652": [
+            true
+        ],
+        "sample_653": [
+            false
+        ],
+        "sample_654": [
+            false
+        ],
+        "sample_655": [
+            false
+        ],
+        "sample_656": [
+            true
+        ],
+        "sample_657": [
+            false
+        ],
+        "sample_658": [
+            false
+        ],
+        "sample_659": [
+            true
+        ],
+        "sample_660": [
+            false
+        ],
+        "sample_661": [
+            false
+        ],
+        "sample_662": [
+            true
+        ],
+        "sample_663": [
+            true
+        ],
+        "sample_664": [
+            true
+        ],
+        "sample_665": [
+            false
+        ],
+        "sample_666": [
+            true
+        ],
+        "sample_667": [
+            false
+        ],
+        "sample_668": [
+            false
+        ],
+        "sample_669": [
+            true
+        ],
+        "sample_670": [
+            true
+        ],
+        "sample_671": [
+            false
+        ],
+        "sample_672": [
+            false
+        ],
+        "sample_673": [
+            true
+        ],
+        "sample_674": [
+            false
+        ],
+        "sample_675": [
+            true
+        ],
+        "sample_676": [
+            false
+        ],
+        "sample_677": [
+            false
+        ],
+        "sample_678": [
+            true
+        ],
+        "sample_679": [
+            true
+        ],
+        "sample_680": [
+            false
+        ],
+        "sample_681": [
+            false
+        ],
+        "sample_682": [
+            false
+        ],
+        "sample_683": [
+            true
+        ],
+        "sample_684": [
+            false
+        ],
+        "sample_685": [
+            true
+        ],
+        "sample_686": [
+            false
+        ],
+        "sample_687": [
+            false
+        ],
+        "sample_688": [
+            true
+        ],
+        "sample_689": [
+            false
+        ],
+        "sample_690": [
+            false
+        ],
+        "sample_691": [
+            false
+        ],
+        "sample_692": [
+            true
+        ],
+        "sample_693": [
+            false
+        ],
+        "sample_694": [
+            true
+        ],
+        "sample_695": [
+            true
+        ],
+        "sample_696": [
+            true
+        ],
+        "sample_697": [
+            false
+        ],
+        "sample_698": [
+            false
+        ],
+        "sample_699": [
+            false
+        ],
+        "sample_700": [
+            false
+        ],
+        "sample_701": [
+            false
+        ],
+        "sample_702": [
+            false
+        ],
+        "sample_703": [
+            false
+        ],
+        "sample_704": [
+            true
+        ],
+        "sample_705": [
+            false
+        ],
+        "sample_706": [
+            true
+        ],
+        "sample_707": [
+            false
+        ],
+        "sample_708": [
+            false
+        ],
+        "sample_709": [
+            true
+        ],
+        "sample_710": [
+            true
+        ],
+        "sample_711": [
+            false
+        ],
+        "sample_712": [
+            false
+        ],
+        "sample_713": [
+            false
+        ],
+        "sample_714": [
+            false
+        ],
+        "sample_715": [
+            false
+        ],
+        "sample_716": [
+            true
+        ],
+        "sample_717": [
+            false
+        ],
+        "sample_718": [
+            false
+        ],
+        "sample_719": [
+            false
+        ],
+        "sample_720": [
+            false
+        ],
+        "sample_721": [
+            true
+        ],
+        "sample_722": [
+            false
+        ],
+        "sample_723": [
+            false
+        ],
+        "sample_724": [
+            false
+        ],
+        "sample_725": [
+            true
+        ],
+        "sample_726": [
+            false
+        ],
+        "sample_727": [
+            false
+        ],
+        "sample_728": [
+            false
+        ],
+        "sample_729": [
+            false
+        ],
+        "sample_730": [
+            false
+        ],
+        "sample_731": [
+            false
+        ],
+        "sample_732": [
+            true
+        ],
+        "sample_733": [
+            true
+        ],
+        "sample_734": [
+            false
+        ],
+        "sample_735": [
+            false
+        ],
+        "sample_736": [
+            false
+        ],
+        "sample_737": [
+            true
+        ],
+        "sample_738": [
+            false
+        ],
+        "sample_739": [
+            true
+        ],
+        "sample_740": [
+            false
+        ],
+        "sample_741": [
+            false
+        ],
+        "sample_742": [
+            true
+        ],
+        "sample_743": [
+            false
+        ],
+        "sample_744": [
+            true
+        ],
+        "sample_745": [
+            false
+        ],
+        "sample_746": [
+            true
+        ],
+        "sample_747": [
+            false
+        ],
+        "sample_748": [
+            false
+        ],
+        "sample_749": [
+            false
+        ],
+        "sample_750": [
+            true
+        ],
+        "sample_751": [
+            true
+        ],
+        "sample_752": [
+            true
+        ],
+        "sample_753": [
+            false
+        ],
+        "sample_754": [
+            false
+        ],
+        "sample_755": [
+            false
+        ],
+        "sample_756": [
+            false
+        ],
+        "sample_757": [
+            false
+        ],
+        "sample_758": [
+            true
+        ],
+        "sample_759": [
+            false
+        ],
+        "sample_760": [
+            true
+        ],
+        "sample_761": [
+            false
+        ],
+        "sample_762": [
+            false
+        ],
+        "sample_763": [
+            false
+        ],
+        "sample_764": [
+            false
+        ],
+        "sample_765": [
+            true
+        ],
+        "sample_766": [
+            false
+        ],
+        "sample_767": [
+            false
+        ],
+        "sample_768": [
+            false
+        ],
+        "sample_769": [
+            false
+        ],
+        "sample_770": [
+            false
+        ],
+        "sample_771": [
+            true
+        ],
+        "sample_772": [
+            false
+        ],
+        "sample_773": [
+            false
+        ],
+        "sample_774": [
+            true
+        ],
+        "sample_775": [
+            true
+        ],
+        "sample_776": [
+            true
+        ],
+        "sample_777": [
+            true
+        ],
+        "sample_778": [
+            false
+        ],
+        "sample_779": [
+            false
+        ],
+        "sample_780": [
+            false
+        ],
+        "sample_781": [
+            false
+        ],
+        "sample_782": [
+            false
+        ],
+        "sample_783": [
+            true
+        ],
+        "sample_784": [
+            true
+        ],
+        "sample_785": [
+            false
+        ],
+        "sample_786": [
+            false
+        ],
+        "sample_787": [
+            true
+        ],
+        "sample_788": [
+            false
+        ],
+        "sample_789": [
+            true
+        ],
+        "sample_790": [
+            false
+        ],
+        "sample_791": [
+            false
+        ],
+        "sample_792": [
+            false
+        ],
+        "sample_793": [
+            false
+        ],
+        "sample_794": [
+            true
+        ],
+        "sample_795": [
+            false
+        ],
+        "sample_796": [
+            false
+        ],
+        "sample_797": [
+            true
+        ],
+        "sample_798": [
+            false
+        ],
+        "sample_799": [
+            false
+        ]
+    },
+    "pass_at_1": 34.625,
+    "pass_at_5": 100.0
+}

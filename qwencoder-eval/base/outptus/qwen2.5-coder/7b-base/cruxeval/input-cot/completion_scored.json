@@ -1,0 +1,4808 @@
+{
+    "raw_generations": {
+        "sample_0": [
+            "f([1, 1, 1, 1, 3, 3])"
+        ],
+        "sample_1": [
+            "f([1, 2], [1], [2])"
+        ],
+        "sample_2": [
+            "f('h+b+t+o+f+d+e+i+e+q+u')"
+        ],
+        "sample_3": [
+            "f('bcksrut', 'q')"
+        ],
+        "sample_4": [
+            "f([' '] * 10)"
+        ],
+        "sample_5": [
+            "f('xxxxxxxxxxxxxxxxxx', 'a', 'b')"
+        ],
+        "sample_6": [
+            "f({'74': 31, 'ab': 2})"
+        ],
+        "sample_7": [
+            "f([])"
+        ],
+        "sample_8": [
+            "f('UppEr', 0)"
+        ],
+        "sample_9": [
+            "f(\"abc123\")"
+        ],
+        "sample_10": [
+            "f('')"
+        ],
+        "sample_11": [
+            "f({}, {'foo': 'bar'})"
+        ],
+        "sample_12": [
+            "f('I am a happy person! Daniel', 'I am a happy person! ')"
+        ],
+        "sample_13": [
+            "f(['a', 'b'])"
+        ],
+        "sample_14": [
+            "f('OOP')"
+        ],
+        "sample_15": [
+            "f('Zn Kgd Jw Lnt', 'n', 'N')"
+        ],
+        "sample_16": [
+            "f('zejrohajsuffix', 'suffix')"
+        ],
+        "sample_17": [
+            "f(\"Hello, World!\")"
+        ],
+        "sample_18": [
+            "f([3, 5, 4, 3, 2, 1], 0)"
+        ],
+        "sample_19": [
+            "f('', '999')"
+        ],
+        "sample_20": [
+            "f('was,')"
+        ],
+        "sample_21": [
+            "f([1, 2, 2])"
+        ],
+        "sample_22": [
+            "f(0)"
+        ],
+        "sample_23": [
+            "f('new-medium-performing-application - XQuery 2. ', ' ')"
+        ],
+        "sample_24": [
+            "f([45, 3, 61, 39, 27, 47, 12], 6)"
+        ],
+        "sample_25": [
+            "f({'l': 1, 't': 2, 'e': 3})"
+        ],
+        "sample_26": [
+            "f(\"hello.world\", \"world\")"
+        ],
+        "sample_27": [
+            "f(\"abcde\")"
+        ],
+        "sample_28": [
+            "f([1, 2, 3, 2, 1])"
+        ],
+        "sample_29": [
+            "f('abc123314def')"
+        ],
+        "sample_30": [
+            "f(['a', 'b', 'c'])"
+        ],
+        "sample_31": [
+            "f(\"ABCD\")"
+        ],
+        "sample_32": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_33": [
+            "f([5, 2, 7, 5, 2])"
+        ],
+        "sample_34": [
+            "f([2, 7, 7, 6, 8, 4, 2, 5, 21, 3, 9], 3, 9)"
+        ],
+        "sample_35": [
+            "f(\"\", [\"\", \"\", \"\"])"
+        ],
+        "sample_36": [
+            "f('haha', 'a')"
+        ],
+        "sample_37": [
+            "f('123233')"
+        ],
+        "sample_38": [
+            "f('1 oE-errBzz-bmm')"
+        ],
+        "sample_39": [
+            "f([1, 2, 3], 1)"
+        ],
+        "sample_40": [
+            "f('the cow goes moo')"
+        ],
+        "sample_41": [
+            "f([21, 92, 58], [92])"
+        ],
+        "sample_42": [
+            "f([])"
+        ],
+        "sample_43": [
+            "f(123a)"
+        ],
+        "sample_44": [
+            "f('noh')"
+        ],
+        "sample_45": [
+            "f(\"hello\", \"l\")"
+        ],
+        "sample_46": [
+            "f(['many', 'letters', 'as', 'vs', 'z', 'hell', 'o', 'man'], 'a')"
+        ],
+        "sample_47": [
+            "f(\"abcde\")"
+        ],
+        "sample_48": [
+            "f([])"
+        ],
+        "sample_49": [
+            "f('816')"
+        ],
+        "sample_50": [
+            "f([])"
+        ],
+        "sample_51": [
+            "f(21)"
+        ],
+        "sample_52": [
+            "f('seiq d')"
+        ],
+        "sample_53": [
+            "f(\"abcdefg\")"
+        ],
+        "sample_54": [
+            "f(\"bacde\", 0, 5)"
+        ],
+        "sample_55": [
+            "f([89, 43, 17, 14, 8, 4])"
+        ],
+        "sample_56": [
+            "f(\"Hello, World!\")"
+        ],
+        "sample_57": [
+            "f('AB')"
+        ],
+        "sample_58": [
+            "f([-1, 0, 0, 1, 1])"
+        ],
+        "sample_59": [
+            "f('hi ')"
+        ],
+        "sample_60": [
+            "f('r')"
+        ],
+        "sample_61": [
+            "f('')"
+        ],
+        "sample_62": [
+            "f({'ja': 'nee', 'coke': 'zoo', 'zoo': 'ja'})"
+        ],
+        "sample_63": [
+            "f('dbtdabdahesyehu', 'dbtdabdahesyehu')"
+        ],
+        "sample_64": [
+            "f('7', 9)"
+        ],
+        "sample_65": [
+            "f([1, 2, 3], 2)"
+        ],
+        "sample_66": [
+            "f('', '')"
+        ],
+        "sample_67": [
+            "f(6, 8, 8)"
+        ],
+        "sample_68": [
+            "f('dq', '')"
+        ],
+        "sample_69": [
+            "f({}, 'John')"
+        ],
+        "sample_70": [
+            "f(\"abc def ghi jkl mno\")"
+        ],
+        "sample_71": [
+            "f({2: 1, 4: 3, 6: 5, 8: 7, 9: 10}, 5)"
+        ],
+        "sample_72": [
+            "f(\"12345\")"
+        ],
+        "sample_73": [
+            "f('1110000000')"
+        ],
+        "sample_74": [
+            "f([44, 34, 82, 15, 24, 11, 63, 99], 2, 23)"
+        ],
+        "sample_75": [
+            "f([1, 2, 3, 4, 5], 3)"
+        ],
+        "sample_76": [
+            "f([6, 2, 3, 10, -1, -2, -3, -4, -5, -6])"
+        ],
+        "sample_77": [
+            "f('abc', 'd')"
+        ],
+        "sample_78": [
+            "f('MTY')"
+        ],
+        "sample_79": [
+            "f([])"
+        ],
+        "sample_80": [
+            "f('ab')"
+        ],
+        "sample_81": [
+            "f({'Bulls': 'Bulls', 'White Sox': 45}, 'Bulls')"
+        ],
+        "sample_82": [
+            "f(True, True, False, False)"
+        ],
+        "sample_83": [
+            "f('10')"
+        ],
+        "sample_84": [
+            "f('nwv mef ofmed bdrly')"
+        ],
+        "sample_85": [
+            "f(6)"
+        ],
+        "sample_86": [
+            "f('sdfs', 'drcr', '2e')"
+        ],
+        "sample_87": [
+            "f([-1, 3, 9, 1, 2])"
+        ],
+        "sample_88": [
+            "f('', 'hello')"
+        ],
+        "sample_89": [
+            "f('o')"
+        ],
+        "sample_90": [
+            "f([[1, 2, 3], [], [1, 2, 3]])"
+        ],
+        "sample_91": [
+            "f('12ab3xy')"
+        ],
+        "sample_92": [
+            "f(\"Hello, World!\")"
+        ],
+        "sample_93": [
+            "f('iq')"
+        ],
+        "sample_94": [
+            "f({'w': 3}, {'wi': 10})"
+        ],
+        "sample_95": [
+            "f({'AAA': 'fr'})"
+        ],
+        "sample_96": [
+            "f(\"hello world\")"
+        ],
+        "sample_97": [
+            "f([1, 2, 4])"
+        ],
+        "sample_98": [
+            "f(\"Hello World\")"
+        ],
+        "sample_99": [
+            "f('aa++bb', '+', 2)"
+        ],
+        "sample_100": [
+            "f({'1': 'b'}, [])"
+        ],
+        "sample_101": [
+            "f([4, 1, 0], 1, -4)"
+        ],
+        "sample_102": [
+            "f([], [])"
+        ],
+        "sample_103": [
+            "f('ABCDEFGHIJ')"
+        ],
+        "sample_104": [
+            "f('a')"
+        ],
+        "sample_105": [
+            "f('permission is granted')"
+        ],
+        "sample_106": [
+            "f([4, 4, 4, 4, 4, 4])"
+        ],
+        "sample_107": [
+            "f('uA6hAjQ')"
+        ],
+        "sample_108": [
+            "f([])"
+        ],
+        "sample_109": [
+            "f([9, 1, 1], 2, 0)"
+        ],
+        "sample_110": [
+            "f('hello')"
+        ],
+        "sample_111": [
+            "f({'math': 89, 'science': 4})"
+        ],
+        "sample_112": [
+            "f('XYZLtRRdnHodLTTBIGGeXET fult')"
+        ],
+        "sample_113": [
+            "f('987yHnShAsHd 93275YrGsgBgSsHfBsfb')"
+        ],
+        "sample_114": [
+            "f('a b', ' ')"
+        ],
+        "sample_115": [
+            "f(\"111; 115; 124; 124; 97; 103; 120; 53; \")"
+        ],
+        "sample_116": [
+            "f({}, 10)"
+        ],
+        "sample_117": [
+            "f([])"
+        ],
+        "sample_118": [
+            "f('zbzquiuqnmfkx', 'zbzquiuqnmfkx')"
+        ],
+        "sample_119": [
+            "f('vsnlyglta')"
+        ],
+        "sample_120": [
+            "f({})"
+        ],
+        "sample_121": [
+            "f('abc1001def')"
+        ],
+        "sample_122": [
+            "f('Nuva?dlfuyjys')"
+        ],
+        "sample_123": [
+            "f([1, 2, 3, 5, 6], 8)"
+        ],
+        "sample_124": [
+            "f('i like you', ' ', 1)"
+        ],
+        "sample_125": [
+            "f('3*Leap and the net will appear\\n\"3\"', 3)"
+        ],
+        "sample_126": [
+            "f('kxkxkfck')"
+        ],
+        "sample_127": [
+            "f(\"Line 1\\nLine 2\\nLine 3\")"
+        ],
+        "sample_128": [
+            "f('Mmohamt')"
+        ],
+        "sample_129": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_130": [
+            "f({'l': 'h'})"
+        ],
+        "sample_131": [
+            "f('a\\nb\\nc\\nd\\ne\\nf\\ng\\nh\\ni\\nj\\nk\\nl\\nm\\nn\\no\\np\\nq\\nr\\ns\\nt\\nu\\nv\\nw\\nx\\ny\\nz')"
+        ],
+        "sample_132": [
+            "f('abc', '')"
+        ],
+        "sample_133": [
+            "f([7, 1, 2, 3, 4, 5, 6], [3, 4, 5, 6])"
+        ],
+        "sample_134": [
+            "f(372359)"
+        ],
+        "sample_135": [
+            "f(d)"
+        ],
+        "sample_136": [
+            "f('a\\nbc\\n\\nd\\nef', 4)"
+        ],
+        "sample_137": [
+            "f([])"
+        ],
+        "sample_138": [
+            "f('tflb omn rtt', 'trltbomnft')"
+        ],
+        "sample_139": [
+            "f('abc', 'def')"
+        ],
+        "sample_140": [
+            "f('hihih')"
+        ],
+        "sample_141": [
+            "f([1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4])"
+        ],
+        "sample_142": [
+            "f('phfdky')"
+        ],
+        "sample_143": [
+            "f(\"Hello\", \"hello\")"
+        ],
+        "sample_144": [
+            "f([])"
+        ],
+        "sample_145": [
+            "f(10, 'olives')"
+        ],
+        "sample_146": [
+            "f(5)"
+        ],
+        "sample_147": [
+            "f([1, 1, 1])"
+        ],
+        "sample_148": [
+            "f(['2io', '12', 'tfiqr'], '2io')"
+        ],
+        "sample_149": [
+            "f([(2,), (4,), (2,), (0,)], ',')"
+        ],
+        "sample_150": [
+            "f([-2, 4, -4], 0)"
+        ],
+        "sample_151": [
+            "f('697 this is the ultimate 7 address to attack')"
+        ],
+        "sample_152": [
+            "f(\"THISISATESTWITHTWENTYUPPERCASELETTERS\")"
+        ],
+        "sample_153": [
+            "f(\"hello world\", \"world\", 10)"
+        ],
+        "sample_154": [
+            "f('There  Hello', '*')"
+        ],
+        "sample_155": [
+            "f('nnccijhxndjcsjksd', 4)"
+        ],
+        "sample_156": [
+            "f('tqzymzzzzz', 5, 'z')"
+        ],
+        "sample_157": [
+            "f(\"Hello, world! 0\")"
+        ],
+        "sample_158": [
+            "f([6, 4, -2, 6, 4, -2, 1, 3, 5])"
+        ],
+        "sample_159": [
+            "f('rtIm')"
+        ],
+        "sample_160": [
+            "f({1: 38381, 3: 83607})"
+        ],
+        "sample_161": [
+            "f('rinpxdif', 'j')"
+        ],
+        "sample_162": [
+            "f('\u0441bishopsWift')"
+        ],
+        "sample_163": [
+            "f('w', ')', 20)"
+        ],
+        "sample_164": [
+            "f([3, 1, 0, 5, 2])"
+        ],
+        "sample_165": [
+            "f(\"Hello, World!\", 0, 13)"
+        ],
+        "sample_166": [
+            "f({})"
+        ],
+        "sample_167": [
+            "f('aaXXXXbbXXXXccXXXXdeXXXX', 'qw')"
+        ],
+        "sample_168": [
+            "f('spain', 'i', 2)"
+        ],
+        "sample_169": [
+            "f('taole')"
+        ],
+        "sample_170": [
+            "f([1, 2, 2, 3], 2)"
+        ],
+        "sample_171": [
+            "f([1, 2, 3, 4, 5, 6])"
+        ],
+        "sample_172": [
+            "f([-1, -2, -3])"
+        ],
+        "sample_173": [
+            "f([5, 8, 6, 8, 4])"
+        ],
+        "sample_174": [
+            "f([1, 2, 3])"
+        ],
+        "sample_175": [
+            "f(' ', 0)"
+        ],
+        "sample_176": [
+            "f('some text', 'some text')"
+        ],
+        "sample_177": [
+            "f('hEy dUdE ThIs $nD^ &*&tHiS@#')"
+        ],
+        "sample_178": [
+            "f([1, 2, 2, 2], 1)"
+        ],
+        "sample_179": [
+            "f([2, 6, 1, 7, 1, 2, 6, 0, 2])"
+        ],
+        "sample_180": [
+            "f([-1, -2, -6, 8, 8])"
+        ],
+        "sample_181": [
+            "f('3291223')"
+        ],
+        "sample_182": [
+            "f({'a': 2, 'b': 1})"
+        ],
+        "sample_183": [
+            "f('echo echo echo echo echo echo')"
+        ],
+        "sample_184": [
+            "f([2, 1])"
+        ],
+        "sample_185": [
+            "f([16, 9, 12, 7, 14, 11])"
+        ],
+        "sample_186": [
+            "f(' pvtso ')"
+        ],
+        "sample_187": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_188": [
+            "f(['apple'])"
+        ],
+        "sample_189": [
+            "f('{{{{}}}}', {'key': ['{{{{}}}}', '']})"
+        ],
+        "sample_190": [
+            "f('jiojickldl')"
+        ],
+        "sample_191": [
+            "f(\"hello\")"
+        ],
+        "sample_192": [
+            "f('!klcd!ma:ri!klcd!ma:ri', '!klcd!ma:ri')"
+        ],
+        "sample_193": [
+            "f('1::1')"
+        ],
+        "sample_194": [
+            "f([[5, 6, 2, 3], [1, 9, 5, 6]], 0)"
+        ],
+        "sample_195": [
+            "f('ilfdoirwirmtoibsac acs asp scn')"
+        ],
+        "sample_196": [
+            "f('Hello World')"
+        ],
+        "sample_197": [
+            "f(1, 1234567890)"
+        ],
+        "sample_198": [
+            "f('smftcm', 'm')"
+        ],
+        "sample_199": [
+            "f('mnmnj krupa...##!@#!@#$$@##', '#')"
+        ],
+        "sample_200": [
+            "f('tm oajhouse', 0)"
+        ],
+        "sample_201": [
+            "f('641524')"
+        ],
+        "sample_202": [
+            "f([15, 15, 2, 4, 6, 8, 10], [15, 15])"
+        ],
+        "sample_203": [
+            "f({'a': 1, 'b': 2})"
+        ],
+        "sample_204": [
+            "f('ma')"
+        ],
+        "sample_205": [
+            "f('###fiu##nk#he###wumun')"
+        ],
+        "sample_206": [
+            "f('h e l l o w o r l d!')"
+        ],
+        "sample_207": [
+            "f([{'brown': 2}, {'blue': 5}, {'bright': 4}])"
+        ],
+        "sample_208": [
+            "f([['c', 'a', 't'], ['d', ' ', 'd', 'e', 'e']])"
+        ],
+        "sample_209": [
+            "f('hym', 'hymihymi')"
+        ],
+        "sample_210": [
+            "f(45, 46, 1)"
+        ],
+        "sample_211": [
+            "f(\"aabbbccccdddeee\")"
+        ],
+        "sample_212": [
+            "f([3, -3, 6, 2, 7, -9, 1])"
+        ],
+        "sample_213": [
+            "f('(ac)')"
+        ],
+        "sample_214": [
+            "f(\"abc/def/ghi\")"
+        ],
+        "sample_215": [
+            "f('))')"
+        ],
+        "sample_216": [
+            "f(\"1234567890\")"
+        ],
+        "sample_217": [
+            "f('!@#$%^&*()')"
+        ],
+        "sample_218": [
+            "f('cab', 'f')"
+        ],
+        "sample_219": [
+            "f(\"def\", \"abc\")"
+        ],
+        "sample_220": [
+            "f('abc', 2, 1)"
+        ],
+        "sample_221": [
+            "f('bpxa24fc5.', '.')"
+        ],
+        "sample_222": [
+            "f('0aabbaa0b', 'b')"
+        ],
+        "sample_223": [
+            "f([1, 2], 2)"
+        ],
+        "sample_224": [
+            "f([0], 0)"
+        ],
+        "sample_225": [
+            "f(\"Hello\")"
+        ],
+        "sample_226": [
+            "f([1, 3])"
+        ],
+        "sample_227": [
+            "f('manolo')"
+        ],
+        "sample_228": [
+            "f('LlThH SaFlApKpHtSwP', '#')"
+        ],
+        "sample_229": [
+            "f({'9': 'm', 'm': 'A', 'A': '1', '1': '0', '0': 'L', 'L': 'k'}, 'A')"
+        ],
+        "sample_230": [
+            "f('xzoq')"
+        ],
+        "sample_231": [
+            "f([1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920])"
+        ],
+        "sample_232": [
+            "f('yes', 'yes')"
+        ],
+        "sample_233": [
+            "f([3, 1, 2])"
+        ],
+        "sample_234": [
+            "f(\"abc\", \"a\")"
+        ],
+        "sample_235": [
+            "f(['a', 'b', 'c'], ['a', 'b', 'c'])"
+        ],
+        "sample_236": [
+            "f('ac8qk6qk6')"
+        ],
+        "sample_237": [
+            "f('uuzlwaqiaj', 'a')"
+        ],
+        "sample_238": [
+            "f([[1, 9, 4], [2, 3, 5], [6, 7, 8]], 1)"
+        ],
+        "sample_239": [
+            "f('1co', '1o')"
+        ],
+        "sample_240": [
+            "f(3.121)"
+        ],
+        "sample_241": [
+            "f('C12345')"
+        ],
+        "sample_242": [
+            "f('udhv zcvi nhtnfyd :erwuyawa pun')"
+        ],
+        "sample_243": [
+            "f(\"hello\", \"a\")"
+        ],
+        "sample_244": [
+            "f('', ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])"
+        ],
+        "sample_245": [
+            "f([], '')"
+        ],
+        "sample_246": [
+            "f(\"hello world\", \"python\")"
+        ],
+        "sample_247": [
+            "f('abc')"
+        ],
+        "sample_248": [
+            "f([666], [])"
+        ],
+        "sample_249": [
+            "f('fSa')"
+        ],
+        "sample_250": [
+            "f('Alcwlace  ')"
+        ],
+        "sample_251": [
+            "f([['Marie'], ['+353']], [['Nelson'], ['+353']], [['Oscar'], ['+353']])"
+        ],
+        "sample_252": [
+            "f('\\\\foo', '\\\\')"
+        ],
+        "sample_253": [
+            "f('pumwwfv', 'p')"
+        ],
+        "sample_254": [
+            "f('lower case', 'lwwer case')"
+        ],
+        "sample_255": [
+            "f('w', ' ', 1)"
+        ],
+        "sample_256": [
+            "f(\"sub\", \"sub\")"
+        ],
+        "sample_257": [
+            "f(\"Hello World\\n\\\"I am String\\\"\")"
+        ],
+        "sample_258": [
+            "f([1, 2, 7, 9], 3, 2, 1)"
+        ],
+        "sample_259": [
+            "f('rEs')"
+        ],
+        "sample_260": [
+            "f([1, 2, 3, 4, 5, 6], 4, 2)"
+        ],
+        "sample_261": [
+            "f([12, 516, 5, 214, 51], 51)"
+        ],
+        "sample_262": [
+            "f([4, 5])"
+        ],
+        "sample_263": [
+            "f(['gloss', 'apple', 'barn', 'lawn'], [('apple', 'banana')])"
+        ],
+        "sample_264": [
+            "f('papeae')"
+        ],
+        "sample_265": [
+            "f({1: 2, 2: 4, 3: 6}, 3)"
+        ],
+        "sample_266": [
+            "f([2, 3, 4, 6, -2])"
+        ],
+        "sample_267": [
+            "f('sowpf', 0)"
+        ],
+        "sample_268": [
+            "f('h g r a t e f u l   k', ' ')"
+        ],
+        "sample_269": [
+            "f(['0', '0', '0', 2, 2])"
+        ],
+        "sample_270": [
+            "f({'a': 1})"
+        ],
+        "sample_271": [
+            "f('uufhh', 'h')"
+        ],
+        "sample_272": [
+            "f([9, 7, 5, 3, 1, 2, 4, 6, 8, 0], [2, 6, 0, 6, 6])"
+        ],
+        "sample_273": [
+            "f('TEN')"
+        ],
+        "sample_274": [
+            "f([1, 2, 3, 4, 5], 5)"
+        ],
+        "sample_275": [
+            "f({'a': -1, 'b': 0, 'c': 1})"
+        ],
+        "sample_276": [
+            "f([1, 2, 0, 0])"
+        ],
+        "sample_277": [
+            "f([1, 2, 3, 4], True)"
+        ],
+        "sample_278": [
+            "f([0, 132], [5, 32])"
+        ],
+        "sample_279": [
+            "f('')"
+        ],
+        "sample_280": [
+            "f('00000000\\n00000000\\n11110000\\n11010101\\n11011110')"
+        ],
+        "sample_281": [
+            "f({1: 2, 3: 4, 5: 6, 8: 2}, 8, 1)"
+        ],
+        "sample_282": [
+            "f(\"hello world hello\", \"hello\")"
+        ],
+        "sample_283": [
+            "f({'Iron Man': 1}, 'Iron Man')"
+        ],
+        "sample_284": [
+            "f('hello', 'hello')"
+        ],
+        "sample_285": [
+            "f(\"Pirates' Curse\", \"e\")"
+        ],
+        "sample_286": [
+            "f([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 11, 4)"
+        ],
+        "sample_287": [
+            "f('PINEAPPLE')"
+        ],
+        "sample_288": [
+            "f({1: 3, 4: 555})"
+        ],
+        "sample_289": [
+            "f(148)"
+        ],
+        "sample_290": [
+            "f('ABIXAAAILY', 'AB')"
+        ],
+        "sample_291": [
+            "f({'a': []}, ['a', 2])"
+        ],
+        "sample_292": [
+            "f('58323')"
+        ],
+        "sample_293": [
+            "f('Xx')"
+        ],
+        "sample_294": [
+            "f('$', '&', '2z531@aa1hris')"
+        ],
+        "sample_295": [
+            "f(['pear', 'banana', 'pear', 'banana', 'pear', 'pear'])"
+        ],
+        "sample_296": [
+            "f('http://www.https://www.www.ekapusta.com/image/url')"
+        ],
+        "sample_297": [
+            "f(1000)"
+        ],
+        "sample_298": [
+            "f('dst vavf n dmv dfvm gamcu dgcvb.')"
+        ],
+        "sample_299": [
+            "f('staovk', 's')"
+        ],
+        "sample_300": [
+            "f([1, 2, 3])"
+        ],
+        "sample_301": [
+            "f([0, 6, 2, -1, -2])"
+        ],
+        "sample_302": [
+            "f('wdeejjjzsjsjjsxjjhaystacksddaddddddefsfd')"
+        ],
+        "sample_303": [
+            "f('mJkLbN')"
+        ],
+        "sample_304": [
+            "f({87: 7, 18: 6})"
+        ],
+        "sample_305": [
+            "f('to hoseto', 't')"
+        ],
+        "sample_306": [
+            "f([0, 6, 1, 2, 0])"
+        ],
+        "sample_307": [
+            "f('pxcznyf')"
+        ],
+        "sample_308": [
+            "f(['La', 'La', 'La', 'Q', '9'])"
+        ],
+        "sample_309": [
+            "f('faqo osax ', ' ')"
+        ],
+        "sample_310": [
+            "f(['r__1.00', '6__j_a', '6__'])"
+        ],
+        "sample_311": [
+            "f('123#456$789')"
+        ],
+        "sample_312": [
+            "f(\"abc123\")"
+        ],
+        "sample_313": [
+            "f('urecord', 7)"
+        ],
+        "sample_314": [
+            "f(' 105, -90 244')"
+        ],
+        "sample_315": [
+            "f('CzyWz')"
+        ],
+        "sample_316": [
+            "f('i am your father')"
+        ],
+        "sample_317": [
+            "f('a zwwo oihee amawaaw!', 'vap', 'a')"
+        ],
+        "sample_318": [
+            "f(\"A\", \"a\")"
+        ],
+        "sample_319": [
+            "f(('a', 'aaaa'))"
+        ],
+        "sample_320": [
+            "f('usar')"
+        ],
+        "sample_321": [
+            "f({'desciduous': 2}, {'desciduous': 0})"
+        ],
+        "sample_322": [
+            "f(['s', 'lsi', 's', 't', 't', 'd', 'lsi'], 1)"
+        ],
+        "sample_323": [
+            "f(\"Hello, world!\")"
+        ],
+        "sample_324": [
+            "f([])"
+        ],
+        "sample_325": [
+            "f(\"1234567890\")"
+        ],
+        "sample_326": [
+            "f(\"Hello World!\")"
+        ],
+        "sample_327": [
+            "f([1, -7, 3, -1])"
+        ],
+        "sample_328": [
+            "f([1, 2, 3], 6)"
+        ],
+        "sample_329": [
+            "f(\"aB\")"
+        ],
+        "sample_330": [
+            "f('a4b2c')"
+        ],
+        "sample_331": [
+            "f('abc', 'z')"
+        ],
+        "sample_332": [
+            "f([1, 2, 3])"
+        ],
+        "sample_333": [
+            "f([1, 3, 5], [2, 4])"
+        ],
+        "sample_334": [
+            "f(' ', ['n', 'U', '0', '0', ' ', '9', ' ', 'r', 'C', 'S', 'A', 'z', '0', '0', 'w', '0', '0', ' ', 'l', 'p', 'A', '5', 'B', 'O', '0', '0', 's', 'i', 'z', 'L', '0', '0', 'i', '7', 'r', 'l', 'V', 'r'])"
+        ],
+        "sample_335": [
+            "f('sjbrfqmw', 'r')"
+        ],
+        "sample_336": [
+            "f('234dsfssdfs333324314', 'sep')"
+        ],
+        "sample_337": [
+            "f('ll')"
+        ],
+        "sample_338": [
+            "f({1: 'a', 2: 'd', 3: 'c'})"
+        ],
+        "sample_339": [
+            "f([1, 2, 3, 2, 4], 2)"
+        ],
+        "sample_340": [
+            "f('   ADEGHIVjkptx')"
+        ],
+        "sample_341": [
+            "f({'apple': 1, 'banana': 2, 'orange': 3, 'grape': 4, 'pear': 5, 'kiwi': 6})"
+        ],
+        "sample_342": [
+            "f(\"\")"
+        ],
+        "sample_343": [
+            "f([[1, 2, 3], [1, 2], 1, [1, 2, 3], 3, [2, 1]], [])"
+        ],
+        "sample_344": [
+            "f([2, 4, 6, 8, 15], lambda x: x.reverse())"
+        ],
+        "sample_345": [
+            "f('ml', 'mv')"
+        ],
+        "sample_346": [
+            "f(\"example.txt\")"
+        ],
+        "sample_347": [
+            "f('hhhh')"
+        ],
+        "sample_348": [
+            "f({563: 555, 133: None})"
+        ],
+        "sample_349": [
+            "f({'noeohqhk': 623, 1049: 55})"
+        ],
+        "sample_350": [
+            "f({0: 1, 1: 2, 2: 3})"
+        ],
+        "sample_351": [
+            "f('a_A_b_B3 nnet lloP')"
+        ],
+        "sample_352": [
+            "f([-10, -5, 0])"
+        ],
+        "sample_353": [
+            "f([1, 2, 3, 4, 4, 4, 4])"
+        ],
+        "sample_354": [
+            "f('{}, {}', ['R', 'R!!!'])"
+        ],
+        "sample_355": [
+            "f('123x John z', '1')"
+        ],
+        "sample_356": [
+            "f([1, 2], 1)"
+        ],
+        "sample_357": [
+            "f('crew')"
+        ],
+        "sample_358": [
+            "f('trtrtr', 't')"
+        ],
+        "sample_359": [
+            "f(['dZwbSR', 'wijHeq', 'qluVok', 'dxjxbF'])"
+        ],
+        "sample_360": [
+            "f('g', 1)"
+        ],
+        "sample_361": [
+            "f('#:hello')"
+        ],
+        "sample_362": [
+            "f('razugizoernmgzu')"
+        ],
+        "sample_363": [
+            "f([1])"
+        ],
+        "sample_364": [
+            "f([3, 1, 0], verdict)"
+        ],
+        "sample_365": [
+            "f('m', 'mRcwVqXsRDRb')"
+        ],
+        "sample_366": [
+            "f('aabbcc')"
+        ],
+        "sample_367": [
+            "f([6, 1, 1, 1, 4, 2], 2)"
+        ],
+        "sample_368": [
+            "f('4327', [0, 4, 5, 0, 3, 0])"
+        ],
+        "sample_369": [
+            "f('a')"
+        ],
+        "sample_370": [
+            "f(\"Hello\")"
+        ],
+        "sample_371": [
+            "f([1, 3, 5, 7, 9])"
+        ],
+        "sample_372": [
+            "f([], 0)"
+        ],
+        "sample_373": [
+            "f([1, 2, 3, 100])"
+        ],
+        "sample_374": [
+            "f(['zzz'], 'z')"
+        ],
+        "sample_375": [
+            "f('sieriiizizam', 'i')"
+        ],
+        "sample_376": [
+            "f('one')"
+        ],
+        "sample_377": [
+            "f('BYE\\nNO\\nWAY')"
+        ],
+        "sample_378": [
+            "f({'a': 1, 'b': 2, 'c': 3}, 'd')"
+        ],
+        "sample_379": [
+            "f([1, 2, 3, 0])"
+        ],
+        "sample_380": [
+            "f('xxjarcz', 'z')"
+        ],
+        "sample_381": [
+            "f('19', 3)"
+        ],
+        "sample_382": [
+            "f({15: 'Qltuf', 12: 'Rwrepny'})"
+        ],
+        "sample_383": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_384": [
+            "f('sfdellos', 'abcdefghijklmnopqrstuvwxyz')"
+        ],
+        "sample_385": [
+            "f([0, 2, 2, 2])"
+        ],
+        "sample_386": [
+            "f('', {'0': '', '1': '', '2': '', '3': '', '4': '', '5': '', '6': '', '7': '', '8': '', '9': ''})"
+        ],
+        "sample_387": [
+            "f([3, 1, 0], 3, 2)"
+        ],
+        "sample_388": [
+            "f('2nm_28inabcde', 'abcde')"
+        ],
+        "sample_389": [
+            "f([1, 2, 3], ['n', 'a', 'm', 'm', 'o'])"
+        ],
+        "sample_390": [
+            "f(\"\")"
+        ],
+        "sample_391": [
+            "f(['9', '+', '+', '+'])"
+        ],
+        "sample_392": [
+            "f('Hello Is It MyClass')"
+        ],
+        "sample_393": [
+            "f('s---c---a')"
+        ],
+        "sample_394": [
+            "f(\"Hello\\n\\nWorld\")"
+        ],
+        "sample_395": [
+            "f('123')"
+        ],
+        "sample_396": [
+            "f({})"
+        ],
+        "sample_397": [
+            "f(['x', 'u', 'w', 'j', 3, 6])"
+        ],
+        "sample_398": [
+            "f({'2': 2, '0': 1, '1': 2})"
+        ],
+        "sample_399": [
+            "f('a--cado', 'a', '--')"
+        ],
+        "sample_400": [
+            "f('I, am, hungry!, eat, food. \ud83d\ude0b')"
+        ],
+        "sample_401": [
+            "f('mathematics', 'ics')"
+        ],
+        "sample_402": [
+            "f(0)"
+        ],
+        "sample_403": [
+            "f(\"abab\", \"ab\")"
+        ],
+        "sample_404": [
+            "f([1, 2, 3, 4, 5, 6])"
+        ],
+        "sample_405": [
+            "f([5, 3, 4, 1, 2, 3, 5])"
+        ],
+        "sample_406": [
+            "f('hello')"
+        ],
+        "sample_407": [
+            "f([])"
+        ],
+        "sample_408": [
+            "f([4, 0, 6, -4, -7, 2, -1])"
+        ],
+        "sample_409": [
+            "f('querisTq', 'q')"
+        ],
+        "sample_410": [
+            "f([1, 3, -1, 1, -2, 6])"
+        ],
+        "sample_411": [
+            "f(\"world\", \"hello\")"
+        ],
+        "sample_412": [
+            "f(1, 15, 2)"
+        ],
+        "sample_413": [
+            "f('cucwuc')"
+        ],
+        "sample_414": [
+            "f({'X': ['x', 'y']})"
+        ],
+        "sample_415": [
+            "f([(8, 2), (5, 3)])"
+        ],
+        "sample_416": [
+            "f('jysrhfm ojwesf xgwwdyr dlrul ymba bpq', ' ', '')"
+        ],
+        "sample_417": [
+            "f([8, 2, 8])"
+        ],
+        "sample_418": [
+            "f('qqqqq', 'q')"
+        ],
+        "sample_419": [
+            "f('mmfb', 'mmfb')"
+        ],
+        "sample_420": [
+            "f(\"hello\")"
+        ],
+        "sample_421": [
+            "f('try.abcde', 3)"
+        ],
+        "sample_422": [
+            "f([1, 2, 1])"
+        ],
+        "sample_423": [
+            "f([2, 3, 1, 5, 2, 4])"
+        ],
+        "sample_424": [
+            "f('The aakers of a Statement')"
+        ],
+        "sample_425": [
+            "f('CL44     :')"
+        ],
+        "sample_426": [
+            "f([1, 2, 3], 8, 3)"
+        ],
+        "sample_427": [
+            "f('')"
+        ],
+        "sample_428": [
+            "f([])"
+        ],
+        "sample_429": [
+            "f({'abc': 2, 'defghi': 2, 5: 1, 87.29: 3})"
+        ],
+        "sample_430": [
+            "f([5, 1, 3], [7, 8, '', 0, -1, []])"
+        ],
+        "sample_431": [
+            "f(5, 6)"
+        ],
+        "sample_432": [
+            "f(5, \"hello\")"
+        ],
+        "sample_433": [
+            "f('T,Sspp,G ,.tB,Vxk,Cct')"
+        ],
+        "sample_434": [
+            "f(\"Hello, world!\")"
+        ],
+        "sample_435": [
+            "f([], 1, 5)"
+        ],
+        "sample_436": [
+            "f('7617 ', [0, 1, 2, 3, 4])"
+        ],
+        "sample_437": [
+            "f(['d', 'o', 'e'])"
+        ],
+        "sample_438": [
+            "f('1\\t  3')"
+        ],
+        "sample_439": [
+            "f('c o s c i f y s u')"
+        ],
+        "sample_440": [
+            "f('hello')"
+        ],
+        "sample_441": [
+            "f({37: 'forty-five'}, '23', 'what?')"
+        ],
+        "sample_442": [
+            "f([1, 2, 3, 4])"
+        ],
+        "sample_443": [
+            "f(' cdlorem ipsum')"
+        ],
+        "sample_444": [
+            "f([3, 2, -5])"
+        ],
+        "sample_445": [
+            "f('carrot, banana, and strawberry')"
+        ],
+        "sample_446": [
+            "f([1, 2])"
+        ],
+        "sample_447": [
+            "f('  a', 2)"
+        ],
+        "sample_448": [
+            "f('hello', 'world')"
+        ],
+        "sample_449": [
+            "f(\"1234567890\")"
+        ],
+        "sample_450": [
+            "f('K zB KB')"
+        ],
+        "sample_451": [
+            "f('n', 'n')"
+        ],
+        "sample_452": [
+            "f(\"a\")"
+        ],
+        "sample_453": [
+            "f(\"hello\", \"o\")"
+        ],
+        "sample_454": [
+            "f({}, 0)"
+        ],
+        "sample_455": [
+            "f('ABCdefGHIJKLmnopqrstuvwxyz')"
+        ],
+        "sample_456": [
+            "f('Join us in Hungary', 4)"
+        ],
+        "sample_457": [
+            "f([])"
+        ],
+        "sample_458": [
+            "f('pppo4pIp', 'pi', 'oo4')"
+        ],
+        "sample_459": [
+            "f(['vzjmc', 'b', 'ae', 'f'], {})"
+        ],
+        "sample_460": [
+            "f('GENERAL NAGOOR', 13)"
+        ],
+        "sample_461": [
+            "f(\"\", \"hello\")"
+        ],
+        "sample_462": [
+            "f('abcdefgh', 'o')"
+        ],
+        "sample_463": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_464": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_465": [
+            "f(['wise king', 'young king'], 'north')"
+        ],
+        "sample_466": [
+            "f('     -----')"
+        ],
+        "sample_467": [
+            "f({})"
+        ],
+        "sample_468": [
+            "f('unrndqafi', 'a', 1)"
+        ],
+        "sample_469": [
+            "f('sudui', 2, 'y')"
+        ],
+        "sample_470": [
+            "f(2)"
+        ],
+        "sample_471": [
+            "f('z', 'hello')"
+        ],
+        "sample_472": [
+            "f(\"aaaaa\")"
+        ],
+        "sample_473": [
+            "f('scedvtvtkwqfqn', 'a')"
+        ],
+        "sample_474": [
+            "f('#[)[]>[^e', 10)"
+        ],
+        "sample_475": [
+            "f([1, 2, 3], -2)"
+        ],
+        "sample_476": [
+            "f(\"Hello World\", \"!\")"
+        ],
+        "sample_477": [
+            "f('xduaisf')"
+        ],
+        "sample_478": [
+            "f('mewo mewo')"
+        ],
+        "sample_479": [
+            "f([1, 2, 3], 1, 2)"
+        ],
+        "sample_480": [
+            "f('', 'a', 'b')"
+        ],
+        "sample_481": [
+            "f([1], 1, 1)"
+        ],
+        "sample_482": [
+            "f('Because it intrigues them')"
+        ],
+        "sample_483": [
+            "f('a', 'a')"
+        ],
+        "sample_484": [
+            "f([\"91\", \"2\"])"
+        ],
+        "sample_485": [
+            "f('gsd avdropj')"
+        ],
+        "sample_486": [
+            "f({1: 1, 2: 2, 3: 3})"
+        ],
+        "sample_487": [
+            "f({4: 'value'})"
+        ],
+        "sample_488": [
+            "f('5ezmgvn 651h', ' ')"
+        ],
+        "sample_489": [
+            "f('hellocifysu', 'hello')"
+        ],
+        "sample_490": [
+            "f('\\n\\n\\r\\r \\x0c')"
+        ],
+        "sample_491": [
+            "f([4, 8, 5, 5, 5, 5, 5])"
+        ],
+        "sample_492": [
+            "f('abbkebaniuwurzvr', 'b')"
+        ],
+        "sample_493": [
+            "f({'-4': 4, '1': 2, '-': -3})"
+        ],
+        "sample_494": [
+            "f('1', 3)"
+        ],
+        "sample_495": [
+            "f('a1234\u00e5r')"
+        ],
+        "sample_496": [
+            "f(\"Hello World\", \"Python\")"
+        ],
+        "sample_497": [
+            "f(44)"
+        ],
+        "sample_498": [
+            "f([2, 2, 2, 3, 3], 2, 3)"
+        ],
+        "sample_499": [
+            "f('magazine', 25, '.')"
+        ],
+        "sample_500": [
+            "f('dd', 'd')"
+        ],
+        "sample_501": [
+            "f('jqjfj', 'z')"
+        ],
+        "sample_502": [
+            "f('Fred Smith')"
+        ],
+        "sample_503": [
+            "f({})"
+        ],
+        "sample_504": [
+            "f([1, 1, 1, 1])"
+        ],
+        "sample_505": [
+            "f('1234567890')"
+        ],
+        "sample_506": [
+            "f(4)"
+        ],
+        "sample_507": [
+            "f((\"Hello, world!\", \"Hello\"))"
+        ],
+        "sample_508": [
+            "f('wiertub', 'i', 2)"
+        ],
+        "sample_509": [
+            "f(5, 1)"
+        ],
+        "sample_510": [
+            "f({}, 4, ['W', 'y'], 'd', 'e')"
+        ],
+        "sample_511": [
+            "f(['ct', 'c', 'ca'], {'ca': 'cx'})"
+        ],
+        "sample_512": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_513": [
+            "f([-1, 0, 1])"
+        ],
+        "sample_514": [
+            "f('stew corn and beans in soup')"
+        ],
+        "sample_515": [
+            "f([5, 4, 3, 2, 1])"
+        ],
+        "sample_516": [
+            "f([], \"any string\")"
+        ],
+        "sample_517": [
+            "f('SzHjifnzoABC')"
+        ],
+        "sample_518": [
+            "f(\"abc\")"
+        ],
+        "sample_519": [
+            "f({1: False, 2: 0})"
+        ],
+        "sample_520": [
+            "f([6, 1, 2, 3, 4, 5])"
+        ],
+        "sample_521": [
+            "f([9, 0, 2, 5, 77, 4, 0, 43, 77])"
+        ],
+        "sample_522": [
+            "f([1, 2, 3])"
+        ],
+        "sample_523": [
+            "f('   ')"
+        ],
+        "sample_524": [
+            "f({2: 1, 4: 3, 3: 2, 1: 0, 5: 1})"
+        ],
+        "sample_525": [
+            "f({'TEXT': 'CODE', 'CODE': 'TEXT'}, 'TEXT', 'CODE')"
+        ],
+        "sample_526": [
+            "f('rpg', 'p', 'rpg', 2)"
+        ],
+        "sample_527": [
+            "f('!', '?')"
+        ],
+        "sample_528": [
+            "f(\"abab\")"
+        ],
+        "sample_529": [
+            "f([1, 1, 2, 2, 3])"
+        ],
+        "sample_530": [
+            "f('ff', 'f')"
+        ],
+        "sample_531": [
+            "f('djgblw asdl ', 'djgblw asdl ')"
+        ],
+        "sample_532": [
+            "f(1, [1, 2, 3])"
+        ],
+        "sample_533": [
+            "f('d', {'a': 1, 'b': 2, 'c': 3})"
+        ],
+        "sample_534": [
+            "f('h+o+s+u', '+')"
+        ],
+        "sample_535": [
+            "f(3)"
+        ],
+        "sample_536": [
+            "f(\"12345\")"
+        ],
+        "sample_537": [
+            "f('abc', 'd')"
+        ],
+        "sample_538": [
+            "f('0574', 9)"
+        ],
+        "sample_539": [
+            "f([])"
+        ],
+        "sample_540": [
+            "f([5, 9, 4, 6, 5, 5, 5, 5, 5, 5])"
+        ],
+        "sample_541": [
+            "f('   ')"
+        ],
+        "sample_542": [
+            "f('ab cd')"
+        ],
+        "sample_543": [
+            "f('.,,,,, , \u0645\u0646\u0628\u062a')"
+        ],
+        "sample_544": [
+            "f('            tab tab tabulates')"
+        ],
+        "sample_545": [
+            "f([8, 8, -1, 8])"
+        ],
+        "sample_546": [
+            "f('Speaker: Do you know who the other was? [NEGMENDS]', 'Speaker: ')"
+        ],
+        "sample_547": [
+            "f(\"h....e....l....l....o....w....o....r....l....d\")"
+        ],
+        "sample_548": [
+            "f('spiderman', 'man')"
+        ],
+        "sample_549": [
+            "f([[1, 1, 1, 1]])"
+        ],
+        "sample_550": [
+            "f([1, 1, 1, 1, 2])"
+        ],
+        "sample_551": [
+            "f({'key': ['a', 'b', 'c', 'inf']})"
+        ],
+        "sample_552": [
+            "f({0.76: [2], 5: [3, 6, 9, 12]})"
+        ],
+        "sample_553": [
+            "f('439m2670hslw', 3)"
+        ],
+        "sample_554": [
+            "f([2, 0, 1, 9999, 3, -5])"
+        ],
+        "sample_555": [
+            "f('odes\\tcode\\twell', ' ')"
+        ],
+        "sample_556": [
+            "f('\\n\\n        z   d\\ng\\n            e')"
+        ],
+        "sample_557": [
+            "f('xxxmm ar xx')"
+        ],
+        "sample_558": [
+            "f([1, 2, 3, 4, 5], [2, 4])"
+        ],
+        "sample_559": [
+            "f('first-second-third')"
+        ],
+        "sample_560": [
+            "f(\"ABC123\")"
+        ],
+        "sample_561": [
+            "f(\"1111111\", \"1\")"
+        ],
+        "sample_562": [
+            "f(\"a\")"
+        ],
+        "sample_563": [
+            "f(\"abc\", \"ab\")"
+        ],
+        "sample_564": [
+            "f([395, [666, 7, 4], [], []])"
+        ],
+        "sample_565": [
+            "f(\"hello world\")"
+        ],
+        "sample_566": [
+            "f('towaru', 'UTF-8')"
+        ],
+        "sample_567": [
+            "f('one two three four five', 3)"
+        ],
+        "sample_568": [
+            "f('1234567890')"
+        ],
+        "sample_569": [
+            "f(\"aaabbb\")"
+        ],
+        "sample_570": [
+            "f([1], 0, 1)"
+        ],
+        "sample_571": [
+            "f('a\\tb', 1)"
+        ],
+        "sample_572": [
+            "f([(1, 2), (2, 10), (3, 1)], 2)"
+        ],
+        "sample_573": [
+            "f('Vipra', 'V')"
+        ],
+        "sample_574": [
+            "f(['Costanza', 'lisa', 'marge', 'homer'])"
+        ],
+        "sample_575": [
+            "f([2, 3, 4], 5)"
+        ],
+        "sample_576": [
+            "f([1, 0.5, 3], 0)"
+        ],
+        "sample_577": [
+            "f({'a': 1})"
+        ],
+        "sample_578": [
+            "f({'R': 0, 'T': 3, 'F': 6, 'K': 0})"
+        ],
+        "sample_579": [
+            "f('')"
+        ],
+        "sample_580": [
+            "f(\"ab\", \"a\")"
+        ],
+        "sample_581": [
+            "f('akosn', 'Xo')"
+        ],
+        "sample_582": [
+            "f(7, 5)"
+        ],
+        "sample_583": [
+            "f('t\\nZ\\nA', 't')"
+        ],
+        "sample_584": [
+            "f('5123807309875480094949830')"
+        ],
+        "sample_585": [
+            "f('????')"
+        ],
+        "sample_586": [
+            "f(\"abc\", \"c\")"
+        ],
+        "sample_587": [
+            "f([0, 1, 2], 'abcca')"
+        ],
+        "sample_588": [
+            "f([1, 2, 3, 4, 5], 4)"
+        ],
+        "sample_589": [
+            "f([-70, 20, 9, 1])"
+        ],
+        "sample_590": [
+            "f('5000   $1234567890')"
+        ],
+        "sample_591": [
+            "f([1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9])"
+        ],
+        "sample_592": [
+            "f([11, 3])"
+        ],
+        "sample_593": [
+            "f([], 0)"
+        ],
+        "sample_594": [
+            "f('Hello\\nWorld')"
+        ],
+        "sample_595": [
+            "f('qdhstudentamxupuihbuztn', 'Qdh')"
+        ],
+        "sample_596": [
+            "f(['9', '8', '7', '4', '3', '2'], '2')"
+        ],
+        "sample_597": [
+            "f('jaaFodsfa sodoFj aoafjis  jafasidfSA1')"
+        ],
+        "sample_598": [
+            "f('abcd', 1)"
+        ],
+        "sample_599": [
+            "f(['a', 'b', 'c'], ' ')"
+        ],
+        "sample_600": [
+            "f([])"
+        ],
+        "sample_601": [
+            "f('c s h A r p')"
+        ],
+        "sample_602": [
+            "f([1, 2, 3, 2], 2)"
+        ],
+        "sample_603": [
+            "f(\"123.456.789.abc\")"
+        ],
+        "sample_604": [
+            "f(\"Hello, world!\", \"Hello\")"
+        ],
+        "sample_605": [
+            "f([])"
+        ],
+        "sample_606": [
+            "f('ruam')"
+        ],
+        "sample_607": [
+            "f(\"Hello!\")"
+        ],
+        "sample_608": [
+            "f({1: 1, 2: 2, 3: 3})"
+        ],
+        "sample_609": [
+            "f({}, 'a')"
+        ],
+        "sample_610": [
+            "f([1, 2, 3], 1)"
+        ],
+        "sample_611": [
+            "f([-6, -2, 1, -3, 0, 1])"
+        ],
+        "sample_612": [
+            "f({'a': 42, 'b': 1337, 'c': -1, 'd': 5})"
+        ],
+        "sample_613": [
+            "f('e!t!')"
+        ],
+        "sample_614": [
+            "f(\"Hello, world!\", \"Python\", 1)"
+        ],
+        "sample_615": [
+            "f([1, 2, 3], 2)"
+        ],
+        "sample_616": [
+            "f('\\n\\ny[y]')"
+        ],
+        "sample_617": [
+            "f('hello')"
+        ],
+        "sample_618": [
+            "f(('89', '123456789', 2))"
+        ],
+        "sample_619": [
+            "f('   Rock   Paper   Scissors  ')"
+        ],
+        "sample_620": [
+            "f('l e r t   d   a n d   n d q m x o h i 3')"
+        ],
+        "sample_621": [
+            "f('13:45:56', 'utf-8')"
+        ],
+        "sample_622": [
+            "f('g.a.l.g.u')"
+        ],
+        "sample_623": [
+            "f('HI~', ['@', '@', '~'])"
+        ],
+        "sample_624": [
+            "f('xllomnrpc', 'x')"
+        ],
+        "sample_625": [
+            "f(\"Hello, world! How are you?\")"
+        ],
+        "sample_626": [
+            "f('abab', [('a', 'b'), ('b', 'a')])"
+        ],
+        "sample_627": [
+            "f([('a', -5), ('b', 7)])"
+        ],
+        "sample_628": [
+            "f([4, 3, 6, 1, 2], 2)"
+        ],
+        "sample_629": [
+            "f('cat', '')"
+        ],
+        "sample_630": [
+            "f({1: 1, 0: 0, 2: 2, 3: 3}, {1: 0, 0: 1, 2: 2, 3: 3})"
+        ],
+        "sample_631": [
+            "f('', 1)"
+        ],
+        "sample_632": [
+            "f([87, 63, 25, 9, 7, 5, 4, 1, 0, 0])"
+        ],
+        "sample_633": [
+            "f([0, 1, 2, 3, 4], 0)"
+        ],
+        "sample_634": [
+            "f('baoc')"
+        ],
+        "sample_635": [
+            "f(\"Hello World!\")"
+        ],
+        "sample_636": [
+            "f({2: 'A2', 1: 'A1', 3: 'A3'})"
+        ],
+        "sample_637": [
+            "f('hello world')"
+        ],
+        "sample_638": [
+            "f('abababababa', 'ababa')"
+        ],
+        "sample_639": [
+            "f('y', 'e')"
+        ],
+        "sample_640": [
+            "f(\"aaaaaaaaaaaaaaaaaaaa\")"
+        ],
+        "sample_641": [
+            "f(\"abc\")"
+        ],
+        "sample_642": [
+            "f(' ')"
+        ],
+        "sample_643": [
+            "f('damdrodM', 'M')"
+        ],
+        "sample_644": [
+            "f([1, 6], 1)"
+        ],
+        "sample_645": [
+            "f([1, 2, 3], 4)"
+        ],
+        "sample_646": [
+            "f('YzS , ,cBa', 3)"
+        ],
+        "sample_647": [
+            "f('/alcm@ an)t//eprw)/e!/d\\nujv', 2)"
+        ],
+        "sample_648": [
+            "f([6, 2, 3, 4, 5], [1, 2, 3, 4, 5])"
+        ],
+        "sample_649": [
+            "f(' f9\\n ldf9\\n adf9!\\n f9?', 4)"
+        ],
+        "sample_650": [
+            "f('', '')"
+        ],
+        "sample_651": [
+            "f('e wrestled evil until upperfeat', 'e')"
+        ],
+        "sample_652": [
+            "f('3')"
+        ],
+        "sample_653": [
+            "f(\"a\", \"a\")"
+        ],
+        "sample_654": [
+            "f('abcde', 'abcde', 'aph?d')"
+        ],
+        "sample_655": [
+            "f('par')"
+        ],
+        "sample_656": [
+            "f('abc')"
+        ],
+        "sample_657": [
+            "f('djhasghasgdha.')"
+        ],
+        "sample_658": [
+            "f({'swims like a bull': None}, ['swims like a bull', 'swims like a bull', 'swims like a bull', 'swims like a bull', 'swims like a bull'])"
+        ],
+        "sample_659": [
+            "f(['a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'])"
+        ],
+        "sample_660": [
+            "f(2)"
+        ],
+        "sample_661": [
+            "f('Hello world, this is a test', 2)"
+        ],
+        "sample_662": [
+            "f(['Dan', 'Dusty', 'Joe'])"
+        ],
+        "sample_663": [
+            "f([], 'cron')"
+        ],
+        "sample_664": [
+            "f({'3': 0, '4': 0})"
+        ],
+        "sample_665": [
+            "f('abccde')"
+        ],
+        "sample_666": [
+            "To find an input such that executing f on the input leads to the given output, we need to analyze the function f(d1, d2). The function iterates over the keys in d1 and checks if the length of the corresponding value in d1 plus the length of the value in d2 (if it exists) is greater than the current maximum (mmax). If it is, the maximum is updated.\n\nTo achieve the output of 4, we need to find two dictionaries d1 and d2 such that the sum of the lengths of their values is 4. One possible solution is:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6]}\n\nIn this case, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 1. The sum is 1, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 2. The sum is 2, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8, 9]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 3. The sum is 3, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8, 9, 10]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2"
+        ],
+        "sample_667": [
+            "f(\"C7\")"
+        ],
+        "sample_668": [
+            "f('a' + 'rhellomyfriende')"
+        ],
+        "sample_669": [
+            "f('fubar-baz')"
+        ],
+        "sample_670": [
+            "f([1, 2], [2, 1])"
+        ],
+        "sample_671": [
+            "f('gwrioad gmf rwdo sggoa', 'g', 'w')"
+        ],
+        "sample_672": [
+            "f(['1', 'z', 'd'], 2, 'd')"
+        ],
+        "sample_673": [
+            "f('Ca')"
+        ],
+        "sample_674": [
+            "f('qq')"
+        ],
+        "sample_675": [
+            "f([1], 1)"
+        ],
+        "sample_676": [
+            "f('\\t', 1)"
+        ],
+        "sample_677": [
+            "f('I', 1)"
+        ],
+        "sample_678": [
+            "f('hi')"
+        ],
+        "sample_679": [
+            "f(\"my_variable\")"
+        ],
+        "sample_680": [
+            "f('we32r71g72ug94823658324!@#$%^&*()')"
+        ],
+        "sample_681": [
+            "f([1, 5, 8, 7, 2], 5, 0)"
+        ],
+        "sample_682": [
+            "f('h y', 1, 1)"
+        ],
+        "sample_683": [
+            "f({'disface': 9, 'cam': 7, 'mforce': 5}, {'disface': 9, 'cam': 7, 'mforce': 5})"
+        ],
+        "sample_684": [
+            "f('Transform quotations\\nnot into numbers.')"
+        ],
+        "sample_685": [
+            "f([-3], -3)"
+        ],
+        "sample_686": [
+            "f({'lorem ipsum': 12, 'dolor': 23, 'sit': 45}, ['lorem ipsum', 'dolor'])"
+        ],
+        "sample_687": [
+            "f('R:j:u:g: :z:u:f:E:rjug nzufe')"
+        ],
+        "sample_688": [
+            "f([3, 1, 9, 0, 2, 8, 3, 1, 9, 0, 2, 8])"
+        ],
+        "sample_689": [
+            "f([-3, -6, 2, 7])"
+        ],
+        "sample_690": [
+            "f(797.5)"
+        ],
+        "sample_691": [
+            "f('rpytt', '')"
+        ],
+        "sample_692": [
+            "f([0, 0, 0, 0, 0])"
+        ],
+        "sample_693": [
+            "f('x8')"
+        ],
+        "sample_694": [
+            "f({'e': 1, 'd': 2, 'c': 3})"
+        ],
+        "sample_695": [
+            "f({})"
+        ],
+        "sample_696": [
+            "f(\"abc\")"
+        ],
+        "sample_697": [
+            "f('not it', '')"
+        ],
+        "sample_698": [
+            "f('(((((((((((d.(((((')"
+        ],
+        "sample_699": [
+            "f('some', '1')"
+        ],
+        "sample_700": [
+            "f('This is a string with no occurrences of bot')"
+        ],
+        "sample_701": [
+            "f('31849 let it!31849 pass!31849', ['31849'])"
+        ],
+        "sample_702": [
+            "f([0, -4, -5])"
+        ],
+        "sample_703": [
+            "f('zzv2sgzzv2sg', 'z')"
+        ],
+        "sample_704": [
+            "f('', 1, '.')"
+        ],
+        "sample_705": [
+            "f([], 'cities')"
+        ],
+        "sample_706": [
+            "f('xy', 'ab')"
+        ],
+        "sample_707": [
+            "f('udbs la', 1)"
+        ],
+        "sample_708": [
+            "f('    jcmfxv    ')"
+        ],
+        "sample_709": [
+            "f('a loved')"
+        ],
+        "sample_710": [
+            "f({'aki': ['1', '5', '2']}, 'aki', '2')"
+        ],
+        "sample_711": [
+            "f('apples\\n\\npears\\n\\nbananas')"
+        ],
+        "sample_712": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_713": [
+            "f(\"Hello, World!\", \",\")"
+        ],
+        "sample_714": [
+            "f([])"
+        ],
+        "sample_715": [
+            "f(\"hello\", \"l\")"
+        ],
+        "sample_716": [
+            "f([1, 2, 3])"
+        ],
+        "sample_717": [
+            "f('!t')"
+        ],
+        "sample_718": [
+            "f('')"
+        ],
+        "sample_719": [
+            "f('if (x) {y = 1;} else {z = 1;}')"
+        ],
+        "sample_720": [
+            "f([1, 2], 2)"
+        ],
+        "sample_721": [
+            "f([-8, -7, -6, -5, 2])"
+        ],
+        "sample_722": [
+            "f('wPzPppdl')"
+        ],
+        "sample_723": [
+            "f(\"d g a n q d k\\nu l l q c h a k l\", True)"
+        ],
+        "sample_724": [
+            "f(\"functionfunctionfunction\", \"function\")"
+        ],
+        "sample_725": [
+            "f(\"hello\")"
+        ],
+        "sample_726": [
+            "f(\"This is a test string with 2 spaces\")"
+        ],
+        "sample_727": [
+            "f(['dxh', 'ix', 'snegi', 'wiubvu'], '')"
+        ],
+        "sample_728": [
+            "f('')"
+        ],
+        "sample_729": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_730": [
+            "f(\"hello world\")"
+        ],
+        "sample_731": [
+            "f('Chris requires  ride to the irport on Friday.', 'Friday')"
+        ],
+        "sample_732": [
+            "f({'u': 20, 'v': 4, 'b': 6, 'w': 2, 'x': 2})"
+        ],
+        "sample_733": [
+            "f('n')"
+        ],
+        "sample_734": [
+            "f([5, 3, 3, 7, 2])"
+        ],
+        "sample_735": [
+            "f('abb')"
+        ],
+        "sample_736": [
+            "f('pichiwa', '')"
+        ],
+        "sample_737": [
+            "f([1.0, 2, 3])"
+        ],
+        "sample_738": [
+            "f('rrrrrrrr', 'r;')"
+        ],
+        "sample_739": [
+            "f('ab', ['a', 'b', 'c'])"
+        ],
+        "sample_740": [
+            "f([1, 2, 3, 4], 3)"
+        ],
+        "sample_741": [
+            "f([1, 2, 3, 4, 5], 1)"
+        ],
+        "sample_742": [
+            "f(\"abc123\")"
+        ],
+        "sample_743": [
+            "f(\"abc,def\")"
+        ],
+        "sample_744": [
+            "f('jrowd', 'lp')"
+        ],
+        "sample_745": [
+            "f('minimc@minimc.io')"
+        ],
+        "sample_746": [
+            "f({})"
+        ],
+        "sample_747": [
+            "f('abc')"
+        ],
+        "sample_748": [
+            "f({'a': 123, 'b': 456})"
+        ],
+        "sample_749": [
+            "f('l', 3)"
+        ],
+        "sample_750": [
+            "f({'h': 'h', 'b': 'b', 'd': 'd'}, 'hello')"
+        ],
+        "sample_751": [
+            "f('wwwwhhhtttpp', 'w', 5)"
+        ],
+        "sample_752": [
+            "f('abc', 10)"
+        ],
+        "sample_753": [
+            "f({0: 0, 1: 0, 2: 0, 3: 0, 4: 0})"
+        ],
+        "sample_754": [
+            "f([2, 2, 44, 0, 7, 20257])"
+        ],
+        "sample_755": [
+            "f('ph>t#A#BiEcDefW#ON#iiNCU', 'ph>t#A#BiEcDefW#ON#iiNCU', '')"
+        ],
+        "sample_756": [
+            "f('hello')"
+        ],
+        "sample_757": [
+            "f('banana', 'a', '2')"
+        ],
+        "sample_758": [
+            "f([1, 2, 3])"
+        ],
+        "sample_759": [
+            "f(\"\", \"\")"
+        ],
+        "sample_760": [
+            "f({'k': 1, 'j': 2, 'h': 3, 'f': 4})"
+        ],
+        "sample_761": [
+            "f([])"
+        ],
+        "sample_762": [
+            "f('This and cpanel')"
+        ],
+        "sample_763": [
+            "f('yCxpg2C2Pny', 'yCxpg2C2Pny', '')"
+        ],
+        "sample_764": [
+            "f('any test string', 'gnirts', 'test')"
+        ],
+        "sample_765": [
+            "f(\"123\")"
+        ],
+        "sample_766": [
+            "f(['0', '3'], 117)"
+        ],
+        "sample_767": [
+            "f(\"Hello World\")"
+        ],
+        "sample_768": [
+            "f('bababba', 'ba')"
+        ],
+        "sample_769": [
+            "f('aKa?riu')"
+        ],
+        "sample_770": [
+            "f('78', '$')"
+        ],
+        "sample_771": [
+            "f([8, 7, 6, 5, 4, 3, 2, 1])"
+        ],
+        "sample_772": [
+            "f('DFA.')"
+        ],
+        "sample_773": [
+            "f([1, 2, 3, 4, 5], 1)"
+        ],
+        "sample_774": [
+            "f(23, 'Cornareti')"
+        ],
+        "sample_775": [
+            "f([2, 6, 1, 3, 1])"
+        ],
+        "sample_776": [
+            "f({1: 'a', 3: 'b', 5: 'c'})"
+        ],
+        "sample_777": [
+            "f(['avc  a .d e'], \"b\")"
+        ],
+        "sample_778": [
+            "f('mjsmjqwmjsqjwisojqwiso', 'mjsmjqwmjsqjwisojqwiso')"
+        ],
+        "sample_779": [
+            "f('first second third fourth')"
+        ],
+        "sample_780": [
+            "f([2, 2, 2])"
+        ],
+        "sample_781": [
+            "f('hello', 'z')"
+        ],
+        "sample_782": [
+            "f(\"Hello World\")"
+        ],
+        "sample_783": [
+            "f(\"a\", \"a\")"
+        ],
+        "sample_784": [
+            "f('read', 'Is')"
+        ],
+        "sample_785": [
+            "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+        ],
+        "sample_786": [
+            "f('719kefp', 'k')"
+        ],
+        "sample_787": [
+            "f('xzd')"
+        ],
+        "sample_788": [
+            "f('hello', '.txt')"
+        ],
+        "sample_789": [
+            "f('bR', 2)"
+        ],
+        "sample_790": [
+            "f({'a': 1, 'b': 2})"
+        ],
+        "sample_791": [
+            "f(8999, 5)"
+        ],
+        "sample_792": [
+            "f(['a', 'b'], ['car', 'dog'])"
+        ],
+        "sample_793": [
+            "f([1, 1, 1, 2], 0, 3)"
+        ],
+        "sample_794": [
+            "f('normalcharsqwet42')"
+        ],
+        "sample_795": [
+            "f('Fu,ux zfujijabji pfu.')"
+        ],
+        "sample_796": [
+            "f('fnuiyh', '')"
+        ],
+        "sample_797": [
+            "f({'a': 1, 'b': 2, 'c': 3})"
+        ],
+        "sample_798": [
+            "f('Hello, @!', 'Hello, ')"
+        ],
+        "sample_799": [
+            "f('~neqe-;ew22')"
+        ]
+    },
+    "raw_scored_generations": {
+        "sample_0": [
+            true
+        ],
+        "sample_1": [
+            true
+        ],
+        "sample_2": [
+            false
+        ],
+        "sample_3": [
+            true
+        ],
+        "sample_4": [
+            true
+        ],
+        "sample_5": [
+            false
+        ],
+        "sample_6": [
+            true
+        ],
+        "sample_7": [
+            true
+        ],
+        "sample_8": [
+            true
+        ],
+        "sample_9": [
+            true
+        ],
+        "sample_10": [
+            true
+        ],
+        "sample_11": [
+            true
+        ],
+        "sample_12": [
+            false
+        ],
+        "sample_13": [
+            true
+        ],
+        "sample_14": [
+            true
+        ],
+        "sample_15": [
+            true
+        ],
+        "sample_16": [
+            true
+        ],
+        "sample_17": [
+            false
+        ],
+        "sample_18": [
+            false
+        ],
+        "sample_19": [
+            true
+        ],
+        "sample_20": [
+            true
+        ],
+        "sample_21": [
+            false
+        ],
+        "sample_22": [
+            true
+        ],
+        "sample_23": [
+            true
+        ],
+        "sample_24": [
+            true
+        ],
+        "sample_25": [
+            true
+        ],
+        "sample_26": [
+            false
+        ],
+        "sample_27": [
+            true
+        ],
+        "sample_28": [
+            false
+        ],
+        "sample_29": [
+            true
+        ],
+        "sample_30": [
+            true
+        ],
+        "sample_31": [
+            true
+        ],
+        "sample_32": [
+            false
+        ],
+        "sample_33": [
+            false
+        ],
+        "sample_34": [
+            true
+        ],
+        "sample_35": [
+            false
+        ],
+        "sample_36": [
+            false
+        ],
+        "sample_37": [
+            false
+        ],
+        "sample_38": [
+            false
+        ],
+        "sample_39": [
+            true
+        ],
+        "sample_40": [
+            true
+        ],
+        "sample_41": [
+            false
+        ],
+        "sample_42": [
+            true
+        ],
+        "sample_43": [
+            false
+        ],
+        "sample_44": [
+            false
+        ],
+        "sample_45": [
+            true
+        ],
+        "sample_46": [
+            false
+        ],
+        "sample_47": [
+            true
+        ],
+        "sample_48": [
+            true
+        ],
+        "sample_49": [
+            true
+        ],
+        "sample_50": [
+            true
+        ],
+        "sample_51": [
+            true
+        ],
+        "sample_52": [
+            true
+        ],
+        "sample_53": [
+            false
+        ],
+        "sample_54": [
+            true
+        ],
+        "sample_55": [
+            true
+        ],
+        "sample_56": [
+            true
+        ],
+        "sample_57": [
+            true
+        ],
+        "sample_58": [
+            true
+        ],
+        "sample_59": [
+            true
+        ],
+        "sample_60": [
+            true
+        ],
+        "sample_61": [
+            true
+        ],
+        "sample_62": [
+            false
+        ],
+        "sample_63": [
+            false
+        ],
+        "sample_64": [
+            false
+        ],
+        "sample_65": [
+            true
+        ],
+        "sample_66": [
+            true
+        ],
+        "sample_67": [
+            true
+        ],
+        "sample_68": [
+            false
+        ],
+        "sample_69": [
+            true
+        ],
+        "sample_70": [
+            true
+        ],
+        "sample_71": [
+            false
+        ],
+        "sample_72": [
+            true
+        ],
+        "sample_73": [
+            false
+        ],
+        "sample_74": [
+            true
+        ],
+        "sample_75": [
+            false
+        ],
+        "sample_76": [
+            false
+        ],
+        "sample_77": [
+            true
+        ],
+        "sample_78": [
+            false
+        ],
+        "sample_79": [
+            true
+        ],
+        "sample_80": [
+            true
+        ],
+        "sample_81": [
+            true
+        ],
+        "sample_82": [
+            false
+        ],
+        "sample_83": [
+            false
+        ],
+        "sample_84": [
+            false
+        ],
+        "sample_85": [
+            true
+        ],
+        "sample_86": [
+            false
+        ],
+        "sample_87": [
+            false
+        ],
+        "sample_88": [
+            false
+        ],
+        "sample_89": [
+            true
+        ],
+        "sample_90": [
+            true
+        ],
+        "sample_91": [
+            true
+        ],
+        "sample_92": [
+            false
+        ],
+        "sample_93": [
+            true
+        ],
+        "sample_94": [
+            true
+        ],
+        "sample_95": [
+            true
+        ],
+        "sample_96": [
+            true
+        ],
+        "sample_97": [
+            true
+        ],
+        "sample_98": [
+            false
+        ],
+        "sample_99": [
+            false
+        ],
+        "sample_100": [
+            true
+        ],
+        "sample_101": [
+            false
+        ],
+        "sample_102": [
+            true
+        ],
+        "sample_103": [
+            true
+        ],
+        "sample_104": [
+            true
+        ],
+        "sample_105": [
+            true
+        ],
+        "sample_106": [
+            false
+        ],
+        "sample_107": [
+            true
+        ],
+        "sample_108": [
+            true
+        ],
+        "sample_109": [
+            false
+        ],
+        "sample_110": [
+            false
+        ],
+        "sample_111": [
+            true
+        ],
+        "sample_112": [
+            false
+        ],
+        "sample_113": [
+            false
+        ],
+        "sample_114": [
+            false
+        ],
+        "sample_115": [
+            false
+        ],
+        "sample_116": [
+            true
+        ],
+        "sample_117": [
+            true
+        ],
+        "sample_118": [
+            false
+        ],
+        "sample_119": [
+            false
+        ],
+        "sample_120": [
+            true
+        ],
+        "sample_121": [
+            true
+        ],
+        "sample_122": [
+            true
+        ],
+        "sample_123": [
+            false
+        ],
+        "sample_124": [
+            true
+        ],
+        "sample_125": [
+            false
+        ],
+        "sample_126": [
+            false
+        ],
+        "sample_127": [
+            true
+        ],
+        "sample_128": [
+            false
+        ],
+        "sample_129": [
+            false
+        ],
+        "sample_130": [
+            false
+        ],
+        "sample_131": [
+            false
+        ],
+        "sample_132": [
+            false
+        ],
+        "sample_133": [
+            true
+        ],
+        "sample_134": [
+            true
+        ],
+        "sample_135": [
+            false
+        ],
+        "sample_136": [
+            false
+        ],
+        "sample_137": [
+            true
+        ],
+        "sample_138": [
+            true
+        ],
+        "sample_139": [
+            true
+        ],
+        "sample_140": [
+            true
+        ],
+        "sample_141": [
+            false
+        ],
+        "sample_142": [
+            false
+        ],
+        "sample_143": [
+            true
+        ],
+        "sample_144": [
+            true
+        ],
+        "sample_145": [
+            true
+        ],
+        "sample_146": [
+            true
+        ],
+        "sample_147": [
+            true
+        ],
+        "sample_148": [
+            false
+        ],
+        "sample_149": [
+            false
+        ],
+        "sample_150": [
+            true
+        ],
+        "sample_151": [
+            true
+        ],
+        "sample_152": [
+            false
+        ],
+        "sample_153": [
+            true
+        ],
+        "sample_154": [
+            false
+        ],
+        "sample_155": [
+            false
+        ],
+        "sample_156": [
+            true
+        ],
+        "sample_157": [
+            true
+        ],
+        "sample_158": [
+            false
+        ],
+        "sample_159": [
+            false
+        ],
+        "sample_160": [
+            true
+        ],
+        "sample_161": [
+            false
+        ],
+        "sample_162": [
+            true
+        ],
+        "sample_163": [
+            false
+        ],
+        "sample_164": [
+            false
+        ],
+        "sample_165": [
+            true
+        ],
+        "sample_166": [
+            true
+        ],
+        "sample_167": [
+            false
+        ],
+        "sample_168": [
+            false
+        ],
+        "sample_169": [
+            true
+        ],
+        "sample_170": [
+            true
+        ],
+        "sample_171": [
+            false
+        ],
+        "sample_172": [
+            false
+        ],
+        "sample_173": [
+            true
+        ],
+        "sample_174": [
+            true
+        ],
+        "sample_175": [
+            true
+        ],
+        "sample_176": [
+            true
+        ],
+        "sample_177": [
+            false
+        ],
+        "sample_178": [
+            true
+        ],
+        "sample_179": [
+            false
+        ],
+        "sample_180": [
+            true
+        ],
+        "sample_181": [
+            true
+        ],
+        "sample_182": [
+            true
+        ],
+        "sample_183": [
+            false
+        ],
+        "sample_184": [
+            false
+        ],
+        "sample_185": [
+            false
+        ],
+        "sample_186": [
+            true
+        ],
+        "sample_187": [
+            false
+        ],
+        "sample_188": [
+            false
+        ],
+        "sample_189": [
+            false
+        ],
+        "sample_190": [
+            true
+        ],
+        "sample_191": [
+            true
+        ],
+        "sample_192": [
+            false
+        ],
+        "sample_193": [
+            true
+        ],
+        "sample_194": [
+            true
+        ],
+        "sample_195": [
+            false
+        ],
+        "sample_196": [
+            true
+        ],
+        "sample_197": [
+            true
+        ],
+        "sample_198": [
+            false
+        ],
+        "sample_199": [
+            false
+        ],
+        "sample_200": [
+            false
+        ],
+        "sample_201": [
+            false
+        ],
+        "sample_202": [
+            false
+        ],
+        "sample_203": [
+            true
+        ],
+        "sample_204": [
+            true
+        ],
+        "sample_205": [
+            true
+        ],
+        "sample_206": [
+            true
+        ],
+        "sample_207": [
+            true
+        ],
+        "sample_208": [
+            true
+        ],
+        "sample_209": [
+            false
+        ],
+        "sample_210": [
+            true
+        ],
+        "sample_211": [
+            false
+        ],
+        "sample_212": [
+            false
+        ],
+        "sample_213": [
+            true
+        ],
+        "sample_214": [
+            false
+        ],
+        "sample_215": [
+            false
+        ],
+        "sample_216": [
+            false
+        ],
+        "sample_217": [
+            true
+        ],
+        "sample_218": [
+            false
+        ],
+        "sample_219": [
+            true
+        ],
+        "sample_220": [
+            false
+        ],
+        "sample_221": [
+            true
+        ],
+        "sample_222": [
+            true
+        ],
+        "sample_223": [
+            true
+        ],
+        "sample_224": [
+            true
+        ],
+        "sample_225": [
+            true
+        ],
+        "sample_226": [
+            true
+        ],
+        "sample_227": [
+            true
+        ],
+        "sample_228": [
+            true
+        ],
+        "sample_229": [
+            false
+        ],
+        "sample_230": [
+            true
+        ],
+        "sample_231": [
+            false
+        ],
+        "sample_232": [
+            false
+        ],
+        "sample_233": [
+            false
+        ],
+        "sample_234": [
+            true
+        ],
+        "sample_235": [
+            true
+        ],
+        "sample_236": [
+            false
+        ],
+        "sample_237": [
+            false
+        ],
+        "sample_238": [
+            true
+        ],
+        "sample_239": [
+            false
+        ],
+        "sample_240": [
+            true
+        ],
+        "sample_241": [
+            false
+        ],
+        "sample_242": [
+            true
+        ],
+        "sample_243": [
+            true
+        ],
+        "sample_244": [
+            false
+        ],
+        "sample_245": [
+            false
+        ],
+        "sample_246": [
+            true
+        ],
+        "sample_247": [
+            true
+        ],
+        "sample_248": [
+            true
+        ],
+        "sample_249": [
+            true
+        ],
+        "sample_250": [
+            false
+        ],
+        "sample_251": [
+            false
+        ],
+        "sample_252": [
+            true
+        ],
+        "sample_253": [
+            true
+        ],
+        "sample_254": [
+            true
+        ],
+        "sample_255": [
+            true
+        ],
+        "sample_256": [
+            false
+        ],
+        "sample_257": [
+            false
+        ],
+        "sample_258": [
+            false
+        ],
+        "sample_259": [
+            false
+        ],
+        "sample_260": [
+            true
+        ],
+        "sample_261": [
+            false
+        ],
+        "sample_262": [
+            true
+        ],
+        "sample_263": [
+            true
+        ],
+        "sample_264": [
+            false
+        ],
+        "sample_265": [
+            true
+        ],
+        "sample_266": [
+            true
+        ],
+        "sample_267": [
+            true
+        ],
+        "sample_268": [
+            false
+        ],
+        "sample_269": [
+            false
+        ],
+        "sample_270": [
+            false
+        ],
+        "sample_271": [
+            true
+        ],
+        "sample_272": [
+            false
+        ],
+        "sample_273": [
+            false
+        ],
+        "sample_274": [
+            false
+        ],
+        "sample_275": [
+            false
+        ],
+        "sample_276": [
+            false
+        ],
+        "sample_277": [
+            true
+        ],
+        "sample_278": [
+            true
+        ],
+        "sample_279": [
+            true
+        ],
+        "sample_280": [
+            false
+        ],
+        "sample_281": [
+            false
+        ],
+        "sample_282": [
+            true
+        ],
+        "sample_283": [
+            false
+        ],
+        "sample_284": [
+            true
+        ],
+        "sample_285": [
+            false
+        ],
+        "sample_286": [
+            true
+        ],
+        "sample_287": [
+            false
+        ],
+        "sample_288": [
+            true
+        ],
+        "sample_289": [
+            false
+        ],
+        "sample_290": [
+            false
+        ],
+        "sample_291": [
+            true
+        ],
+        "sample_292": [
+            false
+        ],
+        "sample_293": [
+            true
+        ],
+        "sample_294": [
+            false
+        ],
+        "sample_295": [
+            false
+        ],
+        "sample_296": [
+            false
+        ],
+        "sample_297": [
+            true
+        ],
+        "sample_298": [
+            true
+        ],
+        "sample_299": [
+            false
+        ],
+        "sample_300": [
+            true
+        ],
+        "sample_301": [
+            true
+        ],
+        "sample_302": [
+            false
+        ],
+        "sample_303": [
+            true
+        ],
+        "sample_304": [
+            true
+        ],
+        "sample_305": [
+            false
+        ],
+        "sample_306": [
+            true
+        ],
+        "sample_307": [
+            true
+        ],
+        "sample_308": [
+            true
+        ],
+        "sample_309": [
+            false
+        ],
+        "sample_310": [
+            false
+        ],
+        "sample_311": [
+            false
+        ],
+        "sample_312": [
+            true
+        ],
+        "sample_313": [
+            false
+        ],
+        "sample_314": [
+            false
+        ],
+        "sample_315": [
+            true
+        ],
+        "sample_316": [
+            true
+        ],
+        "sample_317": [
+            false
+        ],
+        "sample_318": [
+            false
+        ],
+        "sample_319": [
+            false
+        ],
+        "sample_320": [
+            false
+        ],
+        "sample_321": [
+            true
+        ],
+        "sample_322": [
+            false
+        ],
+        "sample_323": [
+            true
+        ],
+        "sample_324": [
+            true
+        ],
+        "sample_325": [
+            true
+        ],
+        "sample_326": [
+            true
+        ],
+        "sample_327": [
+            false
+        ],
+        "sample_328": [
+            true
+        ],
+        "sample_329": [
+            true
+        ],
+        "sample_330": [
+            true
+        ],
+        "sample_331": [
+            true
+        ],
+        "sample_332": [
+            false
+        ],
+        "sample_333": [
+            false
+        ],
+        "sample_334": [
+            false
+        ],
+        "sample_335": [
+            false
+        ],
+        "sample_336": [
+            true
+        ],
+        "sample_337": [
+            true
+        ],
+        "sample_338": [
+            false
+        ],
+        "sample_339": [
+            true
+        ],
+        "sample_340": [
+            false
+        ],
+        "sample_341": [
+            false
+        ],
+        "sample_342": [
+            false
+        ],
+        "sample_343": [
+            true
+        ],
+        "sample_344": [
+            false
+        ],
+        "sample_345": [
+            true
+        ],
+        "sample_346": [
+            false
+        ],
+        "sample_347": [
+            false
+        ],
+        "sample_348": [
+            true
+        ],
+        "sample_349": [
+            true
+        ],
+        "sample_350": [
+            true
+        ],
+        "sample_351": [
+            false
+        ],
+        "sample_352": [
+            true
+        ],
+        "sample_353": [
+            true
+        ],
+        "sample_354": [
+            false
+        ],
+        "sample_355": [
+            true
+        ],
+        "sample_356": [
+            true
+        ],
+        "sample_357": [
+            true
+        ],
+        "sample_358": [
+            false
+        ],
+        "sample_359": [
+            true
+        ],
+        "sample_360": [
+            true
+        ],
+        "sample_361": [
+            true
+        ],
+        "sample_362": [
+            false
+        ],
+        "sample_363": [
+            true
+        ],
+        "sample_364": [
+            false
+        ],
+        "sample_365": [
+            true
+        ],
+        "sample_366": [
+            true
+        ],
+        "sample_367": [
+            false
+        ],
+        "sample_368": [
+            false
+        ],
+        "sample_369": [
+            false
+        ],
+        "sample_370": [
+            true
+        ],
+        "sample_371": [
+            true
+        ],
+        "sample_372": [
+            false
+        ],
+        "sample_373": [
+            false
+        ],
+        "sample_374": [
+            false
+        ],
+        "sample_375": [
+            false
+        ],
+        "sample_376": [
+            true
+        ],
+        "sample_377": [
+            true
+        ],
+        "sample_378": [
+            true
+        ],
+        "sample_379": [
+            true
+        ],
+        "sample_380": [
+            false
+        ],
+        "sample_381": [
+            false
+        ],
+        "sample_382": [
+            true
+        ],
+        "sample_383": [
+            false
+        ],
+        "sample_384": [
+            false
+        ],
+        "sample_385": [
+            false
+        ],
+        "sample_386": [
+            true
+        ],
+        "sample_387": [
+            true
+        ],
+        "sample_388": [
+            false
+        ],
+        "sample_389": [
+            true
+        ],
+        "sample_390": [
+            true
+        ],
+        "sample_391": [
+            false
+        ],
+        "sample_392": [
+            true
+        ],
+        "sample_393": [
+            false
+        ],
+        "sample_394": [
+            true
+        ],
+        "sample_395": [
+            true
+        ],
+        "sample_396": [
+            true
+        ],
+        "sample_397": [
+            true
+        ],
+        "sample_398": [
+            true
+        ],
+        "sample_399": [
+            false
+        ],
+        "sample_400": [
+            false
+        ],
+        "sample_401": [
+            false
+        ],
+        "sample_402": [
+            false
+        ],
+        "sample_403": [
+            true
+        ],
+        "sample_404": [
+            true
+        ],
+        "sample_405": [
+            false
+        ],
+        "sample_406": [
+            true
+        ],
+        "sample_407": [
+            false
+        ],
+        "sample_408": [
+            false
+        ],
+        "sample_409": [
+            false
+        ],
+        "sample_410": [
+            true
+        ],
+        "sample_411": [
+            true
+        ],
+        "sample_412": [
+            true
+        ],
+        "sample_413": [
+            false
+        ],
+        "sample_414": [
+            true
+        ],
+        "sample_415": [
+            true
+        ],
+        "sample_416": [
+            true
+        ],
+        "sample_417": [
+            false
+        ],
+        "sample_418": [
+            true
+        ],
+        "sample_419": [
+            false
+        ],
+        "sample_420": [
+            true
+        ],
+        "sample_421": [
+            false
+        ],
+        "sample_422": [
+            true
+        ],
+        "sample_423": [
+            false
+        ],
+        "sample_424": [
+            false
+        ],
+        "sample_425": [
+            false
+        ],
+        "sample_426": [
+            true
+        ],
+        "sample_427": [
+            true
+        ],
+        "sample_428": [
+            true
+        ],
+        "sample_429": [
+            false
+        ],
+        "sample_430": [
+            true
+        ],
+        "sample_431": [
+            true
+        ],
+        "sample_432": [
+            false
+        ],
+        "sample_433": [
+            false
+        ],
+        "sample_434": [
+            false
+        ],
+        "sample_435": [
+            false
+        ],
+        "sample_436": [
+            true
+        ],
+        "sample_437": [
+            false
+        ],
+        "sample_438": [
+            false
+        ],
+        "sample_439": [
+            false
+        ],
+        "sample_440": [
+            true
+        ],
+        "sample_441": [
+            true
+        ],
+        "sample_442": [
+            true
+        ],
+        "sample_443": [
+            false
+        ],
+        "sample_444": [
+            false
+        ],
+        "sample_445": [
+            true
+        ],
+        "sample_446": [
+            true
+        ],
+        "sample_447": [
+            true
+        ],
+        "sample_448": [
+            true
+        ],
+        "sample_449": [
+            true
+        ],
+        "sample_450": [
+            false
+        ],
+        "sample_451": [
+            false
+        ],
+        "sample_452": [
+            true
+        ],
+        "sample_453": [
+            false
+        ],
+        "sample_454": [
+            true
+        ],
+        "sample_455": [
+            false
+        ],
+        "sample_456": [
+            true
+        ],
+        "sample_457": [
+            true
+        ],
+        "sample_458": [
+            false
+        ],
+        "sample_459": [
+            false
+        ],
+        "sample_460": [
+            true
+        ],
+        "sample_461": [
+            true
+        ],
+        "sample_462": [
+            false
+        ],
+        "sample_463": [
+            false
+        ],
+        "sample_464": [
+            false
+        ],
+        "sample_465": [
+            false
+        ],
+        "sample_466": [
+            true
+        ],
+        "sample_467": [
+            true
+        ],
+        "sample_468": [
+            false
+        ],
+        "sample_469": [
+            false
+        ],
+        "sample_470": [
+            true
+        ],
+        "sample_471": [
+            true
+        ],
+        "sample_472": [
+            false
+        ],
+        "sample_473": [
+            true
+        ],
+        "sample_474": [
+            false
+        ],
+        "sample_475": [
+            false
+        ],
+        "sample_476": [
+            true
+        ],
+        "sample_477": [
+            true
+        ],
+        "sample_478": [
+            true
+        ],
+        "sample_479": [
+            false
+        ],
+        "sample_480": [
+            true
+        ],
+        "sample_481": [
+            true
+        ],
+        "sample_482": [
+            true
+        ],
+        "sample_483": [
+            true
+        ],
+        "sample_484": [
+            false
+        ],
+        "sample_485": [
+            true
+        ],
+        "sample_486": [
+            true
+        ],
+        "sample_487": [
+            true
+        ],
+        "sample_488": [
+            false
+        ],
+        "sample_489": [
+            false
+        ],
+        "sample_490": [
+            true
+        ],
+        "sample_491": [
+            false
+        ],
+        "sample_492": [
+            false
+        ],
+        "sample_493": [
+            true
+        ],
+        "sample_494": [
+            true
+        ],
+        "sample_495": [
+            true
+        ],
+        "sample_496": [
+            true
+        ],
+        "sample_497": [
+            true
+        ],
+        "sample_498": [
+            true
+        ],
+        "sample_499": [
+            true
+        ],
+        "sample_500": [
+            false
+        ],
+        "sample_501": [
+            false
+        ],
+        "sample_502": [
+            true
+        ],
+        "sample_503": [
+            true
+        ],
+        "sample_504": [
+            true
+        ],
+        "sample_505": [
+            true
+        ],
+        "sample_506": [
+            false
+        ],
+        "sample_507": [
+            false
+        ],
+        "sample_508": [
+            false
+        ],
+        "sample_509": [
+            true
+        ],
+        "sample_510": [
+            true
+        ],
+        "sample_511": [
+            true
+        ],
+        "sample_512": [
+            false
+        ],
+        "sample_513": [
+            true
+        ],
+        "sample_514": [
+            false
+        ],
+        "sample_515": [
+            false
+        ],
+        "sample_516": [
+            true
+        ],
+        "sample_517": [
+            false
+        ],
+        "sample_518": [
+            true
+        ],
+        "sample_519": [
+            true
+        ],
+        "sample_520": [
+            false
+        ],
+        "sample_521": [
+            false
+        ],
+        "sample_522": [
+            true
+        ],
+        "sample_523": [
+            true
+        ],
+        "sample_524": [
+            true
+        ],
+        "sample_525": [
+            true
+        ],
+        "sample_526": [
+            false
+        ],
+        "sample_527": [
+            false
+        ],
+        "sample_528": [
+            true
+        ],
+        "sample_529": [
+            false
+        ],
+        "sample_530": [
+            false
+        ],
+        "sample_531": [
+            false
+        ],
+        "sample_532": [
+            true
+        ],
+        "sample_533": [
+            true
+        ],
+        "sample_534": [
+            false
+        ],
+        "sample_535": [
+            true
+        ],
+        "sample_536": [
+            true
+        ],
+        "sample_537": [
+            true
+        ],
+        "sample_538": [
+            true
+        ],
+        "sample_539": [
+            true
+        ],
+        "sample_540": [
+            false
+        ],
+        "sample_541": [
+            true
+        ],
+        "sample_542": [
+            false
+        ],
+        "sample_543": [
+            true
+        ],
+        "sample_544": [
+            true
+        ],
+        "sample_545": [
+            false
+        ],
+        "sample_546": [
+            true
+        ],
+        "sample_547": [
+            false
+        ],
+        "sample_548": [
+            false
+        ],
+        "sample_549": [
+            true
+        ],
+        "sample_550": [
+            false
+        ],
+        "sample_551": [
+            true
+        ],
+        "sample_552": [
+            true
+        ],
+        "sample_553": [
+            false
+        ],
+        "sample_554": [
+            true
+        ],
+        "sample_555": [
+            false
+        ],
+        "sample_556": [
+            false
+        ],
+        "sample_557": [
+            false
+        ],
+        "sample_558": [
+            true
+        ],
+        "sample_559": [
+            true
+        ],
+        "sample_560": [
+            true
+        ],
+        "sample_561": [
+            true
+        ],
+        "sample_562": [
+            false
+        ],
+        "sample_563": [
+            true
+        ],
+        "sample_564": [
+            false
+        ],
+        "sample_565": [
+            false
+        ],
+        "sample_566": [
+            true
+        ],
+        "sample_567": [
+            true
+        ],
+        "sample_568": [
+            false
+        ],
+        "sample_569": [
+            true
+        ],
+        "sample_570": [
+            false
+        ],
+        "sample_571": [
+            false
+        ],
+        "sample_572": [
+            false
+        ],
+        "sample_573": [
+            false
+        ],
+        "sample_574": [
+            true
+        ],
+        "sample_575": [
+            false
+        ],
+        "sample_576": [
+            false
+        ],
+        "sample_577": [
+            true
+        ],
+        "sample_578": [
+            true
+        ],
+        "sample_579": [
+            true
+        ],
+        "sample_580": [
+            false
+        ],
+        "sample_581": [
+            false
+        ],
+        "sample_582": [
+            true
+        ],
+        "sample_583": [
+            false
+        ],
+        "sample_584": [
+            true
+        ],
+        "sample_585": [
+            false
+        ],
+        "sample_586": [
+            true
+        ],
+        "sample_587": [
+            true
+        ],
+        "sample_588": [
+            true
+        ],
+        "sample_589": [
+            true
+        ],
+        "sample_590": [
+            false
+        ],
+        "sample_591": [
+            false
+        ],
+        "sample_592": [
+            true
+        ],
+        "sample_593": [
+            true
+        ],
+        "sample_594": [
+            false
+        ],
+        "sample_595": [
+            true
+        ],
+        "sample_596": [
+            false
+        ],
+        "sample_597": [
+            true
+        ],
+        "sample_598": [
+            true
+        ],
+        "sample_599": [
+            true
+        ],
+        "sample_600": [
+            true
+        ],
+        "sample_601": [
+            false
+        ],
+        "sample_602": [
+            true
+        ],
+        "sample_603": [
+            true
+        ],
+        "sample_604": [
+            true
+        ],
+        "sample_605": [
+            true
+        ],
+        "sample_606": [
+            true
+        ],
+        "sample_607": [
+            true
+        ],
+        "sample_608": [
+            true
+        ],
+        "sample_609": [
+            true
+        ],
+        "sample_610": [
+            true
+        ],
+        "sample_611": [
+            true
+        ],
+        "sample_612": [
+            true
+        ],
+        "sample_613": [
+            true
+        ],
+        "sample_614": [
+            true
+        ],
+        "sample_615": [
+            false
+        ],
+        "sample_616": [
+            false
+        ],
+        "sample_617": [
+            true
+        ],
+        "sample_618": [
+            false
+        ],
+        "sample_619": [
+            true
+        ],
+        "sample_620": [
+            false
+        ],
+        "sample_621": [
+            true
+        ],
+        "sample_622": [
+            false
+        ],
+        "sample_623": [
+            true
+        ],
+        "sample_624": [
+            true
+        ],
+        "sample_625": [
+            false
+        ],
+        "sample_626": [
+            true
+        ],
+        "sample_627": [
+            true
+        ],
+        "sample_628": [
+            true
+        ],
+        "sample_629": [
+            false
+        ],
+        "sample_630": [
+            false
+        ],
+        "sample_631": [
+            false
+        ],
+        "sample_632": [
+            true
+        ],
+        "sample_633": [
+            false
+        ],
+        "sample_634": [
+            false
+        ],
+        "sample_635": [
+            true
+        ],
+        "sample_636": [
+            true
+        ],
+        "sample_637": [
+            true
+        ],
+        "sample_638": [
+            false
+        ],
+        "sample_639": [
+            false
+        ],
+        "sample_640": [
+            false
+        ],
+        "sample_641": [
+            true
+        ],
+        "sample_642": [
+            true
+        ],
+        "sample_643": [
+            false
+        ],
+        "sample_644": [
+            false
+        ],
+        "sample_645": [
+            true
+        ],
+        "sample_646": [
+            false
+        ],
+        "sample_647": [
+            false
+        ],
+        "sample_648": [
+            true
+        ],
+        "sample_649": [
+            true
+        ],
+        "sample_650": [
+            false
+        ],
+        "sample_651": [
+            true
+        ],
+        "sample_652": [
+            true
+        ],
+        "sample_653": [
+            true
+        ],
+        "sample_654": [
+            true
+        ],
+        "sample_655": [
+            true
+        ],
+        "sample_656": [
+            true
+        ],
+        "sample_657": [
+            false
+        ],
+        "sample_658": [
+            false
+        ],
+        "sample_659": [
+            true
+        ],
+        "sample_660": [
+            false
+        ],
+        "sample_661": [
+            false
+        ],
+        "sample_662": [
+            true
+        ],
+        "sample_663": [
+            true
+        ],
+        "sample_664": [
+            true
+        ],
+        "sample_665": [
+            false
+        ],
+        "sample_666": [
+            false
+        ],
+        "sample_667": [
+            true
+        ],
+        "sample_668": [
+            false
+        ],
+        "sample_669": [
+            true
+        ],
+        "sample_670": [
+            false
+        ],
+        "sample_671": [
+            false
+        ],
+        "sample_672": [
+            false
+        ],
+        "sample_673": [
+            false
+        ],
+        "sample_674": [
+            true
+        ],
+        "sample_675": [
+            true
+        ],
+        "sample_676": [
+            false
+        ],
+        "sample_677": [
+            true
+        ],
+        "sample_678": [
+            true
+        ],
+        "sample_679": [
+            true
+        ],
+        "sample_680": [
+            true
+        ],
+        "sample_681": [
+            false
+        ],
+        "sample_682": [
+            false
+        ],
+        "sample_683": [
+            true
+        ],
+        "sample_684": [
+            false
+        ],
+        "sample_685": [
+            true
+        ],
+        "sample_686": [
+            true
+        ],
+        "sample_687": [
+            false
+        ],
+        "sample_688": [
+            true
+        ],
+        "sample_689": [
+            true
+        ],
+        "sample_690": [
+            false
+        ],
+        "sample_691": [
+            true
+        ],
+        "sample_692": [
+            true
+        ],
+        "sample_693": [
+            false
+        ],
+        "sample_694": [
+            true
+        ],
+        "sample_695": [
+            true
+        ],
+        "sample_696": [
+            true
+        ],
+        "sample_697": [
+            true
+        ],
+        "sample_698": [
+            true
+        ],
+        "sample_699": [
+            true
+        ],
+        "sample_700": [
+            false
+        ],
+        "sample_701": [
+            true
+        ],
+        "sample_702": [
+            false
+        ],
+        "sample_703": [
+            false
+        ],
+        "sample_704": [
+            true
+        ],
+        "sample_705": [
+            true
+        ],
+        "sample_706": [
+            false
+        ],
+        "sample_707": [
+            false
+        ],
+        "sample_708": [
+            true
+        ],
+        "sample_709": [
+            true
+        ],
+        "sample_710": [
+            false
+        ],
+        "sample_711": [
+            false
+        ],
+        "sample_712": [
+            false
+        ],
+        "sample_713": [
+            true
+        ],
+        "sample_714": [
+            true
+        ],
+        "sample_715": [
+            true
+        ],
+        "sample_716": [
+            true
+        ],
+        "sample_717": [
+            true
+        ],
+        "sample_718": [
+            false
+        ],
+        "sample_719": [
+            true
+        ],
+        "sample_720": [
+            true
+        ],
+        "sample_721": [
+            true
+        ],
+        "sample_722": [
+            false
+        ],
+        "sample_723": [
+            false
+        ],
+        "sample_724": [
+            false
+        ],
+        "sample_725": [
+            true
+        ],
+        "sample_726": [
+            false
+        ],
+        "sample_727": [
+            true
+        ],
+        "sample_728": [
+            true
+        ],
+        "sample_729": [
+            false
+        ],
+        "sample_730": [
+            false
+        ],
+        "sample_731": [
+            false
+        ],
+        "sample_732": [
+            true
+        ],
+        "sample_733": [
+            true
+        ],
+        "sample_734": [
+            false
+        ],
+        "sample_735": [
+            true
+        ],
+        "sample_736": [
+            true
+        ],
+        "sample_737": [
+            true
+        ],
+        "sample_738": [
+            false
+        ],
+        "sample_739": [
+            true
+        ],
+        "sample_740": [
+            true
+        ],
+        "sample_741": [
+            true
+        ],
+        "sample_742": [
+            true
+        ],
+        "sample_743": [
+            true
+        ],
+        "sample_744": [
+            true
+        ],
+        "sample_745": [
+            true
+        ],
+        "sample_746": [
+            true
+        ],
+        "sample_747": [
+            true
+        ],
+        "sample_748": [
+            true
+        ],
+        "sample_749": [
+            false
+        ],
+        "sample_750": [
+            false
+        ],
+        "sample_751": [
+            false
+        ],
+        "sample_752": [
+            false
+        ],
+        "sample_753": [
+            true
+        ],
+        "sample_754": [
+            false
+        ],
+        "sample_755": [
+            false
+        ],
+        "sample_756": [
+            true
+        ],
+        "sample_757": [
+            false
+        ],
+        "sample_758": [
+            true
+        ],
+        "sample_759": [
+            false
+        ],
+        "sample_760": [
+            false
+        ],
+        "sample_761": [
+            true
+        ],
+        "sample_762": [
+            true
+        ],
+        "sample_763": [
+            false
+        ],
+        "sample_764": [
+            false
+        ],
+        "sample_765": [
+            true
+        ],
+        "sample_766": [
+            true
+        ],
+        "sample_767": [
+            true
+        ],
+        "sample_768": [
+            true
+        ],
+        "sample_769": [
+            false
+        ],
+        "sample_770": [
+            false
+        ],
+        "sample_771": [
+            false
+        ],
+        "sample_772": [
+            true
+        ],
+        "sample_773": [
+            false
+        ],
+        "sample_774": [
+            true
+        ],
+        "sample_775": [
+            true
+        ],
+        "sample_776": [
+            false
+        ],
+        "sample_777": [
+            true
+        ],
+        "sample_778": [
+            true
+        ],
+        "sample_779": [
+            true
+        ],
+        "sample_780": [
+            true
+        ],
+        "sample_781": [
+            true
+        ],
+        "sample_782": [
+            true
+        ],
+        "sample_783": [
+            false
+        ],
+        "sample_784": [
+            true
+        ],
+        "sample_785": [
+            false
+        ],
+        "sample_786": [
+            false
+        ],
+        "sample_787": [
+            true
+        ],
+        "sample_788": [
+            false
+        ],
+        "sample_789": [
+            true
+        ],
+        "sample_790": [
+            true
+        ],
+        "sample_791": [
+            true
+        ],
+        "sample_792": [
+            true
+        ],
+        "sample_793": [
+            false
+        ],
+        "sample_794": [
+            true
+        ],
+        "sample_795": [
+            true
+        ],
+        "sample_796": [
+            true
+        ],
+        "sample_797": [
+            true
+        ],
+        "sample_798": [
+            false
+        ],
+        "sample_799": [
+            false
+        ]
+    },
+    "pass_at_1": 56.49999999999999,
+    "pass_at_5": 100.0
+}

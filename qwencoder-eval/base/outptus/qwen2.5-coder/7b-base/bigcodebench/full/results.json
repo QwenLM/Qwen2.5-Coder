@@ -1,0 +1,6 @@
+{
+  "pass@1": 45.87719298245614,
+  "model": "completion-sanitized-calibrated.jsonl",
+  "calibrated": true,
+  "subset": "full"
+}

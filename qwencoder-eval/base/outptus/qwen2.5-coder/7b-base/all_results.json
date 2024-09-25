@@ -1,0 +1,25 @@
+{
+  "EvalPlus": {
+    "HumanEval": 61.6,
+    "HumanEval+": 53.0,
+    "MBPP": 76.9,
+    "MBPP+": 62.9
+  },
+  "MultiPL-E": {
+    "Java": 53.16,
+    "C++": 62.11,
+    "JavaScript": 60.25,
+    "C#": 60.76,
+    "php": 59.01,
+    "Shell": 38.61,
+    "TypeScript": 64.15
+  },
+  "CRUX-Eval": {
+    "Input-CoT": 56.5,
+    "Output-CoT": 56.0
+  },
+  "BigCodeBench": {
+    "full": 45.87719298245614,
+    "hard": 16.216216216216218
+  }
+}

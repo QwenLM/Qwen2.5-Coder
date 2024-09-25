@@ -1,0 +1,2402 @@
+{
+    "sample_0": [
+        "f([1, 1, 1, 1, 3, 3])"
+    ],
+    "sample_1": [
+        "f([1, 2], [1], [2])"
+    ],
+    "sample_2": [
+        "f('h+b+t+o+f+d+e+i+e+q+u')"
+    ],
+    "sample_3": [
+        "f('bcksrut', 'q')"
+    ],
+    "sample_4": [
+        "f([' '] * 10)"
+    ],
+    "sample_5": [
+        "f('xxxxxxxxxxxxxxxxxx', 'a', 'b')"
+    ],
+    "sample_6": [
+        "f({'74': 31, 'ab': 2})"
+    ],
+    "sample_7": [
+        "f([])"
+    ],
+    "sample_8": [
+        "f('UppEr', 0)"
+    ],
+    "sample_9": [
+        "f(\"abc123\")"
+    ],
+    "sample_10": [
+        "f('')"
+    ],
+    "sample_11": [
+        "f({}, {'foo': 'bar'})"
+    ],
+    "sample_12": [
+        "f('I am a happy person! Daniel', 'I am a happy person! ')"
+    ],
+    "sample_13": [
+        "f(['a', 'b'])"
+    ],
+    "sample_14": [
+        "f('OOP')"
+    ],
+    "sample_15": [
+        "f('Zn Kgd Jw Lnt', 'n', 'N')"
+    ],
+    "sample_16": [
+        "f('zejrohajsuffix', 'suffix')"
+    ],
+    "sample_17": [
+        "f(\"Hello, World!\")"
+    ],
+    "sample_18": [
+        "f([3, 5, 4, 3, 2, 1], 0)"
+    ],
+    "sample_19": [
+        "f('', '999')"
+    ],
+    "sample_20": [
+        "f('was,')"
+    ],
+    "sample_21": [
+        "f([1, 2, 2])"
+    ],
+    "sample_22": [
+        "f(0)"
+    ],
+    "sample_23": [
+        "f('new-medium-performing-application - XQuery 2. ', ' ')"
+    ],
+    "sample_24": [
+        "f([45, 3, 61, 39, 27, 47, 12], 6)"
+    ],
+    "sample_25": [
+        "f({'l': 1, 't': 2, 'e': 3})"
+    ],
+    "sample_26": [
+        "f(\"hello.world\", \"world\")"
+    ],
+    "sample_27": [
+        "f(\"abcde\")"
+    ],
+    "sample_28": [
+        "f([1, 2, 3, 2, 1])"
+    ],
+    "sample_29": [
+        "f('abc123314def')"
+    ],
+    "sample_30": [
+        "f(['a', 'b', 'c'])"
+    ],
+    "sample_31": [
+        "f(\"ABCD\")"
+    ],
+    "sample_32": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_33": [
+        "f([5, 2, 7, 5, 2])"
+    ],
+    "sample_34": [
+        "f([2, 7, 7, 6, 8, 4, 2, 5, 21, 3, 9], 3, 9)"
+    ],
+    "sample_35": [
+        "f(\"\", [\"\", \"\", \"\"])"
+    ],
+    "sample_36": [
+        "f('haha', 'a')"
+    ],
+    "sample_37": [
+        "f('123233')"
+    ],
+    "sample_38": [
+        "f('1 oE-errBzz-bmm')"
+    ],
+    "sample_39": [
+        "f([1, 2, 3], 1)"
+    ],
+    "sample_40": [
+        "f('the cow goes moo')"
+    ],
+    "sample_41": [
+        "f([21, 92, 58], [92])"
+    ],
+    "sample_42": [
+        "f([])"
+    ],
+    "sample_43": [
+        "f(123a)"
+    ],
+    "sample_44": [
+        "f('noh')"
+    ],
+    "sample_45": [
+        "f(\"hello\", \"l\")"
+    ],
+    "sample_46": [
+        "f(['many', 'letters', 'as', 'vs', 'z', 'hell', 'o', 'man'], 'a')"
+    ],
+    "sample_47": [
+        "f(\"abcde\")"
+    ],
+    "sample_48": [
+        "f([])"
+    ],
+    "sample_49": [
+        "f('816')"
+    ],
+    "sample_50": [
+        "f([])"
+    ],
+    "sample_51": [
+        "f(21)"
+    ],
+    "sample_52": [
+        "f('seiq d')"
+    ],
+    "sample_53": [
+        "f(\"abcdefg\")"
+    ],
+    "sample_54": [
+        "f(\"bacde\", 0, 5)"
+    ],
+    "sample_55": [
+        "f([89, 43, 17, 14, 8, 4])"
+    ],
+    "sample_56": [
+        "f(\"Hello, World!\")"
+    ],
+    "sample_57": [
+        "f('AB')"
+    ],
+    "sample_58": [
+        "f([-1, 0, 0, 1, 1])"
+    ],
+    "sample_59": [
+        "f('hi ')"
+    ],
+    "sample_60": [
+        "f('r')"
+    ],
+    "sample_61": [
+        "f('')"
+    ],
+    "sample_62": [
+        "f({'ja': 'nee', 'coke': 'zoo', 'zoo': 'ja'})"
+    ],
+    "sample_63": [
+        "f('dbtdabdahesyehu', 'dbtdabdahesyehu')"
+    ],
+    "sample_64": [
+        "f('7', 9)"
+    ],
+    "sample_65": [
+        "f([1, 2, 3], 2)"
+    ],
+    "sample_66": [
+        "f('', '')"
+    ],
+    "sample_67": [
+        "f(6, 8, 8)"
+    ],
+    "sample_68": [
+        "f('dq', '')"
+    ],
+    "sample_69": [
+        "f({}, 'John')"
+    ],
+    "sample_70": [
+        "f(\"abc def ghi jkl mno\")"
+    ],
+    "sample_71": [
+        "f({2: 1, 4: 3, 6: 5, 8: 7, 9: 10}, 5)"
+    ],
+    "sample_72": [
+        "f(\"12345\")"
+    ],
+    "sample_73": [
+        "f('1110000000')"
+    ],
+    "sample_74": [
+        "f([44, 34, 82, 15, 24, 11, 63, 99], 2, 23)"
+    ],
+    "sample_75": [
+        "f([1, 2, 3, 4, 5], 3)"
+    ],
+    "sample_76": [
+        "f([6, 2, 3, 10, -1, -2, -3, -4, -5, -6])"
+    ],
+    "sample_77": [
+        "f('abc', 'd')"
+    ],
+    "sample_78": [
+        "f('MTY')"
+    ],
+    "sample_79": [
+        "f([])"
+    ],
+    "sample_80": [
+        "f('ab')"
+    ],
+    "sample_81": [
+        "f({'Bulls': 'Bulls', 'White Sox': 45}, 'Bulls')"
+    ],
+    "sample_82": [
+        "f(True, True, False, False)"
+    ],
+    "sample_83": [
+        "f('10')"
+    ],
+    "sample_84": [
+        "f('nwv mef ofmed bdrly')"
+    ],
+    "sample_85": [
+        "f(6)"
+    ],
+    "sample_86": [
+        "f('sdfs', 'drcr', '2e')"
+    ],
+    "sample_87": [
+        "f([-1, 3, 9, 1, 2])"
+    ],
+    "sample_88": [
+        "f('', 'hello')"
+    ],
+    "sample_89": [
+        "f('o')"
+    ],
+    "sample_90": [
+        "f([[1, 2, 3], [], [1, 2, 3]])"
+    ],
+    "sample_91": [
+        "f('12ab3xy')"
+    ],
+    "sample_92": [
+        "f(\"Hello, World!\")"
+    ],
+    "sample_93": [
+        "f('iq')"
+    ],
+    "sample_94": [
+        "f({'w': 3}, {'wi': 10})"
+    ],
+    "sample_95": [
+        "f({'AAA': 'fr'})"
+    ],
+    "sample_96": [
+        "f(\"hello world\")"
+    ],
+    "sample_97": [
+        "f([1, 2, 4])"
+    ],
+    "sample_98": [
+        "f(\"Hello World\")"
+    ],
+    "sample_99": [
+        "f('aa++bb', '+', 2)"
+    ],
+    "sample_100": [
+        "f({'1': 'b'}, [])"
+    ],
+    "sample_101": [
+        "f([4, 1, 0], 1, -4)"
+    ],
+    "sample_102": [
+        "f([], [])"
+    ],
+    "sample_103": [
+        "f('ABCDEFGHIJ')"
+    ],
+    "sample_104": [
+        "f('a')"
+    ],
+    "sample_105": [
+        "f('permission is granted')"
+    ],
+    "sample_106": [
+        "f([4, 4, 4, 4, 4, 4])"
+    ],
+    "sample_107": [
+        "f('uA6hAjQ')"
+    ],
+    "sample_108": [
+        "f([])"
+    ],
+    "sample_109": [
+        "f([9, 1, 1], 2, 0)"
+    ],
+    "sample_110": [
+        "f('hello')"
+    ],
+    "sample_111": [
+        "f({'math': 89, 'science': 4})"
+    ],
+    "sample_112": [
+        "f('XYZLtRRdnHodLTTBIGGeXET fult')"
+    ],
+    "sample_113": [
+        "f('987yHnShAsHd 93275YrGsgBgSsHfBsfb')"
+    ],
+    "sample_114": [
+        "f('a b', ' ')"
+    ],
+    "sample_115": [
+        "f(\"111; 115; 124; 124; 97; 103; 120; 53; \")"
+    ],
+    "sample_116": [
+        "f({}, 10)"
+    ],
+    "sample_117": [
+        "f([])"
+    ],
+    "sample_118": [
+        "f('zbzquiuqnmfkx', 'zbzquiuqnmfkx')"
+    ],
+    "sample_119": [
+        "f('vsnlyglta')"
+    ],
+    "sample_120": [
+        "f({})"
+    ],
+    "sample_121": [
+        "f('abc1001def')"
+    ],
+    "sample_122": [
+        "f('Nuva?dlfuyjys')"
+    ],
+    "sample_123": [
+        "f([1, 2, 3, 5, 6], 8)"
+    ],
+    "sample_124": [
+        "f('i like you', ' ', 1)"
+    ],
+    "sample_125": [
+        "f('3*Leap and the net will appear\\n\"3\"', 3)"
+    ],
+    "sample_126": [
+        "f('kxkxkfck')"
+    ],
+    "sample_127": [
+        "f(\"Line 1\\nLine 2\\nLine 3\")"
+    ],
+    "sample_128": [
+        "f('Mmohamt')"
+    ],
+    "sample_129": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_130": [
+        "f({'l': 'h'})"
+    ],
+    "sample_131": [
+        "f('a\\nb\\nc\\nd\\ne\\nf\\ng\\nh\\ni\\nj\\nk\\nl\\nm\\nn\\no\\np\\nq\\nr\\ns\\nt\\nu\\nv\\nw\\nx\\ny\\nz')"
+    ],
+    "sample_132": [
+        "f('abc', '')"
+    ],
+    "sample_133": [
+        "f([7, 1, 2, 3, 4, 5, 6], [3, 4, 5, 6])"
+    ],
+    "sample_134": [
+        "f(372359)"
+    ],
+    "sample_135": [
+        "f(d)"
+    ],
+    "sample_136": [
+        "f('a\\nbc\\n\\nd\\nef', 4)"
+    ],
+    "sample_137": [
+        "f([])"
+    ],
+    "sample_138": [
+        "f('tflb omn rtt', 'trltbomnft')"
+    ],
+    "sample_139": [
+        "f('abc', 'def')"
+    ],
+    "sample_140": [
+        "f('hihih')"
+    ],
+    "sample_141": [
+        "f([1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4])"
+    ],
+    "sample_142": [
+        "f('phfdky')"
+    ],
+    "sample_143": [
+        "f(\"Hello\", \"hello\")"
+    ],
+    "sample_144": [
+        "f([])"
+    ],
+    "sample_145": [
+        "f(10, 'olives')"
+    ],
+    "sample_146": [
+        "f(5)"
+    ],
+    "sample_147": [
+        "f([1, 1, 1])"
+    ],
+    "sample_148": [
+        "f(['2io', '12', 'tfiqr'], '2io')"
+    ],
+    "sample_149": [
+        "f([(2,), (4,), (2,), (0,)], ',')"
+    ],
+    "sample_150": [
+        "f([-2, 4, -4], 0)"
+    ],
+    "sample_151": [
+        "f('697 this is the ultimate 7 address to attack')"
+    ],
+    "sample_152": [
+        "f(\"THISISATESTWITHTWENTYUPPERCASELETTERS\")"
+    ],
+    "sample_153": [
+        "f(\"hello world\", \"world\", 10)"
+    ],
+    "sample_154": [
+        "f('There  Hello', '*')"
+    ],
+    "sample_155": [
+        "f('nnccijhxndjcsjksd', 4)"
+    ],
+    "sample_156": [
+        "f('tqzymzzzzz', 5, 'z')"
+    ],
+    "sample_157": [
+        "f(\"Hello, world! 0\")"
+    ],
+    "sample_158": [
+        "f([6, 4, -2, 6, 4, -2, 1, 3, 5])"
+    ],
+    "sample_159": [
+        "f('rtIm')"
+    ],
+    "sample_160": [
+        "f({1: 38381, 3: 83607})"
+    ],
+    "sample_161": [
+        "f('rinpxdif', 'j')"
+    ],
+    "sample_162": [
+        "f('\u0441bishopsWift')"
+    ],
+    "sample_163": [
+        "f('w', ')', 20)"
+    ],
+    "sample_164": [
+        "f([3, 1, 0, 5, 2])"
+    ],
+    "sample_165": [
+        "f(\"Hello, World!\", 0, 13)"
+    ],
+    "sample_166": [
+        "f({})"
+    ],
+    "sample_167": [
+        "f('aaXXXXbbXXXXccXXXXdeXXXX', 'qw')"
+    ],
+    "sample_168": [
+        "f('spain', 'i', 2)"
+    ],
+    "sample_169": [
+        "f('taole')"
+    ],
+    "sample_170": [
+        "f([1, 2, 2, 3], 2)"
+    ],
+    "sample_171": [
+        "f([1, 2, 3, 4, 5, 6])"
+    ],
+    "sample_172": [
+        "f([-1, -2, -3])"
+    ],
+    "sample_173": [
+        "f([5, 8, 6, 8, 4])"
+    ],
+    "sample_174": [
+        "f([1, 2, 3])"
+    ],
+    "sample_175": [
+        "f(' ', 0)"
+    ],
+    "sample_176": [
+        "f('some text', 'some text')"
+    ],
+    "sample_177": [
+        "f('hEy dUdE ThIs $nD^ &*&tHiS@#')"
+    ],
+    "sample_178": [
+        "f([1, 2, 2, 2], 1)"
+    ],
+    "sample_179": [
+        "f([2, 6, 1, 7, 1, 2, 6, 0, 2])"
+    ],
+    "sample_180": [
+        "f([-1, -2, -6, 8, 8])"
+    ],
+    "sample_181": [
+        "f('3291223')"
+    ],
+    "sample_182": [
+        "f({'a': 2, 'b': 1})"
+    ],
+    "sample_183": [
+        "f('echo echo echo echo echo echo')"
+    ],
+    "sample_184": [
+        "f([2, 1])"
+    ],
+    "sample_185": [
+        "f([16, 9, 12, 7, 14, 11])"
+    ],
+    "sample_186": [
+        "f(' pvtso ')"
+    ],
+    "sample_187": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_188": [
+        "f(['apple'])"
+    ],
+    "sample_189": [
+        "f('{{{{}}}}', {'key': ['{{{{}}}}', '']})"
+    ],
+    "sample_190": [
+        "f('jiojickldl')"
+    ],
+    "sample_191": [
+        "f(\"hello\")"
+    ],
+    "sample_192": [
+        "f('!klcd!ma:ri!klcd!ma:ri', '!klcd!ma:ri')"
+    ],
+    "sample_193": [
+        "f('1::1')"
+    ],
+    "sample_194": [
+        "f([[5, 6, 2, 3], [1, 9, 5, 6]], 0)"
+    ],
+    "sample_195": [
+        "f('ilfdoirwirmtoibsac acs asp scn')"
+    ],
+    "sample_196": [
+        "f('Hello World')"
+    ],
+    "sample_197": [
+        "f(1, 1234567890)"
+    ],
+    "sample_198": [
+        "f('smftcm', 'm')"
+    ],
+    "sample_199": [
+        "f('mnmnj krupa...##!@#!@#$$@##', '#')"
+    ],
+    "sample_200": [
+        "f('tm oajhouse', 0)"
+    ],
+    "sample_201": [
+        "f('641524')"
+    ],
+    "sample_202": [
+        "f([15, 15, 2, 4, 6, 8, 10], [15, 15])"
+    ],
+    "sample_203": [
+        "f({'a': 1, 'b': 2})"
+    ],
+    "sample_204": [
+        "f('ma')"
+    ],
+    "sample_205": [
+        "f('###fiu##nk#he###wumun')"
+    ],
+    "sample_206": [
+        "f('h e l l o w o r l d!')"
+    ],
+    "sample_207": [
+        "f([{'brown': 2}, {'blue': 5}, {'bright': 4}])"
+    ],
+    "sample_208": [
+        "f([['c', 'a', 't'], ['d', ' ', 'd', 'e', 'e']])"
+    ],
+    "sample_209": [
+        "f('hym', 'hymihymi')"
+    ],
+    "sample_210": [
+        "f(45, 46, 1)"
+    ],
+    "sample_211": [
+        "f(\"aabbbccccdddeee\")"
+    ],
+    "sample_212": [
+        "f([3, -3, 6, 2, 7, -9, 1])"
+    ],
+    "sample_213": [
+        "f('(ac)')"
+    ],
+    "sample_214": [
+        "f(\"abc/def/ghi\")"
+    ],
+    "sample_215": [
+        "f('))')"
+    ],
+    "sample_216": [
+        "f(\"1234567890\")"
+    ],
+    "sample_217": [
+        "f('!@#$%^&*()')"
+    ],
+    "sample_218": [
+        "f('cab', 'f')"
+    ],
+    "sample_219": [
+        "f(\"def\", \"abc\")"
+    ],
+    "sample_220": [
+        "f('abc', 2, 1)"
+    ],
+    "sample_221": [
+        "f('bpxa24fc5.', '.')"
+    ],
+    "sample_222": [
+        "f('0aabbaa0b', 'b')"
+    ],
+    "sample_223": [
+        "f([1, 2], 2)"
+    ],
+    "sample_224": [
+        "f([0], 0)"
+    ],
+    "sample_225": [
+        "f(\"Hello\")"
+    ],
+    "sample_226": [
+        "f([1, 3])"
+    ],
+    "sample_227": [
+        "f('manolo')"
+    ],
+    "sample_228": [
+        "f('LlThH SaFlApKpHtSwP', '#')"
+    ],
+    "sample_229": [
+        "f({'9': 'm', 'm': 'A', 'A': '1', '1': '0', '0': 'L', 'L': 'k'}, 'A')"
+    ],
+    "sample_230": [
+        "f('xzoq')"
+    ],
+    "sample_231": [
+        "f([1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920])"
+    ],
+    "sample_232": [
+        "f('yes', 'yes')"
+    ],
+    "sample_233": [
+        "f([3, 1, 2])"
+    ],
+    "sample_234": [
+        "f(\"abc\", \"a\")"
+    ],
+    "sample_235": [
+        "f(['a', 'b', 'c'], ['a', 'b', 'c'])"
+    ],
+    "sample_236": [
+        "f('ac8qk6qk6')"
+    ],
+    "sample_237": [
+        "f('uuzlwaqiaj', 'a')"
+    ],
+    "sample_238": [
+        "f([[1, 9, 4], [2, 3, 5], [6, 7, 8]], 1)"
+    ],
+    "sample_239": [
+        "f('1co', '1o')"
+    ],
+    "sample_240": [
+        "f(3.121)"
+    ],
+    "sample_241": [
+        "f('C12345')"
+    ],
+    "sample_242": [
+        "f('udhv zcvi nhtnfyd :erwuyawa pun')"
+    ],
+    "sample_243": [
+        "f(\"hello\", \"a\")"
+    ],
+    "sample_244": [
+        "f('', ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'])"
+    ],
+    "sample_245": [
+        "f([], '')"
+    ],
+    "sample_246": [
+        "f(\"hello world\", \"python\")"
+    ],
+    "sample_247": [
+        "f('abc')"
+    ],
+    "sample_248": [
+        "f([666], [])"
+    ],
+    "sample_249": [
+        "f('fSa')"
+    ],
+    "sample_250": [
+        "f('Alcwlace  ')"
+    ],
+    "sample_251": [
+        "f([['Marie'], ['+353']], [['Nelson'], ['+353']], [['Oscar'], ['+353']])"
+    ],
+    "sample_252": [
+        "f('\\\\foo', '\\\\')"
+    ],
+    "sample_253": [
+        "f('pumwwfv', 'p')"
+    ],
+    "sample_254": [
+        "f('lower case', 'lwwer case')"
+    ],
+    "sample_255": [
+        "f('w', ' ', 1)"
+    ],
+    "sample_256": [
+        "f(\"sub\", \"sub\")"
+    ],
+    "sample_257": [
+        "f(\"Hello World\\n\\\"I am String\\\"\")"
+    ],
+    "sample_258": [
+        "f([1, 2, 7, 9], 3, 2, 1)"
+    ],
+    "sample_259": [
+        "f('rEs')"
+    ],
+    "sample_260": [
+        "f([1, 2, 3, 4, 5, 6], 4, 2)"
+    ],
+    "sample_261": [
+        "f([12, 516, 5, 214, 51], 51)"
+    ],
+    "sample_262": [
+        "f([4, 5])"
+    ],
+    "sample_263": [
+        "f(['gloss', 'apple', 'barn', 'lawn'], [('apple', 'banana')])"
+    ],
+    "sample_264": [
+        "f('papeae')"
+    ],
+    "sample_265": [
+        "f({1: 2, 2: 4, 3: 6}, 3)"
+    ],
+    "sample_266": [
+        "f([2, 3, 4, 6, -2])"
+    ],
+    "sample_267": [
+        "f('sowpf', 0)"
+    ],
+    "sample_268": [
+        "f('h g r a t e f u l   k', ' ')"
+    ],
+    "sample_269": [
+        "f(['0', '0', '0', 2, 2])"
+    ],
+    "sample_270": [
+        "f({'a': 1})"
+    ],
+    "sample_271": [
+        "f('uufhh', 'h')"
+    ],
+    "sample_272": [
+        "f([9, 7, 5, 3, 1, 2, 4, 6, 8, 0], [2, 6, 0, 6, 6])"
+    ],
+    "sample_273": [
+        "f('TEN')"
+    ],
+    "sample_274": [
+        "f([1, 2, 3, 4, 5], 5)"
+    ],
+    "sample_275": [
+        "f({'a': -1, 'b': 0, 'c': 1})"
+    ],
+    "sample_276": [
+        "f([1, 2, 0, 0])"
+    ],
+    "sample_277": [
+        "f([1, 2, 3, 4], True)"
+    ],
+    "sample_278": [
+        "f([0, 132], [5, 32])"
+    ],
+    "sample_279": [
+        "f('')"
+    ],
+    "sample_280": [
+        "f('00000000\\n00000000\\n11110000\\n11010101\\n11011110')"
+    ],
+    "sample_281": [
+        "f({1: 2, 3: 4, 5: 6, 8: 2}, 8, 1)"
+    ],
+    "sample_282": [
+        "f(\"hello world hello\", \"hello\")"
+    ],
+    "sample_283": [
+        "f({'Iron Man': 1}, 'Iron Man')"
+    ],
+    "sample_284": [
+        "f('hello', 'hello')"
+    ],
+    "sample_285": [
+        "f(\"Pirates' Curse\", \"e\")"
+    ],
+    "sample_286": [
+        "f([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 11, 4)"
+    ],
+    "sample_287": [
+        "f('PINEAPPLE')"
+    ],
+    "sample_288": [
+        "f({1: 3, 4: 555})"
+    ],
+    "sample_289": [
+        "f(148)"
+    ],
+    "sample_290": [
+        "f('ABIXAAAILY', 'AB')"
+    ],
+    "sample_291": [
+        "f({'a': []}, ['a', 2])"
+    ],
+    "sample_292": [
+        "f('58323')"
+    ],
+    "sample_293": [
+        "f('Xx')"
+    ],
+    "sample_294": [
+        "f('$', '&', '2z531@aa1hris')"
+    ],
+    "sample_295": [
+        "f(['pear', 'banana', 'pear', 'banana', 'pear', 'pear'])"
+    ],
+    "sample_296": [
+        "f('http://www.https://www.www.ekapusta.com/image/url')"
+    ],
+    "sample_297": [
+        "f(1000)"
+    ],
+    "sample_298": [
+        "f('dst vavf n dmv dfvm gamcu dgcvb.')"
+    ],
+    "sample_299": [
+        "f('staovk', 's')"
+    ],
+    "sample_300": [
+        "f([1, 2, 3])"
+    ],
+    "sample_301": [
+        "f([0, 6, 2, -1, -2])"
+    ],
+    "sample_302": [
+        "f('wdeejjjzsjsjjsxjjhaystacksddaddddddefsfd')"
+    ],
+    "sample_303": [
+        "f('mJkLbN')"
+    ],
+    "sample_304": [
+        "f({87: 7, 18: 6})"
+    ],
+    "sample_305": [
+        "f('to hoseto', 't')"
+    ],
+    "sample_306": [
+        "f([0, 6, 1, 2, 0])"
+    ],
+    "sample_307": [
+        "f('pxcznyf')"
+    ],
+    "sample_308": [
+        "f(['La', 'La', 'La', 'Q', '9'])"
+    ],
+    "sample_309": [
+        "f('faqo osax ', ' ')"
+    ],
+    "sample_310": [
+        "f(['r__1.00', '6__j_a', '6__'])"
+    ],
+    "sample_311": [
+        "f('123#456$789')"
+    ],
+    "sample_312": [
+        "f(\"abc123\")"
+    ],
+    "sample_313": [
+        "f('urecord', 7)"
+    ],
+    "sample_314": [
+        "f(' 105, -90 244')"
+    ],
+    "sample_315": [
+        "f('CzyWz')"
+    ],
+    "sample_316": [
+        "f('i am your father')"
+    ],
+    "sample_317": [
+        "f('a zwwo oihee amawaaw!', 'vap', 'a')"
+    ],
+    "sample_318": [
+        "f(\"A\", \"a\")"
+    ],
+    "sample_319": [
+        "f(('a', 'aaaa'))"
+    ],
+    "sample_320": [
+        "f('usar')"
+    ],
+    "sample_321": [
+        "f({'desciduous': 2}, {'desciduous': 0})"
+    ],
+    "sample_322": [
+        "f(['s', 'lsi', 's', 't', 't', 'd', 'lsi'], 1)"
+    ],
+    "sample_323": [
+        "f(\"Hello, world!\")"
+    ],
+    "sample_324": [
+        "f([])"
+    ],
+    "sample_325": [
+        "f(\"1234567890\")"
+    ],
+    "sample_326": [
+        "f(\"Hello World!\")"
+    ],
+    "sample_327": [
+        "f([1, -7, 3, -1])"
+    ],
+    "sample_328": [
+        "f([1, 2, 3], 6)"
+    ],
+    "sample_329": [
+        "f(\"aB\")"
+    ],
+    "sample_330": [
+        "f('a4b2c')"
+    ],
+    "sample_331": [
+        "f('abc', 'z')"
+    ],
+    "sample_332": [
+        "f([1, 2, 3])"
+    ],
+    "sample_333": [
+        "f([1, 3, 5], [2, 4])"
+    ],
+    "sample_334": [
+        "f(' ', ['n', 'U', '0', '0', ' ', '9', ' ', 'r', 'C', 'S', 'A', 'z', '0', '0', 'w', '0', '0', ' ', 'l', 'p', 'A', '5', 'B', 'O', '0', '0', 's', 'i', 'z', 'L', '0', '0', 'i', '7', 'r', 'l', 'V', 'r'])"
+    ],
+    "sample_335": [
+        "f('sjbrfqmw', 'r')"
+    ],
+    "sample_336": [
+        "f('234dsfssdfs333324314', 'sep')"
+    ],
+    "sample_337": [
+        "f('ll')"
+    ],
+    "sample_338": [
+        "f({1: 'a', 2: 'd', 3: 'c'})"
+    ],
+    "sample_339": [
+        "f([1, 2, 3, 2, 4], 2)"
+    ],
+    "sample_340": [
+        "f('   ADEGHIVjkptx')"
+    ],
+    "sample_341": [
+        "f({'apple': 1, 'banana': 2, 'orange': 3, 'grape': 4, 'pear': 5, 'kiwi': 6})"
+    ],
+    "sample_342": [
+        "f(\"\")"
+    ],
+    "sample_343": [
+        "f([[1, 2, 3], [1, 2], 1, [1, 2, 3], 3, [2, 1]], [])"
+    ],
+    "sample_344": [
+        "f([2, 4, 6, 8, 15], lambda x: x.reverse())"
+    ],
+    "sample_345": [
+        "f('ml', 'mv')"
+    ],
+    "sample_346": [
+        "f(\"example.txt\")"
+    ],
+    "sample_347": [
+        "f('hhhh')"
+    ],
+    "sample_348": [
+        "f({563: 555, 133: None})"
+    ],
+    "sample_349": [
+        "f({'noeohqhk': 623, 1049: 55})"
+    ],
+    "sample_350": [
+        "f({0: 1, 1: 2, 2: 3})"
+    ],
+    "sample_351": [
+        "f('a_A_b_B3 nnet lloP')"
+    ],
+    "sample_352": [
+        "f([-10, -5, 0])"
+    ],
+    "sample_353": [
+        "f([1, 2, 3, 4, 4, 4, 4])"
+    ],
+    "sample_354": [
+        "f('{}, {}', ['R', 'R!!!'])"
+    ],
+    "sample_355": [
+        "f('123x John z', '1')"
+    ],
+    "sample_356": [
+        "f([1, 2], 1)"
+    ],
+    "sample_357": [
+        "f('crew')"
+    ],
+    "sample_358": [
+        "f('trtrtr', 't')"
+    ],
+    "sample_359": [
+        "f(['dZwbSR', 'wijHeq', 'qluVok', 'dxjxbF'])"
+    ],
+    "sample_360": [
+        "f('g', 1)"
+    ],
+    "sample_361": [
+        "f('#:hello')"
+    ],
+    "sample_362": [
+        "f('razugizoernmgzu')"
+    ],
+    "sample_363": [
+        "f([1])"
+    ],
+    "sample_364": [
+        "f([3, 1, 0], verdict)"
+    ],
+    "sample_365": [
+        "f('m', 'mRcwVqXsRDRb')"
+    ],
+    "sample_366": [
+        "f('aabbcc')"
+    ],
+    "sample_367": [
+        "f([6, 1, 1, 1, 4, 2], 2)"
+    ],
+    "sample_368": [
+        "f('4327', [0, 4, 5, 0, 3, 0])"
+    ],
+    "sample_369": [
+        "f('a')"
+    ],
+    "sample_370": [
+        "f(\"Hello\")"
+    ],
+    "sample_371": [
+        "f([1, 3, 5, 7, 9])"
+    ],
+    "sample_372": [
+        "f([], 0)"
+    ],
+    "sample_373": [
+        "f([1, 2, 3, 100])"
+    ],
+    "sample_374": [
+        "f(['zzz'], 'z')"
+    ],
+    "sample_375": [
+        "f('sieriiizizam', 'i')"
+    ],
+    "sample_376": [
+        "f('one')"
+    ],
+    "sample_377": [
+        "f('BYE\\nNO\\nWAY')"
+    ],
+    "sample_378": [
+        "f({'a': 1, 'b': 2, 'c': 3}, 'd')"
+    ],
+    "sample_379": [
+        "f([1, 2, 3, 0])"
+    ],
+    "sample_380": [
+        "f('xxjarcz', 'z')"
+    ],
+    "sample_381": [
+        "f('19', 3)"
+    ],
+    "sample_382": [
+        "f({15: 'Qltuf', 12: 'Rwrepny'})"
+    ],
+    "sample_383": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_384": [
+        "f('sfdellos', 'abcdefghijklmnopqrstuvwxyz')"
+    ],
+    "sample_385": [
+        "f([0, 2, 2, 2])"
+    ],
+    "sample_386": [
+        "f('', {'0': '', '1': '', '2': '', '3': '', '4': '', '5': '', '6': '', '7': '', '8': '', '9': ''})"
+    ],
+    "sample_387": [
+        "f([3, 1, 0], 3, 2)"
+    ],
+    "sample_388": [
+        "f('2nm_28inabcde', 'abcde')"
+    ],
+    "sample_389": [
+        "f([1, 2, 3], ['n', 'a', 'm', 'm', 'o'])"
+    ],
+    "sample_390": [
+        "f(\"\")"
+    ],
+    "sample_391": [
+        "f(['9', '+', '+', '+'])"
+    ],
+    "sample_392": [
+        "f('Hello Is It MyClass')"
+    ],
+    "sample_393": [
+        "f('s---c---a')"
+    ],
+    "sample_394": [
+        "f(\"Hello\\n\\nWorld\")"
+    ],
+    "sample_395": [
+        "f('123')"
+    ],
+    "sample_396": [
+        "f({})"
+    ],
+    "sample_397": [
+        "f(['x', 'u', 'w', 'j', 3, 6])"
+    ],
+    "sample_398": [
+        "f({'2': 2, '0': 1, '1': 2})"
+    ],
+    "sample_399": [
+        "f('a--cado', 'a', '--')"
+    ],
+    "sample_400": [
+        "f('I, am, hungry!, eat, food. \ud83d\ude0b')"
+    ],
+    "sample_401": [
+        "f('mathematics', 'ics')"
+    ],
+    "sample_402": [
+        "f(0)"
+    ],
+    "sample_403": [
+        "f(\"abab\", \"ab\")"
+    ],
+    "sample_404": [
+        "f([1, 2, 3, 4, 5, 6])"
+    ],
+    "sample_405": [
+        "f([5, 3, 4, 1, 2, 3, 5])"
+    ],
+    "sample_406": [
+        "f('hello')"
+    ],
+    "sample_407": [
+        "f([])"
+    ],
+    "sample_408": [
+        "f([4, 0, 6, -4, -7, 2, -1])"
+    ],
+    "sample_409": [
+        "f('querisTq', 'q')"
+    ],
+    "sample_410": [
+        "f([1, 3, -1, 1, -2, 6])"
+    ],
+    "sample_411": [
+        "f(\"world\", \"hello\")"
+    ],
+    "sample_412": [
+        "f(1, 15, 2)"
+    ],
+    "sample_413": [
+        "f('cucwuc')"
+    ],
+    "sample_414": [
+        "f({'X': ['x', 'y']})"
+    ],
+    "sample_415": [
+        "f([(8, 2), (5, 3)])"
+    ],
+    "sample_416": [
+        "f('jysrhfm ojwesf xgwwdyr dlrul ymba bpq', ' ', '')"
+    ],
+    "sample_417": [
+        "f([8, 2, 8])"
+    ],
+    "sample_418": [
+        "f('qqqqq', 'q')"
+    ],
+    "sample_419": [
+        "f('mmfb', 'mmfb')"
+    ],
+    "sample_420": [
+        "f(\"hello\")"
+    ],
+    "sample_421": [
+        "f('try.abcde', 3)"
+    ],
+    "sample_422": [
+        "f([1, 2, 1])"
+    ],
+    "sample_423": [
+        "f([2, 3, 1, 5, 2, 4])"
+    ],
+    "sample_424": [
+        "f('The aakers of a Statement')"
+    ],
+    "sample_425": [
+        "f('CL44     :')"
+    ],
+    "sample_426": [
+        "f([1, 2, 3], 8, 3)"
+    ],
+    "sample_427": [
+        "f('')"
+    ],
+    "sample_428": [
+        "f([])"
+    ],
+    "sample_429": [
+        "f({'abc': 2, 'defghi': 2, 5: 1, 87.29: 3})"
+    ],
+    "sample_430": [
+        "f([5, 1, 3], [7, 8, '', 0, -1, []])"
+    ],
+    "sample_431": [
+        "f(5, 6)"
+    ],
+    "sample_432": [
+        "f(5, \"hello\")"
+    ],
+    "sample_433": [
+        "f('T,Sspp,G ,.tB,Vxk,Cct')"
+    ],
+    "sample_434": [
+        "f(\"Hello, world!\")"
+    ],
+    "sample_435": [
+        "f([], 1, 5)"
+    ],
+    "sample_436": [
+        "f('7617 ', [0, 1, 2, 3, 4])"
+    ],
+    "sample_437": [
+        "f(['d', 'o', 'e'])"
+    ],
+    "sample_438": [
+        "f('1\\t  3')"
+    ],
+    "sample_439": [
+        "f('c o s c i f y s u')"
+    ],
+    "sample_440": [
+        "f('hello')"
+    ],
+    "sample_441": [
+        "f({37: 'forty-five'}, '23', 'what?')"
+    ],
+    "sample_442": [
+        "f([1, 2, 3, 4])"
+    ],
+    "sample_443": [
+        "f(' cdlorem ipsum')"
+    ],
+    "sample_444": [
+        "f([3, 2, -5])"
+    ],
+    "sample_445": [
+        "f('carrot, banana, and strawberry')"
+    ],
+    "sample_446": [
+        "f([1, 2])"
+    ],
+    "sample_447": [
+        "f('  a', 2)"
+    ],
+    "sample_448": [
+        "f('hello', 'world')"
+    ],
+    "sample_449": [
+        "f(\"1234567890\")"
+    ],
+    "sample_450": [
+        "f('K zB KB')"
+    ],
+    "sample_451": [
+        "f('n', 'n')"
+    ],
+    "sample_452": [
+        "f(\"a\")"
+    ],
+    "sample_453": [
+        "f(\"hello\", \"o\")"
+    ],
+    "sample_454": [
+        "f({}, 0)"
+    ],
+    "sample_455": [
+        "f('ABCdefGHIJKLmnopqrstuvwxyz')"
+    ],
+    "sample_456": [
+        "f('Join us in Hungary', 4)"
+    ],
+    "sample_457": [
+        "f([])"
+    ],
+    "sample_458": [
+        "f('pppo4pIp', 'pi', 'oo4')"
+    ],
+    "sample_459": [
+        "f(['vzjmc', 'b', 'ae', 'f'], {})"
+    ],
+    "sample_460": [
+        "f('GENERAL NAGOOR', 13)"
+    ],
+    "sample_461": [
+        "f(\"\", \"hello\")"
+    ],
+    "sample_462": [
+        "f('abcdefgh', 'o')"
+    ],
+    "sample_463": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_464": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_465": [
+        "f(['wise king', 'young king'], 'north')"
+    ],
+    "sample_466": [
+        "f('     -----')"
+    ],
+    "sample_467": [
+        "f({})"
+    ],
+    "sample_468": [
+        "f('unrndqafi', 'a', 1)"
+    ],
+    "sample_469": [
+        "f('sudui', 2, 'y')"
+    ],
+    "sample_470": [
+        "f(2)"
+    ],
+    "sample_471": [
+        "f('z', 'hello')"
+    ],
+    "sample_472": [
+        "f(\"aaaaa\")"
+    ],
+    "sample_473": [
+        "f('scedvtvtkwqfqn', 'a')"
+    ],
+    "sample_474": [
+        "f('#[)[]>[^e', 10)"
+    ],
+    "sample_475": [
+        "f([1, 2, 3], -2)"
+    ],
+    "sample_476": [
+        "f(\"Hello World\", \"!\")"
+    ],
+    "sample_477": [
+        "f('xduaisf')"
+    ],
+    "sample_478": [
+        "f('mewo mewo')"
+    ],
+    "sample_479": [
+        "f([1, 2, 3], 1, 2)"
+    ],
+    "sample_480": [
+        "f('', 'a', 'b')"
+    ],
+    "sample_481": [
+        "f([1], 1, 1)"
+    ],
+    "sample_482": [
+        "f('Because it intrigues them')"
+    ],
+    "sample_483": [
+        "f('a', 'a')"
+    ],
+    "sample_484": [
+        "f([\"91\", \"2\"])"
+    ],
+    "sample_485": [
+        "f('gsd avdropj')"
+    ],
+    "sample_486": [
+        "f({1: 1, 2: 2, 3: 3})"
+    ],
+    "sample_487": [
+        "f({4: 'value'})"
+    ],
+    "sample_488": [
+        "f('5ezmgvn 651h', ' ')"
+    ],
+    "sample_489": [
+        "f('hellocifysu', 'hello')"
+    ],
+    "sample_490": [
+        "f('\\n\\n\\r\\r \\x0c')"
+    ],
+    "sample_491": [
+        "f([4, 8, 5, 5, 5, 5, 5])"
+    ],
+    "sample_492": [
+        "f('abbkebaniuwurzvr', 'b')"
+    ],
+    "sample_493": [
+        "f({'-4': 4, '1': 2, '-': -3})"
+    ],
+    "sample_494": [
+        "f('1', 3)"
+    ],
+    "sample_495": [
+        "f('a1234\u00e5r')"
+    ],
+    "sample_496": [
+        "f(\"Hello World\", \"Python\")"
+    ],
+    "sample_497": [
+        "f(44)"
+    ],
+    "sample_498": [
+        "f([2, 2, 2, 3, 3], 2, 3)"
+    ],
+    "sample_499": [
+        "f('magazine', 25, '.')"
+    ],
+    "sample_500": [
+        "f('dd', 'd')"
+    ],
+    "sample_501": [
+        "f('jqjfj', 'z')"
+    ],
+    "sample_502": [
+        "f('Fred Smith')"
+    ],
+    "sample_503": [
+        "f({})"
+    ],
+    "sample_504": [
+        "f([1, 1, 1, 1])"
+    ],
+    "sample_505": [
+        "f('1234567890')"
+    ],
+    "sample_506": [
+        "f(4)"
+    ],
+    "sample_507": [
+        "f((\"Hello, world!\", \"Hello\"))"
+    ],
+    "sample_508": [
+        "f('wiertub', 'i', 2)"
+    ],
+    "sample_509": [
+        "f(5, 1)"
+    ],
+    "sample_510": [
+        "f({}, 4, ['W', 'y'], 'd', 'e')"
+    ],
+    "sample_511": [
+        "f(['ct', 'c', 'ca'], {'ca': 'cx'})"
+    ],
+    "sample_512": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_513": [
+        "f([-1, 0, 1])"
+    ],
+    "sample_514": [
+        "f('stew corn and beans in soup')"
+    ],
+    "sample_515": [
+        "f([5, 4, 3, 2, 1])"
+    ],
+    "sample_516": [
+        "f([], \"any string\")"
+    ],
+    "sample_517": [
+        "f('SzHjifnzoABC')"
+    ],
+    "sample_518": [
+        "f(\"abc\")"
+    ],
+    "sample_519": [
+        "f({1: False, 2: 0})"
+    ],
+    "sample_520": [
+        "f([6, 1, 2, 3, 4, 5])"
+    ],
+    "sample_521": [
+        "f([9, 0, 2, 5, 77, 4, 0, 43, 77])"
+    ],
+    "sample_522": [
+        "f([1, 2, 3])"
+    ],
+    "sample_523": [
+        "f('   ')"
+    ],
+    "sample_524": [
+        "f({2: 1, 4: 3, 3: 2, 1: 0, 5: 1})"
+    ],
+    "sample_525": [
+        "f({'TEXT': 'CODE', 'CODE': 'TEXT'}, 'TEXT', 'CODE')"
+    ],
+    "sample_526": [
+        "f('rpg', 'p', 'rpg', 2)"
+    ],
+    "sample_527": [
+        "f('!', '?')"
+    ],
+    "sample_528": [
+        "f(\"abab\")"
+    ],
+    "sample_529": [
+        "f([1, 1, 2, 2, 3])"
+    ],
+    "sample_530": [
+        "f('ff', 'f')"
+    ],
+    "sample_531": [
+        "f('djgblw asdl ', 'djgblw asdl ')"
+    ],
+    "sample_532": [
+        "f(1, [1, 2, 3])"
+    ],
+    "sample_533": [
+        "f('d', {'a': 1, 'b': 2, 'c': 3})"
+    ],
+    "sample_534": [
+        "f('h+o+s+u', '+')"
+    ],
+    "sample_535": [
+        "f(3)"
+    ],
+    "sample_536": [
+        "f(\"12345\")"
+    ],
+    "sample_537": [
+        "f('abc', 'd')"
+    ],
+    "sample_538": [
+        "f('0574', 9)"
+    ],
+    "sample_539": [
+        "f([])"
+    ],
+    "sample_540": [
+        "f([5, 9, 4, 6, 5, 5, 5, 5, 5, 5])"
+    ],
+    "sample_541": [
+        "f('   ')"
+    ],
+    "sample_542": [
+        "f('ab cd')"
+    ],
+    "sample_543": [
+        "f('.,,,,, , \u0645\u0646\u0628\u062a')"
+    ],
+    "sample_544": [
+        "f('            tab tab tabulates')"
+    ],
+    "sample_545": [
+        "f([8, 8, -1, 8])"
+    ],
+    "sample_546": [
+        "f('Speaker: Do you know who the other was? [NEGMENDS]', 'Speaker: ')"
+    ],
+    "sample_547": [
+        "f(\"h....e....l....l....o....w....o....r....l....d\")"
+    ],
+    "sample_548": [
+        "f('spiderman', 'man')"
+    ],
+    "sample_549": [
+        "f([[1, 1, 1, 1]])"
+    ],
+    "sample_550": [
+        "f([1, 1, 1, 1, 2])"
+    ],
+    "sample_551": [
+        "f({'key': ['a', 'b', 'c', 'inf']})"
+    ],
+    "sample_552": [
+        "f({0.76: [2], 5: [3, 6, 9, 12]})"
+    ],
+    "sample_553": [
+        "f('439m2670hslw', 3)"
+    ],
+    "sample_554": [
+        "f([2, 0, 1, 9999, 3, -5])"
+    ],
+    "sample_555": [
+        "f('odes\\tcode\\twell', ' ')"
+    ],
+    "sample_556": [
+        "f('\\n\\n        z   d\\ng\\n            e')"
+    ],
+    "sample_557": [
+        "f('xxxmm ar xx')"
+    ],
+    "sample_558": [
+        "f([1, 2, 3, 4, 5], [2, 4])"
+    ],
+    "sample_559": [
+        "f('first-second-third')"
+    ],
+    "sample_560": [
+        "f(\"ABC123\")"
+    ],
+    "sample_561": [
+        "f(\"1111111\", \"1\")"
+    ],
+    "sample_562": [
+        "f(\"a\")"
+    ],
+    "sample_563": [
+        "f(\"abc\", \"ab\")"
+    ],
+    "sample_564": [
+        "f([395, [666, 7, 4], [], []])"
+    ],
+    "sample_565": [
+        "f(\"hello world\")"
+    ],
+    "sample_566": [
+        "f('towaru', 'UTF-8')"
+    ],
+    "sample_567": [
+        "f('one two three four five', 3)"
+    ],
+    "sample_568": [
+        "f('1234567890')"
+    ],
+    "sample_569": [
+        "f(\"aaabbb\")"
+    ],
+    "sample_570": [
+        "f([1], 0, 1)"
+    ],
+    "sample_571": [
+        "f('a\\tb', 1)"
+    ],
+    "sample_572": [
+        "f([(1, 2), (2, 10), (3, 1)], 2)"
+    ],
+    "sample_573": [
+        "f('Vipra', 'V')"
+    ],
+    "sample_574": [
+        "f(['Costanza', 'lisa', 'marge', 'homer'])"
+    ],
+    "sample_575": [
+        "f([2, 3, 4], 5)"
+    ],
+    "sample_576": [
+        "f([1, 0.5, 3], 0)"
+    ],
+    "sample_577": [
+        "f({'a': 1})"
+    ],
+    "sample_578": [
+        "f({'R': 0, 'T': 3, 'F': 6, 'K': 0})"
+    ],
+    "sample_579": [
+        "f('')"
+    ],
+    "sample_580": [
+        "f(\"ab\", \"a\")"
+    ],
+    "sample_581": [
+        "f('akosn', 'Xo')"
+    ],
+    "sample_582": [
+        "f(7, 5)"
+    ],
+    "sample_583": [
+        "f('t\\nZ\\nA', 't')"
+    ],
+    "sample_584": [
+        "f('5123807309875480094949830')"
+    ],
+    "sample_585": [
+        "f('????')"
+    ],
+    "sample_586": [
+        "f(\"abc\", \"c\")"
+    ],
+    "sample_587": [
+        "f([0, 1, 2], 'abcca')"
+    ],
+    "sample_588": [
+        "f([1, 2, 3, 4, 5], 4)"
+    ],
+    "sample_589": [
+        "f([-70, 20, 9, 1])"
+    ],
+    "sample_590": [
+        "f('5000   $1234567890')"
+    ],
+    "sample_591": [
+        "f([1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 4, 4, 6, 6, 7, 7, 8, 8, 9, 9])"
+    ],
+    "sample_592": [
+        "f([11, 3])"
+    ],
+    "sample_593": [
+        "f([], 0)"
+    ],
+    "sample_594": [
+        "f('Hello\\nWorld')"
+    ],
+    "sample_595": [
+        "f('qdhstudentamxupuihbuztn', 'Qdh')"
+    ],
+    "sample_596": [
+        "f(['9', '8', '7', '4', '3', '2'], '2')"
+    ],
+    "sample_597": [
+        "f('jaaFodsfa sodoFj aoafjis  jafasidfSA1')"
+    ],
+    "sample_598": [
+        "f('abcd', 1)"
+    ],
+    "sample_599": [
+        "f(['a', 'b', 'c'], ' ')"
+    ],
+    "sample_600": [
+        "f([])"
+    ],
+    "sample_601": [
+        "f('c s h A r p')"
+    ],
+    "sample_602": [
+        "f([1, 2, 3, 2], 2)"
+    ],
+    "sample_603": [
+        "f(\"123.456.789.abc\")"
+    ],
+    "sample_604": [
+        "f(\"Hello, world!\", \"Hello\")"
+    ],
+    "sample_605": [
+        "f([])"
+    ],
+    "sample_606": [
+        "f('ruam')"
+    ],
+    "sample_607": [
+        "f(\"Hello!\")"
+    ],
+    "sample_608": [
+        "f({1: 1, 2: 2, 3: 3})"
+    ],
+    "sample_609": [
+        "f({}, 'a')"
+    ],
+    "sample_610": [
+        "f([1, 2, 3], 1)"
+    ],
+    "sample_611": [
+        "f([-6, -2, 1, -3, 0, 1])"
+    ],
+    "sample_612": [
+        "f({'a': 42, 'b': 1337, 'c': -1, 'd': 5})"
+    ],
+    "sample_613": [
+        "f('e!t!')"
+    ],
+    "sample_614": [
+        "f(\"Hello, world!\", \"Python\", 1)"
+    ],
+    "sample_615": [
+        "f([1, 2, 3], 2)"
+    ],
+    "sample_616": [
+        "f('\\n\\ny[y]')"
+    ],
+    "sample_617": [
+        "f('hello')"
+    ],
+    "sample_618": [
+        "f(('89', '123456789', 2))"
+    ],
+    "sample_619": [
+        "f('   Rock   Paper   Scissors  ')"
+    ],
+    "sample_620": [
+        "f('l e r t   d   a n d   n d q m x o h i 3')"
+    ],
+    "sample_621": [
+        "f('13:45:56', 'utf-8')"
+    ],
+    "sample_622": [
+        "f('g.a.l.g.u')"
+    ],
+    "sample_623": [
+        "f('HI~', ['@', '@', '~'])"
+    ],
+    "sample_624": [
+        "f('xllomnrpc', 'x')"
+    ],
+    "sample_625": [
+        "f(\"Hello, world! How are you?\")"
+    ],
+    "sample_626": [
+        "f('abab', [('a', 'b'), ('b', 'a')])"
+    ],
+    "sample_627": [
+        "f([('a', -5), ('b', 7)])"
+    ],
+    "sample_628": [
+        "f([4, 3, 6, 1, 2], 2)"
+    ],
+    "sample_629": [
+        "f('cat', '')"
+    ],
+    "sample_630": [
+        "f({1: 1, 0: 0, 2: 2, 3: 3}, {1: 0, 0: 1, 2: 2, 3: 3})"
+    ],
+    "sample_631": [
+        "f('', 1)"
+    ],
+    "sample_632": [
+        "f([87, 63, 25, 9, 7, 5, 4, 1, 0, 0])"
+    ],
+    "sample_633": [
+        "f([0, 1, 2, 3, 4], 0)"
+    ],
+    "sample_634": [
+        "f('baoc')"
+    ],
+    "sample_635": [
+        "f(\"Hello World!\")"
+    ],
+    "sample_636": [
+        "f({2: 'A2', 1: 'A1', 3: 'A3'})"
+    ],
+    "sample_637": [
+        "f('hello world')"
+    ],
+    "sample_638": [
+        "f('abababababa', 'ababa')"
+    ],
+    "sample_639": [
+        "f('y', 'e')"
+    ],
+    "sample_640": [
+        "f(\"aaaaaaaaaaaaaaaaaaaa\")"
+    ],
+    "sample_641": [
+        "f(\"abc\")"
+    ],
+    "sample_642": [
+        "f(' ')"
+    ],
+    "sample_643": [
+        "f('damdrodM', 'M')"
+    ],
+    "sample_644": [
+        "f([1, 6], 1)"
+    ],
+    "sample_645": [
+        "f([1, 2, 3], 4)"
+    ],
+    "sample_646": [
+        "f('YzS , ,cBa', 3)"
+    ],
+    "sample_647": [
+        "f('/alcm@ an)t//eprw)/e!/d\\nujv', 2)"
+    ],
+    "sample_648": [
+        "f([6, 2, 3, 4, 5], [1, 2, 3, 4, 5])"
+    ],
+    "sample_649": [
+        "f(' f9\\n ldf9\\n adf9!\\n f9?', 4)"
+    ],
+    "sample_650": [
+        "f('', '')"
+    ],
+    "sample_651": [
+        "f('e wrestled evil until upperfeat', 'e')"
+    ],
+    "sample_652": [
+        "f('3')"
+    ],
+    "sample_653": [
+        "f(\"a\", \"a\")"
+    ],
+    "sample_654": [
+        "f('abcde', 'abcde', 'aph?d')"
+    ],
+    "sample_655": [
+        "f('par')"
+    ],
+    "sample_656": [
+        "f('abc')"
+    ],
+    "sample_657": [
+        "f('djhasghasgdha.')"
+    ],
+    "sample_658": [
+        "f({'swims like a bull': None}, ['swims like a bull', 'swims like a bull', 'swims like a bull', 'swims like a bull', 'swims like a bull'])"
+    ],
+    "sample_659": [
+        "f(['a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'])"
+    ],
+    "sample_660": [
+        "f(2)"
+    ],
+    "sample_661": [
+        "f('Hello world, this is a test', 2)"
+    ],
+    "sample_662": [
+        "f(['Dan', 'Dusty', 'Joe'])"
+    ],
+    "sample_663": [
+        "f([], 'cron')"
+    ],
+    "sample_664": [
+        "f({'3': 0, '4': 0})"
+    ],
+    "sample_665": [
+        "f('abccde')"
+    ],
+    "sample_666": [
+        "To find an input such that executing f on the input leads to the given output, we need to analyze the function f(d1, d2). The function iterates over the keys in d1 and checks if the length of the corresponding value in d1 plus the length of the value in d2 (if it exists) is greater than the current maximum (mmax). If it is, the maximum is updated.\n\nTo achieve the output of 4, we need to find two dictionaries d1 and d2 such that the sum of the lengths of their values is 4. One possible solution is:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6]}\n\nIn this case, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 1. The sum is 1, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 2. The sum is 2, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8, 9]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2. The sum is 3, which is also less than 4. But the length of the value for key 'c' in d2 is 3. The sum is 3, which is less than 4.\n\nTo achieve the output of 4, we can modify the values in d1 and d2 as follows:\n\nd1 = {'a': [1, 2], 'b': [3]}\nd2 = {'a': [4], 'b': [5, 6], 'c': [7, 8, 9, 10]}\n\nNow, the length of the value for key 'a' in d1 is 2, and the length of the value for key 'a' in d2 is 1. The sum is 3, which is less than 4. However, the length of the value for key 'b' in d1 is 1, and the length of the value for key 'b' in d2 is 2"
+    ],
+    "sample_667": [
+        "f(\"C7\")"
+    ],
+    "sample_668": [
+        "f('a' + 'rhellomyfriende')"
+    ],
+    "sample_669": [
+        "f('fubar-baz')"
+    ],
+    "sample_670": [
+        "f([1, 2], [2, 1])"
+    ],
+    "sample_671": [
+        "f('gwrioad gmf rwdo sggoa', 'g', 'w')"
+    ],
+    "sample_672": [
+        "f(['1', 'z', 'd'], 2, 'd')"
+    ],
+    "sample_673": [
+        "f('Ca')"
+    ],
+    "sample_674": [
+        "f('qq')"
+    ],
+    "sample_675": [
+        "f([1], 1)"
+    ],
+    "sample_676": [
+        "f('\\t', 1)"
+    ],
+    "sample_677": [
+        "f('I', 1)"
+    ],
+    "sample_678": [
+        "f('hi')"
+    ],
+    "sample_679": [
+        "f(\"my_variable\")"
+    ],
+    "sample_680": [
+        "f('we32r71g72ug94823658324!@#$%^&*()')"
+    ],
+    "sample_681": [
+        "f([1, 5, 8, 7, 2], 5, 0)"
+    ],
+    "sample_682": [
+        "f('h y', 1, 1)"
+    ],
+    "sample_683": [
+        "f({'disface': 9, 'cam': 7, 'mforce': 5}, {'disface': 9, 'cam': 7, 'mforce': 5})"
+    ],
+    "sample_684": [
+        "f('Transform quotations\\nnot into numbers.')"
+    ],
+    "sample_685": [
+        "f([-3], -3)"
+    ],
+    "sample_686": [
+        "f({'lorem ipsum': 12, 'dolor': 23, 'sit': 45}, ['lorem ipsum', 'dolor'])"
+    ],
+    "sample_687": [
+        "f('R:j:u:g: :z:u:f:E:rjug nzufe')"
+    ],
+    "sample_688": [
+        "f([3, 1, 9, 0, 2, 8, 3, 1, 9, 0, 2, 8])"
+    ],
+    "sample_689": [
+        "f([-3, -6, 2, 7])"
+    ],
+    "sample_690": [
+        "f(797.5)"
+    ],
+    "sample_691": [
+        "f('rpytt', '')"
+    ],
+    "sample_692": [
+        "f([0, 0, 0, 0, 0])"
+    ],
+    "sample_693": [
+        "f('x8')"
+    ],
+    "sample_694": [
+        "f({'e': 1, 'd': 2, 'c': 3})"
+    ],
+    "sample_695": [
+        "f({})"
+    ],
+    "sample_696": [
+        "f(\"abc\")"
+    ],
+    "sample_697": [
+        "f('not it', '')"
+    ],
+    "sample_698": [
+        "f('(((((((((((d.(((((')"
+    ],
+    "sample_699": [
+        "f('some', '1')"
+    ],
+    "sample_700": [
+        "f('This is a string with no occurrences of bot')"
+    ],
+    "sample_701": [
+        "f('31849 let it!31849 pass!31849', ['31849'])"
+    ],
+    "sample_702": [
+        "f([0, -4, -5])"
+    ],
+    "sample_703": [
+        "f('zzv2sgzzv2sg', 'z')"
+    ],
+    "sample_704": [
+        "f('', 1, '.')"
+    ],
+    "sample_705": [
+        "f([], 'cities')"
+    ],
+    "sample_706": [
+        "f('xy', 'ab')"
+    ],
+    "sample_707": [
+        "f('udbs la', 1)"
+    ],
+    "sample_708": [
+        "f('    jcmfxv    ')"
+    ],
+    "sample_709": [
+        "f('a loved')"
+    ],
+    "sample_710": [
+        "f({'aki': ['1', '5', '2']}, 'aki', '2')"
+    ],
+    "sample_711": [
+        "f('apples\\n\\npears\\n\\nbananas')"
+    ],
+    "sample_712": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_713": [
+        "f(\"Hello, World!\", \",\")"
+    ],
+    "sample_714": [
+        "f([])"
+    ],
+    "sample_715": [
+        "f(\"hello\", \"l\")"
+    ],
+    "sample_716": [
+        "f([1, 2, 3])"
+    ],
+    "sample_717": [
+        "f('!t')"
+    ],
+    "sample_718": [
+        "f('')"
+    ],
+    "sample_719": [
+        "f('if (x) {y = 1;} else {z = 1;}')"
+    ],
+    "sample_720": [
+        "f([1, 2], 2)"
+    ],
+    "sample_721": [
+        "f([-8, -7, -6, -5, 2])"
+    ],
+    "sample_722": [
+        "f('wPzPppdl')"
+    ],
+    "sample_723": [
+        "f(\"d g a n q d k\\nu l l q c h a k l\", True)"
+    ],
+    "sample_724": [
+        "f(\"functionfunctionfunction\", \"function\")"
+    ],
+    "sample_725": [
+        "f(\"hello\")"
+    ],
+    "sample_726": [
+        "f(\"This is a test string with 2 spaces\")"
+    ],
+    "sample_727": [
+        "f(['dxh', 'ix', 'snegi', 'wiubvu'], '')"
+    ],
+    "sample_728": [
+        "f('')"
+    ],
+    "sample_729": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_730": [
+        "f(\"hello world\")"
+    ],
+    "sample_731": [
+        "f('Chris requires  ride to the irport on Friday.', 'Friday')"
+    ],
+    "sample_732": [
+        "f({'u': 20, 'v': 4, 'b': 6, 'w': 2, 'x': 2})"
+    ],
+    "sample_733": [
+        "f('n')"
+    ],
+    "sample_734": [
+        "f([5, 3, 3, 7, 2])"
+    ],
+    "sample_735": [
+        "f('abb')"
+    ],
+    "sample_736": [
+        "f('pichiwa', '')"
+    ],
+    "sample_737": [
+        "f([1.0, 2, 3])"
+    ],
+    "sample_738": [
+        "f('rrrrrrrr', 'r;')"
+    ],
+    "sample_739": [
+        "f('ab', ['a', 'b', 'c'])"
+    ],
+    "sample_740": [
+        "f([1, 2, 3, 4], 3)"
+    ],
+    "sample_741": [
+        "f([1, 2, 3, 4, 5], 1)"
+    ],
+    "sample_742": [
+        "f(\"abc123\")"
+    ],
+    "sample_743": [
+        "f(\"abc,def\")"
+    ],
+    "sample_744": [
+        "f('jrowd', 'lp')"
+    ],
+    "sample_745": [
+        "f('minimc@minimc.io')"
+    ],
+    "sample_746": [
+        "f({})"
+    ],
+    "sample_747": [
+        "f('abc')"
+    ],
+    "sample_748": [
+        "f({'a': 123, 'b': 456})"
+    ],
+    "sample_749": [
+        "f('l', 3)"
+    ],
+    "sample_750": [
+        "f({'h': 'h', 'b': 'b', 'd': 'd'}, 'hello')"
+    ],
+    "sample_751": [
+        "f('wwwwhhhtttpp', 'w', 5)"
+    ],
+    "sample_752": [
+        "f('abc', 10)"
+    ],
+    "sample_753": [
+        "f({0: 0, 1: 0, 2: 0, 3: 0, 4: 0})"
+    ],
+    "sample_754": [
+        "f([2, 2, 44, 0, 7, 20257])"
+    ],
+    "sample_755": [
+        "f('ph>t#A#BiEcDefW#ON#iiNCU', 'ph>t#A#BiEcDefW#ON#iiNCU', '')"
+    ],
+    "sample_756": [
+        "f('hello')"
+    ],
+    "sample_757": [
+        "f('banana', 'a', '2')"
+    ],
+    "sample_758": [
+        "f([1, 2, 3])"
+    ],
+    "sample_759": [
+        "f(\"\", \"\")"
+    ],
+    "sample_760": [
+        "f({'k': 1, 'j': 2, 'h': 3, 'f': 4})"
+    ],
+    "sample_761": [
+        "f([])"
+    ],
+    "sample_762": [
+        "f('This and cpanel')"
+    ],
+    "sample_763": [
+        "f('yCxpg2C2Pny', 'yCxpg2C2Pny', '')"
+    ],
+    "sample_764": [
+        "f('any test string', 'gnirts', 'test')"
+    ],
+    "sample_765": [
+        "f(\"123\")"
+    ],
+    "sample_766": [
+        "f(['0', '3'], 117)"
+    ],
+    "sample_767": [
+        "f(\"Hello World\")"
+    ],
+    "sample_768": [
+        "f('bababba', 'ba')"
+    ],
+    "sample_769": [
+        "f('aKa?riu')"
+    ],
+    "sample_770": [
+        "f('78', '$')"
+    ],
+    "sample_771": [
+        "f([8, 7, 6, 5, 4, 3, 2, 1])"
+    ],
+    "sample_772": [
+        "f('DFA.')"
+    ],
+    "sample_773": [
+        "f([1, 2, 3, 4, 5], 1)"
+    ],
+    "sample_774": [
+        "f(23, 'Cornareti')"
+    ],
+    "sample_775": [
+        "f([2, 6, 1, 3, 1])"
+    ],
+    "sample_776": [
+        "f({1: 'a', 3: 'b', 5: 'c'})"
+    ],
+    "sample_777": [
+        "f(['avc  a .d e'], \"b\")"
+    ],
+    "sample_778": [
+        "f('mjsmjqwmjsqjwisojqwiso', 'mjsmjqwmjsqjwisojqwiso')"
+    ],
+    "sample_779": [
+        "f('first second third fourth')"
+    ],
+    "sample_780": [
+        "f([2, 2, 2])"
+    ],
+    "sample_781": [
+        "f('hello', 'z')"
+    ],
+    "sample_782": [
+        "f(\"Hello World\")"
+    ],
+    "sample_783": [
+        "f(\"a\", \"a\")"
+    ],
+    "sample_784": [
+        "f('read', 'Is')"
+    ],
+    "sample_785": [
+        "To find an input such that executing f on the input leads to the given output, we can work backwards from the given assertion. We know that f(??)"
+    ],
+    "sample_786": [
+        "f('719kefp', 'k')"
+    ],
+    "sample_787": [
+        "f('xzd')"
+    ],
+    "sample_788": [
+        "f('hello', '.txt')"
+    ],
+    "sample_789": [
+        "f('bR', 2)"
+    ],
+    "sample_790": [
+        "f({'a': 1, 'b': 2})"
+    ],
+    "sample_791": [
+        "f(8999, 5)"
+    ],
+    "sample_792": [
+        "f(['a', 'b'], ['car', 'dog'])"
+    ],
+    "sample_793": [
+        "f([1, 1, 1, 2], 0, 3)"
+    ],
+    "sample_794": [
+        "f('normalcharsqwet42')"
+    ],
+    "sample_795": [
+        "f('Fu,ux zfujijabji pfu.')"
+    ],
+    "sample_796": [
+        "f('fnuiyh', '')"
+    ],
+    "sample_797": [
+        "f({'a': 1, 'b': 2, 'c': 3})"
+    ],
+    "sample_798": [
+        "f('Hello, @!', 'Hello, ')"
+    ],
+    "sample_799": [
+        "f('~neqe-;ew22')"
+    ]
+}
