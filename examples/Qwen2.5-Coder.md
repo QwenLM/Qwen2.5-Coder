@@ -20,7 +20,8 @@ input_text = "#write a quick sort algorithm"
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
-generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
+eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False, eos_token_id=eos_token_ids)[0]
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
@@ -58,7 +59,8 @@ input_text = """<|fim_prefix|>def quicksort(arr):
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
-generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False)[0]
+eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False, eos_token_id=eos_token_ids)[0]
 # The generated_ids include prompt_ids, we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
@@ -155,7 +157,8 @@ def main():
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
-generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_sample=False)[0]
+eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_sample=False, eos_token_id=eos_token_ids)[0]
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
@@ -295,7 +298,8 @@ if __name__ == "__main__":
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
 
 # Use `max_new_tokens` to control the maximum output length.
-generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_sample=False)[0]
+eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=1024, do_sample=False, eos_token_id=eos_token_ids)[0]
 # The generated_ids include prompt_ids, so we only need to decode the tokens after prompt_ids.
 output_text = tokenizer.decode(generated_ids[len(model_inputs.input_ids[0]):], skip_special_tokens=True)
 
@@ -322,7 +326,8 @@ tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
 
 # Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
 # max_tokens is for the maximum length for generation.
-sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024)
+eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024, stop_token_ids=eos_token_ids)
 
 # Input the model name or path. Can be GPTQ or AWQ models.
 llm = LLM(model="Qwen/Qwen2.5-Coder-7B")
