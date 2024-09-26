@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/meta-llama/llama-3-70b-instruct,16522,15700,199,204529,2149333,213863,240,143,240

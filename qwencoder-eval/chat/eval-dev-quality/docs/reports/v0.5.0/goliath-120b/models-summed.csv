@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/alpindale/goliath-120b,308,110,5,78362,2331384,88551,125,19,49

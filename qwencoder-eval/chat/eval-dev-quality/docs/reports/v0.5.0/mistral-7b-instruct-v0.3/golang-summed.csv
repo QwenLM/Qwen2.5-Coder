@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/mistralai/mistral-7b-instruct-v0.3,1570,1280,40,116785,871517,163638,120,13,117

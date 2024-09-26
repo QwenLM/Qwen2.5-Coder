@@ -1,0 +1,5 @@
+model-id,model-name,cost,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+custom-nvidia/google/gemma-2-27b-it,gemma-2-27b-it,0,golang,golang/light,write-tests,4095,3650,100,83660,950489,85270,115,115,115
+custom-nvidia/google/gemma-2-27b-it,gemma-2-27b-it,0,golang,golang/plain,write-tests,70,50,5,370,7029,440,5,5,5
+custom-nvidia/google/gemma-2-27b-it,gemma-2-27b-it,0,java,java/light,write-tests,13812,13360,107,125031,1023420,126411,115,115,115
+custom-nvidia/google/gemma-2-27b-it,gemma-2-27b-it,0,java,java/plain,write-tests,70,50,5,940,9753,1000,5,5,5

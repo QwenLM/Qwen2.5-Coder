@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/anthropic/claude-2.0,7045,6370,106,168074,1656030,201993,240,89,240

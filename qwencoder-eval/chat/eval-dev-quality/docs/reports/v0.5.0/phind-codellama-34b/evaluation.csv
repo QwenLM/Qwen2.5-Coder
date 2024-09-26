@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/phind/phind-codellama-34b,golang,golang/light,write-tests,3135,2720,78,80709,860054,85071,115,107,115
+openrouter/phind/phind-codellama-34b,golang,golang/plain,write-tests,59,40,4,798,8962,870,5,5,5
+openrouter/phind/phind-codellama-34b,java,java/light,write-tests,12017,11590,100,103845,806436,111029,115,97,115
+openrouter/phind/phind-codellama-34b,java,java/plain,write-tests,70,50,5,1285,11851,1345,5,5,5

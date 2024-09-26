@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/mistralai/mistral-tiny,8990,8400,107,274404,1749347,415583,240,3,240

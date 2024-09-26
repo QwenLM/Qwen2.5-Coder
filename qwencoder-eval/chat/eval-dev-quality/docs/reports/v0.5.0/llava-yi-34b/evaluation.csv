@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/liuhaotian/llava-yi-34b,golang,golang/plain,write-tests,11,0,0,828,10318,1575,5,1,5
+openrouter/liuhaotian/llava-yi-34b,java,java/light,write-tests,2726,2420,21,142756,858339,163456,115,56,114
+openrouter/liuhaotian/llava-yi-34b,java,java/plain,write-tests,22,10,1,1476,14034,2773,5,2,4

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/deepseek/deepseek-coder,4450,3990,110,127428,3103651,129173,120,115,115

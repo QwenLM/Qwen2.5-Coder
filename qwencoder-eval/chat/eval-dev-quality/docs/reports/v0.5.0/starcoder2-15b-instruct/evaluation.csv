@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/bigcode/starcoder2-15b-instruct,golang,golang/plain,write-tests,10,0,0,748,13639,2714,5,0,5
+openrouter/bigcode/starcoder2-15b-instruct,java,java/light,write-tests,2889,2620,26,74388,654447,155315,115,13,115
+openrouter/bigcode/starcoder2-15b-instruct,java,java/plain,write-tests,21,10,1,1079,13524,3153,5,0,5

@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/alpindale/goliath-120b,golang,golang/light,write-tests,277,100,4,73757,2177772,81587,115,17,41
+openrouter/alpindale/goliath-120b,golang,golang/plain,write-tests,22,10,1,1550,63083,2659,5,2,4
+openrouter/alpindale/goliath-120b,java,java/plain,write-tests,9,0,0,3055,90529,4305,5,0,4

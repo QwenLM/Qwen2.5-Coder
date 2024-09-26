@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/deepseek/deepseek-chat,2487,2060,71,129361,3194194,131019,120,118,118

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/mistralai/mistral-medium,15072,14390,183,256175,3348382,377977,240,19,240

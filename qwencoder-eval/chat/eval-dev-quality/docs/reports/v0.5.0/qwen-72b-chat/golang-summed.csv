@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/qwen/qwen-72b-chat,2562,2250,69,88054,1352359,118974,120,4,119

@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/openchat/openchat-8b,golang,golang/light,write-tests,1902,1590,47,87217,330365,106622,114,47,104
+openrouter/openchat/openchat-8b,golang,golang/plain,write-tests,43,30,3,945,6245,1858,5,1,4
+openrouter/openchat/openchat-8b,java,java/light,write-tests,5977,5690,53,124851,363928,153126,112,18,104
+openrouter/openchat/openchat-8b,java,java/plain,write-tests,22,10,2,1984,39855,8520,5,0,5

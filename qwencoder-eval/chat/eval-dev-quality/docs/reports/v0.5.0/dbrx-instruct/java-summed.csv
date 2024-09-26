@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/databricks/dbrx-instruct,4779,4480,39,85511,405451,92338,103,72,85

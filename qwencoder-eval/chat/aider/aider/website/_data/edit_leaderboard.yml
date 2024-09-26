@@ -1,0 +1,1020 @@
+- dirname: 2024-05-01-20-05-59--direct-opus-filenames-outside-fence
+  test_cases: 133
+  model: claude-3-opus-20240229
+  released: 2024-02-29
+  edit_format: diff
+  commit_hash: f4b1797-dirty, f4b1797
+  pass_rate_1: 53.4
+  pass_rate_2: 68.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 2
+  num_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --opus
+  date: 2024-05-01
+  versions: 0.30.2-dev
+  seconds_per_case: 32.4
+  total_cost: 13.8395
+  
+- dirname: 2024-03-06-16-42-00--claude3-sonnet-whole
+  test_cases: 133
+  model: claude-3-sonnet-20240229
+  released: 2024-02-29
+  edit_format: whole
+  commit_hash: a5f8076-dirty
+  pass_rate_1: 43.6
+  pass_rate_2: 54.9
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 1
+  syntax_errors: 2
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 7
+  command: aider --sonnet
+  date: 2024-03-06
+  versions: 0.25.1-dev
+  seconds_per_case: 23.1
+  total_cost: 0.0000
+  
+- dirname: 2024-05-03-20-47-24--gemini-1.5-pro-diff-fenced
+  test_cases: 133
+  model: gemini-1.5-pro-latest
+  edit_format: diff-fenced
+  commit_hash: 3a48dfb, 5d32dd7
+  pass_rate_1: 45.9
+  pass_rate_2: 57.1
+  percent_cases_well_formed: 87.2
+  error_outputs: 60
+  num_malformed_responses: 17
+  user_asks: 3
+  lazy_comments: 0
+  syntax_errors: 8
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model gemini/gemini-1.5-pro-latest
+  date: 2024-05-03
+  versions: 0.31.2-dev
+  seconds_per_case: 21.3
+  total_cost: 0.0000
+
+- dirname: 2024-05-08-20-59-15--may-gpt-3.5-turbo-whole
+  test_cases: 133
+  model: gpt-3.5-turbo-0125
+  released: 2024-01-25
+  edit_format: whole
+  commit_hash: 1d55f74
+  pass_rate_1: 41.4
+  pass_rate_2: 50.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 3
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider -3
+  date: 2024-05-08
+  versions: 0.33.1-dev
+  seconds_per_case: 6.5
+  total_cost: 0.5032
+  
+- dirname: 2023-11-06-21-23-59--gpt-3.5-turbo-0301
+  test_cases: 133
+  model: gpt-3.5-turbo-0301
+  released: 2023-03-01
+  edit_format: whole
+  commit_hash: 44388db-dirty
+  pass_rate_1: 50.4
+  pass_rate_2: 57.9
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 8
+  command: aider --model gpt-3.5-turbo-0301
+  date: 2023-11-06
+  versions: 0.16.4-dev
+  seconds_per_case: 6.5
+  total_cost: 0.4822
+  
+- dirname: 2023-11-07-02-41-07--gpt-3.5-turbo-0613
+  test_cases: 133
+  model: gpt-3.5-turbo-0613
+  released: 2023-06-13
+  edit_format: whole
+  commit_hash: 93aa497-dirty
+  pass_rate_1: 38.3
+  pass_rate_2: 50.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 5
+  command: aider --model gpt-3.5-turbo-0613
+  date: 2023-11-07
+  versions: 0.16.4-dev
+  seconds_per_case: 18.0
+  total_cost: 0.5366
+- dirname: 2024-04-30-21-40-51--litellm-gpt-3.5-turbo-1106-again
+  test_cases: 132
+  model: gpt-3.5-turbo-1106
+  edit_format: whole
+  commit_hash: 7b14d77
+  pass_rate_1: 45.5
+  pass_rate_2: 56.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 0
+  syntax_errors: 19
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gpt-3.5-turbo-1106
+  date: 2024-04-30
+  versions: 0.30.2-dev
+  seconds_per_case: 5.3
+  total_cost: 0.3261
+  
+- dirname: 2024-01-25-23-37-15--jan-exercism-gpt-4-0125-preview-udiff
+  test_cases: 133
+  model: gpt-4-0125-preview
+  released: 2024-01-25
+  edit_format: udiff
+  commit_hash: edcf9b1
+  pass_rate_1: 55.6
+  pass_rate_2: 66.2
+  percent_cases_well_formed: 97.7
+  error_outputs: 6
+  num_malformed_responses: 3
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 3
+  indentation_errors: 7
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider --model gpt-4-0125-preview
+  date: 2024-01-25
+  versions: 0.22.1-dev
+  seconds_per_case: 44.8
+  total_cost: 14.6428
+  
+- dirname: 2024-05-04-15-07-30--redo-gpt-4-0314-diff-reminder-rules
+  test_cases: 133
+  model: gpt-4-0314
+  released: 2023-03-14
+  edit_format: diff
+  commit_hash: 0d43468
+  pass_rate_1: 50.4
+  pass_rate_2: 66.2
+  percent_cases_well_formed: 93.2
+  error_outputs: 28
+  num_malformed_responses: 9
+  user_asks: 1
+  lazy_comments: 3
+  syntax_errors: 9
+  indentation_errors: 7
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model gpt-4-0314
+  date: 2024-05-04
+  versions: 0.31.2-dev
+  seconds_per_case: 19.8
+  total_cost: 16.2689
+  
+- dirname: 2023-12-16-21-24-28--editblock-gpt-4-0613-actual-main
+  test_cases: 133
+  model: gpt-4-0613
+  released: 2023-06-13
+  edit_format: diff
+  commit_hash: 3aa17c4
+  pass_rate_1: 46.6
+  pass_rate_2: 67.7
+  percent_cases_well_formed: 100.0
+  error_outputs: 14
+  num_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider -4
+  date: 2023-12-16
+  versions: 0.18.2-dev
+  seconds_per_case: 33.6
+  total_cost: 17.4657
+
+- dirname: 2024-05-08-21-16-03--may-gpt-4-1106-preview-udiff
+  test_cases: 133
+  model: gpt-4-1106-preview
+  released: 2023-11-06  
+  edit_format: udiff
+  commit_hash: 87664dc
+  pass_rate_1: 51.9
+  pass_rate_2: 65.4
+  percent_cases_well_formed: 92.5
+  error_outputs: 30
+  num_malformed_responses: 10
+  user_asks: 0
+  lazy_comments: 3
+  syntax_errors: 11
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --model gpt-4-1106-preview
+  date: 2024-05-08
+  versions: 0.33.1-dev
+  seconds_per_case: 20.4
+  total_cost: 6.6061
+  
+- dirname: 2024-05-01-02-09-20--gpt-4-turbo-examples
+  test_cases: 133
+  model: gpt-4-turbo-2024-04-09 (udiff)
+  released: 2024-04-09
+  edit_format: udiff
+  commit_hash: e610e5b-dirty
+  pass_rate_1: 48.1
+  pass_rate_2: 63.9
+  percent_cases_well_formed: 97.0
+  error_outputs: 12
+  num_malformed_responses: 4
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 4
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --gpt-4-turbo
+  date: 2024-05-01
+  versions: 0.30.2-dev
+  seconds_per_case: 22.8
+  total_cost: 6.3337
+  
+- dirname: 2024-05-03-22-24-48--openrouter--llama3-diff-examples-sys-msg
+  test_cases: 132
+  model: llama3-70b-8192
+  released: 2024-04-18
+  edit_format: diff
+  commit_hash: b5bb453
+  pass_rate_1: 38.6
+  pass_rate_2: 49.2
+  percent_cases_well_formed: 73.5
+  error_outputs: 105
+  num_malformed_responses: 35
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model groq/llama3-70b-8192
+  date: 2024-05-03
+  versions: 0.31.2-dev
+  seconds_per_case: 14.5
+  total_cost: 0.4311
+  
+- dirname: 2024-05-06-18-31-08--command-r-plus-whole-final
+  test_cases: 133
+  model: command-r-plus
+  released: 2024-04-04
+  edit_format: whole
+  commit_hash: fc3a43e-dirty
+  pass_rate_1: 21.8
+  pass_rate_2: 31.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 1
+  syntax_errors: 5
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 7
+  command: aider --model command-r-plus
+  date: 2024-05-06
+  versions: 0.31.2-dev
+  seconds_per_case: 22.9
+  total_cost: 2.7494
+  
+- dirname: 2024-05-07-20-32-37--qwen1.5-110b-chat-whole
+  test_cases: 133
+  model: qwen1.5-110b-chat
+  released: 2024-02-04  
+  edit_format: whole
+  commit_hash: 70b1c0c
+  pass_rate_1: 30.8
+  pass_rate_2: 37.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 3
+  num_malformed_responses: 0
+  user_asks: 3
+  lazy_comments: 20
+  syntax_errors: 0
+  indentation_errors: 6
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model together_ai/qwen/qwen1.5-110b-chat
+  date: 2024-05-07
+  versions: 0.31.2-dev
+  seconds_per_case: 46.9
+  total_cost: 0.0000
+  
+- dirname: 2024-05-07-20-57-04--wizardlm-2-8x22b-whole
+  test_cases: 133
+  model: WizardLM-2 8x22B
+  edit_format: whole
+  commit_hash: 8e272bf, bbe8639
+  pass_rate_1: 27.8
+  pass_rate_2: 44.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 1
+  syntax_errors: 2
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model openrouter/microsoft/wizardlm-2-8x22b
+  date: 2024-05-07
+  versions: 0.31.2-dev
+  seconds_per_case: 36.6
+  total_cost: 0.0000
+
+- dirname: 2024-05-13-17-39-05--gpt-4o-diff
+  test_cases: 133
+  model: gpt-4o-2024-05-13
+  released: 2024-05-13
+  edit_format: diff
+  commit_hash: b6cd852
+  pass_rate_1: 60.2
+  pass_rate_2: 72.9
+  percent_cases_well_formed: 96.2
+  error_outputs: 103
+  num_malformed_responses: 5
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider
+  date: 2024-05-13
+  versions: 0.34.1-dev
+  seconds_per_case: 6.0
+  total_cost: 0.0000
+
+- dirname: 2024-04-12-22-18-20--gpt-4-turbo-2024-04-09-plain-diff
+  test_cases: 33
+  model: gpt-4-turbo-2024-04-09 (diff)
+  edit_format: diff
+  commit_hash: 9b2e697-dirty
+  pass_rate_1: 48.5
+  pass_rate_2: 57.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 15
+  num_malformed_responses: 0
+  user_asks: 15
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gpt-4-turbo-2024-04-09
+  date: 2024-04-12
+  versions: 0.28.1-dev
+  seconds_per_case: 17.6
+  total_cost: 1.6205
+
+- dirname: 2024-06-08-22-37-55--qwen2-72b-instruct-whole
+  test_cases: 133
+  model: Qwen2 72B Instruct
+  edit_format: whole
+  commit_hash: 02c7335-dirty, 1a97498-dirty
+  pass_rate_1: 44.4
+  pass_rate_2: 55.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 3
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 3
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --model together_ai/qwen/Qwen2-72B-Instruct
+  date: 2024-06-08
+  versions: 0.37.1-dev
+  seconds_per_case: 14.3
+  total_cost: 0.0000
+
+- dirname: 2024-06-08-23-45-41--gemini-1.5-flash-latest-whole
+  test_cases: 133
+  model: gemini-1.5-flash-latest
+  edit_format: whole
+  commit_hash: 86ea47f-dirty
+  pass_rate_1: 33.8
+  pass_rate_2: 44.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 16
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 12
+  lazy_comments: 0
+  syntax_errors: 9
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model gemini/gemini-1.5-flash-latest
+  date: 2024-06-08
+  versions: 0.37.1-dev
+  seconds_per_case: 7.2
+  total_cost: 0.0000
+
+- dirname: 2024-06-09-03-28-21--codestral-whole
+  test_cases: 133
+  model: codestral-2405
+  edit_format: whole
+  commit_hash: effc88a
+  pass_rate_1: 35.3
+  pass_rate_2: 51.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 4
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 4
+  lazy_comments: 1
+  syntax_errors: 0
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider --model mistral/codestral-2405
+  date: 2024-06-09
+  versions: 0.37.1-dev
+  seconds_per_case: 7.5
+  total_cost: 0.6805
+
+- dirname: 2024-06-08-19-25-26--codeqwen:7b-chat-v1.5-q8_0-whole
+  test_cases: 133
+  model: codeqwen:7b-chat-v1.5-q8_0
+  edit_format: whole
+  commit_hash: be0520f-dirty
+  pass_rate_1: 32.3
+  pass_rate_2: 34.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 8
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 8
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --model ollama/codeqwen:7b-chat-v1.5-q8_0
+  date: 2024-06-08
+  versions: 0.37.1-dev
+  seconds_per_case: 15.6
+  total_cost: 0.0000
+
+- dirname: 2024-06-08-16-12-31--codestral:22b-v0.1-q8_0-whole
+  test_cases: 133
+  model: codestral:22b-v0.1-q8_0
+  edit_format: whole
+  commit_hash: be0520f-dirty
+  pass_rate_1: 35.3
+  pass_rate_2: 48.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 8
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 8
+  lazy_comments: 2
+  syntax_errors: 0
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model ollama/codestral:22b-v0.1-q8_0
+  date: 2024-06-08
+  versions: 0.37.1-dev
+  seconds_per_case: 46.4
+  total_cost: 0.0000
+
+- dirname: 2024-06-08-17-54-04--qwen2:72b-instruct-q8_0-whole
+  test_cases: 133
+  model: qwen2:72b-instruct-q8_0
+  edit_format: whole
+  commit_hash: 74e51d5-dirty
+  pass_rate_1: 43.6
+  pass_rate_2: 49.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 27
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 27
+  lazy_comments: 0
+  syntax_errors: 5
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model ollama/qwen2:72b-instruct-q8_0
+  date: 2024-06-08
+  versions: 0.37.1-dev
+  seconds_per_case: 280.6
+  total_cost: 0.0000
+
+- dirname: 2024-07-04-14-32-08--claude-3.5-sonnet-diff-continue
+  test_cases: 133
+  model: claude-3.5-sonnet
+  edit_format: diff
+  commit_hash: 35f21b5
+  pass_rate_1: 57.1
+  pass_rate_2: 77.4
+  percent_cases_well_formed: 99.2
+  error_outputs: 23
+  released: 2024-06-20
+  num_malformed_responses: 4
+  num_with_malformed_responses: 1
+  user_asks: 2
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --sonnet
+  date: 2024-07-04
+  versions: 0.42.1-dev
+  seconds_per_case: 17.6
+  total_cost: 3.6346
+    
+- dirname: 2024-07-01-21-41-48--haiku-whole
+  test_cases: 133
+  model: claude-3-haiku-20240307
+  edit_format: whole
+  commit_hash: 75f506d
+  pass_rate_1: 40.6
+  pass_rate_2: 47.4
+  percent_cases_well_formed: 100.0
+  error_outputs: 6
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 0
+  released: 2024-03-13
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --model claude-3-haiku-20240307
+  date: 2024-07-01
+  versions: 0.41.1-dev
+  seconds_per_case: 7.1
+  total_cost: 0.1946
+
+- dirname: 2024-07-09-10-12-27--gemma2:27b-instruct-q8_0
+  test_cases: 133
+  model: gemma2:27b-instruct-q8_0
+  edit_format: whole
+  commit_hash: f9d96ac-dirty
+  pass_rate_1: 31.6
+  pass_rate_2: 36.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 35
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 35
+  lazy_comments: 2
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model ollama/gemma2:27b-instruct-q8_0
+  date: 2024-07-09
+  versions: 0.43.0
+  seconds_per_case: 101.3
+  total_cost: 0.0000
+
+- dirname: 2024-07-18-18-57-46--gpt-4o-mini-whole
+  test_cases: 133
+  model: gpt-4o-mini
+  edit_format: whole
+  commit_hash: d31eef3-dirty
+  pass_rate_1: 40.6
+  pass_rate_2: 55.6
+  released: 2024-07-18
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --model gpt-4o-mini
+  date: 2024-07-18
+  versions: 0.44.1-dev
+  seconds_per_case: 7.8
+  total_cost: 0.0916
+
+- dirname: 2024-07-19-08-57-13--openrouter-deepseek-chat-v2-0628
+  test_cases: 133
+  model: DeepSeek Chat V2 0628 (deprecated)
+  edit_format: diff
+  commit_hash: 96ff06e-dirty
+  pass_rate_1: 60.9
+  pass_rate_2: 69.9
+  percent_cases_well_formed: 97.7
+  released: 2024-06-28
+  error_outputs: 58
+  num_malformed_responses: 13
+  num_with_malformed_responses: 3
+  user_asks: 2
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --model deepseek/deepseek-chat
+  date: 2024-07-19
+  versions: 0.45.2-dev
+  seconds_per_case: 37.1
+  total_cost: 0.0000
+
+- dirname: 2024-07-23-22-07-08--llama-205b-diff
+  test_cases: 133
+  model: llama-3.1-405b-instruct (diff)
+  edit_format: diff
+  commit_hash: f7ce78b-dirty
+  pass_rate_1: 46.6
+  pass_rate_2: 63.9
+  released: 2024-07-23
+  percent_cases_well_formed: 92.5
+  error_outputs: 84
+  num_malformed_responses: 19
+  num_with_malformed_responses: 10
+  user_asks: 3
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider --model openrouter/meta-llama/llama-3.1-405b-instruct
+  date: 2024-07-23
+  versions: 0.45.2-dev
+  seconds_per_case: 56.8
+  total_cost: 0.0000
+
+- dirname: 2024-07-24-06-30-29--llama-405b-whole
+  test_cases: 133
+  model: llama-3.1-405b-instruct (whole)
+  edit_format: whole
+  commit_hash: a362dea-dirty
+  pass_rate_1: 48.9
+  pass_rate_2: 66.2
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  released: 2024-07-23
+  num_with_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --model openrouter/meta-llama/llama-3.1-405b-instruct
+  date: 2024-07-24
+  versions: 0.45.2-dev
+  seconds_per_case: 18.1
+  total_cost: 0.0000
+
+- dirname: 2024-07-24-07-10-58--deepseek-coder2-0724-diff-direct
+  test_cases: 133
+  model: DeepSeek Coder V2 0724 (deprecated)
+  edit_format: diff
+  commit_hash: 89965bf
+  pass_rate_1: 57.9
+  pass_rate_2: 72.9
+  percent_cases_well_formed: 97.7
+  error_outputs: 13
+  released: 2024-07-24
+  num_malformed_responses: 3
+  num_with_malformed_responses: 3
+  user_asks: 1
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --model deepseek/deepseek-coder
+  date: 2024-07-24
+  versions: 0.45.2-dev
+  seconds_per_case: 36.2
+  total_cost: 0.0981
+
+- dirname: 2024-07-24-19-08-47--mistral-large-2407-whole
+  test_cases: 133
+  model: Mistral Large 2 (2407)
+  edit_format: whole
+  commit_hash: 859a13e
+  pass_rate_1: 39.8
+  pass_rate_2: 60.2
+  percent_cases_well_formed: 100.0
+  error_outputs: 3
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  released: 2024-07-24
+  user_asks: 3
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 3
+  command: aider --model mistral/mistral-large-2407
+  date: 2024-07-24
+  versions: 0.45.2-dev
+  seconds_per_case: 26.6
+  total_cost: 0.0000
+
+- dirname: 2024-07-25-08-12-27--fireworks-llama-8b-whole
+  test_cases: 133
+  model: llama-3.1-8b-instruct
+  edit_format: whole
+  commit_hash: ffcced8
+  pass_rate_1: 26.3
+  pass_rate_2: 37.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 27
+  num_malformed_responses: 0
+  released: 2024-07-23
+  num_with_malformed_responses: 0
+  user_asks: 23
+  lazy_comments: 8
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 4
+  test_timeouts: 7
+  command: aider --model fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct
+  date: 2024-07-25
+  versions: 0.45.2-dev
+  seconds_per_case: 3.8
+  total_cost: 0.0000
+
+- dirname: 2024-07-25-08-07-45--fireworks-llama-70b-whole
+  test_cases: 133
+  model: llama-3.1-70b-instruct
+  edit_format: whole
+  commit_hash: ffcced8
+  pass_rate_1: 43.6
+  pass_rate_2: 58.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 0
+  released: 2024-07-23
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 6
+  command: aider --model fireworks_ai/accounts/fireworks/models/llama-v3p1-70b-instruct
+  date: 2024-07-25
+  versions: 0.45.2-dev
+  seconds_per_case: 7.3
+  total_cost: 0.0000
+
+- dirname: 2024-08-06-18-28-39--gpt-4o-2024-08-06-diff-again
+  test_cases: 133
+  model: gpt-4o-2024-08-06
+  edit_format: diff
+  commit_hash: ed9ed89
+  pass_rate_1: 57.1
+  pass_rate_2: 71.4
+  percent_cases_well_formed: 98.5
+  error_outputs: 18
+  num_malformed_responses: 2
+  num_with_malformed_responses: 2
+  user_asks: 10
+  lazy_comments: 0
+  syntax_errors: 6
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 5
+  released: 2024-08-06
+  command: aider --model openai/gpt-4o-2024-08-06
+  date: 2024-08-06
+  versions: 0.48.1-dev
+  seconds_per_case: 6.5
+  total_cost: 0.0000
+
+- dirname: 2024-08-14-13-07-12--chatgpt-4o-latest-diff
+  test_cases: 133
+  model: chatgpt-4o-latest
+  edit_format: diff
+  commit_hash: b1c3769
+  pass_rate_1: 53.4
+  pass_rate_2: 69.2
+  percent_cases_well_formed: 97.7
+  error_outputs: 27
+  num_malformed_responses: 5
+  num_with_malformed_responses: 3
+  user_asks: 7
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model openai/chatgpt-4o-latest
+  date: 2024-08-14
+  released: 2024-08-08
+  versions: 0.50.2-dev
+  seconds_per_case: 26.3
+  total_cost: 3.6113
+
+- dirname: 2024-08-28-07-10-50--gemini-1.5-pro-exp-0827-diff-fenced
+  test_cases: 133
+  model: gemini-1.5-pro-exp-0827
+  edit_format: diff-fenced
+  commit_hash: d8adc75
+  pass_rate_1: 54.9
+  pass_rate_2: 66.9
+  percent_cases_well_formed: 94.7
+  error_outputs: 112
+  num_malformed_responses: 26
+  num_with_malformed_responses: 7
+  user_asks: 38
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  command: aider --model gemini/gemini-1.5-pro-exp-0827
+  date: 2024-08-28
+  versions: 0.53.1-dev
+  seconds_per_case: 14.5
+  total_cost: 0.0000
+
+- dirname: 2024-08-27-19-20-19--gemini-1.5-flash-exp-0827
+  test_cases: 133
+  model: gemini-1.5-flash-exp-0827
+  edit_format: whole
+  commit_hash: d8adc75
+  pass_rate_1: 40.6
+  pass_rate_2: 52.6
+  percent_cases_well_formed: 100.0
+  error_outputs: 1
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 1
+  lazy_comments: 3
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider --model gemini/gemini-1.5-flash-exp-0827
+  date: 2024-08-27
+  versions: 0.53.1-dev
+  seconds_per_case: 6.3
+  total_cost: 0.0000
+
+- dirname: 2024-08-27-19-42-05--gemini-1.5-flash-8b-exp-0827
+  test_cases: 133
+  model: gemini-1.5-flash-8b-exp-0827
+  edit_format: whole
+  commit_hash: d8adc75
+  pass_rate_1: 31.6
+  pass_rate_2: 38.3
+  percent_cases_well_formed: 100.0
+  error_outputs: 12
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 10
+  lazy_comments: 250
+  syntax_errors: 6
+  indentation_errors: 1
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gemini/gemini-1.5-flash-8b-exp-0827
+  date: 2024-08-27
+  versions: 0.53.1-dev
+  seconds_per_case: 7.2
+  total_cost: 0.0000
+
+- dirname: 2024-08-30-15-02-05--nous405b-whole
+  test_cases: 133
+  model: nousresearch/hermes-3-llama-3.1-405b
+  edit_format: whole
+  commit_hash: 2d9d605
+  pass_rate_1: 51.1
+  pass_rate_2: 63.9
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 0
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model openrouter/nousresearch/hermes-3-llama-3.1-405b
+  date: 2024-08-30
+  versions: 0.54.8-dev
+  seconds_per_case: 38.3
+  total_cost: 0.0000
+
+- dirname: 2024-09-04-16-08-09--yi-coder-9b-whole
+  test_cases: 133
+  model: Yi Coder 9B Chat
+  edit_format: whole
+  commit_hash: c4e4967
+  pass_rate_1: 46.6
+  pass_rate_2: 54.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 9
+  lazy_comments: 0
+  syntax_errors: 14
+  indentation_errors: 2
+  exhausted_context_windows: 0
+  test_timeouts: 4
+  command: aider --model openai/hf:01-ai/Yi-Coder-9B-Chat --openai-api-base https://glhf.chat/api/openai/v1
+  date: 2024-09-04
+  versions: 0.54.13.dev
+  seconds_per_case: 8.3
+  total_cost: 0.0000
+  released: 2024-09-04
+
+- dirname: 2024-09-04-16-17-33--yi-coder-9b-chat-q4_0-whole
+  test_cases: 133
+  model: yi-coder:9b-chat-q4_0
+  edit_format: whole
+  commit_hash: c4e4967
+  pass_rate_1: 41.4
+  pass_rate_2: 45.1
+  percent_cases_well_formed: 100.0
+  error_outputs: 0
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 48
+  lazy_comments: 1
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model ollama/yi-coder:9b-chat-q4_0
+  date: 2024-09-04
+  versions: 0.54.13.dev
+  seconds_per_case: 125.3
+  total_cost: 0.0000
+
+- dirname: 2024-09-05-14-50-11--deepseek-sep5-no-shell
+  test_cases: 133
+  model: DeepSeek Chat V2.5
+  edit_format: diff
+  commit_hash: 1279c86
+  pass_rate_1: 54.9
+  pass_rate_2: 72.2
+  percent_cases_well_formed: 96.2
+  error_outputs: 5
+  num_malformed_responses: 5
+  num_with_malformed_responses: 5
+  user_asks: 4
+  lazy_comments: 0
+  syntax_errors: 1
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 2
+  command: aider --deepseek
+  date: 2024-09-05
+  versions: 0.55.1.dev
+  seconds_per_case: 49.6
+  total_cost: 0.0998
+  

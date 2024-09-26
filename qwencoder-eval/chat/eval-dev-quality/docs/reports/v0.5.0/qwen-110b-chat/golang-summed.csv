@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/qwen/qwen-110b-chat,2356,2040,63,106042,1105575,157549,120,13,120

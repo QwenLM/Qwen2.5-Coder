@@ -1,0 +1,141 @@
+WRITE TESTS
+java:
+Loaded 123 log files (total of 1813290 lines)
+Coverage
+ - src/main/java/com/eval/BalancedBrackets.java:14 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/BinarySearch.java:15 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/CallLoopConditionsOftenEnough.java:13 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/CascadingIfElse.java:8 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/CollatzCalculator.java:13 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/ConditionsAnd.java:5 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/EqulibriumIndices.java:14 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/ForLoop.java:9 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/JacobiSymbol.java:26 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/KlarnerRadoSequence.java:18 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/Knapsack.java:21 ("openrouter/deepseek/deepseek-coder")
+ - src/main/java/com/eval/LargestProperDivisor.java:13 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/MagicSquareOdd.java:28 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/MatchBytes.java:13 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/PascalsTriangle.java:14 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/PhoneNumber.java:16 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/Plain.java:1 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/SimpleIfElse.java:5 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/SimpleSwitchWithReturn.java:6 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/Sort.java:6 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/TypeArrayAccess.java:5 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/TypeArrayConsecutiveAccess.java:9 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/TypeArrayMultidimensionalArrayLength.java:8 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/ValidDate.java:25 ("openrouter/google/gemma-2-9b-it")
+∑ = 305
+ruby:
+Loaded 128 log files (total of 938269 lines)
+Coverage
+ - lib/balanced_brackets.rb:11 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/binary_search.rb:12 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/call_loop_conditions_often_enough.rb:8 ("openrouter/google/gemma-2-27b-it")
+ - lib/cascading_if_else.rb:6 ("openrouter/google/gemma-2-27b-it")
+ - lib/collatz_calculator.rb:9 ("openrouter/deepseek/deepseek-coder")
+ - lib/conditions_and.rb:4 ("openrouter/google/gemma-2-27b-it")
+ - lib/equilibrium_indices.rb:11 ("openrouter/google/gemma-2-27b-it")
+ - lib/for_loop.rb:7 ("openrouter/google/gemma-2-27b-it")
+ - lib/jacobi_symbol.rb:20 ("openrouter/meta-llama/llama-3.1-70b-instruct")
+ - lib/klarner_rado_sequence.rb:14 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/knapsack.rb:21 ("openrouter/google/gemma-2-27b-it")
+ - lib/largest_proper_divisor.rb:11 ("openrouter/deepseek/deepseek-coder")
+ - lib/magic_square_odd.rb:23 ("openrouter/google/gemma-2-27b-it")
+ - lib/match_bytes.rb:10 ("openrouter/openai/gpt-4o")
+ - lib/pascals_triangle.rb:11 ("openrouter/google/gemma-2-27b-it")
+ - lib/phone_number.rb:12 ("openrouter/deepseek/deepseek-coder")
+ - lib/plain.rb:1 ("openrouter/google/gemma-2-27b-it")
+ - lib/simple_if_else.rb:4 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/simple_switch_with_return.rb:4 ("openrouter/google/gemma-2-27b-it")
+ - lib/sort.rb:5 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/type_array_access.rb:4 ("openrouter/nousresearch/hermes-2-theta-llama-3-8b")
+ - lib/type_array_consecutive_access.rb:7 ("openrouter/google/gemma-2-27b-it")
+ - lib/type_array_multidimensional_array_length.rb:6 ("openrouter/google/gemma-2-27b-it")
+ - lib/validate_date.rb:17 ("openrouter/meta-llama/llama-3.1-70b-instruct")
+∑ = 238
+golang:
+Loaded 117 log files (total of 2151460 lines)
+Coverage
+ - balancedBrackets.go:5 ("openrouter/google/gemma-2-9b-it")
+ - binarySearch.go:4 ("openrouter/google/gemma-2-9b-it")
+ - callLoopConditionsOftenEnough.go:4 ("openrouter/google/gemma-2-9b-it")
+ - cascadingIfElse.go:3 ("openrouter/google/gemma-2-9b-it")
+ - collatzCalculator.go:6 ("openrouter/google/gemma-2-9b-it")
+ - conditionsAnd.go:2 ("openrouter/google/gemma-2-9b-it")
+ - equilibriumIndices.go:4 ("openrouter/google/gemma-2-9b-it")
+ - forLoop.go:3 ("openrouter/google/gemma-2-9b-it")
+ - jacobiSymbol.go:6 ("openrouter/google/gemma-2-27b-it")
+ - klarnerRadoSequence.go:3 ("openrouter/google/gemma-2-9b-it")
+ - knapsack.go:5 ("openrouter/google/gemma-2-9b-it")
+ - largestProperDivisor.go:4 ("openrouter/google/gemma-2-9b-it")
+ - magicSquareOdd.go:8 ("openrouter/google/gemma-2-9b-it")
+ - matchBytes.go:2 ("openrouter/google/gemma-2-9b-it")
+ - pascalsTriangle.go:4 ("openrouter/google/gemma-2-9b-it")
+ - phoneNumber.go:5 ("openrouter/google/gemma-2-9b-it")
+ - plain.go:1 ("openrouter/google/gemma-2-9b-it")
+ - simpleIfElse.go:2 ("openrouter/google/gemma-2-9b-it")
+ - simpleSwitchWithReturn.go:3 ("openrouter/google/gemma-2-9b-it")
+ - sort.go:2 ("openrouter/google/gemma-2-9b-it")
+ - typeArrayAccess.go:2 ("openrouter/google/gemma-2-27b-it")
+ - typeArrayConsecutiveAccess.go:3 ("openrouter/google/gemma-2-9b-it")
+ - typeArrayMultidimensionalArrayLength.go:3 ("openrouter/google/gemma-2-9b-it")
+ - validateDate.go:7 ("openrouter/google/gemma-2-9b-it")
+∑ = 91
+TRANSPILE
+java:
+Loaded 56 log files (total of 291778 lines)
+Tests Passing
+ - BalancedBrackets:5 ("openrouter/google/gemma-2-9b-it")
+ - BinarySearch:5 ("openrouter/google/gemma-2-9b-it")
+ - CascadingIfElse:3 ("openrouter/google/gemma-2-9b-it")
+ - IsSorted:5 ("openrouter/google/gemma-2-27b-it")
+ - PascalsTriangle:4 ("openrouter/google/gemma-2-9b-it")
+∑ = 22
+ruby:
+Loaded 5 log files (total of 28694 lines)
+Tests Passing
+ - ../lib/balanced_brackets:5 ("openrouter/cohere/command-r-08-2024")
+ - ../lib/binary_search:5 ("openrouter/cohere/command-r-08-2024")
+ - ../lib/cascading_if_else:3 ("openrouter/cohere/command-r-08-2024")
+ - ../lib/pascals_triangle:4 ("openrouter/cohere/command-r-08-2024")
+ - ../lib/sort:5 ("openrouter/cohere/command-r-08-2024")
+∑ = 22
+golang:
+Loaded 50 log files (total of 237312 lines)
+Tests Passing
+ - balancedBrackets:6 ("openrouter/google/gemma-2-27b-it")
+ - binarySearch:6 ("openrouter/google/gemma-2-9b-it")
+ - cascadingIfElse:4 ("openrouter/google/gemma-2-27b-it")
+ - isSorted:6 ("openrouter/google/gemma-2-9b-it")
+ - pascalsTriangle:5 ("openrouter/google/gemma-2-9b-it")
+∑ = 27
+CODE REPAIR
+java:
+Loaded 56 log files (total of 92147 lines)
+Tests Passing
+ - src/main/java/com/eval/ImportMissing.java:2 ("openrouter/google/gemma-2-9b-it")
+ - src/main/java/com/eval/OpeningBracketMissing.java:3 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/SyntaxErrorTypeMissing.java:3 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/TypeUnknown.java:3 ("openrouter/google/gemma-2-27b-it")
+ - src/main/java/com/eval/VariableUnknown.java:3 ("openrouter/google/gemma-2-9b-it")
+∑ = 14
+ruby:
+Loaded 5 log files (total of 14438 lines)
+Tests Passing
+ - lib/argument_missing.rb:3 ("openrouter/cohere/command-r-08-2024")
+ - lib/end_keyword_missing.rb:3 ("openrouter/cohere/command-r-08-2024")
+ - lib/import_missing.rb:3 ("openrouter/cohere/command-r-08-2024")
+ - lib/type_unknown.rb:3 ("openrouter/cohere/command-r-08-2024")
+ - lib/variable_unknown.rb:3 ("openrouter/cohere/command-r-08-2024")
+∑ = 15
+golang:
+Loaded 49 log files (total of 29932 lines)
+Tests Passing
+ - importMissing.go:3 ("openrouter/google/gemma-2-9b-it")
+ - openingBracketMissing.go:4 ("openrouter/google/gemma-2-9b-it")
+ - syntaxErrorTypeMissing.go:4 ("openrouter/google/gemma-2-9b-it")
+ - typeUnknown.go:4 ("openrouter/google/gemma-2-27b-it")
+ - variableUnknown.go:4 ("openrouter/google/gemma-2-9b-it")
+∑ = 19

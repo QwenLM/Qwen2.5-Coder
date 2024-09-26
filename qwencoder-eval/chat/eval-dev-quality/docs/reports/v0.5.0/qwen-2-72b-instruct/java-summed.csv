@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/qwen/qwen-2-72b-instruct,12246,11780,106,111042,1715838,112514,120,120,120

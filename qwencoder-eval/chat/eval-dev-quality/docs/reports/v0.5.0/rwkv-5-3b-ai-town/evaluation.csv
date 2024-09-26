@@ -1,0 +1,3 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/recursal/rwkv-5-3b-ai-town,golang,golang/plain,write-tests,10,0,0,275,15207,575,5,0,5
+openrouter/recursal/rwkv-5-3b-ai-town,java,java/plain,write-tests,10,0,0,930,25278,1315,5,0,5

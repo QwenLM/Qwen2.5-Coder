@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/anthropic/claude-3-opus,19954,19150,232,233152,3892971,312362,240,92,240

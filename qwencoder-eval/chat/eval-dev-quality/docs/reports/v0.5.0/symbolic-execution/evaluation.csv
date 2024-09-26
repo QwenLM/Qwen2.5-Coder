@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+symflower/symbolic-execution,golang,golang/light,write-tests,345,0,0,0,49735,0,115,115,115
+symflower/symbolic-execution,golang,golang/plain,write-tests,70,50,5,1270,3415,1270,5,5,5
+symflower/symbolic-execution,java,java/light,write-tests,14060,13600,115,132675,1314850,132675,115,115,115
+symflower/symbolic-execution,java,java/plain,write-tests,70,50,5,695,83595,695,5,5,5

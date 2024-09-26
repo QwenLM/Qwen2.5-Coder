@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/austism/chronos-hermes-13b,golang,golang/light,write-tests,706,430,15,88860,1044606,102920,115,42,104
+openrouter/austism/chronos-hermes-13b,golang,golang/plain,write-tests,13,0,1,936,14595,1767,5,2,5
+openrouter/austism/chronos-hermes-13b,java,java/plain,write-tests,11,0,0,2106,25942,3291,5,1,5

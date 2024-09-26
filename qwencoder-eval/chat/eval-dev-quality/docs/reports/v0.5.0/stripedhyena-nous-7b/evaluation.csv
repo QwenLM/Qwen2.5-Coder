@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/togethercomputer/stripedhyena-nous-7b,golang,golang/light,write-tests,1035,710,22,91746,449905,105236,115,75,113
+openrouter/togethercomputer/stripedhyena-nous-7b,golang,golang/plain,write-tests,24,10,1,1547,9682,2631,5,3,5
+openrouter/togethercomputer/stripedhyena-nous-7b,java,java/light,write-tests,5096,4750,52,106428,431161,127731,115,67,112
+openrouter/togethercomputer/stripedhyena-nous-7b,java,java/plain,write-tests,14,0,1,3022,12392,3264,5,3,5

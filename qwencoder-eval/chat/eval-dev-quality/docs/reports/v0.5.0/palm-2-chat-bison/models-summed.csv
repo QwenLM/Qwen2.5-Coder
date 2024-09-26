@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/google/palm-2-chat-bison,4173,3420,65,225711,734620,228551,240,224,224

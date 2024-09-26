@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/microsoft/wizardlm-2-8x22b,13195,12850,105,210152,3115893,306246,120,0,120

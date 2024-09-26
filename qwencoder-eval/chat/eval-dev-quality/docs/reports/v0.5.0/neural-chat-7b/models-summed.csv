@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/intel/neural-chat-7b,3923,3760,38,194479,979381,194652,125,0,0

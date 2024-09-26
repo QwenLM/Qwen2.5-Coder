@@ -1,0 +1,3 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/01-ai/yi-6b,golang,golang/plain,write-tests,5,0,0,648,29306,7437,3,0,2
+openrouter/01-ai/yi-6b,java,java/plain,write-tests,9,0,0,3958,46532,12455,5,0,4

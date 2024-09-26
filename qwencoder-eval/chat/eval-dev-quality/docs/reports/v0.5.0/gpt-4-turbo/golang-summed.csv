@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/openai/gpt-4-turbo,3241,2800,81,103630,1608803,105281,120,120,120

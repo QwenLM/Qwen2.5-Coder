@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/snowflake/snowflake-arctic-instruct,golang,golang/light,write-tests,3016,2640,77,67781,535683,84257,115,70,114
+openrouter/snowflake/snowflake-arctic-instruct,golang,golang/plain,write-tests,46,30,3,428,6816,940,5,3,5
+openrouter/snowflake/snowflake-arctic-instruct,java,java/light,write-tests,10162,9810,89,82848,543904,114245,115,36,112
+openrouter/snowflake/snowflake-arctic-instruct,java,java/plain,write-tests,66,50,5,1141,12271,2463,5,1,5

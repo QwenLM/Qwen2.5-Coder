@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/nous-hermes-yi-34b,1745,1400,50,204744,3295732,227422,120,85,90

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+custom-codestral/codestral-latest,10768,10430,88,112453,481750,168800,125,0,125

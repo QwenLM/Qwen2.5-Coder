@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/microsoft/phi-3-medium-4k-instruct,5725,5340,54,152936,714945,163552,120,91,120

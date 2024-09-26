@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/falcon2:11b-q8_0,golang,golang/light,write-tests,220,50,5,59532,7330504,88162,113,0,52
+ollama/falcon2:11b-q8_0,golang,golang/plain,write-tests,9,0,1,2019,224884,2513,5,0,3
+ollama/falcon2:11b-q8_0,java,java/plain,write-tests,7,0,0,1895,176765,2360,5,0,2

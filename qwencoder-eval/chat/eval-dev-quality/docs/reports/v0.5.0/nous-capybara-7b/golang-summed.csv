@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/nous-capybara-7b,10,0,0,732,12871,986,5,2,3

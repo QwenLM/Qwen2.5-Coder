@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/recursal/eagle-7b,golang,golang/plain,write-tests,9,0,0,2478,29079,3064,5,0,4
+openrouter/recursal/eagle-7b,java,java/light,write-tests,1786,1540,22,86308,1290418,146705,115,20,89
+openrouter/recursal/eagle-7b,java,java/plain,write-tests,32,20,3,1090,57326,7707,5,0,4

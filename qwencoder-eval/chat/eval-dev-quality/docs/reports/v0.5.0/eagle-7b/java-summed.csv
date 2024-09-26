@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/recursal/eagle-7b,1818,1560,25,87398,1347744,154412,120,20,93

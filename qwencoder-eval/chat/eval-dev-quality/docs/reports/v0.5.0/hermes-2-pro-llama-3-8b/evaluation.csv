@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,golang,golang/plain,write-tests,8,0,0,1837,11419,3110,5,0,3
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,java,java/light,write-tests,8232,7880,68,138934,538773,168730,115,59,110
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,java,java/plain,write-tests,34,20,3,1047,21585,6653,5,1,5

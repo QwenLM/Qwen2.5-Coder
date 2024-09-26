@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/deepseek-coder-v2:16b-lite-instruct-q8_0,30,0,0,1947,79388,2079,10,10,10

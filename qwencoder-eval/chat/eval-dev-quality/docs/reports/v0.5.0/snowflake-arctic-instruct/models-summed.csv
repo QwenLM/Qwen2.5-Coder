@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/snowflake/snowflake-arctic-instruct,13290,12530,174,152198,1098674,201905,240,110,236

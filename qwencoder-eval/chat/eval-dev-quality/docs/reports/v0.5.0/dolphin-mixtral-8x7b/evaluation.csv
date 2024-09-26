@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/cognitivecomputations/dolphin-mixtral-8x7b,golang,golang/plain,write-tests,15,0,0,1602,12332,1676,5,5,5
+openrouter/cognitivecomputations/dolphin-mixtral-8x7b,java,java/light,write-tests,5074,4710,49,203781,1153598,211779,115,88,112
+openrouter/cognitivecomputations/dolphin-mixtral-8x7b,java,java/plain,write-tests,47,30,3,2017,10702,2354,5,4,5

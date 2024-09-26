@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/qwen/qwen-32b-chat,golang,golang/light,write-tests,1211,940,30,122200,1096586,152664,115,17,109
+openrouter/qwen/qwen-32b-chat,golang,golang/plain,write-tests,43,30,3,640,16806,2916,5,0,5
+openrouter/qwen/qwen-32b-chat,java,java/light,write-tests,7278,6950,67,137768,920518,163234,115,33,113
+openrouter/qwen/qwen-32b-chat,java,java/plain,write-tests,54,40,4,1657,24898,4970,5,0,5

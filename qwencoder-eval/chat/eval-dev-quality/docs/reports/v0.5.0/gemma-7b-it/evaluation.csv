@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/google/gemma-7b-it,golang,golang/light,write-tests,1390,1020,30,76200,452235,78535,115,110,115
+openrouter/google/gemma-7b-it,golang,golang/plain,write-tests,25,10,1,586,6212,958,5,4,5
+openrouter/google/gemma-7b-it,java,java/light,write-tests,3927,3560,26,102667,456540,105409,115,111,115
+openrouter/google/gemma-7b-it,java,java/plain,write-tests,26,10,1,685,5890,745,5,5,5

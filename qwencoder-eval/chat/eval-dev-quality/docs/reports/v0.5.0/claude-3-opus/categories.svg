@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="300">\n<path  d="M 0 0
+L 180 0
+L 180 300
+L 0 300
+L 0 0" style="stroke-width:0;stroke:rgba(255,255,255,1.0);fill:rgba(255,255,255,1.0)"/><path  d="M 20 66
+L 152 66
+L 152 225
+L 20 225
+L 20 66" style="stroke-width:0;stroke:rgba(255,255,255,1.0);fill:rgba(255,255,255,1.0)"/><path  d="M 56 66
+L 116 66
+L 116 225
+L 56 225
+L 56 66" style="stroke-width:3;stroke:rgba(106,195,203,1.0);fill:rgba(106,195,203,1.0)"/><path  d="M 20 225
+L 152 225" style="stroke-width:0;stroke:rgba(51,51,51,1.0);fill:none"/><path  d="M 20 225
+L 20 230" style="stroke-width:0;stroke:rgba(51,51,51,1.0);fill:none"/><text x="33" y="247" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">category unknown</text><path  d="M 152 225
+L 152 66" style="stroke-width:0;stroke:rgba(51,51,51,1.0);fill:none"/><path  d="M 152 225
+L 157 225" style="stroke-width:0;stroke:rgba(51,51,51,1.0);fill:none"/><text x="162" y="231" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">0</text><path  d="M 152 66
+L 157 66" style="stroke-width:0;stroke:rgba(51,51,51,1.0);fill:none"/><text x="162" y="72" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">1</text><path  d="M 20 225
+L 152 225" style="stroke-width:0;stroke:none;fill:none"/><text x="31" y="22" style="stroke-width:0;stroke:none;fill:rgba(51,51,51,1.0);font-size:12.8px;font-family:'Roboto Medium',sans-serif">Models per Category</text></svg>

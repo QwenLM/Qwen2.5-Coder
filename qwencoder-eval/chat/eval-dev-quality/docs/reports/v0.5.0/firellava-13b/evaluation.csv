@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/fireworks/firellava-13b,golang,golang/plain,write-tests,11,0,0,1615,9922,2430,5,1,5
+openrouter/fireworks/firellava-13b,java,java/light,write-tests,4925,4590,43,147335,661976,166289,115,63,114
+openrouter/fireworks/firellava-13b,java,java/plain,write-tests,23,10,1,2183,11035,2581,5,2,5

@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/mistralai/mistral-tiny,golang,golang/light,write-tests,1508,1240,35,121129,847432,171540,115,3,115
+openrouter/mistralai/mistral-tiny,golang,golang/plain,write-tests,32,20,2,1151,13573,3964,5,0,5
+openrouter/mistralai/mistral-tiny,java,java/light,write-tests,7396,7100,66,150461,870221,234512,115,0,115
+openrouter/mistralai/mistral-tiny,java,java/plain,write-tests,54,40,4,1663,18121,5567,5,0,5

@@ -1,0 +1,232 @@
+- dirname: 2024-05-04-23-27-02--refac-gemini
+  test_cases: 89
+  model: gemini/gemini-1.5-pro-latest
+  edit_format: diff-fenced
+  commit_hash: a0649ba-dirty, 425cb29, 1b35ca2-dirty, 3e4fca2-dirty
+  pass_rate_1: 49.4
+  percent_cases_well_formed: 7.9
+  error_outputs: 247
+  num_malformed_responses: 82
+  user_asks: 0
+  lazy_comments: 4
+  syntax_errors: 0
+  indentation_errors: 8
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gemini/gemini-1.5-pro-latest
+  date: 2024-05-04
+  versions: 0.31.2-dev
+  seconds_per_case: 55.7
+  total_cost: 0.0000
+- dirname: 2024-05-04-17-45-53--refac-opus
+  test_cases: 83
+  model: claude-3-opus-20240229
+  edit_format: diff
+  commit_hash: b02320b-dirty
+  pass_rate_1: 72.3
+  percent_cases_well_formed: 79.5
+  error_outputs: 51
+  num_malformed_responses: 17
+  user_asks: 0
+  lazy_comments: 2
+  syntax_errors: 1
+  indentation_errors: 3
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --opus
+  date: 2024-05-04
+  versions: 0.31.2-dev
+  seconds_per_case: 67.8
+  total_cost: 27.9176
+- dirname: 2024-04-09-21-49-54--refac-gpt-4-turbo-2024-04-09
+  test_cases: 88
+  model: gpt-4-turbo-2024-04-09 (udiff)
+  edit_format: udiff
+  commit_hash: b75fdb9
+  pass_rate_1: 34.1
+  percent_cases_well_formed: 30.7
+  error_outputs: 183
+  num_malformed_responses: 61
+  user_asks: 0
+  lazy_comments: 1
+  syntax_errors: 3
+  indentation_errors: 15
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --gpt-4-turbo
+  date: 2024-04-09
+  versions: 0.27.1-dev
+  seconds_per_case: 42.4
+  total_cost: 19.6556
+
+- dirname: 2024-05-08-22-25-41--may-refac-gpt-4-0125-preview-ex-sys
+  test_cases: 89
+  model: gpt-4-0125-preview
+  edit_format: udiff
+  commit_hash: bf09bd3-dirty
+  pass_rate_1: 33.7
+  percent_cases_well_formed: 47.2
+  error_outputs: 142
+  num_malformed_responses: 47
+  user_asks: 0
+  lazy_comments: 1
+  syntax_errors: 2
+  indentation_errors: 16
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gpt-4-0125-preview
+  date: 2024-05-08
+  versions: 0.33.1-dev
+  seconds_per_case: 56.6
+  total_cost: 20.3270
+  
+- dirname: 2024-05-08-21-24-16--may-refac-gpt-4-1106-preview
+  test_cases: 89
+  model: gpt-4-1106-preview
+  edit_format: udiff
+  commit_hash: eaa2514-dirty
+  pass_rate_1: 50.6
+  percent_cases_well_formed: 39.3
+  error_outputs: 164
+  num_malformed_responses: 54
+  user_asks: 1
+  lazy_comments: 17
+  syntax_errors: 0
+  indentation_errors: 8
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gpt-4-1106-preview
+  date: 2024-05-08
+  versions: 0.33.1-dev
+  seconds_per_case: 61.8
+  total_cost: 18.3844
+
+- dirname: 2024-05-13-17-42-22--refac-gpt-4o-diff
+  test_cases: 89
+  model: gpt-4o
+  edit_format: diff
+  commit_hash: b6cd852
+  pass_rate_1: 62.9
+  percent_cases_well_formed: 53.9
+  error_outputs: 9025
+  num_malformed_responses: 41
+  user_asks: 0
+  lazy_comments: 2
+  syntax_errors: 0
+  indentation_errors: 5
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider
+  date: 2024-05-13
+  versions: 0.34.1-dev
+  seconds_per_case: 27.8
+  total_cost: 0.0000
+
+- dirname: 2024-04-10-13-26-18--refac-gpt-4-turbo-2024-04-09-diff
+  test_cases: 88
+  model: gpt-4-turbo-2024-04-09 (diff)
+  edit_format: diff
+  commit_hash: 7875418
+  pass_rate_1: 21.4
+  percent_cases_well_formed: 6.8
+  error_outputs: 247
+  num_malformed_responses: 82
+  user_asks: 1
+  lazy_comments: 2
+  syntax_errors: 3
+  indentation_errors: 8
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --model gpt-4-turbo-2024-04-09
+  date: 2024-04-10
+  versions: 0.28.1-dev
+  seconds_per_case: 67.8
+  total_cost: 20.4889
+
+- dirname: 2024-07-01-18-30-33--refac-claude-3.5-sonnet-diff-not-lazy
+  test_cases: 89
+  model: claude-3.5-sonnet (diff)
+  edit_format: diff
+  commit_hash: 7396e38-dirty
+  pass_rate_1: 64.0
+  percent_cases_well_formed: 76.4
+  error_outputs: 176
+  num_malformed_responses: 39
+  num_with_malformed_responses: 21
+  user_asks: 11
+  lazy_comments: 2
+  syntax_errors: 4
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  command: aider --sonnet
+  date: 2024-07-01
+  versions: 0.40.7-dev
+  seconds_per_case: 42.8
+  total_cost: 11.5242
+
+- dirname: 2024-07-24-07-49-39--refac-deepseek-coder-v2-0724
+  test_cases: 89
+  model: DeepSeek Coder V2 0724 (deprecated)
+  edit_format: diff
+  commit_hash: bb6e597
+  pass_rate_1: 32.6
+  percent_cases_well_formed: 59.6
+  error_outputs: 487
+  num_malformed_responses: 113
+  num_with_malformed_responses: 36
+  user_asks: 10
+  lazy_comments: 2
+  syntax_errors: 1
+  indentation_errors: 12
+  exhausted_context_windows: 3
+  test_timeouts: 0
+  command: aider --model deepseek/deepseek-coder
+  date: 2024-07-24
+  versions: 0.45.2-dev
+  seconds_per_case: 85.0
+  total_cost: 0.4148
+
+- dirname: 2024-08-06-18-44-03--refac-gpt-4o-2024-08-06-diff
+  test_cases: 89
+  model: gpt-4o-2024-08-06
+  edit_format: diff
+  commit_hash: f388061
+  pass_rate_1: 49.4
+  percent_cases_well_formed: 89.9
+  error_outputs: 97
+  num_malformed_responses: 19
+  num_with_malformed_responses: 9
+  user_asks: 16
+  lazy_comments: 2
+  syntax_errors: 0
+  indentation_errors: 13
+  exhausted_context_windows: 2
+  test_timeouts: 0
+  command: aider --model openai/gpt-4o-2024-08-06
+  date: 2024-08-06
+  versions: 0.48.1-dev
+  seconds_per_case: 16.9
+  total_cost: 4.0873
+
+- dirname: 2024-09-05-15-19-05--refac-deepseek-v2.5-no-shell
+  test_cases: 89
+  model: DeepSeek Chat V2.5
+  edit_format: diff
+  commit_hash: 1279c86, 1279c86-dirty
+  pass_rate_1: 31.5
+  percent_cases_well_formed: 67.4
+  error_outputs: 90
+  num_malformed_responses: 88
+  num_with_malformed_responses: 29
+  user_asks: 8
+  lazy_comments: 7
+  syntax_errors: 0
+  indentation_errors: 6
+  exhausted_context_windows: 2
+  test_timeouts: 0
+  command: aider --deepseek
+  date: 2024-09-05
+  versions: 0.55.1.dev
+  seconds_per_case: 225.4
+  total_cost: 1.0338

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.name}}
+  namespace: {{.namespace}}
+spec:
+  selector:
+    matchLabels:
+      app: eval-storage-access
+  template:
+    metadata:
+      labels:
+        app: eval-storage-access
+    spec:
+      containers:
+      - name: storage-access
+        image: busybox
+        command: [ "/bin/sh", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
+        volumeMounts:
+          - mountPath: "/var/evaluations"
+            name: evaluations
+      securityContext:
+        fsGroup: 1000
+      volumes:
+      - name: evaluations
+        persistentVolumeClaim:
+          claimName: eval-dev-quality

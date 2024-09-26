@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/cognitivecomputations/dolphin-mixtral-8x22b,1914,1600,45,87738,1357388,125925,120,31,118

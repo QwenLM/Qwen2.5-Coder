@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/nous-hermes-2-mistral-7b-dpo,golang,golang/plain,write-tests,11,0,0,1193,9913,2929,5,1,5
+openrouter/nousresearch/nous-hermes-2-mistral-7b-dpo,java,java/light,write-tests,7860,7500,69,148776,419297,169238,115,65,111
+openrouter/nousresearch/nous-hermes-2-mistral-7b-dpo,java,java/plain,write-tests,58,40,4,1354,5280,1543,5,4,5
