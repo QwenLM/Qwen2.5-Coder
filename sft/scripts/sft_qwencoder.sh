@@ -8,8 +8,14 @@ export NCCL_IB_TIMEOUT=22
 export NCCL_IB_QPS_PER_CONNECTION=8
 export NCCL_NET_PLUGIN=none
 export PATH=/path/to/miniconda3/envs/qwen/bin:$PATH;
-DATA_PATH="/path/to/processed/sft.jsonl"
-PRETRAINED_MODEL="/path/to/pretrained_models/Qwen/Qwen2___5-Coder-1___5B/"
+
+DATA_PATH=${1}
+PRETRAINED_MODEL=${2}
+OUTPUT_DIR=${3}
+
+DATA_PATH=${DATA_PATH:-"/path/to/processed/sft.jsonl"}
+PRETRAINED_MODEL=${PRETRAINED_MODEL:-"/path/to/pretrained_models/Qwen/Qwen2___5-Coder-1___5B/"}
+OUTPUT_DIR=${OUTPUT_DIR:-"/path/to/checkpoints/lr${LR}-wr${WARMUP_STEPS}-wd${WEIGHT_DECAY}-bsz${BATCH_SIZE}-maxlen${MAX_LENGTH}/"}
 
 GPUS_PER_NODE=$(python -c "import torch; print(torch.cuda.device_count());")
 MASTER_ADDR=${MASTER_ADDR:-localhost}
@@ -34,7 +40,7 @@ MIN_LR=5e-6
 WARMUP_STEPS=100
 WEIGHT_DECAY=0.0
 MAX_LENGTH=1280
-OUTPUT_DIR="/path/to/checkpoints/lr${LR}-wr${WARMUP_STEPS}-wd${WEIGHT_DECAY}-bsz${BATCH_SIZE}-maxlen${MAX_LENGTH}/"
+
 echo $OUTPUT_DIR
 echo "Pretrained Model" ${PRETRAINED_MODEL}
 echo "WORLD_SIZE" $WORLD_SIZE "MICRO BATCH SIZE" $MICRO_BATCH_SIZE "GRAD_ACCU" $GRAD_ACCU
