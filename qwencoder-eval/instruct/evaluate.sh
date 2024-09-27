@@ -27,9 +27,6 @@ bash test.sh ${MODEL_DIR} ${TP} ${OUTPUT_DIR}/evalplus
 cd ${ROOT_DIR}/BigCodeBench;
 bash test.sh ${MODEL_DIR} ${TP} ${OUTPUT_DIR}/bigcodebench
 
-cd ${ROOT_DIR}/usaco;
-bash test.sh ${MODEL_DIR} ${TP} ${OUTPUT_DIR}/usaco
-
 cd ${ROOT_DIR}/cruxeval;
 bash test.sh ${MODEL_DIR} ${TP} ${OUTPUT_DIR}/cruxeval
 
