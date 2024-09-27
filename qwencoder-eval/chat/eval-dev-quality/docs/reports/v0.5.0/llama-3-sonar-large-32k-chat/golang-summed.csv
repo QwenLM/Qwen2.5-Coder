@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/perplexity/llama-3-sonar-large-32k-chat,4049,3590,107,79050,800005,80897,120,112,120

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/liuhaotian/llava-yi-34b,2759,2430,22,145060,882691,167804,125,59,123

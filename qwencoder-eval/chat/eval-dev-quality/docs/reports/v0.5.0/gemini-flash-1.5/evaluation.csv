@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/google/gemini-flash-1.5,golang,golang/light,write-tests,4105,3660,104,115926,629509,117520,115,113,113
+openrouter/google/gemini-flash-1.5,golang,golang/plain,write-tests,70,50,5,370,6299,440,5,5,5
+openrouter/google/gemini-flash-1.5,java,java/light,write-tests,13434,12990,99,138161,523509,139541,115,115,115
+openrouter/google/gemini-flash-1.5,java,java/plain,write-tests,70,50,5,818,7363,878,5,5,5

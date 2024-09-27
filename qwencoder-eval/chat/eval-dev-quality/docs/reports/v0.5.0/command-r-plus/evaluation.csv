@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/cohere/command-r-plus,golang,golang/light,write-tests,885,530,12,120774,1218176,122379,115,114,114
+openrouter/cohere/command-r-plus,golang,golang/plain,write-tests,26,10,1,900,8946,970,5,5,5
+openrouter/cohere/command-r-plus,java,java/light,write-tests,11731,11300,94,149567,953962,151670,115,107,115
+openrouter/cohere/command-r-plus,java,java/plain,write-tests,70,50,5,1247,9424,1307,5,5,5

@@ -1,0 +1,103 @@
+
+.btn {
+  display: inline-block;
+  width: auto;
+}
+.btn + .btn {
+  margin-top: 0;
+  margin-left: 0.75rem;
+}
+.post {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 4px;
+}
+.post-date {
+  color: #777;
+  font-size: 0.85em;
+  margin-bottom: 1em;
+  display: block;
+}
+
+.post-highlight {
+  max-width: 20em; /* Assuming the base font-size is 16px, 12.5em is equivalent to 200px */
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+@media (max-width: 768px) {
+  .post-highlight {
+    max-width: 30em; /* Larger size on mobile */
+  }
+}
+
+.post-content {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.chat-transcript {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #0f0;
+    padding: 1em 1em 1em 1em;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.chat-transcript blockquote {
+    padding: 0;
+    margin-left: 0;
+    color: #819198;
+    border-left: none
+}
+
+.chat-transcript blockquote>:first-child {
+    margin-top: 0
+}
+
+.chat-transcript blockquote>:last-child {
+    margin-bottom: 0
+}
+
+
+.chat-transcript li,
+.chat-transcript p {
+    color: #00FFFF;
+}
+
+.chat-transcript h1 {
+    display: none;
+}
+
+.chat-transcript h4 {
+    color: #32FF32;
+    border-top: 1px solid #32FF32;
+    padding-top: 10px;
+    text-transform: none;
+    font-size: 1.0rem !important;
+}
+
+.chat-transcript h4::before {
+    content: '> ';
+}
+
+.chat-transcript blockquote p {
+    color: #ffffff;
+}
+.chat-transcript::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="90" height="25"><circle cx="7" cy="15" r="7" fill="%23f92672"/><circle cx="27" cy="15" r="7" fill="%23f4bf75"/><circle cx="47" cy="15" r="7" fill="%23a6e22e"/></svg>');
+    display: block;
+    margin-bottom: 0;
+    position: relative;
+    top: -0.5em;
+}
+
+
+.chat-transcript,
+div.highlighter-rouge pre.highlight, div.highlighter-rouge code {
+    line-height: 1.1;
+}

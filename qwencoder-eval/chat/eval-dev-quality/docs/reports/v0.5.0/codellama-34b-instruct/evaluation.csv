@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/meta-llama/codellama-34b-instruct,golang,golang/light,write-tests,1855,1550,52,93432,1225930,127858,115,32,106
+openrouter/meta-llama/codellama-34b-instruct,golang,golang/plain,write-tests,24,10,1,671,13600,1698,5,3,5
+openrouter/meta-llama/codellama-34b-instruct,java,java/light,write-tests,6901,6610,55,97066,1104353,148701,115,11,110
+openrouter/meta-llama/codellama-34b-instruct,java,java/plain,write-tests,33,20,2,1446,19665,2839,5,1,5

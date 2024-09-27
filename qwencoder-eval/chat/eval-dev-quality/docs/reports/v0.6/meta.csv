@@ -1,0 +1,176 @@
+model_id,model_name,completion,image,prompt,request
+openrouter/01-ai/yi-1.5-34b-chat,Yi 1.5 34B Chat,0.00000072,0,0.00000072,0
+openrouter/01-ai/yi-34b-chat,Yi 34B Chat,0.00000072,0,0.00000072,0
+openrouter/aetherwiing/mn-starcannon-12b,Mistral Nemo 12B Starcannon,0.000002,0,0.000002,0
+openrouter/ai21/jamba-1-5-large,AI21: Jamba 1.5 Large,0.000008,0,0.000002,0
+openrouter/ai21/jamba-1-5-mini,AI21: Jamba 1.5 Mini,0.0000004,0,0.0000002,0
+openrouter/ai21/jamba-instruct,AI21: Jamba Instruct,0.0000007,0,0.0000005,0
+openrouter/alpindale/goliath-120b,Goliath 120B,0.000009375,0,0.000009375,0
+openrouter/alpindale/magnum-72b,Magnum 72B,0.0000045,0,0.00000375,0
+openrouter/anthropic/claude-1,Anthropic: Claude v1,0.000024,0,0.000008,0
+openrouter/anthropic/claude-1.2,Anthropic: Claude v1.2,0.000024,0,0.000008,0
+openrouter/anthropic/claude-2,Anthropic: Claude v2,0.000024,0,0.000008,0
+openrouter/anthropic/claude-2.0,Anthropic: Claude v2.0,0.000024,0,0.000008,0
+openrouter/anthropic/claude-2.0:beta,Anthropic: Claude v2.0 (self-moderated),0.000024,0,0.000008,0
+openrouter/anthropic/claude-2.1,Anthropic: Claude v2.1,0.000024,0,0.000008,0
+openrouter/anthropic/claude-2.1:beta,Anthropic: Claude v2.1 (self-moderated),0.000024,0,0.000008,0
+openrouter/anthropic/claude-2:beta,Anthropic: Claude v2 (self-moderated),0.000024,0,0.000008,0
+openrouter/anthropic/claude-3-haiku,Anthropic: Claude 3 Haiku,0.00000125,0.0004,0.00000025,0
+openrouter/anthropic/claude-3-haiku:beta,Anthropic: Claude 3 Haiku (self-moderated),0.00000125,0.0004,0.00000025,0
+openrouter/anthropic/claude-3-opus,Anthropic: Claude 3 Opus,0.000075,0.024,0.000015,0
+openrouter/anthropic/claude-3-opus:beta,Anthropic: Claude 3 Opus (self-moderated),0.000075,0.024,0.000015,0
+openrouter/anthropic/claude-3-sonnet,Anthropic: Claude 3 Sonnet,0.000015,0.0048,0.000003,0
+openrouter/anthropic/claude-3-sonnet:beta,Anthropic: Claude 3 Sonnet (self-moderated),0.000015,0.0048,0.000003,0
+openrouter/anthropic/claude-3.5-sonnet,Anthropic: Claude 3.5 Sonnet,0.000015,0.0048,0.000003,0
+openrouter/anthropic/claude-3.5-sonnet:beta,Anthropic: Claude 3.5 Sonnet (self-moderated),0.000015,0.0048,0.000003,0
+openrouter/anthropic/claude-instant-1,Anthropic: Claude Instant v1,0.0000024,0,0.0000008,0
+openrouter/anthropic/claude-instant-1.0,Anthropic: Claude Instant v1.0,0.0000024,0,0.0000008,0
+openrouter/anthropic/claude-instant-1.1,Anthropic: Claude Instant v1.1,0.0000024,0,0.0000008,0
+openrouter/anthropic/claude-instant-1:beta,Anthropic: Claude Instant v1 (self-moderated),0.0000024,0,0.0000008,0
+openrouter/austism/chronos-hermes-13b,Chronos Hermes 13B v2,0.00000013,0,0.00000013,0
+openrouter/cognitivecomputations/dolphin-llama-3-70b,Dolphin Llama 3 70B 🐬,0.0000004,0,0.00000035,0
+openrouter/cognitivecomputations/dolphin-mixtral-8x22b,Dolphin 2.9.2 Mixtral 8x22B 🐬,0.0000009,0,0.0000009,0
+openrouter/cognitivecomputations/dolphin-mixtral-8x7b,Dolphin 2.6 Mixtral 8x7B 🐬,0.0000005,0,0.0000005,0
+openrouter/cohere/command,Cohere: Command,0.000002,0,0.000001,0
+openrouter/cohere/command-r,Cohere: Command R,0.0000015,0,0.0000005,0
+openrouter/cohere/command-r-03-2024,Cohere: Command R (03-2024),0.0000015,0,0.0000005,0
+openrouter/cohere/command-r-08-2024,Cohere: Command R (08-2024),0.0000006,0,0.00000015,0
+openrouter/cohere/command-r-plus,Cohere: Command R+,0.000015,0,0.000003,0
+openrouter/cohere/command-r-plus-04-2024,Cohere: Command R+ (04-2024),0.000015,0,0.000003,0
+openrouter/cohere/command-r-plus-08-2024,Cohere: Command R+ (08-2024),0.00001,0,0.0000025,0
+openrouter/databricks/dbrx-instruct,Databricks: DBRX 132B Instruct,0.00000108,0,0.00000108,0
+openrouter/deepseek/deepseek-chat,DeepSeek-V2 Chat,0.00000028,0,0.00000014,0
+openrouter/deepseek/deepseek-coder,DeepSeek-Coder-V2,0.00000028,0,0.00000014,0
+openrouter/google/gemini-flash-1.5,Google: Gemini Flash 1.5,0.00000015,0.00004,0.0000000375,0
+openrouter/google/gemini-flash-1.5-exp,Google: Gemini Flash 1.5 Experimental,0,0,0,0
+openrouter/google/gemini-flash-8b-1.5-exp,Google: Gemini Flash 8B 1.5 Experimental,0,0,0,0
+openrouter/google/gemini-pro,Google: Gemini Pro 1.0,0.000000375,0.0025,0.000000125,0
+openrouter/google/gemini-pro-1.5,Google: Gemini Pro 1.5,0.0000075,0.00263,0.0000025,0
+openrouter/google/gemini-pro-1.5-exp,Google: Gemini Pro 1.5 Experimental,0,0,0,0
+openrouter/google/gemini-pro-vision,Google: Gemini Pro Vision 1.0,0.000000375,0.0025,0.000000125,0
+openrouter/google/gemma-2-27b-it,Google: Gemma 2 27B,0.00000027,0,0.00000027,0
+openrouter/google/gemma-2-9b-it,Google: Gemma 2 9B,0.00000006,0,0.00000006,0
+openrouter/google/gemma-2-9b-it:free,Google: Gemma 2 9B (free),0,0,0,0
+openrouter/google/palm-2-chat-bison,Google: PaLM 2 Chat,0.0000005,0,0.00000025,0
+openrouter/google/palm-2-chat-bison-32k,Google: PaLM 2 Chat 32k,0.0000005,0,0.00000025,0
+openrouter/google/palm-2-codechat-bison,Google: PaLM 2 Code Chat,0.0000005,0,0.00000025,0
+openrouter/google/palm-2-codechat-bison-32k,Google: PaLM 2 Code Chat 32k,0.0000005,0,0.00000025,0
+openrouter/gryphe/mythomax-l2-13b,MythoMax 13B,0.0000001,0,0.0000001,0
+openrouter/gryphe/mythomax-l2-13b:extended,MythoMax 13B (extended),0.000001125,0,0.000001125,0
+openrouter/gryphe/mythomax-l2-13b:nitro,MythoMax 13B (nitro),0.0000002,0,0.0000002,0
+openrouter/gryphe/mythomist-7b,MythoMist 7B,0.000000375,0,0.000000375,0
+openrouter/gryphe/mythomist-7b:free,MythoMist 7B (free),0,0,0,0
+openrouter/huggingfaceh4/zephyr-7b-beta:free,Hugging Face: Zephyr 7B (free),0,0,0,0
+openrouter/jondurbin/airoboros-l2-70b,Airoboros 70B,0.0000005,0,0.0000005,0
+openrouter/lizpreciatior/lzlv-70b-fp16-hf,lzlv 70B,0.0000004,0,0.00000035,0
+openrouter/mancer/weaver,Mancer: Weaver (alpha),0.00000225,0,0.000001875,0
+openrouter/meta-llama/llama-2-13b-chat,Meta: Llama v2 13B Chat,0.00000027,0,0.00000027,0
+openrouter/meta-llama/llama-3-70b-instruct,Meta: Llama 3 70B Instruct,0.0000004,0,0.00000035,0
+openrouter/meta-llama/llama-3-70b-instruct:nitro,Meta: Llama 3 70B Instruct (nitro),0.000000792,0,0.000000792,0
+openrouter/meta-llama/llama-3-8b-instruct,Meta: Llama 3 8B Instruct,0.000000055,0,0.000000055,0
+openrouter/meta-llama/llama-3-8b-instruct:extended,Meta: Llama 3 8B Instruct (extended),0.000001125,0,0.0000001875,0
+openrouter/meta-llama/llama-3-8b-instruct:free,Meta: Llama 3 8B Instruct (free),0,0,0,0
+openrouter/meta-llama/llama-3-8b-instruct:nitro,Meta: Llama 3 8B Instruct (nitro),0.000000162,0,0.000000162,0
+openrouter/meta-llama/llama-3.1-405b,Meta: Llama 3.1 405B (base),0.000002,0,0.000002,0
+openrouter/meta-llama/llama-3.1-405b-instruct,Meta: Llama 3.1 405B Instruct,0.0000025,0,0.0000025,0
+openrouter/meta-llama/llama-3.1-70b-instruct,Meta: Llama 3.1 70B Instruct,0.0000004,0,0.00000035,0
+openrouter/meta-llama/llama-3.1-8b-instruct,Meta: Llama 3.1 8B Instruct,0.000000055,0,0.000000055,0
+openrouter/meta-llama/llama-3.1-8b-instruct:free,Meta: Llama 3.1 8B Instruct (free),0,0,0,0
+openrouter/meta-llama/llama-guard-2-8b,Meta: LlamaGuard 2 8B,0.00000018,0,0.00000018,0
+openrouter/microsoft/phi-3-medium-128k-instruct,Phi-3 Medium 128K Instruct,0.000001,0,0.000001,0
+openrouter/microsoft/phi-3-medium-128k-instruct:free,Phi-3 Medium 128K Instruct (free),0,0,0,0
+openrouter/microsoft/phi-3-medium-4k-instruct,Phi-3 Medium 4K Instruct,0.00000014,0,0.00000014,0
+openrouter/microsoft/phi-3-mini-128k-instruct,Phi-3 Mini 128K Instruct,0.0000001,0,0.0000001,0
+openrouter/microsoft/phi-3-mini-128k-instruct:free,Phi-3 Mini 128K Instruct (free),0,0,0,0
+openrouter/microsoft/phi-3.5-mini-128k-instruct,Phi-3.5 Mini 128K Instruct,0.0000001,0,0.0000001,0
+openrouter/microsoft/wizardlm-2-7b,WizardLM-2 7B,0.000000055,0,0.000000055,0
+openrouter/microsoft/wizardlm-2-8x22b,WizardLM-2 8x22B,0.0000005,0,0.0000005,0
+openrouter/mistralai/codestral-mamba,Mistral: Codestral Mamba,0.00000025,0,0.00000025,0
+openrouter/mistralai/mistral-7b-instruct,Mistral: Mistral 7B Instruct,0.000000055,0,0.000000055,0
+openrouter/mistralai/mistral-7b-instruct-v0.1,Mistral: Mistral 7B Instruct v0.1,0.000000055,0,0.000000055,0
+openrouter/mistralai/mistral-7b-instruct-v0.2,Mistral: Mistral 7B Instruct v0.2,0.000000055,0,0.000000055,0
+openrouter/mistralai/mistral-7b-instruct-v0.3,Mistral: Mistral 7B Instruct v0.3,0.000000055,0,0.000000055,0
+openrouter/mistralai/mistral-7b-instruct:free,Mistral: Mistral 7B Instruct (free),0,0,0,0
+openrouter/mistralai/mistral-7b-instruct:nitro,Mistral: Mistral 7B Instruct (nitro),0.00000007,0,0.00000007,0
+openrouter/mistralai/mistral-large,Mistral Large,0.000009,0,0.000003,0
+openrouter/mistralai/mistral-medium,Mistral Medium,0.0000081,0,0.0000027,0
+openrouter/mistralai/mistral-nemo,Mistral: Mistral Nemo,0.00000017,0,0.00000017,0
+openrouter/mistralai/mistral-small,Mistral Small,0.000006,0,0.000002,0
+openrouter/mistralai/mistral-tiny,Mistral Tiny,0.00000025,0,0.00000025,0
+openrouter/mistralai/mixtral-8x22b-instruct,Mistral: Mixtral 8x22B Instruct,0.00000065,0,0.00000065,0
+openrouter/mistralai/mixtral-8x7b,Mixtral 8x7B (base),0.00000054,0,0.00000054,0
+openrouter/mistralai/mixtral-8x7b-instruct,Mixtral 8x7B Instruct,0.00000024,0,0.00000024,0
+openrouter/mistralai/mixtral-8x7b-instruct:nitro,Mixtral 8x7B Instruct (nitro),0.00000054,0,0.00000054,0
+openrouter/neversleep/llama-3-lumimaid-70b,Llama 3 Lumimaid 70B,0.0000045,0,0.000003375,0
+openrouter/neversleep/llama-3-lumimaid-8b,Llama 3 Lumimaid 8B,0.000001125,0,0.0000001875,0
+openrouter/neversleep/llama-3-lumimaid-8b:extended,Llama 3 Lumimaid 8B (extended),0.000001125,0,0.0000001875,0
+openrouter/neversleep/noromaid-20b,Noromaid 20B,0.00000225,0,0.0000015,0
+openrouter/nothingiisreal/mn-celeste-12b,Mistral Nemo 12B Celeste,0.0000015,0,0.0000015,0
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,NousResearch: Hermes 2 Pro - Llama-3 8B,0.00000014,0,0.00000014,0
+openrouter/nousresearch/hermes-2-theta-llama-3-8b,Nous: Hermes 2 Theta 8B,0.000001125,0,0.0000001875,0
+openrouter/nousresearch/hermes-3-llama-3.1-405b,Nous: Hermes 3 405B Instruct,0,0,0,0
+openrouter/nousresearch/hermes-3-llama-3.1-405b:extended,Nous: Hermes 3 405B Instruct (extended),0,0,0,0
+openrouter/nousresearch/hermes-3-llama-3.1-70b,Nous: Hermes 3 70B Instruct,0.0000004,0,0.0000004,0
+openrouter/nousresearch/nous-capybara-7b:free,Nous: Capybara 7B (free),0,0,0,0
+openrouter/nousresearch/nous-hermes-2-mixtral-8x7b-dpo,Nous: Hermes 2 Mixtral 8x7B DPO,0.00000045,0,0.00000045,0
+openrouter/nousresearch/nous-hermes-llama2-13b,Nous: Hermes 13B,0.00000017,0,0.00000017,0
+openrouter/nousresearch/nous-hermes-yi-34b,Nous: Hermes 2 Yi 34B,0.00000072,0,0.00000072,0
+openrouter/openai/chatgpt-4o-latest,OpenAI: ChatGPT-4o,0.000015,0.007225,0.000005,0
+openrouter/openai/gpt-3.5-turbo,OpenAI: GPT-3.5 Turbo,0.0000015,0,0.0000005,0
+openrouter/openai/gpt-3.5-turbo-0125,OpenAI: GPT-3.5 Turbo 16k,0.0000015,0,0.0000005,0
+openrouter/openai/gpt-3.5-turbo-0301,OpenAI: GPT-3.5 Turbo (older v0301),0.000002,0,0.000001,0
+openrouter/openai/gpt-3.5-turbo-0613,OpenAI: GPT-3.5 Turbo (older v0613),0.000002,0,0.000001,0
+openrouter/openai/gpt-3.5-turbo-1106,OpenAI: GPT-3.5 Turbo 16k (older v1106),0.000002,0,0.000001,0
+openrouter/openai/gpt-3.5-turbo-16k,OpenAI: GPT-3.5 Turbo 16k,0.000004,0,0.000003,0
+openrouter/openai/gpt-3.5-turbo-instruct,OpenAI: GPT-3.5 Turbo Instruct,0.000002,0,0.0000015,0
+openrouter/openai/gpt-4,OpenAI: GPT-4,0.00006,0,0.00003,0
+openrouter/openai/gpt-4-0314,OpenAI: GPT-4 (older v0314),0.00006,0,0.00003,0
+openrouter/openai/gpt-4-1106-preview,OpenAI: GPT-4 Turbo (older v1106),0.00003,0,0.00001,0
+openrouter/openai/gpt-4-32k,OpenAI: GPT-4 32k,0.00012,0,0.00006,0
+openrouter/openai/gpt-4-32k-0314,OpenAI: GPT-4 32k (older v0314),0.00012,0,0.00006,0
+openrouter/openai/gpt-4-turbo,OpenAI: GPT-4 Turbo,0.00003,0.01445,0.00001,0
+openrouter/openai/gpt-4-turbo-preview,OpenAI: GPT-4 Turbo Preview,0.00003,0,0.00001,0
+openrouter/openai/gpt-4-vision-preview,OpenAI: GPT-4 Vision,0.00003,0.01445,0.00001,0
+openrouter/openai/gpt-4o,OpenAI: GPT-4o,0.000015,0.007225,0.000005,0
+openrouter/openai/gpt-4o-2024-05-13,OpenAI: GPT-4o (2024-05-13),0.000015,0.007225,0.000005,0
+openrouter/openai/gpt-4o-2024-08-06,OpenAI: GPT-4o (2024-08-06),0.00001,0.0036125,0.0000025,0
+openrouter/openai/gpt-4o-mini,OpenAI: GPT-4o-mini,0.0000006,0.007225,0.00000015,0
+openrouter/openai/gpt-4o-mini-2024-07-18,OpenAI: GPT-4o-mini (2024-07-18),0.0000006,0.007225,0.00000015,0
+openrouter/openai/gpt-4o:extended,OpenAI: GPT-4o (extended),0.000018,0.007225,0.000006,0
+openrouter/openchat/openchat-7b,OpenChat 3.5 7B,0.000000055,0,0.000000055,0
+openrouter/openchat/openchat-7b:free,OpenChat 3.5 7B (free),0,0,0,0
+openrouter/openchat/openchat-8b,OpenChat 3.6 8B,0.000000055,0,0.000000055,0
+openrouter/openrouter/auto,Auto (best for prompt),-1,-1,-1,-1
+openrouter/openrouter/flavor-of-the-week,Flavor of The Week,-1,-1,-1,-1
+openrouter/perplexity/llama-3-sonar-large-32k-chat,Perplexity: Llama3 Sonar 70B,0.000001,0,0.000001,0
+openrouter/perplexity/llama-3-sonar-large-32k-online,Perplexity: Llama3 Sonar 70B Online,0.000001,0,0.000001,0.005
+openrouter/perplexity/llama-3-sonar-small-32k-chat,Perplexity: Llama3 Sonar 8B,0.0000002,0,0.0000002,0
+openrouter/perplexity/llama-3-sonar-small-32k-online,Perplexity: Llama3 Sonar 8B Online,0.0000002,0,0.0000002,0.005
+openrouter/perplexity/llama-3.1-sonar-huge-128k-online,Perplexity: Llama 3.1 Sonar 405B Online,0.000005,0,0.000005,0.005
+openrouter/perplexity/llama-3.1-sonar-large-128k-chat,Perplexity: Llama 3.1 Sonar 70B,0.000001,0,0.000001,0
+openrouter/perplexity/llama-3.1-sonar-large-128k-online,Perplexity: Llama 3.1 Sonar 70B Online,0.000001,0,0.000001,0.005
+openrouter/perplexity/llama-3.1-sonar-small-128k-chat,Perplexity: Llama 3.1 Sonar 8B,0.0000002,0,0.0000002,0
+openrouter/perplexity/llama-3.1-sonar-small-128k-online,Perplexity: Llama 3.1 Sonar 8B Online,0.0000002,0,0.0000002,0.005
+openrouter/pygmalionai/mythalion-13b,Pygmalion: Mythalion 13B,0.000001125,0,0.000001125,0
+openrouter/qwen/qwen-110b-chat,Qwen 1.5 110B Chat,0.00000162,0,0.00000162,0
+openrouter/qwen/qwen-2-72b-instruct,Qwen 2 72B Instruct,0.0000004,0,0.00000035,0
+openrouter/qwen/qwen-2-7b-instruct,Qwen 2 7B Instruct,0.000000055,0,0.000000055,0
+openrouter/qwen/qwen-2-7b-instruct:free,Qwen 2 7B Instruct (free),0,0,0,0
+openrouter/qwen/qwen-72b-chat,Qwen 1.5 72B Chat,0.00000081,0,0.00000081,0
+openrouter/recursal/eagle-7b,RWKV v5: Eagle 7B,0,0,0,0
+openrouter/recursal/rwkv-5-3b-ai-town,RWKV v5 3B AI Town,0,0,0,0
+openrouter/rwkv/rwkv-5-world-3b,RWKV v5 World 3B,0,0,0,0
+openrouter/sao10k/fimbulvetr-11b-v2,Fimbulvetr 11B v2,0.0000015,0,0.000000375,0
+openrouter/sao10k/l3-euryale-70b,Llama 3 Euryale 70B v2.1,0.0000004,0,0.00000035,0
+openrouter/sao10k/l3-lunaris-8b,Llama 3 8B Lunaris,0.000002,0,0.000002,0
+openrouter/sao10k/l3-stheno-8b,Llama 3 Stheno 8B v3.3 32K,0.0000015,0,0.00000025,0
+openrouter/sao10k/l3.1-euryale-70b,Llama 3.1 Euryale 70B v2.2,0.0000015,0,0.0000015,0
+openrouter/sophosympatheia/midnight-rose-70b,Midnight Rose 70B,0.0000008,0,0.0000008,0
+openrouter/teknium/openhermes-2.5-mistral-7b,OpenHermes 2.5 Mistral 7B,0.00000017,0,0.00000017,0
+openrouter/togethercomputer/stripedhyena-nous-7b,StripedHyena Nous 7B,0.00000018,0,0.00000018,0
+openrouter/undi95/remm-slerp-l2-13b,ReMM SLERP 13B,0.000001125,0,0.000001125,0
+openrouter/undi95/remm-slerp-l2-13b:extended,ReMM SLERP 13B (extended),0.000001125,0,0.000001125,0
+openrouter/undi95/toppy-m-7b,Toppy M 7B,0.00000007,0,0.00000007,0
+openrouter/undi95/toppy-m-7b:free,Toppy M 7B (free),0,0,0,0
+openrouter/undi95/toppy-m-7b:nitro,Toppy M 7B (nitro),0.00000007,0,0.00000007,0
+openrouter/xwin-lm/xwin-lm-70b,Xwin 70B,0.00000375,0,0.00000375,0

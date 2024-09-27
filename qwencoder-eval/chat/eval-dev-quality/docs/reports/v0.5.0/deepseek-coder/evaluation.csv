@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/deepseek/deepseek-coder,golang,golang/light,write-tests,4380,3940,105,127058,3084898,128728,115,110,110
+openrouter/deepseek/deepseek-coder,golang,golang/plain,write-tests,70,50,5,370,18753,445,5,5,5
+openrouter/deepseek/deepseek-coder,java,java/light,write-tests,15460,15000,115,168715,2706856,170210,115,115,115
+openrouter/deepseek/deepseek-coder,java,java/plain,write-tests,70,50,5,685,21340,750,5,5,5

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: eval-dev-quality
+  namespace: eval-dev-quality
+spec:
+  storageClassName: ceph-cephfs-sc
+  accessModes:
+    - ReadWriteMany                          # Ensure that the access mode is "ReadWriteMany".
+  resources:
+    requests:
+      storage: 50Gi

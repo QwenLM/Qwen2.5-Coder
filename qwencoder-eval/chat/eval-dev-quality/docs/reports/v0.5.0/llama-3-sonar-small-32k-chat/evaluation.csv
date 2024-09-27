@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/perplexity/llama-3-sonar-small-32k-chat,golang,golang/plain,write-tests,9,0,0,1324,7004,1353,5,2,2
+openrouter/perplexity/llama-3-sonar-small-32k-chat,java,java/light,write-tests,6625,6280,49,141378,469646,145682,115,75,106
+openrouter/perplexity/llama-3-sonar-small-32k-chat,java,java/plain,write-tests,24,10,1,1586,5915,1775,5,3,5

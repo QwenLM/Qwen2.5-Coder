@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/falcon2:11b-q8_0,236,50,6,63446,7732153,93035,123,0,57

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/teknium/openhermes-2.5-mistral-7b,9445,9040,84,124468,486980,134430,120,85,116

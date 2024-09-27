@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/phind/phind-codellama-34b,15281,14400,187,186637,1687303,198315,240,214,240

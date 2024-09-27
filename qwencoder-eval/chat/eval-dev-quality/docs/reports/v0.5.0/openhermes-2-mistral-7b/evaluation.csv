@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/teknium/openhermes-2-mistral-7b,golang,golang/plain,write-tests,14,0,0,1633,8178,1917,5,4,5
+openrouter/teknium/openhermes-2-mistral-7b,java,java/light,write-tests,6635,6300,60,130839,381356,147907,115,55,105
+openrouter/teknium/openhermes-2-mistral-7b,java,java/plain,write-tests,36,20,3,1903,7019,1951,5,4,4

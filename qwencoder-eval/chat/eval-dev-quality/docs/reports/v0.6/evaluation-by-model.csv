@@ -1,0 +1,68 @@
+model_id,model_name,cost,score,coverage,files_executed,files_executed_maximum_reachable,generate_tests_for_file_character_count,processing_time,response_character_count,response_no_error,response_no_excess,response_with_code,tests_passing
+openrouter/01-ai/yi-34b-chat,Yi 34B Chat,1.44e-06,273.0,70.0,4.0,131.0,66077.0,1127818.0,109813.0,111.0,8.0,50.0,30.0
+openrouter/ai21/jamba-instruct,AI21: Jamba Instruct,1.2e-06,15606.0,10540.0,223.0,355.0,211820.0,1428086.0,219909.0,354.0,327.0,342.0,3820.0
+openrouter/alpindale/goliath-120b,Goliath 120B,1.875e-05,2429.0,420.0,68.0,235.0,139221.0,3143664.0,149623.0,235.0,140.0,166.0,1400.0
+openrouter/alpindale/magnum-72b,Magnum 72B,8.25e-06,18583.0,13590.0,247.0,475.0,349776.0,7030377.0,364098.0,475.0,452.0,469.0,3350.0
+openrouter/anthropic/claude-3-haiku,Anthropic: Claude 3 Haiku,1.5e-06,34021.0,25340.0,436.0,525.0,365290.0,1462342.0,414232.0,525.0,415.0,525.0,6780.0
+openrouter/anthropic/claude-3-opus,Anthropic: Claude 3 Opus,8.999999999999999e-05,38485.0,29980.0,512.0,525.0,364303.0,5155952.0,384550.0,525.0,403.0,525.0,6540.0
+openrouter/anthropic/claude-3-sonnet,Anthropic: Claude 3 Sonnet,1.8e-05,29425.0,20480.0,421.0,525.0,400937.0,2785993.0,408821.0,516.0,512.0,516.0,6980.0
+openrouter/anthropic/claude-3.5-sonnet,Anthropic: Claude 3.5 Sonnet,1.8e-05,39540.0,30550.0,514.0,525.0,386143.0,2556814.0,393193.0,520.0,506.0,520.0,6930.0
+openrouter/austism/chronos-hermes-13b,Chronos Hermes 13B v2,2.6e-07,13583.0,7130.0,255.0,525.0,338155.0,3710299.0,417665.0,525.0,216.0,507.0,4950.0
+openrouter/cognitivecomputations/dolphin-llama-3-70b,Dolphin Llama 3 70B 🐬,7.5e-07,25969.0,20640.0,397.0,525.0,302772.0,2705240.0,457056.0,525.0,154.0,523.0,3730.0
+openrouter/cognitivecomputations/dolphin-mixtral-8x22b,Dolphin 2.9.2 Mixtral 8x22B 🐬,1.8e-06,23843.0,16760.0,343.0,525.0,305882.0,3767734.0,361735.0,514.0,373.0,513.0,5340.0
+openrouter/cognitivecomputations/dolphin-mixtral-8x7b,Dolphin 2.6 Mixtral 8x7B 🐬,1e-06,11602.0,6770.0,197.0,475.0,486954.0,3139408.0,522367.0,475.0,337.0,403.0,3420.0
+openrouter/cohere/command-r-03-2024,Cohere: Command R (03-2024),2e-06,14938.0,9640.0,241.0,525.0,293562.0,1022081.0,299853.0,525.0,486.0,486.0,3560.0
+openrouter/cohere/command-r-08-2024,Cohere: Command R (08-2024),7.5e-07,21549.0,14010.0,354.0,525.0,394172.0,1617966.0,400217.0,525.0,525.0,525.0,5610.0
+openrouter/cohere/command-r-plus-04-2024,Cohere: Command R+ (04-2024),1.8e-05,26797.0,19380.0,372.0,525.0,436846.0,3340512.0,443264.0,525.0,520.0,520.0,5480.0
+openrouter/cohere/command-r-plus-08-2024,Cohere: Command R+ (08-2024),1.25e-05,26312.0,18000.0,334.0,525.0,420896.0,3434939.0,427460.0,525.0,519.0,524.0,6410.0
+openrouter/databricks/dbrx-instruct,Databricks: DBRX 132B Instruct,2.16e-06,14863.0,9140.0,240.0,351.0,273172.0,1476757.0,293338.0,350.0,308.0,345.0,4480.0
+openrouter/deepseek/deepseek-chat,DeepSeek-V2 Chat,4.2e-07,38715.0,30010.0,508.0,525.0,404603.0,8169847.0,411154.0,525.0,521.0,521.0,6630.0
+openrouter/deepseek/deepseek-coder,DeepSeek-Coder-V2,4.2e-07,38263.0,29370.0,501.0,525.0,457697.0,9389642.0,464184.0,524.0,519.0,519.0,6830.0
+openrouter/google/gemini-flash-1.5,Google: Gemini Flash 1.5,1.875e-07,25434.0,19460.0,365.0,475.0,375022.0,1367919.0,380768.0,475.0,472.0,472.0,4190.0
+openrouter/google/gemini-pro-1.5,Google: Gemini Pro 1.5,1e-05,20955.0,12540.0,342.0,525.0,351370.0,4055006.0,357860.0,525.0,524.0,524.0,6500.0
+openrouter/google/gemma-2-27b-it,Google: Gemma 2 27B,5.4e-07,24166.0,16230.0,371.0,525.0,340358.0,2400811.0,347679.0,525.0,525.0,525.0,5990.0
+openrouter/google/gemma-2-9b-it,Google: Gemma 2 9B,1.2e-07,10019.0,7590.0,128.0,305.0,229338.0,2474642.0,233707.0,305.0,241.0,245.0,1510.0
+openrouter/google/palm-2-chat-bison,Google: PaLM 2 Chat,7.5e-07,10545.0,3450.0,198.0,405.0,259646.0,1083586.0,264631.0,405.0,396.0,396.0,5700.0
+openrouter/google/palm-2-codechat-bison,Google: PaLM 2 Code Chat,7.5e-07,9463.0,4620.0,166.0,355.0,241614.0,1014701.0,245876.0,355.0,346.0,346.0,3630.0
+openrouter/meta-llama/llama-3-70b-instruct,Meta: Llama 3 70B Instruct,7.5e-07,32865.0,24660.0,464.0,525.0,332934.0,3922265.0,337237.0,525.0,523.0,523.0,6170.0
+openrouter/meta-llama/llama-3-8b-instruct,Meta: Llama 3 8B Instruct,1.1e-07,9861.0,5140.0,157.0,355.0,246427.0,1348505.0,258442.0,355.0,326.0,343.0,3540.0
+openrouter/meta-llama/llama-3.1-405b-instruct,Meta: Llama 3.1 405B Instruct,5e-06,37535.0,28870.0,501.0,525.0,387409.0,5468398.0,395381.0,525.0,524.0,525.0,6590.0
+openrouter/meta-llama/llama-3.1-70b-instruct,Meta: Llama 3.1 70B Instruct,7.5e-07,34328.0,26100.0,472.0,525.0,603516.0,5786116.0,618888.0,525.0,514.0,517.0,6200.0
+openrouter/meta-llama/llama-3.1-8b-instruct,Meta: Llama 3.1 8B Instruct,1.1e-07,24111.0,16630.0,367.0,525.0,953203.0,2874202.0,1061121.0,524.0,481.0,509.0,5600.0
+openrouter/microsoft/phi-3-medium-128k-instruct,Phi-3 Medium 128K Instruct,2e-06,11145.0,6750.0,209.0,285.0,174681.0,2048081.0,187054.0,285.0,205.0,226.0,3470.0
+openrouter/microsoft/phi-3-medium-4k-instruct,Phi-3 Medium 4K Instruct,2.8e-07,14576.0,10420.0,275.0,474.0,394882.0,2298398.0,414832.0,474.0,425.0,472.0,2510.0
+openrouter/microsoft/phi-3-mini-128k-instruct,Phi-3 Mini 128K Instruct,2e-07,16317.0,11470.0,254.0,405.0,369009.0,2226623.0,474015.0,405.0,233.0,375.0,3580.0
+openrouter/microsoft/wizardlm-2-7b,WizardLM-2 7B,1.1e-07,14293.0,9940.0,201.0,405.0,593242.0,4497924.0,807446.0,405.0,153.0,404.0,3190.0
+openrouter/microsoft/wizardlm-2-8x22b,WizardLM-2 8x22B,1e-06,27433.0,20640.0,391.0,525.0,538551.0,8621313.0,617857.0,525.0,343.0,524.0,5010.0
+openrouter/mistralai/codestral-mamba,Mistral: Codestral Mamba,5e-07,24507.0,16650.0,395.0,525.0,295112.0,1527598.0,362927.0,525.0,373.0,524.0,6040.0
+openrouter/mistralai/mistral-7b-instruct-v0.3,Mistral: Mistral 7B Instruct v0.3,1.1e-07,13879.0,8880.0,276.0,525.0,442446.0,3234415.0,638588.0,525.0,88.0,520.0,3590.0
+openrouter/mistralai/mistral-large,Mistral Large,1.2e-05,36056.0,27240.0,473.0,525.0,356161.0,4045740.0,362618.0,525.0,523.0,525.0,6770.0
+openrouter/mistralai/mistral-medium,Mistral Medium,1.08e-05,30464.0,23480.0,429.0,525.0,388102.0,4744179.0,516829.0,525.0,275.0,525.0,5230.0
+openrouter/mistralai/mistral-nemo,Mistral: Mistral Nemo,3.4e-07,19162.0,14310.0,277.0,475.0,331661.0,2251105.0,347351.0,474.0,429.0,462.0,3210.0
+openrouter/mistralai/mistral-small,Mistral Small,8e-06,20218.0,14040.0,257.0,355.0,245203.0,1941925.0,251360.0,355.0,341.0,355.0,4870.0
+openrouter/mistralai/mistral-tiny,Mistral Tiny,5e-07,8643.0,4060.0,129.0,355.0,319190.0,1614905.0,398416.0,355.0,164.0,355.0,3580.0
+openrouter/mistralai/mixtral-8x22b-instruct,Mistral: Mixtral 8x22B Instruct,1.3e-06,29308.0,22290.0,415.0,525.0,354772.0,3189200.0,416131.0,525.0,384.0,524.0,5170.0
+openrouter/mistralai/mixtral-8x7b-instruct,Mixtral 8x7B Instruct,4.8e-07,28497.0,21890.0,378.0,525.0,427909.0,3224723.0,448322.0,514.0,413.0,482.0,4820.0
+openrouter/neversleep/llama-3-lumimaid-70b,Llama 3 Lumimaid 70B,7.875e-06,18596.0,12530.0,297.0,525.0,310151.0,5901834.0,315748.0,525.0,350.0,354.0,4540.0
+openrouter/neversleep/llama-3-lumimaid-8b,Llama 3 Lumimaid 8B,1.3125000000000001e-06,10618.0,6020.0,163.0,355.0,265226.0,1874912.0,280130.0,355.0,318.0,332.0,3430.0
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,NousResearch: Hermes 2 Pro - Llama-3 8B,2.8e-07,16984.0,12260.0,256.0,355.0,215657.0,900104.0,261421.0,355.0,249.0,354.0,3510.0
+openrouter/nousresearch/hermes-2-theta-llama-3-8b,Nous: Hermes 2 Theta 8B,1.3125000000000001e-06,17210.0,12060.0,249.0,355.0,250147.0,2623126.0,275932.0,355.0,292.0,354.0,3900.0
+openrouter/nousresearch/nous-hermes-2-mixtral-8x7b-dpo,Nous: Hermes 2 Mixtral 8x7B DPO,9e-07,19990.0,13020.0,293.0,405.0,400487.0,2513103.0,666767.0,405.0,148.0,394.0,5730.0
+openrouter/nousresearch/nous-hermes-yi-34b,Nous: Hermes 2 Yi 34B,1.44e-06,8206.0,3740.0,142.0,355.0,362584.0,3162299.0,380381.0,355.0,268.0,301.0,3400.0
+openrouter/openai/gpt-4-turbo,OpenAI: GPT-4 Turbo,4e-05,38422.0,30050.0,507.0,525.0,370196.0,4884796.0,376394.0,525.0,525.0,525.0,6290.0
+openrouter/openai/gpt-4o,OpenAI: GPT-4o,2e-05,39005.0,29520.0,493.0,524.0,347236.0,2230436.0,353722.0,524.0,524.0,524.0,7420.0
+openrouter/openai/gpt-4o-mini,OpenAI: GPT-4o-mini,7.5e-07,39441.0,29780.0,506.0,525.0,398390.0,2213392.0,404364.0,525.0,525.0,525.0,7580.0
+openrouter/openchat/openchat-8b,OpenChat 3.6 8B,1.1e-07,5376.0,1030.0,115.0,235.0,118063.0,780095.0,145257.0,232.0,102.0,227.0,3670.0
+openrouter/perplexity/llama-3-sonar-large-32k-chat,Perplexity: Llama3 Sonar 70B,2e-06,35051.0,26960.0,483.0,525.0,332540.0,3794568.0,336998.0,523.0,522.0,523.0,6040.0
+openrouter/perplexity/llama-3-sonar-small-32k-chat,Perplexity: Llama3 Sonar 8B,4e-07,7338.0,2230.0,146.0,355.0,356068.0,1319498.0,391432.0,353.0,188.0,351.0,4070.0
+openrouter/qwen/qwen-110b-chat,Qwen 1.5 110B Chat,3.24e-06,10980.0,5980.0,238.0,355.0,222823.0,1815105.0,253356.0,355.0,292.0,355.0,3760.0
+openrouter/qwen/qwen-2-72b-instruct,Qwen 2 72B Instruct,7.5e-07,25290.0,20490.0,297.0,355.0,226329.0,2421583.0,234573.0,355.0,344.0,354.0,3450.0
+openrouter/qwen/qwen-2-7b-instruct,Qwen 2 7B Instruct,1.1e-07,10750.0,6190.0,162.0,355.0,281785.0,1316997.0,289845.0,355.0,348.0,355.0,3340.0
+openrouter/qwen/qwen-72b-chat,Qwen 1.5 72B Chat,1.62e-06,27717.0,21880.0,404.0,525.0,353911.0,2856200.0,387928.0,518.0,397.0,518.0,4000.0
+openrouter/recursal/eagle-7b,RWKV v5: Eagle 7B,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openrouter/recursal/rwkv-5-3b-ai-town,RWKV v5 3B AI Town,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openrouter/rwkv/rwkv-5-world-3b,RWKV v5 World 3B,0.0,20.0,0.0,0.0,11.0,4547.0,73927.0,4902.0,10.0,3.0,7.0,0.0
+openrouter/teknium/openhermes-2.5-mistral-7b,OpenHermes 2.5 Mistral 7B,3.4e-07,15881.0,12220.0,208.0,355.0,225844.0,1023962.0,244382.0,355.0,291.0,347.0,2460.0
+openrouter/togethercomputer/stripedhyena-nous-7b,StripedHyena Nous 7B,3.6e-07,12001.0,8050.0,213.0,475.0,267160.0,1326173.0,314893.0,473.0,356.0,449.0,2460.0
+openrouter/undi95/toppy-m-7b,Toppy M 7B,1.4e-07,3026.0,1960.0,105.0,305.0,196524.0,1189846.0,364442.0,305.0,84.0,302.0,270.0
+openrouter/xwin-lm/xwin-lm-70b,Xwin 70B,7.5e-06,5596.0,800.0,109.0,355.0,229276.0,7063564.0,278695.0,355.0,80.0,232.0,4020.0

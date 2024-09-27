@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/meta-llama/llama-3-8b-instruct,golang,golang/plain,write-tests,13,0,0,1259,8610,1420,5,3,5
+openrouter/meta-llama/llama-3-8b-instruct,java,java/light,write-tests,6400,6090,56,134493,387054,142428,115,32,107
+openrouter/meta-llama/llama-3-8b-instruct,java,java/plain,write-tests,34,20,3,1404,7174,1995,5,1,5

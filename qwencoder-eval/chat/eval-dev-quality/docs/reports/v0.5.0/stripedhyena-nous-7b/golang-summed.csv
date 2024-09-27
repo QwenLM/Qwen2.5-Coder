@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/togethercomputer/stripedhyena-nous-7b,1059,720,23,93293,459587,107867,120,78,118

@@ -1,0 +1,15 @@
+name: Branch CI
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docker:
+    name: 'Run docker image building'
+    uses: ./.github/workflows/docker.yml

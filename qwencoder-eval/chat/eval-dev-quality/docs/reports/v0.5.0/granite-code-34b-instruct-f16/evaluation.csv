@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/granite-code:34b-instruct-f16,golang,golang/light,write-tests,2407,2080,68,81006,55499774,93166,115,49,95
+ollama/granite-code:34b-instruct-f16,golang,golang/plain,write-tests,26,10,2,765,490149,851,5,4,5
+ollama/granite-code:34b-instruct-f16,java,java/light,write-tests,4436,4120,44,104658,52509778,110846,115,70,87
+ollama/granite-code:34b-instruct-f16,java,java/plain,write-tests,23,10,2,1043,530825,1079,5,3,3

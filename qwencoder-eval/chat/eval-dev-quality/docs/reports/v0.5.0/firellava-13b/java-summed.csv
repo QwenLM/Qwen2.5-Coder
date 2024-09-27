@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/fireworks/firellava-13b,4948,4600,44,149518,673011,168870,120,65,119

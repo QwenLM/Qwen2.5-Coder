@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/google/palm-2-chat-bison,golang,golang/light,write-tests,1845,1480,46,111230,375861,112484,115,102,102
+openrouter/google/palm-2-chat-bison,golang,golang/plain,write-tests,59,40,4,481,5073,540,5,5,5
+openrouter/google/palm-2-chat-bison,java,java/light,write-tests,2232,1880,13,113187,346876,114649,115,112,112
+openrouter/google/palm-2-chat-bison,java,java/plain,write-tests,37,20,2,813,6810,878,5,5,5

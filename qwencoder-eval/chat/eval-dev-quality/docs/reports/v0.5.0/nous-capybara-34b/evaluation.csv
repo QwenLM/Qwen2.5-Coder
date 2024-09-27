@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/nous-capybara-34b,golang,golang/plain,write-tests,15,0,0,775,7428,830,5,5,5
+openrouter/nousresearch/nous-capybara-34b,java,java/light,write-tests,3660,3300,33,178491,947570,181896,115,101,111
+openrouter/nousresearch/nous-capybara-34b,java,java/plain,write-tests,25,10,1,2419,13808,2571,5,4,5

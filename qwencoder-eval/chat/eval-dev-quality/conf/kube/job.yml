@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{.name}}
+  namespace: {{.namespace}}
+spec:
+  template:
+    spec:
+      containers:
+      - name: eval-dev-quality
+        image: {{.image}}
+        command: {{.command}}
+        volumeMounts:
+        - mountPath: "/var/evaluations"
+          name: evaluations
+        envFrom:
+        - secretRef:
+            name: evaluation-secret
+      securityContext:
+        fsGroup: 1000
+      restartPolicy: Never
+      volumes:
+      - name: evaluations
+        persistentVolumeClaim:
+          claimName: eval-dev-quality
+  backoffLimit: 1

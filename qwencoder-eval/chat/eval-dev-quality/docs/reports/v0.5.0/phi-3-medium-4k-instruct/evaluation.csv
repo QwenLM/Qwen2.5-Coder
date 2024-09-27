@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/microsoft/phi-3-medium-4k-instruct,golang,golang/plain,write-tests,9,0,0,2487,11825,2516,5,2,2
+openrouter/microsoft/phi-3-medium-4k-instruct,java,java/light,write-tests,5692,5320,52,148769,692551,157448,115,90,115
+openrouter/microsoft/phi-3-medium-4k-instruct,java,java/plain,write-tests,33,20,2,4167,22394,6104,5,1,5

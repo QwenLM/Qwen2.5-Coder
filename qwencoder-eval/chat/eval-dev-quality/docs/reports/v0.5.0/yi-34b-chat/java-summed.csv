@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/01-ai/yi-34b-chat,7182,6770,59,194448,2148302,199491,120,114,119

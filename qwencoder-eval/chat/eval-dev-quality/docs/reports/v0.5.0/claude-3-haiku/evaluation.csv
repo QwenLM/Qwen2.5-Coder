@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/anthropic/claude-3-haiku,golang,golang/light,write-tests,2147,1870,48,113372,524390,171395,115,0,114
+openrouter/anthropic/claude-3-haiku,golang,golang/plain,write-tests,43,30,3,401,9441,1401,5,0,5
+openrouter/anthropic/claude-3-haiku,java,java/light,write-tests,13829,13490,108,120288,495688,187013,115,1,115
+openrouter/anthropic/claude-3-haiku,java,java/plain,write-tests,65,50,5,1062,11194,2532,5,0,5

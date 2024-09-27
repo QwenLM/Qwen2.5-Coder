@@ -1,0 +1,1 @@
+**Note that for the [official blog post](https://symflower.com/en/company/blog/2024/dev-quality-eval-v0.4.0-is-llama-3-better-than-gpt-4-for-generating-tests/) the weighting of the result computation was adjusted to award responses that lead to `100% code coverage` with `10` instead of `1` point score!**

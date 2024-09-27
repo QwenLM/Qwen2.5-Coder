@@ -1,0 +1,27 @@
+dir: "{{.PackageName}}/testing"
+filename: "{{.InterfaceName}}_mock_gen.go"
+mockname: "Mock{{.InterfaceName}}"
+outpkg: "{{.PackageName}}testing"
+replace-type:
+  - "log=github.com/symflower/eval-dev-quality/log"
+with-expecter: false
+
+packages:
+  github.com/symflower/eval-dev-quality/language:
+    interfaces:
+      Language:
+  github.com/symflower/eval-dev-quality/model:
+    interfaces:
+      Model:
+      CapabilityWriteTests:
+      CapabilityRepairCode:
+      CapabilityTranspile:
+  github.com/symflower/eval-dev-quality/provider:
+    interfaces:
+      Loader:
+      Provider:
+      Puller:
+      Query:
+  github.com/symflower/eval-dev-quality/tools:
+    interfaces:
+      Tool:

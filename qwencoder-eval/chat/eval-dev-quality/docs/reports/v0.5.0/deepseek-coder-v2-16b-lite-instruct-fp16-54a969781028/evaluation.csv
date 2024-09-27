@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/deepseek-coder-v2:16b-lite-instruct-fp16,golang,golang/light,write-tests,716,360,13,109584,6144217,111771,115,113,115
+ollama/deepseek-coder-v2:16b-lite-instruct-fp16,golang,golang/plain,write-tests,16,0,1,853,52526,912,5,5,5
+ollama/deepseek-coder-v2:16b-lite-instruct-fp16,java,java/plain,write-tests,15,0,0,997,52823,1062,5,5,5

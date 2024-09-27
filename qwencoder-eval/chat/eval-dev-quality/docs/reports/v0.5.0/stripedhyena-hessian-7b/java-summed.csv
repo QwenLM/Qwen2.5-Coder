@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/togethercomputer/stripedhyena-hessian-7b,6,0,0,3087,14438,4634,5,0,1

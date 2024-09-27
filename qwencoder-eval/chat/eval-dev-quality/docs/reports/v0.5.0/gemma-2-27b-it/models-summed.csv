@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+custom-nvidia/google/gemma-2-27b-it,18047,17110,217,210001,1990691,213121,240,240,240

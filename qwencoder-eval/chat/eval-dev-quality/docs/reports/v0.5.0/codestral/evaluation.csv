@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+custom-codestral/codestral-latest,golang,golang/plain,write-tests,10,0,0,800,5604,2243,5,0,5
+custom-codestral/codestral-latest,java,java/light,write-tests,10693,10380,83,110200,468588,163278,115,0,115
+custom-codestral/codestral-latest,java,java/plain,write-tests,65,50,5,1453,7558,3279,5,0,5

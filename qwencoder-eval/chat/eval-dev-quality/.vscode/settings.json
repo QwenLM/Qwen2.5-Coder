@@ -1,0 +1,10 @@
+{
+  "gopls": {
+    // Disable analyzers that we are currently not interested in because they do not obey our conventions.
+    "analyses": {
+      "simplifycompositelit": false,
+    },
+    // Add parameter placeholders when completing a function.
+    "usePlaceholders": true,
+  },
+}

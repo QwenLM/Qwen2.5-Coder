@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/databricks/dbrx-instruct,golang,golang/light,write-tests,2163,1860,53,89763,533449,93082,95,73,82
+openrouter/databricks/dbrx-instruct,golang,golang/plain,write-tests,28,20,2,213,3935,248,3,1,2
+openrouter/databricks/dbrx-instruct,java,java/light,write-tests,4722,4440,35,84748,399567,91525,98,68,81
+openrouter/databricks/dbrx-instruct,java,java/plain,write-tests,57,40,4,763,5884,813,5,4,4

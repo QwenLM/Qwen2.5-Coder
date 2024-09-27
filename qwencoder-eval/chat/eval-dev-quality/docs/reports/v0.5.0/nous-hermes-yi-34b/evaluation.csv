@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/nous-hermes-yi-34b,golang,golang/light,write-tests,1720,1390,48,203572,3266918,226202,115,81,86
+openrouter/nousresearch/nous-hermes-yi-34b,golang,golang/plain,write-tests,25,10,2,1172,28814,1220,5,4,4
+openrouter/nousresearch/nous-hermes-yi-34b,java,java/light,write-tests,3767,3490,29,290760,3342362,293205,115,64,69
+openrouter/nousresearch/nous-hermes-yi-34b,java,java/plain,write-tests,42,30,3,868,18338,892,5,2,2

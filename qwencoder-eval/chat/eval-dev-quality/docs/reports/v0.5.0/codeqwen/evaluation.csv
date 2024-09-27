@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+ollama/codeqwen:latest,golang,golang/light,write-tests,1142,880,26,102166,6576932,143822,115,7,114
+ollama/codeqwen:latest,golang,golang/plain,write-tests,33,20,3,1112,100705,2747,5,0,5
+ollama/codeqwen:latest,java,java/light,write-tests,4559,4280,39,111778,6586080,158931,115,10,115
+ollama/codeqwen:latest,java,java/plain,write-tests,22,10,1,1415,130480,3569,5,1,5

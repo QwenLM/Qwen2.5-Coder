@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/nousresearch/hermes-2-pro-llama-3-8b,8274,7900,71,141818,571777,178493,125,60,118

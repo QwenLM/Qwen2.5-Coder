@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docker:
+    name: 'Run docker image building'
+    uses: ./.github/workflows/docker.yml
+  test:
+    name: 'Run tests and linting'
+    strategy:
+      fail-fast: false # Run the whole matrix for maximum information, no matter if we fail in one entry early
+      matrix:
+        os:
+          - 'macOS-latest'
+          - 'ubuntu-latest'
+          - 'windows-latest'
+    uses: ./.github/workflows/test.yml
+    with:
+      os: ${{ matrix.os }}
+    needs: docker

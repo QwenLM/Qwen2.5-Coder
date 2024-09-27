@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/openai/gpt-4-turbo,golang,golang/light,write-tests,3171,2750,76,102972,1595053,104561,115,115,115
+openrouter/openai/gpt-4-turbo,golang,golang/plain,write-tests,70,50,5,658,13750,720,5,5,5
+openrouter/openai/gpt-4-turbo,java,java/light,write-tests,7988,7580,65,145297,1626835,147211,115,113,115
+openrouter/openai/gpt-4-turbo,java,java/plain,write-tests,70,50,5,1095,15195,1155,5,5,5

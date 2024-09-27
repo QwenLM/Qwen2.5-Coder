@@ -1,0 +1,3 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/allenai/olmo-7b-instruct,golang,golang/plain,write-tests,12,0,0,2745,21410,3941,5,2,5
+openrouter/allenai/olmo-7b-instruct,java,java/plain,write-tests,10,0,0,2381,26183,6385,5,0,5

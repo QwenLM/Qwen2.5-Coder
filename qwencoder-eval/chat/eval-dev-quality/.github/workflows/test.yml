@@ -1,0 +1,64 @@
+on:
+  workflow_call:
+    inputs:
+      os:
+        required: true
+        type: string
+jobs:
+  test:
+    runs-on: ${{ inputs.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: jlumbroso/free-disk-space@main
+        if: contains(inputs.os, 'ubuntu')
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'corretto'
+          java-version: '11'
+
+      - name: Set up Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: '3.9.1'
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.4'
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "<>"
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.
+
+      - name: Build
+        run: make install
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.
+
+      - name: Install required tools
+        run: |
+          make install-tools
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.
+
+      - name: Install testing tools
+        run: |
+          make install-tools-testing
+          go run scripts/gitlab-ci/main.go
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.
+
+      - name: Lint Build
+        run: make lint-build-ci
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.
+
+      - name: Test
+        run: make test
+        shell: bash # Explicitly use Bash because otherwise failing Windows jobs are not erroring.

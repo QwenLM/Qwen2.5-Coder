@@ -1,0 +1,83 @@
+from .multiple_metrics.containerized_eval import eval_string_script
+IMPORT_HELPER = {
+    "python": [
+        "import math",
+        "import re",
+        "import sys",
+        "import copy",
+        "import datetime",
+        "import itertools",
+        "import collections",
+        "import heapq",
+        "import statistics",
+        "import functools",
+        "import hashlib",
+        "import numpy",
+        "import numpy as np",
+        "import string",
+        "from typing import *",
+        "from collections import *",
+    ],
+    "go": [
+        "math",
+        "strings",
+        "fmt",
+        "strconv",
+        "time",
+        "bytes",
+        "regexp",
+        "sort",
+        "math/rand",
+        "crypto/md5",
+    ],
+    "cpp": [
+        "using namespace std;",
+        "#include<cassert>",
+        "#include<stdlib.h>",
+        "#include<algorithm>",
+        "#include<cmath>",
+        "#include<math.h>",
+        "#include<numeric>",
+        "#include<stdio.h>",
+        "#include<vector>",
+        "#include<set>",
+        "#include<map>",
+        "#include<queue>",
+        "#include<stack>",
+        "#include<list>",
+        "#include<deque>",
+        "#include<boost/any.hpp>",
+        "#include<string>",
+        "#include<climits>",
+        "#include<cstring>",
+        "#include<iostream>",
+        "#include<sstream>",
+        "#include<fstream>",
+    ],
+    "java": [
+        "import java.util.*;",
+        "import java.lang.reflect.*;",
+        "import org.javatuples.*;",
+        "import java.security.*;",
+        "import java.math.*;",
+        "import java.io.*;",
+        "import java.util.stream.*;",
+    ],
+    "cs": [
+        "using System;",
+        "using System.Numerics;",
+        "using System.Diagnostics;",
+        "using System.Collections.Generic;",
+        "using System.Linq;",
+        "using System.Text;",
+        "using System.Security.Cryptography;",
+        "using System.Collections.Generic;",
+    ],
+}
+
+def check_correctness_multiple(code_string, programming_language):
+    success = False
+    result = eval_string_script(programming_language, code_string)
+    if result["status"] == "OK":
+        success = True
+    return success

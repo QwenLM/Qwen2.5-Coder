@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/austism/chronos-hermes-13b,730,430,16,91902,1085143,107978,125,45,114

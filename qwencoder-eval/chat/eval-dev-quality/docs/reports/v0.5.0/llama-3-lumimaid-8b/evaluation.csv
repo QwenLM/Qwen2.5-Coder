@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/neversleep/llama-3-lumimaid-8b,golang,golang/plain,write-tests,10,0,0,1443,16302,1738,5,2,3
+openrouter/neversleep/llama-3-lumimaid-8b,java,java/light,write-tests,3020,2710,28,149745,942512,156125,115,71,96
+openrouter/neversleep/llama-3-lumimaid-8b,java,java/plain,write-tests,36,20,2,4794,20991,5072,5,4,5

@@ -1,0 +1,2 @@
+model,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/neversleep/llama-3-lumimaid-8b,10,0,0,1443,16302,1738,5,2,3

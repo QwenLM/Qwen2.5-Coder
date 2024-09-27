@@ -1,0 +1,3 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/huggingfaceh4/zephyr-7b-beta,golang,golang/plain,write-tests,0,0,0,0,0,0,0,0,0
+openrouter/huggingfaceh4/zephyr-7b-beta,java,java/plain,write-tests,0,0,0,0,0,0,0,0,0

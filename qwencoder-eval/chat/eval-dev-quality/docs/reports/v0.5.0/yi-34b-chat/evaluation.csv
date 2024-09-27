@@ -1,0 +1,5 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/01-ai/yi-34b-chat,golang,golang/light,write-tests,2673,2260,73,122408,1817375,124666,115,111,114
+openrouter/01-ai/yi-34b-chat,golang,golang/plain,write-tests,48,30,3,975,12741,1037,5,5,5
+openrouter/01-ai/yi-34b-chat,java,java/light,write-tests,7157,6760,58,192467,2122127,196690,115,110,114
+openrouter/01-ai/yi-34b-chat,java,java/plain,write-tests,25,10,1,1981,26175,2801,5,4,5

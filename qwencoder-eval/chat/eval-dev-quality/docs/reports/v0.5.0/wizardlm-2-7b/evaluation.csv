@@ -1,0 +1,4 @@
+model,language,repository,task,score,coverage,files-executed,generate-tests-for-file-character-count,processing-time,response-character-count,response-no-error,response-no-excess,response-with-code
+openrouter/microsoft/wizardlm-2-7b,golang,golang/plain,write-tests,10,0,0,2671,18735,7017,5,0,5
+openrouter/microsoft/wizardlm-2-7b,java,java/light,write-tests,5936,5660,46,311674,1149528,410253,115,0,115
+openrouter/microsoft/wizardlm-2-7b,java,java/plain,write-tests,21,10,1,5545,35629,14316,5,0,5
