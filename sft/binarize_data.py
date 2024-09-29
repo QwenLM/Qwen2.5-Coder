@@ -12,7 +12,7 @@ from utils import utils
 
 
 def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenizer, max_len: int, system_message: str = "You are a helpful assistant.", only_last_turn_loss=False) -> Dict:
-    IGNORE_INDEX = -1
+    IGNORE_INDEX = tokenizer.pad_token_id
     roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
     im_start = tokenizer("<|im_start|>").input_ids[0]
@@ -37,7 +37,7 @@ def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenize
         _input_id = tokenizer(role).input_ids + nl_tokens + tokenizer(sentence["content"], add_special_tokens=False).input_ids + [im_end] + nl_tokens
         input_id += _input_id
 
-        if role == '<|im_start|>user' or (only_last_turn_loss and j < len(sources[1:])):
+        if role == '<|im_start|>user' or (only_last_turn_loss and j < len(sources[1:]) - 1):
             _target = [im_start] + [IGNORE_INDEX] * (len(_input_id) - 3) + [im_end] + nl_tokens
         elif role == '<|im_start|>assistant':
             _target = [im_start] + [IGNORE_INDEX] * len(tokenizer(role).input_ids) + _input_id[len(tokenizer(role).input_ids) + 1:-2] + [im_end] + nl_tokens
@@ -60,6 +60,8 @@ def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenize
 
 def read_file_from_position_with_chatml_format_processor(args):
     filename, start_position, end_position, worker_id, args = args
+    tokenizer=args["tokenizer"]
+    max_len=args["max_len"]
     objs = []
     with open(filename, 'r', encoding='utf-8', errors='ignore') as f:
         current_position = utils.find_next_line(f, start_position)
@@ -72,7 +74,7 @@ def read_file_from_position_with_chatml_format_processor(args):
             if not line:
                 break
             obj = json.loads(line)
-            obj = chatml_format_preprocess(obj["messages"], tokenizer, max_len=32768, only_last_turn_loss=obj["only_last_turn_loss"] if "only_last_turn_loss" in obj else True)
+            obj = chatml_format_preprocess(obj["messages"], tokenizer, max_len=max_len, only_last_turn_loss=obj["only_last_turn_loss"] if "only_last_turn_loss" in obj else True)
             objs.append(obj)
             if f.tell() >= end_position:
                 break
