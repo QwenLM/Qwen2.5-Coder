@@ -60,6 +60,8 @@ def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenize
 
 def read_file_from_position_with_chatml_format_processor(args):
     filename, start_position, end_position, worker_id, args = args
+    tokenizer=args["tokenizer"]
+    max_len=args["max_len"]
     objs = []
     with open(filename, 'r', encoding='utf-8', errors='ignore') as f:
         current_position = utils.find_next_line(f, start_position)
@@ -72,7 +74,7 @@ def read_file_from_position_with_chatml_format_processor(args):
             if not line:
                 break
             obj = json.loads(line)
-            obj = chatml_format_preprocess(obj["messages"], tokenizer, max_len=32768, only_last_turn_loss=obj["only_last_turn_loss"] if "only_last_turn_loss" in obj else True)
+            obj = chatml_format_preprocess(obj["messages"], tokenizer, max_len=max_len, only_last_turn_loss=obj["only_last_turn_loss"] if "only_last_turn_loss" in obj else True)
             objs.append(obj)
             if f.tell() >= end_position:
                 break
