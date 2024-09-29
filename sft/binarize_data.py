@@ -113,5 +113,5 @@ if __name__ == "__main__":
                                                            truncation=True,
                                                            padding_side="left",
                                                            trust_remote_code=True)
-    tokenizer.add_special_tokens({"additional_special_tokens": ["<fim_prefix>", "<fim_middle>", "<fim_suffix>", "<fim_pad>"]})
+    tokenizer.add_special_tokens({"additional_special_tokens": ["<|fim_prefix|>", "<|fim_middle|>", "<|fim_suffix|>", "<|repo_name|>", "<|file_sep|>", "<|im_start|>", "<|im_end|>"]})
     tokenize_file(workers=args.workers, chunk_size=args.chunk_size, input_path=args.input_path, output_path=args.output_path, tokenizer=tokenizer, max_len=args.max_len)
