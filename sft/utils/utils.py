@@ -182,6 +182,8 @@ def filter_code(text):
 
 def read_file_from_position_with_filter(args):
     filename, start_position, end_position, worker_id = args
+    tokenizer=args["tokenizer"]
+    max_len=args["max_len"]
     objs = []
     with open(filename, 'r', encoding='utf-8', errors='ignore') as f:
         current_position = find_next_line(f, start_position)
