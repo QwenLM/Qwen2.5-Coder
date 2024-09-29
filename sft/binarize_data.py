@@ -37,7 +37,7 @@ def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenize
         _input_id = tokenizer(role).input_ids + nl_tokens + tokenizer(sentence["content"], add_special_tokens=False).input_ids + [im_end] + nl_tokens
         input_id += _input_id
 
-        if role == '<|im_start|>user' or (only_last_turn_loss and j < len(sources[1:])):
+        if role == '<|im_start|>user' or (only_last_turn_loss and j < len(sources[1:]) - 1):
             _target = [im_start] + [IGNORE_INDEX] * (len(_input_id) - 3) + [im_end] + nl_tokens
         elif role == '<|im_start|>assistant':
             _target = [im_start] + [IGNORE_INDEX] * len(tokenizer(role).input_ids) + _input_id[len(tokenizer(role).input_ids) + 1:-2] + [im_end] + nl_tokens
