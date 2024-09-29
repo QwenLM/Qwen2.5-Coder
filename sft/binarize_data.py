@@ -12,7 +12,7 @@ from utils import utils
 
 
 def chatml_format_preprocess(sources, tokenizer: transformers.PreTrainedTokenizer, max_len: int, system_message: str = "You are a helpful assistant.", only_last_turn_loss=False) -> Dict:
-    IGNORE_INDEX = -1
+    IGNORE_INDEX = tokenizer.pad_token_id
     roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
     im_start = tokenizer("<|im_start|>").input_ids[0]
