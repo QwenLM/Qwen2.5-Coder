@@ -379,7 +379,7 @@ for output in outputs:
     print(f"Prompt: {prompt!r}, Generated text: {generated_text!r}")
 ```
 
-#### Multi-GPU Distributred Serving
+#### Multi-GPU Distributed Serving
 To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
 When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
 ```python
