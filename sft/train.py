@@ -94,7 +94,7 @@ class SupervisedDataset(Dataset):
     def __init__(self, data_path: str, tokenizer: transformers.PreTrainedTokenizer, args):
         super(SupervisedDataset, self).__init__()
         logging.warning("Loading data...")
-        if data_path.endswith(".np"):
+        if data_path.endswith(".npy"):
             list_data_dict = np.load(data_path, allow_pickle=True)
         else:
             list_data_dict = utils.read_jsonl_file(data_path)
