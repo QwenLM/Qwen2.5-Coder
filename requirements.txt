@@ -1,5 +1,5 @@
-torch
-transformers==4.39.1
-accelerate
-safetensors
-vllm
+torch==2.1.0
+transformers==4.43.0
+accelerate==0.24.0
+safetensors==0.3.4
+vllm==0.2.0
