@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "lodash": "^4.17.21",
+    "mathjs": "^12.4.1"
+  }
+}
