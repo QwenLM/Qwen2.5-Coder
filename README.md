@@ -390,7 +390,9 @@ llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
 ## Performance
 see blog first <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=QwenLM/Qwen2.5-Coder&type=Date)](https://star-history.com/#QwenLM/Qwen2.5-Coder&Date)
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
