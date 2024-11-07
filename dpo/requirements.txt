@@ -1,0 +1,7 @@
+accelerate==1.0.1
+datasets==2.18.0
+deepspeed==0.12.6+c00388a2
+torch==2.2.0a0+81ea7a4
+tqdm==4.66.1
+transformers==4.44.2
+trl==0.11.4
