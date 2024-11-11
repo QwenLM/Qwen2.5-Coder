@@ -165,7 +165,7 @@ You can use the other size of instruct model in the same way.
 ### 👉🏻 Code with Qwen2.5-Coder-32B
 
 #### 1. Basic Usage
-The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
+The model completes the code snippets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
 
 Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-32B:
 ```python
