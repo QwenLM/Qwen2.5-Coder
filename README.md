@@ -5,31 +5,30 @@
 <p>
 
 <p align="center">
-    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-Coder/coder-main.png" width="400"/>
+    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-Coder-Family/main_fig_32b_white.jpg" width="400"/>
 <p>
 
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5-coder">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+        🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp💻 <a href="https://www.kaggle.com/models/qwen-lm/qwen2.5-coder">Kaggle</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5-coder-family">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
 <br>
-🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-7B-Instruct">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp 📄<a href="https://arxiv.org/abs/2409.12186">Arxiv</a>&nbsp&nbsp
+🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo">Demo</a>&nbsp&nbsp | 🖼 <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts">Artifacts</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp 📄<a href="https://arxiv.org/abs/2409.12186">Arxiv</a>&nbsp&nbsp
 </p>
 
 
 Visit our Hugging Face or ModelScope organization (click links above), search checkpoints with names starting with `Qwen2.5-Coder-`, and you will find all you need! Enjoy!
 
-# Qwen2.5-Coder: Code More, Learn More
+# Qwen2.5-Coder Series: Powerful, Diverse, Practical.
 
 ## Introduction
 
-In early April, we introduced CodeQwen1.5, which garnered significant attention from the community. Since then, we have been working to enhance the coding model. Today, we are excited to announce the release of the next generation of open-source coding models, **Qwen2.5-Coder**, and officially rename CodeQwen to Qwen-Coder. We think "Coder" is more human-like and agile, reflecting our vision of it becoming a true coding partner in the future. Qwen2.5-Coder is part of the Qwen2.5 series, available in three model sizes: 1.5B, 7B, and a 32B version (coming soon).
+Today, we are excited to open source the “Powerful”, “Diverse”, and “Practical” **Qwen2.5-Coder** series (formerly known as CodeQwen1.5), dedicated to continuously promoting the development of Open CodeLLMs.
 
-This update focuses on two main improvements: scaling up the code training data and enhancing coding capabilities while maintaining strong performance in other core areas like math and general tasks.
+💻 Powerful: Qwen2.5-Coder-32B-Instruct has become the current SOTA open-source code model, matching the coding capabilities of GPT-4o. While demonstrating strong and comprehensive coding abilities, it also possesses good general and mathematical skills;
 
-💻 Code More: Qwen2.5-Coder builds on the strong Qwen2.5 and continues training on a larger scale of code data, including source code, text-code grounding data, and synthetic data, totaling 5.5 trillion tokens.This resulting in substantial enhancements in code-related tasks.
+📚 Diverse: Building on the previously open-sourced two sizes of 1.5B / 7B, this release brings four model sizes, including 0.5B / 3B / 14B / 32B. As of now, Qwen2.5-Coder has covered six mainstream model sizes to meet the needs of different developers;
 
-📚 Learn More: While enhancing coding abilities, we aimed to retain strengths in math and general capabilities from base model. Therefore, Qwen2.5-Coder incorporates additional data on mathematics and general abilities, providing a comprehensive foundation for real-world applications like Code Agent.
-    
+🛠 Practical: We explore the practicality of Qwen2.5-Coder in two scenarios, including code assistants and Artifacts, with some examples showcasing the potential applications of Qwen2.5-Coder in real-world scenarios;
 
 ## basic information
 
@@ -56,23 +55,47 @@ This update focuses on two main improvements: scaling up the code training data 
 }
 ```
 
-| model name                          | type     | length | Download                                                                                                                                                                    |
-|-------------------------------------|----------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Qwen2.5-Coder-1.5B                  | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B)                                   |
-| Qwen2.5-Coder-7B                    | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B)                                       |
-| Qwen2.5-Coder-1.5B-instruct         | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct)                 |
-| Qwen2.5-Coder-7B-instruct           | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct)                     |
-| Qwen2.5-Coder-1.5B-Instruct-GGUF      | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)           |
-| Qwen2.5-Coder-1.5B-Instruct-AWQ       | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ)             |
-| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) |
-| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) |
-| Qwen2.5-Coder-7B-Instruct-GGUF      | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)           |
-| Qwen2.5-Coder-7B-Instruct-AWQ       | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ)             |
-| Qwen2.5-Coder-7B-Instruct-GPTQ-Int4 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) |
-| Qwen2.5-Coder-7B-Instruct-GPTQ-Int8 | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) |
+| model name                  | type     | length | Download                                                                                                                                                                        |
+|-----------------------------|----------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Qwen2.5-Coder-0.5B          | base     | 32k    | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B)                                       |
+| Qwen2.5-Coder-1.5B          | base     | 32k    | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B)                                       |
+| Qwen2.5-Coder-3B            | base     | 32k    | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B)                                           |
+| Qwen2.5-Coder-7B            | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B)                                           |
+| Qwen2.5-Coder-14B           | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B)                                         |
+| Qwen2.5-Coder-32B           | base     | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B)                                         |
+| Qwen2.5-Coder-0.5B-instruct | instruct | 32k    | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B-Instruct)                     |
+| Qwen2.5-Coder-1.5B-instruct | instruct | 32k     | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct)                     |
+| Qwen2.5-Coder-3B-instruct   | instruct | 32k     | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B-Instruct)                         |
+| Qwen2.5-Coder-7B-instruct   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct)                         |
+| Qwen2.5-Coder-14B-instruct  | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B-Instruct)                       |
+| Qwen2.5-Coder-32B-instruct  | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct)                       |
+| Qwen2.5-Coder-0.5B-Instruct-AWQ       | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B-Instruct-AWQ)             |
+| Qwen2.5-Coder-0.5B-Instruct-GGUF      | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF)           |
+| Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8) |
+| Qwen2.5-Coder-1.5B-Instruct-AWQ       | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ)             |
+| Qwen2.5-Coder-1.5B-Instruct-GGUF      | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)           |
+| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8) |
+| Qwen2.5-Coder-3B-Instruct-AWQ       | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B-Instruct-AWQ)                 |
+| Qwen2.5-Coder-3B-Instruct-GGUF      | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF)               |
+| Qwen2.5-Coder-3B-Instruct-GPTQ-Int4 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int4)     |
+| Qwen2.5-Coder-3B-Instruct-GPTQ-Int8 | instruct | 32k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int8)     |
+| Qwen2.5-Coder-7B-Instruct-AWQ         | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ)             |
+| Qwen2.5-Coder-7B-Instruct-GGUF        | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)           |
+| Qwen2.5-Coder-7B-Instruct-GPTQ-Int4   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-7B-Instruct-GPTQ-Int8   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8) |
+| Qwen2.5-Coder-14B-Instruct-AWQ         | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B-Instruct-AWQ)             |
+| Qwen2.5-Coder-14B-Instruct-GGUF        | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF)           |
+| Qwen2.5-Coder-14B-Instruct-GPTQ-Int4   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-14B-Instruct-GPTQ-Int8   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int8) |
+| Qwen2.5-Coder-32B-Instruct-AWQ         | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ)             |
+| Qwen2.5-Coder-32B-Instruct-GGUF        | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF)           |
+| Qwen2.5-Coder-32B-Instruct-GPTQ-Int4   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int4) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int4) |
+| Qwen2.5-Coder-32B-Instruct-GPTQ-Int8   | instruct | 128k   | 🤗 [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8) • 🤖 [ModelScope](https://modelscope.cn/models/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8) |
 
 
-Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
+Detailed performance and introduction are shown in this <a href="https://qwenlm.github.io/blog/qwen2.5-coder-family"> 📑 blog</a>.
 
 ## Requirements
 * `python>=3.9`
@@ -93,17 +116,17 @@ pip install -r requirements.txt
 ## Quick Start
 
 > [!Important]
-> **Qwen2.5-Coder-\[1.5-7\]B-Instrcut** are instruction models for chatting;
+> **Qwen2.5-Coder-\[0.5-32\]B-Instrcut** are instruction models for chatting;
 >
-> **Qwen2.5-Coder-\[1.5-7\]B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
-> 
-### 👉🏻 Chat with Qwen2.5-Coder-7B-Instruct
-You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-7B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-7B-Instruct:
+> **Qwen2.5-Coder-\[0.5-32\]B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
+>
+### 👉🏻 Chat with Qwen2.5-Coder-32B-Instruct
+You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-32B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-32B-Instruct:
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "Qwen/Qwen2.5-Coder-7B-Instruct"
+model_name = "Qwen/Qwen2.5-Coder-32B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -134,24 +157,25 @@ generated_ids = [
 
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
-The `apply_chat_template()` function is used to convert the messages into a format that the model can understand. 
-The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice. 
+The `apply_chat_template()` function is used to convert the messages into a format that the model can understand.
+The `add_generation_prompt` argument is used to add a generation prompt, which refers to `<|im_start|>assistant\n` to the input. Notably, we apply ChatML template for chat models following our previous practice.
 The `max_new_tokens` argument is used to set the maximum length of the response. The `tokenizer.batch_decode()` function is used to decode the response. In terms of the input, the above messages is an example to show how to format your dialog history and system prompt.
+You can use the other size of instruct model in the same way.
 
-### 👉🏻 Code with Qwen2.5-Coder
+### 👉🏻 Code with Qwen2.5-Coder-32B
 
 #### 1. Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
 
-Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-7B:
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-32B:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = "#write a quick sort algorithm"
@@ -186,8 +210,8 @@ For supported frameworks, you could add the following to `config.json` to enable
 ```
 
 #### 3. File-Level Code Completion (Fill in the middle)
-The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context. 
-For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure. 
+The code insertion task, also referred to as the "fill-in-the-middle" challenge, requires the insertion of code segments in a manner that bridges the gaps within a given code context.
+For an approach aligned with best practices, we recommend adhering to the formatting guidelines outlined in the paper "Efficient Training of Language Models to Fill in the Middle"[[arxiv](https://arxiv.org/abs/2207.14255)]. This involves the use of three specialized tokens`<fim_prefix>`, `<fim_suffix>`, and `<fim_middle>` to denote the respective segments of the code structure.
 The prompt should be structured as follows:
 ```python
 prompt = '<|fim_prefix|>' + prefix_code + '<|fim_suffix|>' + suffix_code + '<|fim_middle|>'
@@ -199,8 +223,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # load model
 device = "cuda" # the device to load the model onto
 
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 input_text = """<|fim_prefix|>def quicksort(arr):
     if len(arr) <= 1:
@@ -241,8 +265,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+TOKENIZER = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+MODEL = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = """<|repo_name|>library-system
@@ -321,7 +345,7 @@ print(f"Prompt: \n{input_text}\n\nGenerated text: \n{output_text}")
 
 ```
 The expected output as following:
-```
+```python
 Generated text:
     book = library.find_book("1234567890")
     if student.borrow_book(book, library):
@@ -348,7 +372,7 @@ main()
 </details>
 
 ### 👉🏻 Deploying Qwen2.5-Coder with vLLM
-As a family member of Qwen2.5, Qwen2.5-Coder are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
+As a family member of Qwen2.5, Qwen2.5-Coder are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html).
 Here, we give you an simple example of offline batched inference in vLLM.
 
 #### Offline Batched Inference
@@ -356,14 +380,14 @@ Here, we give you an simple example of offline batched inference in vLLM.
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
 
-# Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
+# Pass the default decoding hyperparameters of Qwen1.5-32B-Chat
 # max_tokens is for the maximum length for generation.
 sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024)
 
 # Input the model name or path. Can be GPTQ or AWQ models.
-llm = LLM(model="Qwen/Qwen2.5-Coder-7B")
+llm = LLM(model="Qwen/Qwen2.5-Coder-32B")
 
 # Prepare your prompts
 prompt = "#write a quick sort algorithm.\ndef quick_sort("
@@ -379,15 +403,15 @@ for output in outputs:
 ```
 
 #### Multi-GPU Distributed Serving
-To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
-When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
+To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices.
+When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-32B with tensor parallelism just by passing in the argument `tensor_parallel_size`.
 ```python
-llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
+llm = LLM(model="Qwen/Qwen2.5-Coder-32B", tensor_parallel_size=8)
 ```
 
 
 ## Performance
-see blog first <a href="https://qwenlm.github.io/blog/qwen2.5-coder"> 📑 blog</a>.
+For more information, please  refer to the <a href="https://arxiv.org/abs/2409.12186">Qwen2.5-Coder Technical Report</a>.
 
 ## Star History
 
