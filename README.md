@@ -408,7 +408,28 @@ When using ultra-long sequences for inference, it might cause insufficient GPU m
 ```python
 llm = LLM(model="Qwen/Qwen2.5-Coder-32B", tensor_parallel_size=8)
 ```
+### 👉🏻 Gradio interface 🤗
 
+We also provide a Gradio <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a> interface for a better experience, just run by:
+
+```bash
+cd demo/chatbot/
+# For Linux and Windows users (and macOS with Intel??)
+python app.py 
+
+# For macOS with Apple Silicon users, Intel not supported, this maybe 20x slower than RTX 4090
+PYTORCH_ENABLE_MPS_FALLBACK=1 python app.py # humans mode
+```
+
+We also provide a Gradio interface of artifacts mode:
+```bash
+cd demo/artifacts/
+python app.py # animals mode 🐱🐶
+```
+
+You can specify the `--server_port`, `--share`, `--server_name` arguments to satisfy your needs!
+
+**Or, try it out effortlessly on HuggingFace: [chatbot demo](https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo) 🤗 [artifacts demo](https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts) **
 
 ## Performance
 For more information, please  refer to the <a href="https://arxiv.org/abs/2409.12186">Qwen2.5-Coder Technical Report</a>.
