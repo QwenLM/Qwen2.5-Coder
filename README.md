@@ -424,12 +424,12 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 python app.py
 We also provide a Gradio interface of artifacts mode:
 ```bash
 cd demo/artifacts/
-python app.py # animals mode 🐱🐶
+python app.py
 ```
 
 You can specify the `--server_port`, `--share`, `--server_name` arguments to satisfy your needs!
 
-**Or, try it out effortlessly on HuggingFace: [chatbot demo](「https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo」) 🤗 [artifacts demo](「https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts」)**
+**Or, try it out effortlessly on HuggingFace: [「chatbot demo」](https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo) 🤗 [「artifacts demo」](https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts)**
 
 ## Performance
 For more information, please  refer to the <a href="https://arxiv.org/abs/2409.12186">Qwen2.5-Coder Technical Report</a>.
