@@ -1,0 +1,2 @@
+dashscope
+modelscope_studio~=1.0.0b
