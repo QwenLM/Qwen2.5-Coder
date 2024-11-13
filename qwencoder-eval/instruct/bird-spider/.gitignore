@@ -1,0 +1,7 @@
+__pycache__
+
+sql_suites/data_raw
+sql_suites/data/*/database
+
+results*/
+tmp/
