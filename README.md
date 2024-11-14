@@ -30,7 +30,7 @@ Today, we are excited to open source the “Powerful”, “Diverse”, and “P
 
 🛠 Practical: We explore the practicality of Qwen2.5-Coder in two scenarios, including code assistants and Artifacts, with some examples showcasing the potential applications of Qwen2.5-Coder in real-world scenarios;
 
-## basic information
+## Basic information
 
 1. ✨ Supporting long context understanding and generation with the context length of 128K tokens;
 2. ✨ Supporting 92 coding languages;
