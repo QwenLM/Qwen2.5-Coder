@@ -3,7 +3,6 @@ from pprint import pprint
 
 from . import (
     spider_dev,
-    spider_test,
     bird_dev,
     spider_dev_chat,
     spider_dev_chat_cot,
@@ -13,10 +12,6 @@ from . import (
 
 TASK_REGISTRY = {
     "spider-dev": spider_dev.SpiderDev,
-    "spider-dev-dk": spider_dev.SpiderDevDk,
-    "spider-dev-syn": spider_dev.SpiderDevSyn,
-    "spider-dev-realistic": spider_dev.SpiderDevRealistic,
-    "spider-test": spider_test.SpiderTest,
     "bird-dev": bird_dev.BirdDev,
     "bird-dev-nokg": bird_dev.BirdDevNoKG,
     # ----- chat model -----
