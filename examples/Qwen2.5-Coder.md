@@ -1,19 +1,19 @@
-# Use Qwen2.5-Coder-7B By transformers
-One of the simple but fundamental ways to try Qwen2.5-Coder-7B is to use the `transformers` library. In this document, we show how to use Qwen2.5-Coder-7B in three common scenarios of code generation, respectively.
+# Use Qwen2.5-Coder-32B By transformers
+One of the simple but fundamental ways to try Qwen2.5-Coder-32B is to use the `transformers` library. In this document, we show how to use Qwen2.5-Coder-32B in three common scenarios of code generation, respectively.
 
 
 ## Basic Usage
 The model completes the code snipplets according to the given prompts, without any additional formatting, which is usually termed as `code completion` in the code generation tasks.
  
-Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-7B:
+Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform code completion. Below is an example on how to chat with Qwen2.5-Coder-32B:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = "#write a quick sort algorithm"
@@ -44,8 +44,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # load model
 device = "cuda" # the device to load the model onto
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 input_text = """<|fim_prefix|>def quicksort(arr):
     if len(arr) <= 1:
@@ -85,8 +85,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 # tokenize the input into tokens
 input_text = """<repo_name>library-system
@@ -207,8 +207,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B", device_map="auto").eval()
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B", device_map="auto").eval()
 
 # tokenize the input into tokens
 # set fim format into the corresponding file you need to infilling
@@ -312,8 +312,8 @@ Generated text:
 """
 ```
 
-# Use Qwen2.5-Coder-7B By vllm
-As a family member of Qwen2.5, Qwen2.5-Coder-7B are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
+# Use Qwen2.5-Coder-32B By vllm
+As a family member of Qwen2.5, Qwen2.5-Coder-32B are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html). 
 Here, we only give you an simple example of offline batched inference in vLLM.
 
 ## Offline Batched Inference
@@ -322,15 +322,15 @@ Here, we only give you an simple example of offline batched inference in vLLM.
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B")
 
-# Pass the default decoding hyperparameters of Qwen1.5-7B-Chat
+# Pass the default decoding hyperparameters of Qwen1.5-32B-Chat
 # max_tokens is for the maximum length for generation.
 eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
 sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=1.05, max_tokens=1024, stop_token_ids=eos_token_ids)
 
 # Input the model name or path. Can be GPTQ or AWQ models.
-llm = LLM(model="Qwen/Qwen2.5-Coder-7B")
+llm = LLM(model="Qwen/Qwen2.5-Coder-32B")
 
 # Prepare your prompts
 prompt = "#write a quick sort algorithm.\ndef quick_sort("
@@ -347,9 +347,9 @@ for output in outputs:
 
 ## Multi-GPU Distributred Serving
 To scale up your serving throughputs, distributed serving helps you by leveraging more GPU devices. 
-When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-7B with tensor parallelism just by passing in the argument `tensor_parallel_size`
+When using ultra-long sequences for inference, it might cause insufficient GPU memory. Here, we demonstrate how to run Qwen2.5-Coder-32B with tensor parallelism just by passing in the argument `tensor_parallel_size`
 ```python
-llm = LLM(model="Qwen/Qwen2.5-Coder-7B", tensor_parallel_size=4)
+llm = LLM(model="Qwen/Qwen2.5-Coder-32B", tensor_parallel_size=8)
 ```
 
 ## Streaming Mode

@@ -5,16 +5,8 @@ from threading import Thread
 device = "cuda" # the device to load the model onto
 
 # Now you do not need to add "trust_remote_code=True"
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct")
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-7B-Instruct", device_map="auto").eval()
-
-# model = AutoModelForCausalLM.from_pretrained(
-# "Qwen/CodeQwen1.5-7B-Chat",
-# torch_dtype="auto",
-# device_map="auto",
-# attn_implementation="flash_attention_2",
-# )
-# tokenize the input into tokens
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-Coder-32B-Instruct")
+model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-Coder-32B-Instruct", device_map="auto").eval()
 
 # Instead of using model.chat(), we directly use model.generate()
 # But you need to use tokenizer.apply_chat_template() to format your inputs as shown below

@@ -1,13 +1,13 @@
-# Use Qwen2.5-Coder-7B-Instruct By transformers
-The most significant but also the simplest usage of Qwen2.5-Coder-7B-Instruct is using the `transformers` library. In this document, we show how to chat with Qwen2.5-Coder-7B-Instruct in either streaming mode or not.
+# Use Qwen2.5-Coder-32B-Instruct By transformers
+The most significant but also the simplest usage of Qwen2.5-Coder-32B-Instruct is using the `transformers` library. In this document, we show how to chat with Qwen2.5-Coder-32B-Instruct in either streaming mode or not.
 
 ## Basic Usage
-You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-7B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-7B-Instruct:
+You can just write several lines of code with `transformers` to chat with Qwen2.5-Coder-32B-Instruct. Essentially, we build the tokenizer and the model with `from_pretrained` method, and we use generate method to perform chatting with the help of chat template provided by the tokenizer. Below is an example of how to chat with Qwen2.5-Coder-32B-Instruct:
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "Qwen/Qwen2.5-Coder-7B-Instruct"
+model_name = "Qwen/Qwen2.5-Coder-32B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
