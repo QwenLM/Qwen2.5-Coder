@@ -116,7 +116,7 @@ pip install -r requirements.txt
 ## Quick Start
 
 > [!Important]
-> **Qwen2.5-Coder-\[0.5-32\]B-Instrcut** are instruction models for chatting;
+> **Qwen2.5-Coder-\[0.5-32\]B-Instruct** are instruction models for chatting;
 >
 > **Qwen2.5-Coder-\[0.5-32\]B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
 >
