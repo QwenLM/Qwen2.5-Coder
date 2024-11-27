@@ -40,7 +40,7 @@ Today, we are excited to open source the “Powerful”, “Diverse”, and “P
 3. ✨ Retain strengths in math and general capabilities from base model
 
 > [!Important]
-> We updates both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
+> We update both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
 
 ```json
 {
@@ -372,7 +372,7 @@ main()
 </details>
 
 ### 👉🏻 Deploying Qwen2.5-Coder with vLLM
-As a family member of Qwen2.5, Qwen2.5-Coder are supported by vLLM. The detail tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html).
+As a family member of Qwen2.5, Qwen2.5-Coder are supported by vLLM. The detailed tutorial  could be found in [Qwen tutorial](https://qwen.readthedocs.io/en/latest/deployment/vllm.html).
 Here, we give you an simple example of offline batched inference in vLLM.
 
 #### Offline Batched Inference
