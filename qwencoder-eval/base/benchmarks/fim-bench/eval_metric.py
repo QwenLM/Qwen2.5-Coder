@@ -175,8 +175,6 @@ def process_examples(task, args):
     global parser
 
     prediction = sample["pred"]
-    # if args.instruct_mode:
-    #     prediction = extract_block(prediction)
     target = ex["groundtruth"]
     origin = ""
 
@@ -272,13 +270,6 @@ def compute_metric_stmt(args):
             edit_sim += es
             edit_sim_repoeval += es_repoeval
             exact_match += em
-
-            # file_path = os.path.join("./", "function.jsonl")
-            # trunc_s_1 = trunc_s
-            # trunc_s_1["em"] = em
-            # trunc_s_1["es"] = es
-            # with open(file_path, "a") as f:
-            #     f.write(json.dumps(trunc_s_1) + "\n")
 
             detailed_results.append({
                 "task_id": trunc_s["task_id"],
@@ -598,9 +589,8 @@ def compute_metric_stmt_custom(predictions_file, prompt_file, output_dir,
         f.write(json.dumps(res, indent=2))
 
 def extract_block(text: str) -> str:
-    """提取文本中第一个代码块的内容"""
+    """提取文本中代码块的内容"""
     start = text.find('```') + 3
     end = text.find('```', start)
-    # 跳过第一行(通常是语言标识)
     content = text[start:end]
     return content

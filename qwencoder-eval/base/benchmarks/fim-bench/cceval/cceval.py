@@ -136,7 +136,6 @@ def cceval(custom_args: Optional[argparse.Namespace] = None) -> None:
         parser.add_argument("--dataset", type=str, default="cclong", help="dataset name")
         parser.add_argument("--tp", type=int, default=8, help="tensor_parallel_size")
         # compute metric args
-        parser.add_argument("--template_type", type=str, default="qwen")
         parser.add_argument(
             "--ts_lib",
             type=str,
@@ -145,7 +144,6 @@ def cceval(custom_args: Optional[argparse.Namespace] = None) -> None:
         )
         # only compute metric
         parser.add_argument("--only_compute_metric", action="store_true", help="only compute metric")
-        parser.add_argument("--instruct_mode", action="store_true")
         # for cceval metric
         parser.add_argument("--compute_cceval_metric", action='store_true', help="use cceval metric")
         parser.add_argument("--task", type=str, required=True, choices=["line_completion", "function_completion", "api_completion"])
