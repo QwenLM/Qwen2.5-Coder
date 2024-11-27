@@ -42,5 +42,11 @@ bash ./run_cclongeval.sh <模型路径> <输出目录> <tp>
 bash ./run_repoeval.sh <模型路径> <输出目录> <tp>
 ```
 
+## humaneval-infiiling
+* 使用方法
+```bash
+bash ./run_hm_fim.sh <模型路径> <输出目录> <tp>
+```
+
 ## 环境说明
 *tree-sitter == 0.20.1*
