@@ -89,10 +89,6 @@ def model_inference(args):
                 "task_type": args.task,
                 "inputs": entry["llm_prompt"]
             })
-        # for prompt, pred, cur_pred in zip(prompts, all_preds, cur_preds):
-        #     print(f"prompts:{prompt}")
-        #     print(f"prompt_length:{len(cur_pred.output[0].prompt_token_ids)}")
-        #     print(f"preds:{pred['pred']}")
             
         # Save predictions for current task
         task_output_file = os.path.join(args.output_dir, args.dataset, language, args.task, "prediction.jsonl")
