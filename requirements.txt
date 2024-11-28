@@ -3,3 +3,4 @@ transformers==4.39.1
 accelerate
 safetensors
 vllm
+fickling>=0.1.3,~=0.1.0

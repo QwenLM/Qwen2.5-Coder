@@ -28,6 +28,7 @@ from eval import (
     untrusted_check,
 )
 from gen.util import trusted_check
+import fickling
 
 # 1st item: the status
 # 2nd item (optional): the detailed pass/fail boolean for each input
@@ -42,7 +43,7 @@ def get_groundtruth(n_workers, problems, hashcode, check_gt_only, max_as_limit, 
         else:
             print(f"Load from ground-truth from {cache_file}")
             with open(cache_file, "rb") as f:
-                return pickle.load(f)
+                return fickling.load(f)
 
     os.makedirs(CACHE_DIR, exist_ok=True)
     print("\nAsserting the groundtruth...")
