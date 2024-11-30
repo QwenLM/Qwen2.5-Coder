@@ -23,6 +23,7 @@ from evalplus.data import (
     load_solutions,
 )
 from evalplus.data.mbpp import mbpp_serialize_inputs
+import fickling
 
 # from evalplus.data.utils import CACHE_DIR
 CACHE_DIR = "/home/data/xixi.yjx/eval_cache/evalplus"
@@ -45,7 +46,7 @@ def get_groundtruth(problems, hashcode, tasks_only_output_not_none):
     if os.path.exists(cache_file):
         print(f"Load from ground-truth from {cache_file}")
         with open(cache_file, "rb") as f:
-            return pickle.load(f)
+            return fickling.load(f)
 
     os.makedirs(CACHE_DIR, exist_ok=True)
     print("Computing expected output...")
