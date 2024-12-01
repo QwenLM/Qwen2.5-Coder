@@ -43,6 +43,8 @@ def train():
         )
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_config.model_name_or_path, use_fast=False, trust_remote_code=True, model_max_length=training_args.max_length)
+    tokenizer.add_special_tokens({"bos_token": tokenizer.eos_token})
+    tokenizer.bos_token_id = tokenizer.eos_token_id
 
     train_dataset = load_dataset('json', data_files=args.dataset_name)
     train_test_split = train_dataset['train'].train_test_split(test_size=0.1)

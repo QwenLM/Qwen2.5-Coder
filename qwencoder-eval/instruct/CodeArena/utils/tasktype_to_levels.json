@@ -1,0 +1,7478 @@
+{
+  "software development": [
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software design principles": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software development practices": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software development best practices": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "coding practices": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software development lifecycle": [
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "continuous integration/continuous deployment": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "continuous integration/deployment": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software development concepts": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "software development process": [
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software estimation": [
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ],
+    [
+      "Development and Programming",
+      "Development Processes and Practices"
+    ]
+  ],
+  "software design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "software architecture": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "software architecture design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "software design patterns": [
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "design patterns": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "system design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "project design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "object oriented design": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "software design concepts": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "architecture design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ],
+    [
+      "Development and Programming",
+      "Software Design and Architecture"
+    ]
+  ],
+  "debugging": [
+    [
+      "Development and Programming",
+      "Code Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "code refactoring": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "code review": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "configuration management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "web scraping": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "code modification": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "version control": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "code analysis": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code annotation": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "dependency management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code organization": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "code snippet": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "version control management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "code integration": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code formatting": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code snippet sharing": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "script modification": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code migration": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "refactoring": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "code documentation": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "naming conventions": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code enhancement": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "dependency injection": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ]
+  ],
+  "code update": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code configuration": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "version control systems": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code snippet writing": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "script enhancement": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "code snippet usage": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "script configuration": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build and compilation management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ]
+  ],
+  "code styling": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "file structure organization": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "code setup": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code comparison": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code snippet modification": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "module interaction": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code deobfuscation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "tool/library usage": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "module organization": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "content refactoring": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "build and configuration management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code validation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "build tools/dependency management": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code snippet correction": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax error identification": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "logging": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "script correction": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "code sharing": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "code beautification": [
+    [
+      "Development and Programming",
+      "Code Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "computer science concepts": [
+    [
+      "Emerging Technologies and Applications",
+      "Internet of Things (IoT)"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Cryptocurrency"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Blockchain"
+    ],
+    [
+      "Development and Programming",
+      "Code Management"
+    ]
+  ],
+  "library usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library management": [
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "library development": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library comparison": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library/framework understanding": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library/framework integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "library/framework development": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework understanding": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework migration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "framework selection": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api usage": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api integration": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api implementation": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api design": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api interaction": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api understanding": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api usage explanation": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api/library design": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "api/function usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "API and Library Management"
+    ]
+  ],
+  "application development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "frontend development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "backend development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "code customization": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "ui component development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "gui programming": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "gui application development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "widget development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "bot development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "chatbot development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "chatbot customization": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "feature implementation": [
+    [
+      "Tools, Environments, and Practices",
+      "Feature Development and Management"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "feature enhancement": [
+    [
+      "Tools, Environments, and Practices",
+      "Feature Development and Management"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "feature modification": [
+    [
+      "Tools, Environments, and Practices",
+      "Feature Development and Management"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "feature request implementation": [
+    [
+      "Tools, Environments, and Practices",
+      "Feature Development and Management"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "method implementation": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "function development": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "full application development": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "component development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Development and Programming",
+      "Application Development"
+    ]
+  ],
+  "module development": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "module creation": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "module integration": [
+    [
+      "Development and Programming",
+      "Application Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "testing": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "unit testing": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "integration testing": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "performance testing": [
+    [
+      "Tools, Environments, and Practices",
+      "Performance and Optimization"
+    ],
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "test case design": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "test writing": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ]
+  ],
+  "test design": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ]
+  ],
+  "test script writing": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Testing and Debugging"
+    ]
+  ],
+  "error handling": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "exception handling": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "memory leak analysis": [
+    [
+      "Development and Programming",
+      "Testing and Debugging"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "automation scripting": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "script development": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ]
+  ],
+  "script automation": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "automation script development": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "automation/scripting": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "script implementation": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "command line scripting": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "shell scripting": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "system scripting": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "macro creation": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "macro writing": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "macro development": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "workflow automation": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ]
+  ],
+  "script integration": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "task creation": [
+    [
+      "Development and Programming",
+      "Automation and Scripting"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "performance optimization": [
+    [
+      "Tools, Environments, and Practices",
+      "Performance and Optimization"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ]
+  ],
+  "code optimization": [
+    [
+      "Tools, Environments, and Practices",
+      "Performance and Optimization"
+    ],
+    [
+      "Development and Programming",
+      "Optimization Techniques"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ]
+  ],
+  "database query optimization": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ]
+  ],
+  "software optimization": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ]
+  ],
+  "software performance": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Performance and Optimization"
+    ]
+  ],
+  "deployment": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build configuration": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "project setup": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "deployment configuration": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build and deployment configuration": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software deployment": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Software Deployment and Configuration"
+    ]
+  ],
+  "build management": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build process": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "compilation": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "compilation process": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "compilation/build commands": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "ci/cd configuration": [
+    [
+      "Development and Programming",
+      "Deployment and Configuration"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "database integration": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database connectivity": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database programming": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database scripting": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database seeding": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data pipeline development": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "etl process design": [
+    [
+      "Development and Programming",
+      "Data and Database Management"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "algorithm implementation": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm design": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm optimization": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm analysis": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm explanation": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm discussion": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm modification": [
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "algorithm simulation": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "machine learning algorithm design": [
+    [
+      "Specialized Computing Areas",
+      "Machine Learning"
+    ],
+    [
+      "Development and Programming",
+      "Algorithm Design and Implementation"
+    ]
+  ],
+  "mathematical modeling": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "theoretical concepts": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical computation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical problem solving": [
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical concepts": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical computing": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical expression simplification": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "mathematical programming": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "mathematical operations": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "formal proof development": [
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Mathematical and Theoretical Concepts"
+    ]
+  ],
+  "data processing": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data generation": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data comparison": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "numerical methods": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "numerical computation": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "text preprocessing": [
+    [
+      "Development and Programming",
+      "Data Processing and Numerical Methods"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "optimization": [
+    [
+      "Development and Programming",
+      "Optimization Techniques"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "script optimization": [
+    [
+      "Tools, Environments, and Practices",
+      "Performance and Optimization"
+    ],
+    [
+      "Development and Programming",
+      "Optimization Techniques"
+    ]
+  ],
+  "memory optimization": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Optimization Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "concurrency": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "concurrency programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "multithreading": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "memory management": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "memory addressing": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "interprocess communication": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Memory and Concurrency Management"
+    ]
+  ],
+  "problem solving": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "problem creation": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "problem setting": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "interview problem": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "exercise problem": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "interview problem design": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "logic implementation": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "validation logic": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "validation function implementation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "constraint solving": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ]
+  ],
+  "control flow management": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "loop implementation": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "conditional logic implementation": [
+    [
+      "Development and Programming",
+      "Problem Solving and Logic Implementation"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "regular expression design": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "regular expression development": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "graph theory": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "graph algorithms": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "genetic algorithms": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "message queue implementation": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "random number generation": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "randomization": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "bit manipulation": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "type inference": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "recursion": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "task scheduling": [
+    [
+      "Development and Programming",
+      "Specialized Algorithms and Techniques"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "computer architecture principles": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ]
+  ],
+  "computer architecture concepts": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ]
+  ],
+  "computer science fundamentals": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ]
+  ],
+  "language parsing": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ]
+  ],
+  "machine learning concepts": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Advanced Computer Science Concepts"
+    ]
+  ],
+  "function implementation": [
+    [
+      "Development and Programming",
+      "Function and Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code interpretation": [
+    [
+      "Development and Programming",
+      "Function and Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "script understanding": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Function and Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code challenge": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Function and Code Management"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data structures": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data parsing": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data preprocessing": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "string manipulation": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data formatting": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data retrieval": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "text processing": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data extraction": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data types": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "input/output handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data type conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "type definition": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data scraping": [
+    [
+      "Development and Programming",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "serialization/deserialization": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data modeling": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data transformation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "template programming": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "class implementation": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data types knowledge": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "file structure": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data serialization/deserialization": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data representation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "file parsing": [
+    [
+      "Development and Programming",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data filtering": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "markup conversion": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data types conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data type handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "array manipulation": [
+    [
+      "Specialized Computing Areas",
+      "Algorithm"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "serialization": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "custom mapping": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "query construction": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "list comprehension": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "regular expression modification": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "template specialization": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "object instantiation": [
+    [
+      "Development and Programming",
+      "Data Structures"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "file system implementation": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "file encoding": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data encoding/decoding": [
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "data organization": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Data Structures"
+    ]
+  ],
+  "general programming": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "scripting": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "object oriented programming": [
+    [
+      "Specialized Computing Areas",
+      "Software Development Lifecycle"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code understanding": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code translation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language concepts": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "class design": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "hardware programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "event handling": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language features": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "dom manipulation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code conversion": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "embedded systems programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code writing": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language feature explanation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language syntax": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "data validation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code snippet explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "creative coding": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code completion": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "programming concepts": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "function usage": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "asynchronous programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax query": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "date and time manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "general programming knowledge": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "animation scripting": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language fundamentals": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax correction": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "date manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "object oriented programming concepts": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "web scripting": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "basic arithmetic": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language features comparison": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "control structures": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "animation implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "date and time handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "form validation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language feature usage": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "regular expressions": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "practice exercises": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "input validation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "input handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code generation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "command line operations": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax learning": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "general programming concepts": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax inquiry": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code syntax": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax explanation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "system interaction": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "pseudocode writing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "spreadsheet formula design": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "type hinting": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "functional programming": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "markup language usage": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language comparison": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "type conversion": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "reflection": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "dynamic content generation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "operating system commands": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "time manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language specification": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "operator overloading": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "compiler design": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "compiler construction": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "command usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "static type checking": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "operating system interaction": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "markup languages": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "coding conventions": [
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code snippet interpretation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "user input handling": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code example": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language constructs": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language specific functionality": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "text manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "basic syntax usage": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code comprehension": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax usage": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language specifics": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "type checking": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language interoperability": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "software concepts": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "function design": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "arithmetic operations": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "understanding code output": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "syntax validation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language concept explanation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "form handling": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "shader development": [
+    [
+      "Specialized Computing Areas",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "control flow": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "type annotation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language features update": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "date and time operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "script conversion": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code implementation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language feature discussion": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "basic syntax": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "hardware description language": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "validation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language constructs understanding": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "programming concepts explanation": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code writing style": [
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code construction": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "language feature demonstration": [
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Development and Programming",
+      "Programming Fundamentals"
+    ]
+  ],
+  "code quality improvement": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "code reusability": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "code reuse": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "coding standards": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "software paradigms": [
+    [
+      "Development and Programming",
+      "Best Practices and Patterns"
+    ]
+  ],
+  "code obfuscation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Code Quality and Maintenance"
+    ]
+  ],
+  "benchmarking": [
+    [
+      "Tools, Environments, and Practices",
+      "Performance and Optimization"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "project structure design": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ]
+  ],
+  "project structure": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ]
+  ],
+  "software design pattern implementation": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Design and Architecture"
+    ]
+  ],
+  "feature specification": [
+    [
+      "Tools, Environments, and Practices",
+      "Feature Development and Management"
+    ]
+  ],
+  "project planning": [
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "project management": [
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "task management": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "project review": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "software evaluation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "software development guidance": [
+    [
+      "Tools, Environments, and Practices",
+      "Project Management and Planning"
+    ]
+  ],
+  "automation": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "task automation": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "devops": [
+    [
+      "Tools, Environments, and Practices",
+      "Automation and DevOps"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "best practices": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ]
+  ],
+  "security practices": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "documentation review": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "software troubleshooting": [
+    [
+      "Tools, Environments, and Practices",
+      "Best Practices and Documentation"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Deployment and Configuration"
+    ]
+  ],
+  "system configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Software Deployment and Configuration"
+    ]
+  ],
+  "application configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Software Deployment and Configuration"
+    ]
+  ],
+  "software integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Integration and Migration"
+    ]
+  ],
+  "software migration": [
+    [
+      "Tools, Environments, and Practices",
+      "Integration and Migration"
+    ]
+  ],
+  "enterprise software development": [
+    [
+      "Tools, Environments, and Practices",
+      "Integration and Migration"
+    ]
+  ],
+  "enterprise software integration": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Integration and Migration"
+    ]
+  ],
+  "environment setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "environment configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software installation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "command line usage": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "package management": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "cloud services integration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "development environment configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software tool usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "development environment setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "cloud services": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build automation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "library/framework usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "cloud services configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "cloud services management": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "infrastructure as code": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "plugin development": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool development": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software development tools": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software framework overview": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "library installation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "web automation": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "utility development": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool/application choice": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software/library usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build systems": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "libraries/frameworks usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "library migration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "infrastructure configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software/package installation": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "static analysis": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tooling/environment setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "ide setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "devops operations": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "framework/library usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "ide usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "development tools": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software tools knowledge": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "libraries/frameworks understanding": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "framework usage guidance": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool comparison": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "framework integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "static analysis configuration": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "command line interface usage": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "integration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "ide configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "development environment usage": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "libraries/frameworks": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "library/package research": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "report generation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "system setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "build tools/systems": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "configuration/setup": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software tool comparison": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software tooling": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software environment configuration": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "software package management": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "tool/library inquiry": [
+    [
+      "Tools, Environments, and Practices",
+      "Development Tools and Environments"
+    ]
+  ],
+  "documentation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "documentation writing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "knowledge testing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational material": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational content": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "interview preparation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "documentation understanding": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational content creation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "education/instruction": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "learning resources": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational resources": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "technical writing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational material development": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational project ideas": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "tool learning": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational technology integration": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "learning reflection": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational material creation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "documentation/instruction writing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "learning and education": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "education & learning": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "learning path guidance": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "knowledge assessment": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "understanding documentation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "code example writing": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "code example creation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "assignment creation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational material review": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "learning and development": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational content development": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "educational material query": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "game development resources": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "library documentation": [
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "software/library research": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "reverse engineering": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Tools, Environments, and Practices",
+      "Educational and Instructional"
+    ]
+  ],
+  "web development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "front end development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "mobile development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "mobile app development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "full stack development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "cross platform compatibility": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "state management": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "mobile application development": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "language translation": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "server side rendering": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "web service integration": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "app initialization": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "web development standards": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "web development concepts": [
+    [
+      "Specialized Computing Areas",
+      "Web, Mobile Development"
+    ]
+  ],
+  "data analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data visualization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "machine learning implementation": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data cleaning": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "statistical analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "information retrieval": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "natural language processing": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model evaluation": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "financial analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model optimization": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model architecture design": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "scientific computing": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "visualization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model training": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "geospatial processing": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data presentation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "deep learning": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data collection": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "machine learning model implementation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "machine learning model inquiry": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data engineering": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data aggregation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "trading strategy development": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model integration": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model selection": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "machine learning model development": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "model adjustment": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data interpretation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data exploration": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "image preprocessing": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "language understanding": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "geospatial analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "numerical simulation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "experiment analysis": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "data mining": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "trading strategy implementation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "hyperparameter optimization": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "financial computing": [
+    [
+      "Emerging Technologies and Applications",
+      "Cryptocurrency"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Blockchain"
+    ]
+  ],
+  "model implementation": [
+    [
+      "Specialized Computing Areas",
+      "Data Science and Analytics"
+    ]
+  ],
+  "image processing": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "networking": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "network programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "concurrency management": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware interface programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "signal processing": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "operating system usage": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system programming": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "embedded systems": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "multimedia processing": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware interaction": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware interface": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "parallel computing": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "interoperability": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system administration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "embedded systems development": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "infrastructure management": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware integration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "simulation modeling": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "server configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "operating systems": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "networking concepts": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "network configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware interface development": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system operations": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "dynamic execution": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "control systems design": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "business logic implementation": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "resource management": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "gpu programming": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "operating system configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware interface design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "code execution": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "infrastructure setup": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "audio processing": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "microservices architecture": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "embedded systems design": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "control systems": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "data transfer": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system identification": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware simulation": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system optimization": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "cloud functions": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "directory services": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "network communication": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "inter process communication": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "system analysis": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "server setup": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "process synchronization": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "computer architecture": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "process management": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware programming configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "hardware configuration": [
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "modeling and simulation": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "digital signal processing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Systems and Networks"
+    ]
+  ],
+  "cryptography": [
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "cryptography implementation": [
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "data encoding": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "encryption & decryption": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "encryption": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "data encryption": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Cryptography"
+    ]
+  ],
+  "security implementation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security analysis": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "content moderation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "security review": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security testing": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security exploitation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security configuration": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security assessment": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "authentication integration": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security development": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "code security": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security concerns": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "authentication implementation": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "file permissions": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "user authentication": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "security concepts": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "malware analysis": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "malware development": [
+    [
+      "Specialized Computing Areas",
+      "Security"
+    ]
+  ],
+  "computer vision": [
+    [
+      "Specialized Computing Areas",
+      "Algorithm"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "simulation development": [
+    [
+      "Specialized Computing Areas",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "game modding": [
+    [
+      "Specialized Computing Areas",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "physics simulation": [
+    [
+      "Specialized Computing Areas",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "smart contract development": [
+    [
+      "Specialized Computing Areas",
+      "Blockchain"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Cryptocurrency"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Blockchain"
+    ]
+  ],
+  "iot development": [
+    [
+      "Specialized Computing Areas",
+      "Internet of Things (IoT)"
+    ]
+  ],
+  "ai/ml model development": [
+    [
+      "Specialized Computing Areas",
+      "Machine Learning"
+    ],
+    [
+      "Specialized Computing Areas",
+      "Artificial Intelligence"
+    ]
+  ],
+  "file handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "database operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data handling": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file i/o": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "database interaction": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "file operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data management": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "file system operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data entry": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data loading": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file management": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file i/o operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data formats": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "database manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data serialization": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data persistence": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data migration": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data import": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "spreadsheet manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data import/export": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file system navigation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file processing": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data handling/management": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data storage": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "spreadsheet automation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data querying": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "data format conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data access/manipulation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "email integration": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "resources lookup": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "i/o operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "data export": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "database migration": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "file system management": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "information aggregation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ],
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "filesystem navigation": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "file/directory operations": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "query conversion": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ],
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "url or resource reference": [
+    [
+      "Databases and Data Handling",
+      "File and Data Operations"
+    ]
+  ],
+  "database management": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database querying": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database design": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database query": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "query optimization": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database concepts": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database query design": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database configuration": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "query writing": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database functionality": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database schema design": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database queries": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database access": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "concurrency control": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database connection": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database modeling": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database setup": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "database management systems comparison": [
+    [
+      "Databases and Data Handling",
+      "Database Management"
+    ]
+  ],
+  "code explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "general inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "concept explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "general discussion": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "not applicable": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software usage": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "conceptual understanding": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "non coding related": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "non coding related query": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "library research": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "research": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "exercise creation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "social interaction": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "conceptual explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "unrelated to coding": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "theoretical knowledge": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software description": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language specific inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "technology selection": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "example request": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "career guidance": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "functionality query": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "technology research": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language proficiency inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "writing assignment": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language request": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "command explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "non technical writing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "career development": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software/library inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "code example request": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "code snippet request": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "job role explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language preference": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "conceptual discussion": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "resource inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "research & analysis": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "experiment report": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "inquiry/clarification": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "general programming assistance": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "problem understanding": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "instruction differences": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "scientific writing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "learning & understanding concepts": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "information inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software licensing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software version inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software/library knowledge": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "non coding related communication": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software usage query": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "general support": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "non coding related conversation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "technology discussion": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "meta inquiry": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "theory question": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "resume/cv editing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "knowledge query": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "concept understanding": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "academic assignment": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "information research": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "exercises": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "assignment/instruction compliance": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "creative writing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "job responsibilities": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "general knowledge": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "task clarification": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "content creation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "presentation preparation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "theoretical explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "inquiry/information request": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "troubleshooting": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "problem description": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software understanding": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "technology evaluation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software development information": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "theory discussion": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "resume writing": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "language model inquiry": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ],
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "communication management": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "technical translation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "project summary": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "software information": [
+    [
+      "Miscellaneous and General Inquiry",
+      "For Non-Coding Related Inquiry"
+    ]
+  ],
+  "greeting": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "unspecified": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "hardware description": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "technology comparison": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "script explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "miscellaneous": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "hardware design": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "typesetting/document formatting": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "translation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "library description": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "code golf": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "inappropriate content": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "software development trends": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "technology explanation": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "typesetting": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "unknown": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "typesetting/instruction": [
+    [
+      "Miscellaneous and General Inquiry",
+      "Educational and Instructional"
+    ]
+  ],
+  "gui development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "user interface design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "user interface development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "ui/ux design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "gui design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui component customization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "ui customization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "type design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "styling/layout design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "component design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "web design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui interaction": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "typesetting/layout adjustment": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "form design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui layout design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "internationalization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "styling/layout": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "user interface implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "user interface enhancement": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "template design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui component usage": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui component modification": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "user interaction": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "localization/internationalization": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "conceptual design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "responsive design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "form development": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "ui/ux implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "ui component implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ],
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "web design/layout": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "typesetting/layout": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "interface implementation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "graphic design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "ui component design": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "UI/UX Design"
+    ]
+  ],
+  "document formatting": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "styling": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "css styling": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "animation": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "animation timing control": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "component interaction": [
+    [
+      "User Interface and User Experience (UI/UX)",
+      "Frontend Technologies"
+    ]
+  ],
+  "machine learning": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ]
+  ],
+  "model inquiry": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "model identification": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "model fine tuning": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "model conversion": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "object detection": [
+    [
+      "Emerging Technologies and Applications",
+      "Machine Learning"
+    ],
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "game development": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "graphics programming": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "simulation": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "code art creation": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "model loading": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "computer graphics": [
+    [
+      "Emerging Technologies and Applications",
+      "Game and Graphics Programming"
+    ]
+  ],
+  "language model configuration": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "ocr implementation": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "ai implementation": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "prompt engineering": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "content generation": [
+    [
+      "Emerging Technologies and Applications",
+      "Artificial Intelligence"
+    ]
+  ],
+  "blockchain development": [
+    [
+      "Emerging Technologies and Applications",
+      "Blockchain"
+    ]
+  ],
+  "blockchain understanding": [
+    [
+      "Emerging Technologies and Applications",
+      "Blockchain"
+    ]
+  ],
+  "quantum computing concepts": [
+    [
+      "Emerging Technologies and Applications",
+      "Unspecified and Miscellaneous topics"
+    ]
+  ],
+  "robotics": [
+    [
+      "Emerging Technologies and Applications",
+      "Internet of Things (IoT)"
+    ]
+  ]
+}
