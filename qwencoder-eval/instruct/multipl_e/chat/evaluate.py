@@ -12,6 +12,7 @@ import torch
 import transformers
 from multiple_metrics.evaluation import evaluate_problem
 from multiple_metrics.single_experiment_pass_k import for_file
+from multiple_metrics.containerized_eval import eval_string_script
 import tempfile
 from multiprocessing import cpu_count
 import numpy as np
@@ -50,7 +51,7 @@ IMPORT_HELPER = {
         "crypto/md5",
     ],
     "cpp": [
-        "using namespace std;",
+       # "using namespace std;",
         "#include<optional>",
         "#include<cassert>",
         "#include<stdlib.h>",
@@ -174,13 +175,13 @@ def extract_func(text, job, language):
         
         code = "\n".join(IMPORT_HELPER["java"]) + "\n" + code
     elif language == "cpp":
-        def extract_func(code, key_line=""):
+        def extract_func_cpp(code, key_line=""):
             stack = []
             found = False
             func_code = ""
             lines = code.splitlines()
             for line in lines:
-                if line.startswith("#include") or line.startswith("using namespace"):
+                if line.startswith("#include"): #remove using namespace
                     func_code += line + "\n"
                 if key_line in line:
                     found = True
@@ -196,44 +197,11 @@ def extract_func(text, job, language):
                                 return func_code
                     func_code += line + "\n"
             return ""
-
-        # def extract_cpp_code(text, job) -> str:
-        #     func_signature = re.search(r"(\S+?\s+?\w+?\s*?)\(.*?\)\s*?\{\n", job["prompt"], flags=re.MULTILINE)
-        #     if func_signature is not None:
-        #         func_signature = func_signature.group(1).strip()
-        #     else:
-        #         print(job["prompt"])
-        #     code = extract_func(text, key_line=func_signature)
-        #     if code is None:
-        #         if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
-        #             code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
-        #             # if code is not None and func_signature not in code:
-        #             #     code = job["prompt"] + code
-        #         else:
-        #             code = text
-
-        #     if re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL) is not None:
-        #         func_name = re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL).group(1)
-        #         if func_name not in code:
-        #             code = job["prompt"] + code
-        #     return code
-
-        def extract_cpp_code(text, job) -> str:
-            # func_signature = re.search(r"(\S+?\s+?\w+?\s*?)\(.*?\)\s*?\{\n", job["prompt"], flags=re.MULTILINE)
-            # if func_signature is not None:
-            #     func_signature = func_signature.group(1).strip()
-            # else:
-            #     print(job["prompt"])
-            # if func_signature not in text:
-            #     text += job["prompt"]
-            
+        def extract_cpp_code(text, job) -> str:            
             if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
                 code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
             else:
                 code = text
-            # if "is_prime" in code:
-            #     print(code)
-            
             func_signature = re.search(r"(\S+?\s+?\w+?\s*?)\(.*?\)\s*?\{\n", job["prompt"], flags=re.MULTILINE)
             if func_signature is not None:
                 func_signature = func_signature.group(1).strip()
@@ -241,32 +209,53 @@ def extract_func(text, job, language):
                 print(job["prompt"])
             if code is not None and func_signature not in code:
                 code = job["prompt"] + code
-            extracted_code = extract_func(code, key_line = func_signature)
+            extracted_code = extract_func_cpp(code, key_line = func_signature)
             if extracted_code == "":
-                extracted_code = extract_func(code, key_line = func_signature.split(" ")[1])
-            #     if re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL) is not None:
-            #     func_name = re.search(r"auto candidate = (.*?);\n", job["tests"], flags=re.DOTALL).group(1)
-            #     if code is not None and func_name not in code:
-            #         code = job["prompt"] + code
-            # if code is None:
-            #     code = text
-            #     print(text)
+                extracted_code = extract_func_cpp(code, key_line = func_signature.split(" ")[1])
             return extracted_code
+        def extract_code_snippet(text, job):
+            if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
+                code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
+            else:
+                code = text
+            return code
+        
+        def remove_main(code):
+            code_lines = code.split("\n")
+            stack = []
+            start = -1
+            end = -1
+            for i in range(0, len(code_lines)):
+                if "main()" in code_lines[i]:
+                    start = i
+                if start >= 0:
+                    for c in code_lines[i]:
+                        if c == "{":
+                            stack.append("{")
+                        elif c == "}":
+                            stack.pop()
+                            if len(stack) == 0 and start >= 0:
+                                end = i
+                                return "\n".join(code_lines[:start] + code_lines[end + 1 :])
 
-        code = extract_cpp_code(text, job)
-        # if "int main" in code:
-        #     print(code)
-        # if code is None:
-        #     if re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL) is not None:
-        #         code = re.search(rf"```.*?\n(.*?)```", text, flags=re.DOTALL).group(1)
-        #     else:
-        #         code = text
+
+        use_rule = False
+        if use_rule:
+            code = extract_cpp_code(text, job)
+        else:
+            code = extract_code_snippet(text, job)
+            if "main()" in code:
+                code = remove_main(code)
+            if int(job["task_id"].split("_")[1]) not in [147, 159]:
+                code = code.replace("using namespace std;", "")
+
         test_set_up = ""
         for s in IMPORT_HELPER["cpp"]:
             if s not in code:
                 test_set_up += s + "\n"
         code = test_set_up + "\n" + code + "\n"
         code = remove_nth_from_last_brace(code, n=1, ch="}")
+
     elif language == "go":
         def extract_go_code(text) -> str:
             code_block_pattern = re.compile(rf"```.*?\n(.*?)```", re.DOTALL)
@@ -398,23 +387,23 @@ def extract_func(text, job, language):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Parameters')
-    parser.add_argument("--chat_format", default="chatml", type=str, help="chat format")
-    parser.add_argument("--model", default="", type=str, help="model path")
-    parser.add_argument("--data_path", default="", type=str, help="config path")
-    parser.add_argument("--benchmark", default="humaneval", type=str, help="benchmark name")
-    parser.add_argument("--language", default="python", type=str, choices = ["python", "py", "sh", "java", "js", "cpp", "php", "cs", "ts"], help="langauge")
-    parser.add_argument("--temperature", default=1.0, type=float)
-    parser.add_argument("--tensor_parallel_size", default=4, type=int)
-    parser.add_argument("--batch_size", type=int, default=1, help="batch size")
-    parser.add_argument("--do_sample", default=False, type=bool, help="config path")
-    parser.add_argument("--model_max_length", type=int, default=2048, help="model max length")
-    parser.add_argument("--maxlen_out", default=1024, type=int, help="config path")
-    parser.add_argument("--metric_output_path", default="", type=str, help="config path")
-    parser.add_argument("--generation_path", default="", type=str, help="config path")
-    parser.add_argument("--generation_only", action = "store_true")
-    parser.add_argument("--evaluation_only", action = "store_true")
-    parser.add_argument("--use_vllm", action = "store_true")
-    parser.add_argument("--worker_args", default="", type=str, help="")
+    parser.add_argument("--chat_format", "-chat_format", default="chatml", type=str, help="chat format")
+    parser.add_argument("--model", "-model", default="", type=str, help="model path")
+    parser.add_argument("--data_path", "-data_path", default="../data/", type=str, help="config path")
+    parser.add_argument("--benchmark", "-benchmark", default="humaneval", type=str, help="benchmark name")
+    parser.add_argument("--language", "-language", default="python", type=str, choices = ["python", "py", "sh", "java", "js", "cpp", "php", "cs", "ts"], help="langauge")
+    parser.add_argument("--temperature", "-temperature", default=1.0, type=float)
+    parser.add_argument("--tensor_parallel_size", "-tensor_parallel_size", default=4, type=int)
+    parser.add_argument("--batch_size", "-batch_size", type=int, default=1, help="batch size")
+    parser.add_argument("--do_sample", "-do_sample", default=False, type=bool, help="config path")
+    parser.add_argument("--model_max_length", "-model_max_length", type=int, default=2048, help="model max length")
+    parser.add_argument("--maxlen_out", "-maxlen_out", default=1024, type=int, help="config path")
+    parser.add_argument("--metric_output_path", "-metric_output_path", default="", type=str, help="config path")
+    parser.add_argument("--generation_path", "-generation_path", default="", type=str, help="config path")
+    parser.add_argument("--generation_only", "-generation_only", action = "store_true")
+    parser.add_argument("--evaluation_only", "-evaluation_only", action = "store_true")
+    parser.add_argument("--use_vllm", "-use_vllm", action = "store_true")
+    parser.add_argument("--worker_args", "-worker_args", default="", type=str, help="")
     args = parser.parse_args()
     return args
 
@@ -543,48 +532,83 @@ def read_log(path):
     data = json.load(open(path, "r"))
     return data["results"][0]
 
+# def process_results(args, objs, language):
+#     # get prompts and problem names
+#     prompts_names = [{
+#         "prompt": doc["prompt"] if "prompt" in doc else doc["text"], 
+#         "name": doc["name"] if "name" in doc else f"{i}"} for i, doc in enumerate(objs),
+#         "response": doc["generation"]
+#     ]
+#     #responses = [[obj["generation"]] for obj in objs]
+#     generations = [[extract_func(obj["generation"], obj, language=language)] for obj in objs]
+#     references = [obj["test"] if "test" in obj else obj["test_list"][0] for obj in objs]
+#     # a common temp dir for all the problems
+#     with tempfile.TemporaryDirectory() as temp_dir:
+#         list_files = []
+#         for prompt_name, generation, reference in zip(prompts_names, generations, references):
+#             problem = {
+#                 "name": prompt_name["name"],
+#                 "language": language,
+#                 "prompt": prompt_name["prompt"],
+#                 "completions": generation,
+#                 "response": prompt_name["response"],
+#                 "tests": reference,
+#             }
+#             # each problem is save in a json file
+#             temp_file_name = os.path.join(temp_dir, f"{prompt_name['name']}.json")
+#             list_files.append(temp_file_name)
+#             with open(temp_file_name, "wt") as f:
+#                 json.dump(problem, f)
+#         print(f"Saved {len(list_files)} problems in {temp_dir} for evaluation, each problem has {len(generations[0])} completions")
+
+#         # execute the problems to evaluate them
+#         max_workers = cpu_count() - 1 if cpu_count() > 1 else 1
+#         for file in tqdm.tqdm(list_files):
+#             evaluate_problem(temp_dir, file, max_workers)
+
+#         # compute pass@k scores
+#         result_array = np.array([for_file(p) for p in Path(temp_dir).glob("*.results.json")])
+#         result = result_array.mean(axis=0)
+#         name = temp_dir.split("/")[-1] if temp_dir.split("/")[-1] != "" else temp_dir.split("/")[-2]
+#         results = {f"pass@{k}": v for k, v in zip([1, 10, 100], result) if k <= len(generations[0])}
+#         logs = [read_log(f"{temp_dir}/{p.name}") for p in Path(temp_dir).glob("*.results.json")]
+#     return results, logs
+
+
+def check_correctness_multiple(code_string, programming_language):
+    success = False
+    logs = eval_string_script(programming_language, code_string)
+    if logs["status"] == "OK":
+        success = True
+    return success, logs
+
 def process_results(args, objs, language):
-    # get prompts and problem names
-    prompts_names = [{"prompt": doc["prompt"] if "prompt" in doc else doc["text"], "name": doc["name"] if "name" in doc else f"{i}"} for i, doc in enumerate(objs)]
-    generations = [[extract_func(obj["generation"], obj, language=language)] for obj in objs]
-    references = [obj["test"] if "test" in obj else obj["test_list"][0] for obj in objs]
-    # a common temp dir for all the problems
-    with tempfile.TemporaryDirectory() as temp_dir:
-        list_files = []
-        for prompt_name, generation, reference in zip(prompts_names, generations, references):
-            problem = {
-                "name": prompt_name["name"],
-                "language": language,
-                "prompt": prompt_name["prompt"],
-                "completions": generation,
-                "tests": reference,
-            }
-            # each problem is save in a json file
-            temp_file_name = os.path.join(temp_dir, f"{prompt_name['name']}.json")
-            list_files.append(temp_file_name)
-            with open(temp_file_name, "wt") as f:
-                json.dump(problem, f)
-        print(f"Saved {len(list_files)} problems in {temp_dir} for evaluation, each problem has {len(generations[0])} completions")
-
-        # execute the problems to evaluate them
-        max_workers = cpu_count() - 1 if cpu_count() > 1 else 1
-        for file in tqdm.tqdm(list_files):
-            evaluate_problem(temp_dir, file, max_workers)
-
-        # compute pass@k scores
-        result_array = np.array([for_file(p) for p in Path(temp_dir).glob("*.results.json")])
-        result = result_array.mean(axis=0)
-        name = temp_dir.split("/")[-1] if temp_dir.split("/")[-1] != "" else temp_dir.split("/")[-2]
-        results = {f"pass@{k}": v for k, v in zip([1, 10, 100], result) if k <= len(generations[0])}
-        logs = [read_log(f"{temp_dir}/{p.name}") for p in Path(temp_dir).glob("*.results.json")]
-    return results, logs
+    logs_list = []
+    for i, obj in tqdm.tqdm(enumerate(objs)):
+        code_string = extract_func(obj["generation"], obj, language=language)
+        code_string = code_string + "\n" + obj["test"]
+        pass_at_1, logs = check_correctness_multiple(code_string, language)
+        obj["pass@1"] = pass_at_1
+        logs.update({
+            "prompt": obj["prompt"] if "prompt" in obj else obj["text"],
+            "name": obj["name"] if "name" in obj else f"{i}",
+            "code_string": code_string,
+            "pass@1": pass_at_1,
+            "response": obj["generation"]
+        })
+        logs_list.append(logs)
+    results = {
+        "pass@1": round(sum([obj["pass@1"] for obj in objs]) / float(len(objs)) * 100.0, 1)
+    }
+    return results, logs_list
 
 
 def main():
     args = parse_args()
     print(args)
-    tokenizer = transformers.AutoTokenizer.from_pretrained(args.model,trust_remote_code=True)
+    tokenizer = transformers.AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
     #tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
+    
     test_data = load_evaluation_dataset(args.chat_format, data_path = args.data_path, name = args.benchmark, tokenizer = tokenizer, max_len = args.model_max_length, language = args.language)
     if args.use_vllm:
         if "llama-3" in args.model.lower():
@@ -592,9 +616,11 @@ def main():
         else:
             sampling_params = vllm.SamplingParams(temperature=0.0, top_p=0.95, max_tokens=4096)
         model = vllm.LLM(
-            model = args.model, tensor_parallel_size = args.tensor_parallel_size, worker_use_ray=True,
-            gpu_memory_utilization=0.98, enforce_eager=True
-        )
+            model = args.model, tensor_parallel_size = args.tensor_parallel_size,trust_remote_code=True)
+        # model = vllm.LLM(
+        #     model = args.model, tensor_parallel_size = args.tensor_parallel_size, worker_use_ray=True, trust_remote_code = True,
+        #     gpu_memory_utilization=0.98, enforce_eager=True, 
+        # )
     else:
         model = transformers.AutoModelForCausalLM.from_pretrained(
             args.model,
@@ -617,16 +643,13 @@ def main():
         write_jsonl_file(generated_objs, args.generation_path)
     else:
         generated_objs = read_jsonl_file(args.generation_path)
-    
     if not args.generation_only:
         results, logs = process_results(args, generated_objs, language = args.language)
         dumped = json.dumps(results, indent=2)
         write_jsonl_file(logs, f"{args.generation_path}.log")
-        #print("")
         print(dumped)
         with open(args.metric_output_path, "w") as f:
             f.write(dumped)
-
  
 if __name__ == "__main__":
     main()
