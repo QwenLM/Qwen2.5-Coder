@@ -1,4 +1,4 @@
-cd /home/data/yj411294/code_arena;
+cd ./code_arena;
 MODEL_DIR="Qwen2.5-Coder-32B"
 INPUT_PATH="./data/CodeArena_v1.jsonl"
 OUTPUT_PATH="./Qwen2.5-Coder-32B/results.jsonl"
