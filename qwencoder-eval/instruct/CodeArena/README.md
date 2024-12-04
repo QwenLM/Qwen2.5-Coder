@@ -1,24 +1,11 @@
----
-license: apache-2.0
-task_categories:
-- question-answering
-- text-generation
-language:
-- zh
-- en
-tags:
-- code
-pretty_name: CodeArena
-size_categories:
-- n<1K
-configs:
-- config_name: default
-  data_files:
-  - split: test
-    path: "CodeArena.jsonl"
----
 ## Dataset Summary
 To bridge the gap between the model-generated response and human preference, we present a rigorous human-curated benchmark CodeArena to emulate the complexity and diversity of real-world coding tasks, where 397 high-quality samples spanning 40 categories and 40 languages, carefully curated from user queries.
+
+## Download Dataset
+```sh
+git lfs install
+git clone https://huggingface.co/datasets/CSJianYang/CodeArena
+```
 
 ## Evaluation
 ```sh
