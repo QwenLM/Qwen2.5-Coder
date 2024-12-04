@@ -46,8 +46,8 @@ def messages_to_history(messages: Messages) -> Tuple[str, History]:
     return system, history
 
 
-def model_chat(query: Optional[str], history: Optional[History], system: str
-) -> Tuple[str, str, History]:
+def model_chat(query: Optional[str], history: Optional[History], system: str,
+               temperature: float, top_p: float, max_length: int) -> Tuple[str, str, History]:
     if query is None:
         query = ''
     if history is None:
@@ -55,10 +55,13 @@ def model_chat(query: Optional[str], history: Optional[History], system: str
     messages = history_to_messages(history, system)
     messages.append({'role': Role.USER, 'content': query})
     gen = Generation.call(
-        model = "qwen2.5-coder-32b-instruct",
+        model="qwen2.5-coder-32b-instruct",
         messages=messages,
         result_format='message',
-        stream=True
+        stream=True,
+        temperature=temperature,
+        top_p=top_p,
+        max_length=max_length
     )
     for response in gen:
         if response.status_code == HTTPStatus.OK:
@@ -118,11 +121,16 @@ def main():
                     clear_history = gr.Button("🧹 Clear History")
                     sumbit = gr.Button("🚀 Send")
                 
+                with gr.Accordion("Parameters", open=False):
+                    temperature = gr.Slider(minimum=0.0, maximum=1.0, value=0.5, step=0.1, label="Temperature")
+                    top_p = gr.Slider(minimum=0.6, maximum=1.0, value=0.9, step=0.05, label="Top P")
+                    max_length = gr.Slider(minimum=512, maximum=8192, value=2048, step=128, label="Max Length")
+
                 textbox.submit(model_chat,
-                            inputs=[textbox, chatbot, system_state],
+                            inputs=[textbox, chatbot, system_state, temperature, top_p, max_length],
                             outputs=[textbox, chatbot, system_input])
                 sumbit.click(model_chat,
-                             inputs=[textbox, chatbot, system_state],
+                             inputs=[textbox, chatbot, system_state, temperature, top_p, max_length],
                              outputs=[textbox, chatbot, system_input],
                              concurrency_limit=100)
                 clear_history.click(fn=clear_session,
