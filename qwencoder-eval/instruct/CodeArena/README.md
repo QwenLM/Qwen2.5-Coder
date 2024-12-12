@@ -33,5 +33,10 @@ An example of 'validation' looks as follows:
 ## Citation
 If you use the data from this project, please cite the original paper:
 ```
-
+@article{yang2024evaluating,
+  title={Evaluating and Aligning CodeLLMs on Human Preference},
+  author={Yang, Jian and Yang, Jiaxi and Jin, Ke and Miao, Yibo and Zhang, Lei and Yang, Liqun and Cui, Zeyu and Zhang, Yichang and Hui, Binyuan and Lin, Junyang},
+  journal={arXiv preprint arXiv:2412.05210},
+  year={2024}
+}
 ```
