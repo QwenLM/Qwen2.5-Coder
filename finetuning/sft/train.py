@@ -13,12 +13,8 @@ import sys
 import os
 import numpy as np
 from utils import utils
-
-IGNORE_INDEX = -100
-DEFAULT_PAD_TOKEN = "[PAD]"
-DEFAULT_EOS_TOKEN = "</s>"
-DEFAULT_BOS_TOKEN = "<s>"
-DEFAULT_UNK_TOKEN = "<unk>"
+from utils import training_datasets
+IGNORE_INDEX = -100 #default ignore_index = 100 in transformers
 logging.basicConfig(level=logging.DEBUG)  
 @dataclass
 class ModelArguments:
@@ -88,33 +84,6 @@ def _tokenize_fn(strings: Sequence[str], tokenizer: transformers.PreTrainedToken
     )
 
 
-class SupervisedDataset(Dataset):
-    """Dataset for supervised fine-tuning."""
-
-    def __init__(self, data_path: str, tokenizer: transformers.PreTrainedTokenizer, args):
-        super(SupervisedDataset, self).__init__()
-        logging.warning("Loading data...")
-        if data_path.endswith(".npy"):
-            list_data_dict = np.load(data_path, allow_pickle=True)
-        else:
-            list_data_dict = utils.read_jsonl_file(data_path)
-        logging.info("Loading tokenized sentences...")
-        def truncate(sentence):
-            return torch.tensor(sentence[:args.model_max_length] + [tokenizer.eos_token_id] if len(sentence) > args.model_max_length else sentence)
-        if args.truncate_source:
-            self.input_ids = [truncate(example["input_ids"]) for example in list_data_dict]
-            self.labels = [truncate(example["label"]) for example in list_data_dict]
-        else:
-            self.input_ids = [torch.tensor(example["input_ids"]) for example in list_data_dict if len(example["input_ids"]) < args.model_max_length]
-            self.labels = [torch.tensor(example["label"]) for example in list_data_dict if len(example["input_ids"]) < args.model_max_length]
-        print(f"Samples: {len(list_data_dict)} -> {len(self.input_ids)}")
-
-    def __len__(self):
-        return len(self.input_ids)
-
-    def __getitem__(self, i) -> Dict[str, torch.Tensor]:        
-        return dict(input_ids=self.input_ids[i], labels=self.labels[i])
-
 
 @dataclass
 class DataCollatorForSupervisedDataset(object):
@@ -135,9 +104,12 @@ class DataCollatorForSupervisedDataset(object):
         )
 
 
-def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, data_args) -> Dict:
+def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, args) -> Dict:
     """Make dataset and collator for supervised fine-tuning."""
-    train_dataset = SupervisedDataset(tokenizer=tokenizer, data_path=data_args.data_path, args=data_args)
+    if args.data_path.endswith(".npy") or args.data_path.endswith(".jsonl"):
+        train_dataset = training_datasets.SupervisedDataset(tokenizer=tokenizer, data_path=args.data_path, args=args)
+    elif args.data_path.endswith(".mmap"):
+        train_dataset = training_datasets.MMAPSupervisedDataset(tokenizer=tokenizer, data_path=args.data_path, args=args)
     data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
     return dict(train_dataset=train_dataset, eval_dataset=None, data_collator=data_collator)
 
@@ -164,13 +136,14 @@ def train():
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
     args = {**model_args.__dict__, **data_args.__dict__, **training_args.__dict__}
     args = argparse.Namespace(**args)
+    #logging.info(args)
     model = transformers.AutoModelForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
         model_args.model_name_or_path,
-        pad_token = '<|extra_0|>',
+        pad_token = '<|endoftext|>',
         eos_token = '<|im_end|>', #<|endoftext|>
         cache_dir = None,
         model_max_length = training_args.model_max_length,
@@ -179,7 +152,7 @@ def train():
         trust_remote_code = True
     )
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
-    data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=args)
+    data_module = make_supervised_data_module(tokenizer=tokenizer, args=args)
     trainer = Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module, callbacks=[LoggingCallback])
     trainer.train()
     trainer.save_state()
