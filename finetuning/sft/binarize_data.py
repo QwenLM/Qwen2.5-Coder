@@ -72,6 +72,8 @@ def chatml_format_preprocess(sources,
             test_input_ids += _input_id
 
     assert len(input_id) == len(target), "Final input and target lengths do not match."
+    if len(input_id) > max_len:
+        return None
     if return_test_input_ids:
         return dict(
             test_input_ids=test_input_ids, 
@@ -82,6 +84,7 @@ def chatml_format_preprocess(sources,
         return dict(
             input_ids=input_id,
             label=target,
+            length=[len(input_id)]
         )
 
 
@@ -109,7 +112,8 @@ def read_file_from_position_with_chatml_format_processor(args):
                 obj["messages"], tokenizer, max_len=max_len, 
                 only_last_turn_loss=obj.get("only_last_turn_loss", True)
             )
-            objs.append(obj)
+            if obj is not None:
+                objs.append(obj)
             if f.tell() >= end_position:
                 break
     print(f"worker_id {worker_id} completed")
@@ -126,7 +130,7 @@ def save_mmap(objs, key, output_path, padding_value):
     data = []
     max_length = 0
     for obj in tqdm.tqdm(objs):
-        vec = data[key]
+        vec = obj[key]
         data.append(vec)
         max_length = max(max_length, len(vec))
     n_samples = len(data)
@@ -142,9 +146,9 @@ def save_mmap(objs, key, output_path, padding_value):
         mode='w+',
         shape=data_shape
     )
-    for i, vec in enumerate(zip(data)):
-        padded_vec = vec + [0] * (max_length - len(vec))
-        input_ids_mmap[i] = padded_vec
+    for i, vec in enumerate(data):
+        padded_vec = vec + [padding_value] * (max_length - len(vec))
+        data_mmap[i] = padded_vec
     data_mmap.flush()
 
 def tokenize_file(workers=64, chunk_size=10000, input_path="./raw/sft.jsonl", output_path="./processed/sft.jsonl", tokenizer=None, max_len=32768, save_format = ".npy"):
@@ -162,18 +166,19 @@ def tokenize_file(workers=64, chunk_size=10000, input_path="./raw/sft.jsonl", ou
         print(f"Successfully saved to {output_path}.npy")
     elif save_format == ".mmap":
         save_mmap(output_objs, key = "input_ids", output_path = f"{output_path}.input_ids.mmap", padding_value = tokenizer.pad_token_id)
-        save_mmap(output_objs, key = "label", output_path = f"{output_path}.label.mmap", padding_value = IGNORE_INDEX)
-        print(f"Successfully saved to {output_path}.input_ids.mmap and {output_path}.label.mmap")
+        save_mmap(output_objs, key = "label", output_path = f"{output_path}.labels.mmap", padding_value = IGNORE_INDEX)
+        save_mmap(output_objs, key = "length", output_path = f"{output_path}.lengths.mmap", padding_value = IGNORE_INDEX)
+        print(f"Successfully saved to {output_path}.input_ids.mmap and {output_path}.label.mmap and {output_path}.lengths.mmap")
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Argument Parser Example')
-    parser.add_argument('--input_path', '-input_path', type=str, default="./raw/sft.jsonl", help='Path to input file')
-    parser.add_argument('--output_path', '-output_path', type=str, default="./processed/sft.jsonl", help='Path to output file')
+    parser.add_argument('--input_path', '-input_path', type=str, default="./raw/sft.jsonl.sampled", help='Path to input file')
+    parser.add_argument('--output_path', '-output_path', type=str, default="./raw/sft.jsonl.sampled.processed", help='Path to output file')
     parser.add_argument('--workers', '-workers', type=int, default=1, help='Number of workers')
     parser.add_argument('--chunk_size', '-chunk_size', type=float, default=0.1 * 2 ** 30, help='Chunk size for file processing')
-    parser.add_argument('--max_len', '-max_len', type=int, default=32768, help='Maximum length for tokenization')
+    parser.add_argument('--max_len', '-max_len', type=int, default=8192, help='Maximum length for tokenization')
     parser.add_argument('--tokenizer_path', '-tokenizer_path', type=str, default="./pretrained_models/qwen/Qwen2.5-Coder-7B/", help='Path to tokenizer')
-    parser.add_argument('--save_format', '-save_format', type=str, default=".mmap", help='Path to tokenizer')
+    parser.add_argument('--save_format', '-save_format', type=str, default=".np", help='Path to tokenizer')
     return parser.parse_args()
 
 
@@ -187,9 +192,9 @@ if __name__ == "__main__":
         pad_token='<|endoftext|>',
         eos_token='<|im_end|>', 
         cache_dir=None,
-        model_max_length=8192 * 4,
+        model_max_length=8192 * 5,
         truncation=True,
-        padding_side="left",
+        padding_side="right",
         trust_remote_code=True
     )
     tokenizer = setup_tokenizer(tokenizer)  # Set special tokens once
