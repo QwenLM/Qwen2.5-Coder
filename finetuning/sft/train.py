@@ -1,4 +1,4 @@
-import copy
+import time
 import logging
 from dataclasses import dataclass, field
 from typing import Dict, Optional, Sequence
@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.DEBUG)
 @dataclass
 class ModelArguments:
     model_name_or_path: Optional[str] = field(default="facebook/opt-125m")
-
+    use_flash_attention: bool = field(default=False, metadata={"help": "Whether to use Flash Attention."})
 
 @dataclass
 class DataArguments:
@@ -118,17 +118,84 @@ def is_master():
     return dist.get_rank() == 0
 
 
+class SaveModelCallback(transformers.TrainerCallback):
+    def on_save(self, args, state, control, **kwargs):
+        output_dir = args.output_dir
+        step = state.global_step
+        if is_master():
+            print(f"Model saved at: {output_dir}/checkpoint-{step}/")
+        return control
+
 class LoggingCallback(transformers.TrainerCallback):
+    def __init__(self):
+        self.start_time = None  
+        self.last_time = None   
+        self.last_step = 0      
+        self.total_tokens = 0   
+
     def on_log(self, args, state, control, logs=None, **kwargs):
         if logs is not None:
+            current_time = time.time()
+            world_size = args.world_size
+            current_step = state.global_step
+            if self.start_time is None:
+                self.start_time = current_time
+                self.last_time = current_time
+            if args.include_num_input_tokens_seen:
+                tokens_processed = (state.num_input_tokens_seen - self.total_tokens) * world_size
+                self.total_tokens = state.num_input_tokens_seen
+            else:
+                batch_size = args.per_device_train_batch_size
+                max_seq_length = args.model_max_length
+                steps_elapsed = current_step - self.last_step
+                tokens_processed = batch_size * max_seq_length * steps_elapsed * world_size
+                self.last_step = current_step
+            time_elapsed = current_time - self.last_time
+            tokens_per_second = tokens_processed / time_elapsed if time_elapsed > 0 else 0
+            self.last_time = current_time
             log_message = {
                 "loss": logs.get("loss", None),
                 "learning_rate": logs.get("learning_rate", None),
                 "epoch": logs.get("epoch", None),
-                "step": state.global_step
+                "step": current_step,
+                "grad_norm": logs.get("grad_norm", None),
+                "world_size": world_size,
+                "tokens_per_second": int(tokens_per_second)
             }
             if is_master():
                 print(log_message)
+
+
+def find_latest_checkpoint(output_dir):
+    """Find the latest checkpoint in the output directory."""
+    if not os.path.exists(output_dir):
+        return None
+    checkpoints = [d for d in os.listdir(output_dir) if d.startswith("checkpoint-")]
+    if not checkpoints:
+        return None
+    latest_checkpoint = max(checkpoints, key=lambda x: int(x.split("-")[-1]))
+    return os.path.join(output_dir, latest_checkpoint)
+
+
+class CustomTrainer(Trainer):
+    def log(self, logs: Dict[str, float]) -> None:
+        """
+        Log `logs` on the various objects watching training.
+
+        Subclass and override this method to inject custom behavior.
+
+        Args:
+            logs (`Dict[str, float]`):
+                The values to log.
+        """
+        if self.state.epoch is not None:
+            logs["epoch"] = self.state.epoch
+        if self.args.include_num_input_tokens_seen:
+            logs["num_input_tokens_seen"] = self.state.num_input_tokens_seen
+
+        output = {**logs, **{"step": self.state.global_step}}
+        self.state.log_history.append(output)
+        self.control = self.callback_handler.on_log(self.args, self.state, self.control, logs)
 
 
 def train():
@@ -140,6 +207,8 @@ def train():
     model = transformers.AutoModelForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
+        attn_implementation="flash_attention_2" if model_args.use_flash_attention else None,
+        trust_remote_code = True
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
         model_args.model_name_or_path,
@@ -153,7 +222,13 @@ def train():
     )
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
     data_module = make_supervised_data_module(tokenizer=tokenizer, args=args)
-    trainer = Trainer(model=model, tokenizer=tokenizer, args=training_args, **data_module, callbacks=[LoggingCallback])
+    trainer = CustomTrainer(
+        model=model, 
+        tokenizer=tokenizer, 
+        args=training_args, 
+        **data_module, 
+        callbacks=[LoggingCallback, SaveModelCallback]
+    )
     trainer.train()
     trainer.save_state()
     trainer.save_model(output_dir=training_args.output_dir)
