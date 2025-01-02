@@ -14,8 +14,8 @@
    pip install -r requirements.txt
    ```
 3. **Binarize Data**
-   Provide the raw data as follow:
-   the raw jsonl file contains json object (each line).
+   Provide the raw data as follows:
+   the raw JSONLINE file contains a JSON object (each line). Each sample should follow the following format:
    ```json
    {
         "messages":[
@@ -28,7 +28,12 @@
        "format": "chatml"
    }
    ```
-   
+   For the SFT datasets, the raw JSONLINE file follows the following format:
+   ```
+   {"messages": [sample1...], "format": "chatml"}
+   {"messages": [sample2...], "format": "chatml"}
+   {"messages": [sample3...], "format": "chatml"}
+   ```
    Binarize the raw data:
    
    ```bash
@@ -37,7 +42,7 @@
    TOKENIZER_PATH="/path/to/pretrained_models/Qwen/Qwen2___5-Coder-1___5B/"
    bash ./scripts/binarize_data.sh 
    ```
-4. **Training**
+5. **Training**
    Once the environment is ready and the model paths are configured, run the evaluation suite by executing the following script:
    
    ```bash
