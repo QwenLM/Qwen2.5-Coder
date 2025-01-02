@@ -50,6 +50,8 @@ class MMAPSupervisedDataset(Dataset):
         input_ids_shape_path = input_ids_path + ".shape.json"
         labels_shape_path = labels_path + ".shape.json"
         lengths_shape_path = lengths_path + ".shape.json"
+        self.model_max_length = args.model_max_length
+        self.truncate_source = args.truncate_source
         with open(input_ids_shape_path, 'r') as f:
             input_ids_shape_info = json.load(f)
         with open(labels_shape_path, 'r') as f:
@@ -81,9 +83,14 @@ class MMAPSupervisedDataset(Dataset):
 
     def __getitem__(self, i) -> Dict[str, torch.Tensor]:     
         length = int(self.lengths[i])
-        input_ids = self.input_ids[i][:self.lengths[i]]
-        return dict(input_ids=input_ids, labels=self.labels[i])
-
+        input_ids = self.input_ids[i][:length]
+        labels = self.labels[i][:length]
+        input_ids = torch.tensor(input_ids, dtype=torch.long)
+        labels = torch.tensor(labels, dtype=torch.long)
+        if self.truncate_source:
+            input_ids = input_ids[:self.model_max_length]
+            labels = labels[:self.model_max_length]
+        return dict(input_ids=input_ids, labels=labels)
 
 class BufferedJsonlDataset(IterableDataset):
     def __init__(
@@ -141,14 +148,6 @@ class BufferedJsonlDataset(IterableDataset):
 
     def __len__(self):
         return self.file_size
-
-
-import json
-import mmap
-import os
-import torch
-import random
-from torch.utils.data import IterableDataset
 
 class JSONLDataset(IterableDataset):
     def __init__(self, data_path, buffer_size=1000):
