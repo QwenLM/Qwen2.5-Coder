@@ -27,7 +27,19 @@ def chatml_format_preprocess(sources,
         only_last_turn_loss=False,
         return_test_input_ids = False
     ) -> Dict:
-    roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}
+    """
+<|im_start|>[system][\n]
+[system_prompt]
+<|im_end|>
+<|im_start|>[user][\n]
+[user_prompt]
+<|im_end|>
+<|im_start|>[assistant][\n]
+response
+<|im_end|>
+    The tokens such as [...] are masked.
+    """
+    roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant", "system": "<|im_start|>system"}
     
     im_start = tokenizer("<|im_start|>").input_ids[0]
     im_end = tokenizer("<|im_end|>").input_ids[0]
@@ -61,6 +73,8 @@ def chatml_format_preprocess(sources,
             _target = [im_start] + [IGNORE_INDEX] * (len(_input_id) - 3) + [im_end] + nl_tokens
         elif role == '<|im_start|>assistant':
             _target = [im_start] + [IGNORE_INDEX] * len(tokenizer(role).input_ids) + _input_id[len(tokenizer(role).input_ids) + 1: -2] + [im_end] + nl_tokens
+        elif role == "<|im_start|>system": # if has more system prompt in the conversion
+            _target = [im_start] + [IGNORE_INDEX] * (len(_input_id) - 3) + [im_end] + nl_tokens
         else:
             raise NotImplementedError(f"Role '{role}' is not implemented.")
         
@@ -151,6 +165,7 @@ def save_mmap(objs, key, output_path, padding_value):
         data_mmap[i] = padded_vec
     data_mmap.flush()
 
+
 def tokenize_file(workers=64, chunk_size=10000, input_path="./raw/sft.jsonl", output_path="./processed/sft.jsonl", tokenizer=None, max_len=32768, save_format = ".npy"):
     output_objs = utils.multi_tasks_from_file(input_path, workers=workers, task=read_file_from_position_with_chatml_format_processor, chunk_size=chunk_size, args={"tokenizer": tokenizer, "max_len": max_len})
     if save_format == ".jsonl":
@@ -170,6 +185,7 @@ def tokenize_file(workers=64, chunk_size=10000, input_path="./raw/sft.jsonl", ou
         save_mmap(output_objs, key = "length", output_path = f"{output_path}.lengths.mmap", padding_value = IGNORE_INDEX)
         print(f"Successfully saved to {output_path}.input_ids.mmap and {output_path}.label.mmap and {output_path}.lengths.mmap")
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Argument Parser Example')
     parser.add_argument('--input_path', '-input_path', type=str, default="./raw/sft.jsonl.sampled", help='Path to input file')
@@ -178,7 +194,7 @@ def parse_args():
     parser.add_argument('--chunk_size', '-chunk_size', type=float, default=0.1 * 2 ** 30, help='Chunk size for file processing')
     parser.add_argument('--max_len', '-max_len', type=int, default=8192, help='Maximum length for tokenization')
     parser.add_argument('--tokenizer_path', '-tokenizer_path', type=str, default="./pretrained_models/qwen/Qwen2.5-Coder-7B/", help='Path to tokenizer')
-    parser.add_argument('--save_format', '-save_format', type=str, default=".np", help='Path to tokenizer')
+    parser.add_argument('--save_format', '-save_format', type=str, default=".npy", help='Path to tokenizer')
     return parser.parse_args()
 
 
