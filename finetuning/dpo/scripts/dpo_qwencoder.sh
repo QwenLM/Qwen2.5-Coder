@@ -79,7 +79,7 @@ echo "WORLD_SIZE" ${WORLD_SIZE} "MICRO BATCH SIZE" ${MICRO_BATCH_SIZE} "GRAD_ACC
 echo $DISTRIBUTED_ARGS
 DATASET_WORKERS=32
 BETA=0.1
-ROOT_PATH="/home/data/yj411294/CodeQwen/finetuning/dpo"
+ROOT_PATH="./finetuning/dpo"
 cd ${ROOT_PATH}
 torchrun ${DISTRIBUTED_ARGS} train.py \
     --model_name_or_path  ${SFT_MODEL} \
