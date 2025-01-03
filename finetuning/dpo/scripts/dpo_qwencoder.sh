@@ -10,12 +10,6 @@
 # export NCCL_IB_QPS_PER_CONNECTION=8
 # export NCCL_MIN_NCHANNELS=4
 # export NCCL_NET_PLUGIN=none
-# export ACCL_ENV_CHECK=1
-# export ACCL_C4_STATS_MODE=CONN
-# export ACCL_IB_SPLIT_DATA_NUM=4
-# export ACCL_IB_QPS_LOAD_BALANCE=1
-# export ACCL_IB_GID_INDEX_FIX=1
-# export ACCL_LOG_TIME=1
 ########################
 
 
