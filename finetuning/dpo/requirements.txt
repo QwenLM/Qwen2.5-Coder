@@ -1,7 +1,8 @@
-accelerate==1.0.1
-datasets==2.18.0
-deepspeed==0.12.6+c00388a2
-torch==2.2.0a0+81ea7a4
-tqdm==4.66.1
-transformers==4.44.2
-trl==0.11.4
+accelerate
+datasets
+deepspeed==0.14.4
+torch==2.4.0
+tqdm
+transformers==4.47.1
+trl==0.16.0
+openai==1.58.1
