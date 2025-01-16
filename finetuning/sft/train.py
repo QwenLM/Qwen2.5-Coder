@@ -14,7 +14,7 @@ import os
 import numpy as np
 from utils import utils
 from utils import training_datasets
-from peft import get_peft_config, get_peft_model, LoraConfig, TaskType
+from peft import get_peft_model, PeftConfig
 IGNORE_INDEX = -100 #default ignore_index = 100 in transformers
 logging.basicConfig(level=logging.DEBUG)  
 @dataclass
@@ -36,7 +36,8 @@ class TrainingArguments(transformers.TrainingArguments):
         metadata={"help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."},
     )
     truncate_source: bool = field(default=False)
-    use_lora: bool = field(default=False)
+    use_peft: bool = field(default=False)
+    peft_config_path: str = field(default=None)
 
 def smart_tokenizer_and_embedding_resize(
     special_tokens_dict: Dict,
@@ -211,10 +212,9 @@ def train():
         attn_implementation="flash_attention_2" if model_args.use_flash_attention else None,
         trust_remote_code = True
     )
-    if args.use_lora:
-        peft_config = LoraConfig(
-            task_type=TaskType.SEQ_2_SEQ_LM, inference_mode=False, r=8, lora_alpha=32, lora_dropout=0.1
-        )
+    if training_args.use_peft:
+        peft_config = PeftConfig.from_pretrained(training_args.peft_config_path)
+        model.enable_input_require_grads()
         model = get_peft_model(model, peft_config)
         model.print_trainable_parameters()
     tokenizer = transformers.AutoTokenizer.from_pretrained(

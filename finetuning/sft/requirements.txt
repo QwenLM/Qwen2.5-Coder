@@ -68,3 +68,4 @@ types-pytz==2024.1.0.20240417
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
+peft
