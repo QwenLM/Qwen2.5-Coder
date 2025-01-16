@@ -126,6 +126,11 @@ def multi_read(file_name = 'example.txt', workers = 32, chunk_size = None):
     print(f"Successfully Loading from {file_name}: {len(output_objs)} samples")
     return output_objs
 
+def save_json(data, output_path):
+    with open(output_path, 'w') as f:
+        json.dump(data, f, indent = 4)
+    print(f"Succssfully saving to {output_path}")
+    
 def multi_read_fast(file_name = 'example.txt', workers = 32, chunk_size = None, task=read_file_from_position, args = []):    
     file_size = os.path.getsize(file_name)
     print(f"The size of {file_name} is: {file_size} bytes")
