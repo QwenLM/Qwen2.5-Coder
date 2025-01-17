@@ -40,7 +40,7 @@
    INPUT_PATH="/path/to/raw/sft.jsonl"
    OUTPUT_PATH="/path/to/processed/sft.jsonl"
    TOKENIZER_PATH="/path/to/pretrained_models/Qwen/Qwen2___5-Coder-1___5B/"
-   bash ./scripts/binarize_data.sh 
+   bash ./scripts/binarize_data.sh ${INPUT_PATH} ${OUTPUT_PATH} ${TOKENIZER_PATH}
    ```
 5. **Training**
    Once the environment is ready and the model paths are configured, run the evaluation suite by executing the following script:
@@ -49,7 +49,17 @@
    DATA_PATH="/path/to/processed/sft.jsonl"
    PRETRAINED_MODEL="/path/to/pretrained_models/Qwen/Qwen2___5-Coder-1___5B/"
    OUTPUT_DIR="/path/to/checkpoints/sft_model/"
-   bash ./scripts/sft_qwencoder.sh
+   bash ./scripts/sft_qwencoder.sh ${DATA_PATH} ${PRETRAINED_MODEL} ${OUTPUT_DIR}
+   ```
+
+6. **Merge Adapter**
+   When running sft with lora, merge the base model and the adapters by executing the following script:
+
+   ```bash
+   BASE_MODEL_PATH=${1}
+   TRAIN_ADAPTERS_PATH=${2}
+   OUTPUT_PATH=${3}
+   bash ./scripts/merge_adapter.sh ${BASE_MODEL_PATH} ${TRAIN_ADAPTERS_PATH} ${OUTPUT_PATH}
    ```
 
 
