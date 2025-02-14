@@ -370,16 +370,29 @@ def evaluate_all_correctness(workers = 1, chunk_size = 10, conda_dir = "", env_d
     print(f"pass@1: {pass_at_1}")
 
 
+def output_environs(repo_root_path, env_dir):
+    repo_names = os.listdir(repo_root_path)
+    repo_names.sort()
+    os.makedirs(f"{env_dir}/repo_requirements/", exist_ok = True)
+    for repo_name in tqdm.tqdm(repo_names):
+        if repo_name == "build" or repo_name.startswith("."):
+            continue
+        if not os.path.exists(f"{env_dir}/envs/repo_{repo_name}"):
+            os.environ["PATH"] = f"{env_dir}/envs/repo_{repo_name}/bin:" + os.environ["PATH"]
+            subprocess.run(f"pip freeze > {env_dir}/repo_requirements/requirements_{repo_name}.txt", shell=True)
+    print(f"==========================Successfully output environments to {env_dir}/repo_requirements/ ==========================")
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Argument Parser Example")
-    parser.add_argument("--repo_root_path", "-repo_root_path", type=str, default="./repos/", help="Path to output file")
-    parser.add_argument("--conda_dir", "-conda_dir", type=str, default="./miniconda3/", help="Path to output file")
-    parser.add_argument("--env_dir", "-env_dir", type=str, default="./envs/", help="Path to output file")
-    parser.add_argument("--tokenizer_path", "-tokenizer_path", type=str, default="./pretrained_models/Qwen/Qwen2.5-Coder-1.5B", help="Path to output file")
-    parser.add_argument("--action", "-action", type=str, default="verify_all_repo_correctness", help="Path to output file")
+    parser.add_argument("--repo_root_path", "-repo_root_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/repos/", help="Path to output file")
+    parser.add_argument("--conda_dir", "-conda_dir", type=str, default="/home/data/yj411294/miniconda3/", help="Path to output file")
+    parser.add_argument("--env_dir", "-env_dir", type=str, default="/home/data/yj411294/repo/envs/", help="Path to output file")
+    parser.add_argument("--tokenizer_path", "-tokenizer_path", type=str, default="/home/data/yj411294/pretrained_models/Qwen/Qwen2.5-Coder-1.5B", help="Path to output file")
+    parser.add_argument("--action", "-action", type=str, default="output_environments", help="Path to output file")
     parser.add_argument("--eval_workers", "-eval_workers", type=int, default=1, help="Path to output file")
-    parser.add_argument("--testset_path", "-testset_path", type=str, default="./exec_repo_bench.jsonl", help="Path to output file")
-    parser.add_argument("--output_path", "-output_path", type=str, default="./results/verify.jsonl", help="Path to output file")
+    parser.add_argument("--testset_path", "-testset_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/test_set/test_v2.jsonl", help="Path to output file")
+    parser.add_argument("--output_path", "-output_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/results/verify.jsonl", help="Path to output file")
     args = parser.parse_args()
     return args
 
@@ -393,3 +406,5 @@ if __name__ == "__main__":
         prepare_test_repo_data(tokenizer = tokenizer, repo_root_path = args.repo_root_path, testset_path = args.testset_path)
     elif args.action == "verify_all_repo_correctness":
         evaluate_all_correctness(workers = args.eval_workers, chunk_size = 20, conda_dir = args.conda_dir, env_dir = args.env_dir, repo_root_path = args.repo_root_path, output_path = args.output_path)
+    elif args.action == "output_environments":
+        output_environs(repo_root_path = args.repo_root_path, env_dir = args.env_dir)
