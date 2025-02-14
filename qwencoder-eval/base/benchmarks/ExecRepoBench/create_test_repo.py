@@ -369,6 +369,18 @@ def evaluate_all_correctness(workers = 1, chunk_size = 10, conda_dir = "", env_d
     utils.write_jsonl_file(save_objs, output_path)
     print(f"pass@1: {pass_at_1}")
 
+def output_environs(repo_root_path, env_dir):
+    repo_names = os.listdir(repo_root_path)
+    repo_names.sort()
+    os.makedirs(f"{env_dir}/repo_requirements/", exist_ok = True)
+    for repo_name in tqdm.tqdm(repo_names):
+        if repo_name == "build" or repo_name.startswith("."):
+            continue
+        if not os.path.exists(f"{env_dir}/envs/repo_{repo_name}"):
+            os.environ["PATH"] = f"{env_dir}/envs/repo_{repo_name}/bin:" + os.environ["PATH"]
+            subprocess.run(f"pip freeze > {env_dir}/repo_requirements/requirements_{repo_name}.txt", shell=True)
+    print(f"==========================Successfully output environments to {env_dir}/repo_requirements/ ==========================")
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Argument Parser Example")
@@ -393,3 +405,5 @@ if __name__ == "__main__":
         prepare_test_repo_data(tokenizer = tokenizer, repo_root_path = args.repo_root_path, testset_path = args.testset_path)
     elif args.action == "verify_all_repo_correctness":
         evaluate_all_correctness(workers = args.eval_workers, chunk_size = 20, conda_dir = args.conda_dir, env_dir = args.env_dir, repo_root_path = args.repo_root_path, output_path = args.output_path)
+    elif args.action == "output_environments":
+        output_environs(repo_root_path = args.repo_root_path, env_dir = args.env_dir)
