@@ -369,7 +369,6 @@ def evaluate_all_correctness(workers = 1, chunk_size = 10, conda_dir = "", env_d
     utils.write_jsonl_file(save_objs, output_path)
     print(f"pass@1: {pass_at_1}")
 
-
 def output_environs(repo_root_path, env_dir):
     repo_names = os.listdir(repo_root_path)
     repo_names.sort()
@@ -385,14 +384,14 @@ def output_environs(repo_root_path, env_dir):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Argument Parser Example")
-    parser.add_argument("--repo_root_path", "-repo_root_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/repos/", help="Path to output file")
-    parser.add_argument("--conda_dir", "-conda_dir", type=str, default="/home/data/yj411294/miniconda3/", help="Path to output file")
-    parser.add_argument("--env_dir", "-env_dir", type=str, default="/home/data/yj411294/repo/envs/", help="Path to output file")
-    parser.add_argument("--tokenizer_path", "-tokenizer_path", type=str, default="/home/data/yj411294/pretrained_models/Qwen/Qwen2.5-Coder-1.5B", help="Path to output file")
-    parser.add_argument("--action", "-action", type=str, default="output_environments", help="Path to output file")
+    parser.add_argument("--repo_root_path", "-repo_root_path", type=str, default="./repos/", help="Path to output file")
+    parser.add_argument("--conda_dir", "-conda_dir", type=str, default="./miniconda3/", help="Path to output file")
+    parser.add_argument("--env_dir", "-env_dir", type=str, default="./envs/", help="Path to output file")
+    parser.add_argument("--tokenizer_path", "-tokenizer_path", type=str, default="./pretrained_models/Qwen/Qwen2.5-Coder-1.5B", help="Path to output file")
+    parser.add_argument("--action", "-action", type=str, default="verify_all_repo_correctness", help="Path to output file")
     parser.add_argument("--eval_workers", "-eval_workers", type=int, default=1, help="Path to output file")
-    parser.add_argument("--testset_path", "-testset_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/test_set/test_v2.jsonl", help="Path to output file")
-    parser.add_argument("--output_path", "-output_path", type=str, default="/home/data/yj411294/LiveRepoBench/LiveRepoBench/results/verify.jsonl", help="Path to output file")
+    parser.add_argument("--testset_path", "-testset_path", type=str, default="./exec_repo_bench.jsonl", help="Path to output file")
+    parser.add_argument("--output_path", "-output_path", type=str, default="./results/verify.jsonl", help="Path to output file")
     args = parser.parse_args()
     return args
 
