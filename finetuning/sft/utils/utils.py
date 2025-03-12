@@ -21,7 +21,6 @@ import subprocess
 import hashlib
 import random
 import string
-import nltk
 class MPLogExceptions(object):
     def __init__(self, callable):
         self.__callable = callable
@@ -373,17 +372,6 @@ def extract_class_name(code):
         return re.search(r"class\s+(\w*?)\s+{", code, flags=re.DOTALL).group(1)
     else:
         return "Main"
-
-class BM25:
-    def __init__(self):
-        tokenized_corpus = [doc.lower().split() for doc in corpus]
-        bm25 = BM25Okapi(tokenized_corpus)
-
-    def search(query = "text analysis in python"):  
-        tokenized_query = word_tokenize(query.lower())
-        doc_scores = bm25.get_scores(tokenized_query)
-        best_docs = bm25.get_top_n(tokenized_query, corpus, n=3)
-        return best_docs
 
 def minihash_deduplicate(data):
     hash_set = set()
