@@ -161,7 +161,7 @@ def humaneval_fim(custom_args: Optional[argparse.Namespace] = None) -> None:
             prefix = data["prompt"]
             suffix = data["suffix"]
 
-            prompt = prepare_prompt(tokenizer, "line_completion", args.model_type, args.model_name_or_path, prefix, suffix)
+            prompt = prepare_prompt(tokenizer, "line_completion", args.model_type, args.model_name_or_path, prefix, suffix, args=args)
             data["input"] = prompt
             prompts.append(prompt)
         outputs = llm.generate(prompts, sampling_params=sampling_params, use_tqdm=True)
