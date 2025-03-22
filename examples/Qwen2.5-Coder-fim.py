@@ -15,7 +15,7 @@ input_text = """<|fim_prefix|>def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)<|fim_middle|>"""
 
 model_inputs = tokenizer([input_text], return_tensors="pt").to(device)
-eos_token_ids = [151664, 151662, 151659, 151660, 151661, 151662, 151663, 151664, 151645, 151643]
+eos_token_ids = [151659, 151661, 151662, 151663, 151664, 151643, 151645]
 
 # Use `max_new_tokens` to control the maximum output length.
 generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512, do_sample=False, eos_token_id=eos_token_ids)[0]
