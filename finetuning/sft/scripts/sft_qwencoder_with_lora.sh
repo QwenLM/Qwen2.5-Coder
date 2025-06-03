@@ -1,12 +1,12 @@
-export NCCL_IB_TC=136
-export NCCL_IB_SL=5
-export NCCL_IB_GID_INDEX=3
-export NCCL_SOCKET_IFNAME=bond0
-export NCCL_DEBUG=INFO
-export NCCL_IB_HCA=mlx5
-export NCCL_IB_TIMEOUT=22
-export NCCL_IB_QPS_PER_CONNECTION=8
-export NCCL_NET_PLUGIN=none
+#export NCCL_IB_TC=136
+#export NCCL_IB_SL=5
+#export NCCL_IB_GID_INDEX=3
+#export NCCL_SOCKET_IFNAME=bond0
+export NCCL_DEBUG=WARN
+#export NCCL_IB_HCA=mlx5
+#export NCCL_IB_TIMEOUT=22
+#export NCCL_IB_QPS_PER_CONNECTION=8
+#export NCCL_NET_PLUGIN=none
 export PATH=/path/to/miniconda3/envs/qwen/bin:$PATH;
 
 DATA_PATH=${1}
@@ -73,5 +73,4 @@ torchrun ${DISTRIBUTED_ARGS} train.py \
     --tf32 True \
     --truncate_source False \
     --use_peft True \
-    --peft_config_path ${PEFT_CONFIG_FOLDER} \
-    --is_merge_and_unload True
+    --peft_config_path ${PEFT_CONFIG_FOLDER} 

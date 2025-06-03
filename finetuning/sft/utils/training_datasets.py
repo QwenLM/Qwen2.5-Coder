@@ -7,7 +7,7 @@ from typing import Dict, Optional, Sequence
 import transformers
 import logging
 import numpy as np
-import utils
+from utils import utils
 logging.basicConfig(level=logging.DEBUG)  
 class SupervisedDataset(Dataset):
     """Dataset for supervised fine-tuning."""

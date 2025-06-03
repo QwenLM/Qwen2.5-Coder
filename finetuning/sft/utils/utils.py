@@ -265,16 +265,6 @@ def write_jsonl_file(objs, path, chunk_size = 1):
     print(f"Successfully saving to {path}: {len(objs)}")
 
 
-def read_jsonl_file(file_name, max_sentence=None):
-    data = []
-    with jsonlines.open(file_name, "r") as r:
-        for i, obj in tqdm.tqdm(enumerate(r)):
-            if max_sentence is not None and i >= max_sentence:
-                return data
-            data.append(obj)
-    return data
-
-
 def sentence_jaccard_similarity(sentence1, sentence2):
     def tokenize(sentence):
         """
