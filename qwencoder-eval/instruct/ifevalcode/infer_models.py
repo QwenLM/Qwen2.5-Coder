@@ -125,7 +125,7 @@ def main():
     utils.write_jsonl_file(test_data, args.output_path)
  
 def check_data():
-    objs = utils.read_jsonl_file("/home/data/yj411294/ccdata/IFEvalCode/data/dataset/eval_results/debug/IFEvalCode.jsonl")
+    objs = utils.read_jsonl_file("./IFEvalCode.jsonl")
     for obj in objs:
         if "english_response" not in obj or "chinese_response" not in obj:
             print(obj)
