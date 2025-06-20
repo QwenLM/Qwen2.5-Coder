@@ -229,7 +229,8 @@ def train():
     )
     tokenizer.add_special_tokens({"additional_special_tokens": ["<|im_end|>", "<|im_start|>"]})
     data_module = make_supervised_data_module(tokenizer=tokenizer, args=args)
-    trainer = CustomTrainer(
+    #trainer = CustomTrainer(
+    trainer = Trainer(
         model=model, 
         tokenizer=tokenizer, 
         args=training_args, 
